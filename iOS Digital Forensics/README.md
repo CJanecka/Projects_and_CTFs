@@ -156,9 +156,11 @@ For detailed information, refer to Appendix A, found below, and the section labe
 
   + On Saturday, July 7, 2012, at 7:36:35 PM, Tracy received an SMS from an unknown number informing her that she had won a Target Gift Card worth $1000. The message instructed her to enter "703" at www.target.com.trdt.biz to specify the shipping destination. It's important to note that the URL appears to mimic Target Corp but is a subdomain of trdt.biz, which is currently unregistered. While it is presumed that this payment was received from Alex, there is no concrete evidence to support this claim.
 
-  + On Monday, July 9, 2012, at 10:44:11 AM, Tracy sent herself an email detailing which stamps to steal and their respective insurance values.
-
-  + On Monday, July 9, 2012, at 10:44:11 AM, Pat and "King" coordinated via email with a list of things that King would need to accomplish for the job.
+  + On Monday, July 9, 2012, at 10:44:11 AM,
+    
+    + Tracy sent herself an email detailing which stamps to steal and their respective insurance values.
+      
+    + Pat and "King" coordinated via email with a list of things that King would need to accomplish for the job.
 
   + On Tuesday, July 10, 2012, at 11:24 AM, Pat forwarded the item list to Tracy.
 
@@ -167,3 +169,19 @@ For detailed information, refer to Appendix A, found below, and the section labe
   + On Thursday, July 12, 2012, at 5:06:45 PM, Tracy texted Carry to inquire about the progress of the flashmob.
 
 ## Conclusion
+
+Evidence found on Tracy’s iPhone indicated the following: 
+
+  + Tracy and Pat engaged in a conspiracy utilizing email account aliases. Specifically, Pat utilized the email alias 'patsumtwelve@gmail.com', whereas Tracy employed the email alias 'coralbluetwo@hotmail.com'. It is pertinent to note that Pat's customary email address is 'perrypatsum@yahoo.com', and Tracy's typical email address is 'tracysumtwelve@gmail.com'.
+
+  + Pat collaborated with an individual known as 'King,' whose email address is 'throne1966@hotmail.com', in a scheme to pilfer valuable stamps. Pat possesses a connection to King's parole officer, affording him the means to exert influence over King's actions in this regard.
+
+  + Tracy coordinated with Carry to facilitate the delivery of a tablet containing information related to a planned flashmob, which Carry intends to organize. The objective of this flashmob is to serve as a distraction for the museum's security personnel while King carries out the theft.
+
+  + Tracy transmit, to her own email account, documentation concerning the stamps; including details regarding their respective insurance valuations.
+
+  + Tracy received a notification regarding the establishment of a 'Gift Card' valued at $1000, which appears to be a form of payment either originating from Carry via Alex or potentially directly from Alex. It's worth noting that the website URL in question has been intentionally designed to resemble an official communication from Target, although it is situated within the trdt.biz domain. As of now, no substantial information is accessible regarding this particular URL.
+
+  + There exist three (3) distinct sets of WIFI and cellular location data; however, the significance of these clusters remains unclear. To establish a meaningful correlation between the location data, its timing, and the email and SMS exchanges, a more comprehensive analysis is warranted.
+
+## Appendix A: Correspondence Evidence

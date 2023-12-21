@@ -13,8 +13,8 @@
   + [07. Evidence pertaining to the Defacement of Museum Art](#Evidence-pertaining-to-the-Defacement-of-Museum-Art)
   + [08. Plot Timeline](#Plot-Timeline)
   + [09. Conclusion](#Conclusion)
-  + [10. Correspondence Evidence](#Appendix-A-Correspondence-Evidence)
-  + [11. WiFi and GPS Location information](#Appendix-B-WiFi-and-GPS-Location-information)
+  + [10. Appendix A: Correspondence Evidence](#Appendix-A-Correspondence-Evidence)
+  + [11. Appendix B: WiFi and GPS Location Information](#Appendix-B-WiFi-and-GPS-Location-Information)
 
 ## Overview
 
@@ -185,3 +185,21 @@ Evidence found on Tracy’s iPhone indicated the following:
   + There exist three (3) distinct sets of WIFI and cellular location data; however, the significance of these clusters remains unclear. To establish a meaningful correlation between the location data, its timing, and the email and SMS exchanges, a more comprehensive analysis is warranted.
 
 ## Appendix A: Correspondence Evidence
+
+This subsection will provide a breakdown of the email and SMS correspondence evidence found on the iPhone image. 
+
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1ba64701-53e7-473b-b0a6-3ae4ed9673bb)
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f327aa5a-5a36-49de-97e9-f6f73fa4c89e)
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1f463833-dcd2-41e7-823d-ed65c308f885)
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cfd62478-20f9-4827-bc24-83570cfc5918)
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c6fde944-a0a9-45f9-8317-6a4fcd86fdc2)
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/720b7108-c972-4fc2-ac46-38d6cb98d7cd)
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9ad2c7e0-4632-44ca-8dbf-3a9509a7aaf4)
+
+## Appendix B: WiFi and GPS Location Information
+
+WiFi locations gathered from /vol5/root/Library/Caches/locationd/consolidated.db and plotted using "maps.google.com".
+
+*Figure 9: Map of Art Gallery vs iPhone GPS Lat. / Lon. coordinate clusters*
+
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/71de5cb1-58ee-43fd-b6e5-56dd7b6a42bb)

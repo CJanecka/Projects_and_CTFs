@@ -200,6 +200,6 @@ This subsection will provide a breakdown of the email and SMS correspondence evi
 
 WiFi locations gathered from /vol5/root/Library/Caches/locationd/consolidated.db and plotted using "maps.google.com".
 
-*Figure 9: Map of Art Gallery vs iPhone GPS Lat. / Lon. coordinate clusters*
+*Figure 9: Map of Art Gallery vs iPhone GPS coordinate clusters*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/71de5cb1-58ee-43fd-b6e5-56dd7b6a42bb)

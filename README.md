@@ -1,3 +1,3 @@
 # Projects_and_CTFs
 
-Here, I present the projects that have intrigued me the most
+Here, I present some of the projects I have completed which have intrigued me the most.

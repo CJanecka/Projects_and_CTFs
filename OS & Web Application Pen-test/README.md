@@ -11,6 +11,6 @@
   + [05. Web Application Vulnerabilities](#Web-Application-Vulnerabilities)
   + [06. Linux Host Vulnerabilities](#Linux-Host-Vulnerabilities)
   + [07. Windows Host Vulnerabilities](#Windows-Host-Vulnerabilities)
-  + [08. Project Report])(#Project-Report)
+  + [08. Project Report](#Project-Report)
 
 ## Overview

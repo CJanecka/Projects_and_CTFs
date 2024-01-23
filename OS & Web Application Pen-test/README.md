@@ -15,7 +15,7 @@
 
 ## Overview
 
-During this three-day penetration test, I strategically targeted a ficticious organization, utilizing both individual and collaborative efforts within a small team. The assessment focused on targeting the organization's web application, as well as its Linux and Windows hosts, systematically identifying vulnerabilities and potential security weaknesses. The complete pen-test report is provided as a PDF in this GitHub repository titled [Rekall Corporation - Penetration Test Report](https://github.com/CJanecka/Projects_and_CTFs/files/14016819/Rekall.Corporation.-.Penetration.Test.Report._.Collin.Janecka.pdf). This detailed document provides a thorough analysis of the findings, including the identification of vulnerabilities, accompanied by a set of recommendations aimed at effectively mitigating the identified security concerns.
+During this three-day, CTF styled, penetration test, I strategically targeted a ficticious organization, utilizing both individual and collaborative efforts within a small team. The assessment focused on targeting the organization's web application, as well as its Linux and Windows hosts, systematically identifying vulnerabilities and potential security weaknesses. The complete pen-test report is provided as a PDF in this GitHub repository titled [Rekall Corporation - Penetration Test Report](https://github.com/CJanecka/Projects_and_CTFs/files/14016819/Rekall.Corporation.-.Penetration.Test.Report._.Collin.Janecka.pdf). This detailed document provides a thorough analysis of the findings, including the identification of vulnerabilities, accompanied by a set of recommendations aimed at effectively mitigating the identified security concerns.
 
 ## Executive Summary
 

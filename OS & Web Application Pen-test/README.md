@@ -63,7 +63,7 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
 
       This script is intended to display a pop-up alert containing the value of the "*Document.cookie*" property.
 
-     *Figure 01 - Shows the script successsfully reflected revealing Flag 1.*
+     *Figure 01 - Shows the script successfully reflected revealing Flag 1.*
      
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/526f02a1-e0cb-4237-9518-609c44f5d363)
 
@@ -73,7 +73,7 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
 
      This script is designed to display a pop-up alert with the message "You have been hacked" when it executed.
 
-     *Figure 02 - Shows the script successsfully reflected, by displaying the pop-up alert.*
+     *Figure 02 - Shows the script successfully reflected, by displaying the pop-up alert.*
 
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4e0fc79b-4ba9-4082-b8a7-4037c1d487c7)
 

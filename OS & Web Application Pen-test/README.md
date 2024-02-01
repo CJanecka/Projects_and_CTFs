@@ -108,4 +108,9 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
      *Figure 07 - “Login.php.old2” file found within the html directory.*
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9bd1ca19-7d14-4b5e-b704-68b85fe296ad)
 
-     From here I adjusted the web URL to "*192.168.14.35/Login.php.old2*". This gave me access to the targeted webpage, without the use of valid credentials.
+     From here I adjusted the web URL to "*192.168.14.35/Login.php.old2*". This gave me access to the targeted web page, without the use of valid credentials.
+
+     *Figure 08 - Successfully accessed the targeted web page, revealing Flag 7.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/44bf70d8-b8b6-4380-b6fa-3d51b23996c2)
+
+## Linux Host Vulnerabilities

@@ -15,7 +15,7 @@
 
 ## Overview
 
-During this three-day, Capture-the-Flag style, penetration test, I acted as a representative for *Ultimate Pentesting, LLC*. Hired by the ficticious organization *Rekall Corportion* to test their network. Both individual and collaborative efforts within a small team were utilized. The assessment focused on targeting the organization's web application, as well as its Linux and Windows hosts, systematically identifying vulnerabilities and potential security risks. The complete pen-test report is provided as a PDF in this GitHub repository titled [Rekall Corporation - Penetration Test Report](https://github.com/CJanecka/Projects_and_CTFs/files/14016819/Rekall.Corporation.-.Penetration.Test.Report._.Collin.Janecka.pdf). This detailed document provides a thorough analysis of my findings, including the identification of vulnerabilities, accompanied by a set of recommendations aimed at effectively mitigating the identified security concerns.
+During this three-day, Capture-the-Flag style, penetration test, I acted as a representative for *Ultimate Pentesting, LLC*. Hired by the ficticious organization *Rekall Corportion* to test their network. Both individual and collaborative efforts within a small team were utilized. The assessment focused on targeting the organization's web application, as well as its Linux and Windows hosts, systematically identifying vulnerabilities and potential security risks. The complete pen-test report is provided as a PDF in this GitHub repository titled [Rekall Corporation - Penetration Test Report](https://github.com/CJanecka/Projects_and_CTFs/files/14118993/Rekall.Corporation.-.Penetration.Test.Report._.Collin.Janecka.docx.pdf). This detailed document provides a thorough analysis of my findings, including the identification of vulnerabilities, accompanied by a set of recommendations aimed at effectively mitigating the identified security concerns.
 
 ## Project Requirements
 
@@ -25,7 +25,7 @@ The project requirements included:
 
   + Employing the MITRE framework to systematically scrutinize the security of the organization's Linux and Windows hosts. Allowing vulnerabilities and potential threat vectors within the infrastructure to be uncovered.
 
-  + Compiled findings and recommended mitigations into a comprehensive penetration testing report. This serves as a valuable resource for the organization, providing a clear roadmap for addressing vulnerabilities and enhancing their overall security posture.
+  + Compiled findings and recommended mitigations into a penetration testing report. This serves as a valuable resource for the organization, providing a clear roadmap for addressing vulnerabilities and enhancing their overall security posture.
 
 ## Equipment and Tools
 
@@ -51,16 +51,34 @@ The *Vulnerability Findings* section, of the report, provides a comprehensive br
 
 ## Web Application Vulnerabilities
 
-I found twelve vulnerabilities on the Web Application. Included here are three of those vulnerablilities deemed critical. See the report, linked above, for the other nine vulnerabilities found.
+I found twelve vulnerabilities on the Web Application. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for the other ten vulnerabilities found.
 
-  1. Cross Site Scripting (XSS) *– Reflected & Stored*
+  1. **Cross Site Scripting (XSS)** *– Reflected & Stored*
 
-     The ability to inject these scripts poses a significant security risk, as it could potentially enable an attacker to redirect your customers to fraudulent web pages, install keyloggers, or capture user cookies. This, 
-     in turn, would allow malicious actors to pilfer customer data and exploit it for unauthorized access to your system, potentially launching further damaging attacks.
+     The ability to inject these scripts poses a significant security risk, as it could potentially enable an attacker to redirect your customers to fraudulent web pages, install keyloggers, or capture user cookies.            This, in turn, would allow malicious actors to pilfer customer data and exploit it for unauthorized access to your system, potentially launching further damaging attacks.
 
-     I submitted the following script which successfully reflected on Rekall Corporation's home page, revealing Flag 1:
+     On Rekall Corporation's *Home page*, I submitted the following script within the input field designated as "Begin by entering your name below!". 
 
-     + <script>alert(Document.cookie)</script>
+      + <script>alert(Document.cookie)</script>
 
-     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/526f02a1-e0cb-4237-9518-609c44f5d363)
+      This script is intended to display a pop-up alert containing the value of the "*Document.cookie*" property.
 
+      *Figure 01 - Shows the script successsfully reflected revealing Flag 1.*
+     
+      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/526f02a1-e0cb-4237-9518-609c44f5d363)
+
+     I then accessed the *Memory Planner page*, and submitted the following script within the input field "Who do you want to be?".
+
+     + <script>alert("You have been hacked")</script>
+
+     This script is designed to display a pop-up alert with the message "You have been hacked" when it is executed.
+
+     *Figure 02 - Shows the script successsfully reflected by displaying the pop-up alert.*
+
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4e0fc79b-4ba9-4082-b8a7-4037c1d487c7)
+
+     *Figure 03 - Upon closing the pop-up, Flag 2 was revealed*
+
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8d50438b-be1d-40cd-aa1d-a5b7239bec03)
+
+     

@@ -55,16 +55,13 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
 
   1. **Cross Site Scripting (XSS)** *– Reflected & Stored*
 
-     The ability to inject these scripts poses a significant security risk, as it could potentially enable an attacker to redirect your customers to fraudulent web pages, install keyloggers, or capture user cookies.            This, in turn, would allow malicious actors to pilfer customer data and exploit it for unauthorized access to your system, potentially leading to further damaging attacks.
-
      On Rekall Corporation's *Home page*, I submitted the following script within the input field designated as "Begin by entering your name below!". 
 
       + <script>alert(Document.cookie)</script>
 
       This script is intended to display a pop-up alert containing the value of the "*Document.cookie*" property.
 
-     *Figure 01 - Shows the script successfully reflected revealing Flag 1.*
-     
+     *Figure 01 - Shows the script successfully reflected revealing Flag 1.*                      
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/526f02a1-e0cb-4237-9518-609c44f5d363)
 
      I then accessed the *Memory Planner page*, and submitted the following script within the input field "Who do you want to be?".
@@ -74,11 +71,9 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
      This script is designed to display a pop-up alert with the message "You have been hacked" when it executed.
 
      *Figure 02 - Shows the script successfully reflected, by displaying the pop-up alert.*
-
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4e0fc79b-4ba9-4082-b8a7-4037c1d487c7)
 
      *Figure 03 - Upon closing the pop-up, Flag 2 was revealed.*
-
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8d50438b-be1d-40cd-aa1d-a5b7239bec03)
 
      From here I navigated to the *Comments page*, and submitted the following script within the *Comment input field.*
@@ -88,7 +83,29 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
      This script is designed to display a pop-up alert with the message "Hope this works!" when it executed.
 
      *Figure 04 - Shows the script successfully reflected and stored, by revealing Flag 3.*
-
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b6ff98fd-8122-4302-8676-e5c5f35d11dc)
 
-  2. **Insecure Direct Object Reference (IDOR)**
+     The ability to inject these scripts poses a significant security risk, as it could potentially enable an attacker to redirect users to fraudulent web pages, install keyloggers, or capture user cookies.                     This, in turn, would allow malicious actors to pilfer customer data and exploit it for unauthorized access to your system, potentially leading to further damaging attacks.
+
+  2. **Insecure Direct Object Reference (IDOR).**
+
+     In an IDOR vulnerability, an attacker can access or manipulate objects (such as files, directories, database records, or URLs) directly by changing parameters in the URL, without proper authentication or   authorization.
+
+     On the web application, I found an associated Docker container by executing the "*docker ps*" command within a Kali Linux environment.
+
+     *Figure 05 - Docker Container ID found.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/502f5da8-7f67-4b0b-8c5a-f03102e23995)
+
+     I subsequently exploited this docker container using the following command:
+
+     + docker exec -it bd68ca4426b1 /bin/bash
+
+     *Figure 06 - Docker exploit successfully deployed.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c2051ef6-c7fa-4ae4-8958-1e1be0cf1d04)
+
+     Upon gaining access to the docker container, I discovered the file "*Login.php.old2*" within the directory: "*/var/www/html*".
+
+     *Figure 07 - “Login.php.old2” file found within the html directory.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9bd1ca19-7d14-4b5e-b704-68b85fe296ad)
+
+     From here I adjusted the web URL to "*192.168.14.35/Login.php.old2*". This gave me access to the targeted webpage, without the use of valid credentials.

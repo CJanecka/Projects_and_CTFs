@@ -87,7 +87,7 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
 
      This script is designed to display a pop-up alert with the message "Hope this works!" when it executed.
 
-     *Figure 04 - Shows the script successfully reflected, by revealing Flag 3.*
+     *Figure 04 - Shows the script successfully reflected and stored, by revealing Flag 3.*
 
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b6ff98fd-8122-4302-8676-e5c5f35d11dc)
 

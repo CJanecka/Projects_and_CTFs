@@ -15,7 +15,7 @@
 
 ## Overview
 
-During this three-day, Capture-the-Flag style, penetration test, I acted as a representative for *Ultimate Pentesting, LLC*; hired by, a ficticious organization, *Rekall Corportion* to test their network. Both individual and collaborative efforts within a small team were utilized. The assessment focused on targeting the organization's web application, as well as its Linux and Windows hosts, systematically identifying vulnerabilities and potential security weaknesses. The complete pen-test report is provided as a PDF in this GitHub repository titled [Rekall Corporation - Penetration Test Report](https://github.com/CJanecka/Projects_and_CTFs/files/14016819/Rekall.Corporation.-.Penetration.Test.Report._.Collin.Janecka.pdf). This detailed document provides a thorough analysis of my findings, including the identification of vulnerabilities, accompanied by a set of recommendations aimed at effectively mitigating the identified security concerns.
+During this three-day, Capture-the-Flag style, penetration test, I acted as a representative for *Ultimate Pentesting, LLC*. Hired by the ficticious organization *Rekall Corportion* to test their network. Both individual and collaborative efforts within a small team were utilized. The assessment focused on targeting the organization's web application, as well as its Linux and Windows hosts, systematically identifying vulnerabilities and potential security risks. The complete pen-test report is provided as a PDF in this GitHub repository titled [Rekall Corporation - Penetration Test Report](https://github.com/CJanecka/Projects_and_CTFs/files/14016819/Rekall.Corporation.-.Penetration.Test.Report._.Collin.Janecka.pdf). This detailed document provides a thorough analysis of my findings, including the identification of vulnerabilities, accompanied by a set of recommendations aimed at effectively mitigating the identified security concerns.
 
 ## Project Requirements
 
@@ -50,4 +50,17 @@ Transitioning to Phase 3, which focused on Windows systems, vulnerabilities rela
 The *Vulnerability Findings* section, of the report, provides a comprehensive breakdown, detailing potential risks to Rekall Corporation's network, data, and reputation. Here I have presented a diverse range of remediation recommendations for each idententified vulnerability, urging urgent attention to critical issues and prioritization based on severity. The suggested strategies offer a tailorable approach to enhance Rekall Corporation's security measures.
 
 ## Web Application Vulnerabilities
+
+I found twelve vulnerabilities on the Web Application. Included here are three of those vulnerablilities deemed critical. See the report, linked above, for the other nine vulnerabilities found.
+
+  1. Cross Site Scripting (XSS) *– Reflected & Stored*
+
+     The ability to inject these scripts poses a significant security risk, as it could potentially enable an attacker to redirect your customers to fraudulent web pages, install keyloggers, or capture user cookies. This, 
+     in turn, would allow malicious actors to pilfer customer data and exploit it for unauthorized access to your system, potentially launching further damaging attacks.
+
+     I submitted the following script which successfully reflected on Rekall Corporation's home page, revealing Flag 1:
+
+     + <script>alert(Document.cookie)</script>
+
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/526f02a1-e0cb-4237-9518-609c44f5d363)
 

@@ -155,3 +155,15 @@ I found six vulnerabilities on the Linux host systems. Included here are two of 
      I then leveraged the following RCE script within Metasploit to exploit a vulnerability in Apache Struts 2 related to content type validation and the OGNL (Object-Graph Navigation Language) expression language:
 
      + multi/http/struts2_content_type_ognl
+
+     *Figure 14 - Exploit successfully ran, granting unauthorized access, and revealing the location of Flag 10.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c85a0f6a-84f6-4699-96a5-73e8f97ac4c0)
+
+     From here I copied the compressed 7z file from the host to my Kali Linux machine, to be able to view its contents.
+
+     *Figure 15 - 7z file contents.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/64093800-960f-44bd-a309-cad0a5d95597)
+
+    RCE exploits of this nature have the potential to grant malicious actors the capability to execute unauthorized programs, access confidential source code, and exfiltrate sensitive data.
+
+## Windows Host Vulnerabilities

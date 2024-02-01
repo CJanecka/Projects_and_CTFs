@@ -114,3 +114,27 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/44bf70d8-b8b6-4380-b6fa-3d51b23996c2)
 
 ## Linux Host Vulnerabilities
+
+I found six vulnerabilities on the Linux host systems. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for the other four vulnerabilities found.
+
+  1. **Apache Tomcat Remote Code Execution (CVE-2017-12617)**
+
+     I utilized MSFconsole to identify vulnerabilities linked to Tomcat and JSP components. The following command was used to generate possible exploits:
+
+     + search RCE JSP
+
+     *Figure 09 - MSFconsole results.*                                                                
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4ba25654-89e7-4033-bee6-f3b133a117be)
+
+     I then used the following exploit to bypass restrictions on JSP (JavaServer Pages) file uploads in Tomcat:
+
+     + multi/http/tomcat_jsp_upload_bypass
+    
+     *Figure 10 - Exploit is successfully running.*                                    
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/710869ad-8973-4528-b5de-fa5452fa2c7a)
+
+     From here I gained access to the command line utilized the following *find* command to search for the hidden flag:
+
+     + find / -type f -iname “*flag *.txt”
+
+     

@@ -133,8 +133,25 @@ I found six vulnerabilities on the Linux host systems. Included here are two of 
      *Figure 10 - Exploit is successfully running.*                                    
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/710869ad-8973-4528-b5de-fa5452fa2c7a)
 
-     From here I gained access to the command line utilized the following *find* command to search for the hidden flag:
+     From here I gained access to the command line and utilized the following *find* command to search for a hidden flag:
 
      + find / -type f -iname “*flag *.txt”
 
-     
+     *Figure 11 - Command line search revealing Flag 7 within the "root" directory.*                                  
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3f287c97-4850-4f0b-bc56-0fd772887c8a)
+
+     This poses a grave risk as it grants unauthorized access to the target system through the exploitation of a known Apache Tomcat vulnerability (CVE-2017-12617). An attacker could potentially execute malicious code remotely, compromising the integrity, confidentiality, and availability of the affected system. This could result in unauthorized data access, data manipulation, and even full system compromise, leading to severe consequences for the organization.
+
+  2. **Apache Struts (CVE-2017-5638) Remote Code Execution (RCE)**
+
+     I conducted a network vulnerability assessments by using Nmap and Nessus scans. These scans revealed a critical Apache Struts RCE vulnerability.
+
+     *Figure 12 - Nessus scan results targeting the Linux Host IP address.*
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d7857e88-bcaf-4114-9c0d-09ffedd9384a)
+
+     *Figure 13 - CVE Reference Information.*                                                                          
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0f7d4831-a815-4d5e-89bc-218430b9087c)
+
+     I then leveraged the following RCE script within Metasploit to exploit a vulnerability in Apache Struts 2 related to content type validation and the OGNL (Object-Graph Navigation Language) expression language:
+
+     + multi/http/struts2_content_type_ognl

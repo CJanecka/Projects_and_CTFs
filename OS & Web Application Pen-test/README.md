@@ -167,3 +167,8 @@ I found six vulnerabilities on the Linux host systems. Included here are two of 
      RCE exploits of this nature have the potential to grant malicious actors the capability to execute unauthorized programs, access confidential source code, and exfiltrate sensitive data.
 
 ## Windows Host Vulnerabilities
+
+I found six vulnerabilities on the Windows Host(s). Included here are two of those vulnerablilities deemed critical/high. See the report, linked above, for the other four vulnerabilities found.
+
+  1. **SLMail Service (POP3)**
+     cont

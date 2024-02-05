@@ -198,6 +198,20 @@ I found six vulnerabilities on the Windows Host(s). Included here are two of tho
      *Figure 19 - Flag 4 found by listing the directory files.*                      
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/736ff41b-f619-448f-b371-f87330eb1091)
 
-     Depending on the intent of the actor, this vulnerability runs the potential risk of unauthorized access, data theft, malware deployment, system manipulation, privilege escalation, and propagation.
+     As shown with the proceeding vunlnerability; this can be taken futher, depending on the intent of the actor, and runs the potential risk of unauthorized access, data theft, malware deployment, system manipulation, privilege escalation, and propagation.
 
 2. **Exposed User/System Hashes (Kiwi)**
+
+     Following the successful compromise of the SLMail service, I was granted system-level privileges. I then subsequently leveraged the Metasploit tool "*Kiwi*" to further exploit the system.
+
+     *Figure 20 - Successfully launched "Kiwi" on the target system.*                                                                  
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ad39f12f-d2de-441b-a5b0-fe5f6e17bada)
+
+     I then dumped the hashed passwords stored in the compromised system using the following command:
+
+     + run post/windows/gather/hashdump
+
+     Among the hashes dumped, I found, one corresponded to Flag 6. I copied this into a new text file, on a separate system, for later use.
+
+     *Figure 21 - System dump of hashed passwords, revealing Flag 6.*                                                    
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d9628c37-9a08-4676-be93-23541ec84d54)

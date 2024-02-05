@@ -243,5 +243,24 @@ I found six vulnerabilities on the Windows Host(s). Included here are two of tho
 
      *Figure 25 - psexec exploit successfully deployed.*                                                          
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/360266a3-51e2-41d3-839a-4272afdd698d)
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ec69c572-6423-488f-9972-8a75410ff2a5)
 
-     
+     After gaining access to the Windows Server; I ran the following command to display the listed users:
+
+     + \>net users
+
+     *Figure 26 - Flag 8 found on the Windows 2019 Server.*                                                          
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e55938d2-3196-49ed-a678-38b5bf7416de)
+
+     With no other exploits discovered on the Windows server, I returned to the Meterpreter session and proceeded to use the following exploit:
+
+     + dcsync_ntlm administrator
+
+     My goal was to leverage the "Directory Replication Service Remote Protocol" and request password data for user accounts from the domain controller. I impersonated the domain controller and retrieved password hashes of user accounts, with specifically the *administrator account* targeted.
+
+     *Figure 27 - DCsync exploit successfully deployed, providing the NTLM hash for the administrator account.*                        
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/92e66fbb-e723-4441-a2cc-37ce644c4a5b)
+
+     These credentials could be cracked and further used to compromise the network.
+
+## Mitigations

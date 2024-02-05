@@ -202,16 +202,46 @@ I found six vulnerabilities on the Windows Host(s). Included here are two of tho
 
 2. **Exposed User/System Hashes (Kiwi)**
 
-     Following the successful compromise of the SLMail service, I was granted system-level privileges. I then subsequently leveraged the Metasploit tool "*Kiwi*" to further exploit the system.
+     I was granted system-level privileges, following the successful compromise of the SLMail service. I then leveraged the Metasploit tool "*Kiwi*" to further exploit the system.
 
      *Figure 20 - Successfully launched "Kiwi" on the target system.*                                                                  
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ad39f12f-d2de-441b-a5b0-fe5f6e17bada)
 
-     I then dumped the hashed passwords stored in the compromised system using the following command:
+     I dumped the hashed passwords stored, in the compromised system, using the following command:
 
      + run post/windows/gather/hashdump
 
      Among the hashes dumped, I found, one corresponded to Flag 6. I copied this into a new text file, on a separate system, for later use.
 
-     *Figure 21 - System dump of hashed passwords, revealing Flag 6.*                                                    
+     *Figure 21 - System dump of hashed passwords, revealing the location of Flag 6.*                                                    
      ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d9628c37-9a08-4676-be93-23541ec84d54)
+
+     From here I utilized the tool, *John the Ripper*, to crack the password associated with Flag 6. The following command was used:
+
+     + john hash.txt --format=NT
+
+     *Figure 22 - Successfully cracked stolen hash for Flag 6, showing the password was "Computer!".*                                        
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a176bb57-51de-4ef1-961b-d12ea7703227)
+
+     From the same Meterpreter (Kiwi) session, I dumped the cached credentials using the following command:
+
+     + kiwi_cmd lsadump::cache
+     
+     *Figure 23 - Successfully dumped cached credentials.*                                                          
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4b15732e-31f6-483e-98fb-662637d3ce8e)
+
+     This provided me with an administrative level user "ADMBob", and their respective hashed NTML. I used the following command with *John the Ripper* to crack the hashed NTML:
+
+     + john hash.txt --format=mscash2
+
+     *Figure 24 - Cracked hash reveals password for "ADMBob" is "Changeme!".*                              
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6552525e-9182-4348-a36b-f78639396984)
+
+     With these acquired credentials I accessed the Windows 2019 Server, by employing the following *psexec* exploit:
+
+     + windows/smb/psexec
+
+     *Figure 25 - psexec exploit successfully deployed.*                                                          
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/360266a3-51e2-41d3-839a-4272afdd698d)
+
+     

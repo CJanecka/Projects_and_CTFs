@@ -57,7 +57,7 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
 
      On Rekall Corporation's *Home page*, I submitted the following script within the input field designated as "Begin by entering your name below!". 
 
-      + <script>alert(Document.cookie)</script>
+      + <script>alert(Document.cookies)</script>
 
       This script is intended to display a pop-up alert containing the value of the "*Document.cookie*" property.
 
@@ -171,4 +171,33 @@ I found six vulnerabilities on the Linux host systems. Included here are two of 
 I found six vulnerabilities on the Windows Host(s). Included here are two of those vulnerablilities deemed critical/high. See the report, linked above, for the other four vulnerabilities found.
 
   1. **SLMail Service (POP3)**
-     cont
+
+     I conducted a network assessment using Nmap scanning; which revealed the presence of an SLMail service running on SMTP port 25, and port 110 for POP3 on the target system. I used the following command to generate these results:
+
+     + nmap -A 172.22.117.0/24
+
+     *Figure 16 - Nmap scan results.*                                                                
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e91377ba-99da-4990-8d57-798323a70cd0)
+
+     From here I employed the following *searchsploit* command, within Metasploit, to identify an exploit module compatible with the SLMail service found in the nmap scan:
+
+     + searchsploit slmail
+
+     *Figure 17 - SLMail results from Searchsploit.*                                              
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/17b076b2-b000-4119-9fed-c6ec617d1289)
+
+     With the vulnerability found I then utilized Metasploit to execute the following exploit which provided unauthorized access, through port 110, on the Windows 10 machine:
+
+     + windows/pop3/seattlelab_pass
+
+     *Figure 18 - Successfully ran exploit on the target “172.22.117.20”, port 110.*                                              
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a7a830a3-0bdc-4c37-8179-8416cb536e87)
+
+     This gave me unauthorized access to the target system, and allowed me to view any data stored in the system. In this case I was able to locate Flag 4, using the "*ls*" command.
+
+     *Figure 19 - Flag 4 found by listing the directory files.*                      
+     ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/736ff41b-f619-448f-b371-f87330eb1091)
+
+     Depending on the intent of the actor, this vulnerability runs the potential risk of unauthorized access, data theft, malware deployment, system manipulation, privilege escalation, and propagation.
+
+2. **Exposed User/System Hashes (Kiwi)**

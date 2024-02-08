@@ -77,4 +77,30 @@ I found seven vulnerabilities throughout MegaCorpOne's network. Included here ar
     
        + Alan Grofield: **agrofield1**
     
-     With this information, I was able to log in and access MegaCorpOne's Index page. On this page was a shell script called *vpn.sh*, which was designed to enable direct employee access to "www.megacorpone.com".
+     Using this information, I logged into the employee portal and accessed MegaCorpOne's Index page. On this page, there was a downloadable shell script named *vpn.sh* intended to facilitate direct employee access to the webpage. I successfully adjusted the script, using the nano text editor, to incorporate the compromised credentials. This modification allowed me to utilize the VPN script and access MegaCorpOne's webpage without being prompted to log in.
+
+       *Figure 03 - VPN script location.*                                                                          
+       ![script location](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7869cfa9-df4f-44ce-9156-4412bea61f1d)
+
+       *Figure 04 - Modified script contents using "nano".*                                                                                
+       ![modified script contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a7057c8-4d58-4747-9129-0b80fd8e7448)
+
+     The adjusted script ran successfully, granting me access to MegaCorpOne's Domain Controller. Through this connection, unauthorized individuals with malicious intent, are provided with the opportunity to exploit the network further, as shown in my full report.
+
+  2. **File(s) with administrative credentials in plain text**
+
+     While operating through a reverse shell in Metasploit, I discovered a plaintext document addressed to *Jim*. This document contained administrator-level credentials, which I utilized to compromise MegaCorpOne's Linux machine.
+
+     *Figure 05 - Location and contents of the plaintext document.*                                                                          
+     ![plaintext document](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b42dd20b-2d10-4da1-94a5-ebfb7ea171cc)
+
+     I then opened a new terminal to test if the credentials were valid.
+
+     *Figure 06 - Administrator credentials shown working.*                                                                                      
+     ![admin credentials working](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/64f5af79-5c13-4191-8b69-e3f04dad7f9f)
+
+     With the credentials working, I've effectively accessed the Linux machine as an administrative-level user. In my full report, you'll see how this can be leveraged for privilege escalation and persistence, posing a greater threat to the security of MegaCorpOne's network.
+
+## Mitigations
+
+My full report, accessible through the provided link above, includes a range of suggested strategies corresponding to each identified vulnerability and its respective host. The range of mitigations recommended is to facilitate a customized approach in addressing these vulnerabilities.

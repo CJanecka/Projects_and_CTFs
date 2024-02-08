@@ -26,3 +26,13 @@ The project requirements included:
   + Documenting my findings and recommended mitigations in a penetration testing summary report.
 
 ## Equipment and Tools
+
+***Technologies Used:*** Penetration testing methodology, OSINT (Google dorking, Shodan, certificate transparency), MITRE matrix, Nmap (with NSE scripts), Metasploit, Privilege Escalation, John the Ripper, Lateral Movement, Mimikatz, msfvenom, Meterpreter, Windows and Linux OS, DC replication, DCSync attack, Persistence, Reporting.
+
+  + Conducted a penetration test on a simulated organization using the Penetration Testing Execution Standard (PTES) methodology and the MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) framework.
+
+  + Found and successfully exploited vulnerabilities in the organization's web application, Linux, and Windows hosts.
+
+  + Summarized the results and suggested ways to address the identified issues in a comprehensive penetration testing report.
+
+## Executive Summary

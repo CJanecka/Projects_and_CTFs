@@ -1,3 +1,3 @@
 # Projects_and_CTFs
 
-Here, I present some of the projects I have completed which have intrigued me the most.
+These are some of the projects that I have completed, both through a Cybersecurity Bootcamp and during my personal time, which I found particularly enjoyable to work on.

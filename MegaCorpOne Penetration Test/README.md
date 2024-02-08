@@ -45,6 +45,36 @@ I found seven vulnerabilities throughout MegaCorpOne's network. Included here ar
 
   1. **Weak Password(s) on Public Web Application**
 
-     By browsing MegaCorpOne's public web page, I obtained the credentials of five employees by process of deduction. The compromised users included: Tom Hudson (Web Designer), Tanya Rivera (Senior Developer), Matt Smith (Marketing Director), Mike Carlow (VP of Legal), and Alan Grofield (IT & Security Director).
+     By browsing MegaCorpOne's public web page, I obtained the credentials of five employees through process of deduction. The compromised users included: Tom Hudson (Web Designer), Tanya Rivera (Senior Developer), Matt Smith (Marketing Director), Mike Carlow (VP of Legal), and Alan Grofield (IT & Security Director).
 
-     
+     *Figure 01 - Portion of the webpage that discloses Executive Employee information.*                                          
+     ![Executive Team](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/93901eb0-a930-417c-8b68-31cc10a6baa7)
+
+     *Figure 02 - Portion of the webpage that discloses other employee information.*                                              
+     ![Other Staff](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b6a5c337-278c-4160-8e58-219d2a3f3ddd)
+
+     From the list of employee emails, I discovered that MegaCorpOne uses the same characters before the "@" sign for some of their employee usernames. Specifically:
+
+       + Tom Hudson: thudson
+    
+       + Tanya Rivera: trivera
+    
+       + Matt Smith: msmith
+    
+       + Mike Carlow: mcarlow
+    
+       + Alan Grofield: agrofield
+    
+     I was able to get the passwords, for each of these users, by guessing. These users had very simple passwords, Specifically:
+
+       + Tom Hudson: thudson *(same as the username)*
+    
+       + Tanya Rivera: Spring2021
+    
+       + Matt Smith: Passw0rd
+    
+       + Mike Carlow: Pa55word
+    
+       + Alan Grofield: agrofield1
+    
+     With this information, I was able to log in and access MegaCorpOne's Index page. On this page was a shell script called *vpn.sh*, which was designed to enable direct employee access to "www.megacorpone.com".

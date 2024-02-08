@@ -51,7 +51,7 @@ The *Vulnerability Findings* section, of the report, provides a comprehensive br
 
 ## Web Application Vulnerabilities
 
-I found twelve vulnerabilities on the Web Application. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for the other ten vulnerabilities found.
+I found twelve vulnerabilities on the Web Application. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
 
   1. **Cross Site Scripting (XSS)** *– Reflected & Stored*
 
@@ -115,7 +115,7 @@ I found twelve vulnerabilities on the Web Application. Included here are two of 
 
 ## Linux Host Vulnerabilities
 
-I found six vulnerabilities on the Linux host systems. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for the other four vulnerabilities found.
+I found six vulnerabilities on the Linux host systems. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
 
   1. **Apache Tomcat Remote Code Execution (CVE-2017-12617)**
 
@@ -168,7 +168,7 @@ I found six vulnerabilities on the Linux host systems. Included here are two of 
 
 ## Windows Host Vulnerabilities
 
-I found six vulnerabilities on the Windows Host(s). Included here are two of those vulnerablilities deemed critical/high. See the report, linked above, for the other four vulnerabilities found.
+I found six vulnerabilities on the Windows Host(s). Included here are two of those vulnerablilities deemed critical/high. See the report, linked above, for additional information on the vulnerabilities found.
 
   1. **SLMail Service (POP3)**
 

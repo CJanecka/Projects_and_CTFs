@@ -55,26 +55,26 @@ I found seven vulnerabilities throughout MegaCorpOne's network. Included here ar
 
      From the list of employee emails, I discovered that MegaCorpOne uses the same characters before the "@" sign for some of their employee usernames. Specifically:
 
-       + Tom Hudson: thudson
+       + Tom Hudson: **thudson**
     
-       + Tanya Rivera: trivera
+       + Tanya Rivera: **trivera**
     
-       + Matt Smith: msmith
+       + Matt Smith: **msmith**
     
-       + Mike Carlow: mcarlow
+       + Mike Carlow: **mcarlow**
     
-       + Alan Grofield: agrofield
+       + Alan Grofield: **agrofield**
     
      I was able to get the passwords, for each of these users, by guessing. These users had very simple passwords, Specifically:
 
-       + Tom Hudson: thudson *(same as the username)*
+       + Tom Hudson: **thudson** *(same as the username)*
     
-       + Tanya Rivera: Spring2021
+       + Tanya Rivera: **Spring2021**
     
-       + Matt Smith: Passw0rd
+       + Matt Smith: **Passw0rd**
     
-       + Mike Carlow: Pa55word
+       + Mike Carlow: **Pa55word**
     
-       + Alan Grofield: agrofield1
+       + Alan Grofield: **agrofield1**
     
      With this information, I was able to log in and access MegaCorpOne's Index page. On this page was a shell script called *vpn.sh*, which was designed to enable direct employee access to "www.megacorpone.com".

@@ -21,7 +21,7 @@ During this three-day, Capture-the-Flag style, penetration test, I acted as a re
 
 The project requirements included:
 
-  + Examination of the organization's web application, leading to the discovery of vulnerabilities embedded in their website. Leveraging Burp Suite, identified and documented these vulnerabilities, aiming to fortify the organization's online security.
+  + Examination of the organization's web application and leveraging Burp Suite, identifying and documenting these vulnerabilities, aiming to fortify the organization's online security.
 
   + Employing the MITRE framework to systematically scrutinize the security of the organization's Linux and Windows hosts. Allowing vulnerabilities and potential threat vectors within the infrastructure to be uncovered.
 

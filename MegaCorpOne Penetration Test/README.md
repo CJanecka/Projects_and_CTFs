@@ -33,6 +33,6 @@ The project requirements included:
 
   + Found and successfully exploited vulnerabilities in the organization's web application, Linux, and Windows hosts.
 
-  + Summarized the results and suggested ways to address the identified issues in a comprehensive penetration testing report.
+  + Summarized the results and suggested ways to address the identified issues in a detailed penetration testing report.
 
 ## Executive Summary

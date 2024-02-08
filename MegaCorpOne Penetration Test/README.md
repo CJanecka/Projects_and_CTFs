@@ -36,3 +36,7 @@ The project requirements included:
   + Summarized the results and suggested ways to address the identified issues in a detailed penetration testing report.
 
 ## Executive Summary
+
+I conducted a solo penetration test, focusing on a simulated organization called *MegaCorpOne*. My assessment honed in on the organization's web application, Linux, and Windows hosts, revealing vulnerabilities and security weaknesses. The conclusion of this effort led to the creation of a detailed penetration testing report. In this report, I outline the findings, highlighting identified vulnerabilities across the assessed domains. Furthermore, I present a set of recommendations aimed at mitigating the discovered security concerns.
+
+## Vulnerability Findings

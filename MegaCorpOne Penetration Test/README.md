@@ -40,3 +40,11 @@ The project requirements included:
 I conducted a solo penetration test, focusing on a simulated organization called *MegaCorpOne*. My assessment honed in on the organization's web application, Linux, and Windows hosts, revealing vulnerabilities and security weaknesses. The conclusion of this effort led to the creation of a detailed penetration testing report. In this report, I outline the findings, highlighting identified vulnerabilities across the assessed domains. Furthermore, I present a set of recommendations aimed at mitigating the discovered security concerns.
 
 ## Vulnerability Findings
+
+I found seven vulnerabilities throughout MegaCorpOne's network. Included here are two of those vulnerabilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
+
+  1. **Weak Password(s) on Public Web Application**
+
+     By browsing MegaCorpOne's public web page, I obtained the credentials of five employees by process of deduction. The compromised users included: Tom Hudson (Web Designer), Tanya Rivera (Senior Developer), Matt Smith (Marketing Director), Mike Carlow (VP of Legal), and Alan Grofield (IT & Security Director).
+
+     

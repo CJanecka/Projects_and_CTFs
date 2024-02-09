@@ -44,3 +44,17 @@ The project requirements included:
   + Conducting an analysis of Azure's Security Center recommendations and applying the recommended fixes.
 
 ## Equipment and Tools
+
+The technologies used in this project include:
+
+  + Azure
+    - Keyvaults
+    - App Services
+    - Front Door
+    - Web Application Firewall *(WAF)*
+  + Hypertext Preprocessor *(PHP)*
+  + Hypertext Markup Language *(HTML)*
+  + Open-Source Software Library *(OpenSSL)*
+  + Docker
+
+## Advantages of Azure's App Service

@@ -35,8 +35,10 @@ The technologies used in this project include:
   + MITRE Adversarial Tactics, Techniques, and Common Knowledge *(ATT&CK)* framework
   + Open Source Intelligence *(OSINT)* tools
   + Metasploit and Meterpreter
+  + John the Ripper
   + Vulnerability scanning with Nmap and Nessus
   + Burp Suite
+  + Windows and Kali Linux OS
   + Report writing
 
 ## Executive Summary

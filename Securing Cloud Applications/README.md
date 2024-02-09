@@ -15,7 +15,32 @@
 
 ## Overview
 
-I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This comprehensive approach ensured a secure and reliable system against potential cyber threats.
+I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This approach empowers a secure and reliable system against potential cyber threats.
 
 ## Project Requirements
 
+The project requirements included:
+
+  + Utilizing Azure's Cloud Services to host the web application.
+    
+  + Creating the web application through Azure's App Service resource.
+    
+  + Opting for a domain, a choice between GoDaddy or Azure, I went with a GoDaddy domain.
+    
+  + Deploying a Docker container containing the framework for a blog webpage.
+    
+  + Customizing the webpage by SSHing into the container.
+    
+  + Generating a self-signed certificate using OpenSSL.
+
+  + Storing the certificate in Azure's Key Vault.
+
+  + Binding the certificate to the website, since I did not utilitze an Azure domain.
+
+  + Addressing security concerns associated with the self-signed certificate by creating and binding a managed CA-approved certificate to the web application.
+
+  + Implementing Azure's Front Door and configuring a WAF rule to restrict traffic from specific countries.
+
+  + Conducting an analysis of Azure's Security Center recommendations and applying the recommended fixes.
+
+## Equipment and Tools

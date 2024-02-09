@@ -14,3 +14,8 @@
   + [08. Azure's Security Center](#Azure's-Security-Center)
 
 ## Overview
+
+I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This comprehensive approach ensured a secure and reliable system against potential cyber threats.
+
+## Project Requirements
+

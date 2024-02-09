@@ -33,7 +33,7 @@ The technologies used in this project include:
   + Open Source Intelligence (OSINT) tools
     - Google Dorking
     - Shodan.io
-    - Certificate tranparency
+    - Certificate transparency
   + MITRE Adversarial Tactics, Techniques, and Common Knowledge *(ATT&CK)* matrix
   + Network Mapper *(Nmap)* scanning with NSE scripts
   + Metasploit and Meterpreter

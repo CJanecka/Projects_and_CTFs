@@ -25,17 +25,19 @@ The project requirements included:
 
   + Employing the MITRE framework to systematically scrutinize the security of the organization's Linux and Windows hosts. Allowing vulnerabilities and potential threat vectors within the infrastructure to be uncovered.
 
-  + Compiled findings and recommended mitigations into a penetration testing report. This serves as a valuable resource for the organization, providing a clear roadmap for addressing vulnerabilities and enhancing their overall security posture.
+  + Compiled findings and recommended mitigations into a penetration testing report. Providing a clear roadmap for addressing vulnerabilities and enhancing the organization's overall security posture.
 
 ## Equipment and Tools
 
-***Technologies Used:*** Penetration testing methodology, MITRE framework, OSINT tools, Metasploit/Meterpreter, vulnerability scanning with Nmap and Nessus, Burp Suite.
+The technologies used in this project include:
 
-  + Performed a penetration test on a simulated organization in accordance with the Penetration Testing Execution Standard (PTES) methodology and the MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) framework.
-    
-  + Identified and successfully exploited vulnerabilities within the organization's web application, as well as on Linux and Windows hosts.
-
-  + Documented the findings and proposed mitigation strategies within a comprehensive penetration testing summary report.
+  + Penetration Testing Execution Standard *(PTES)* methodology
+  + MITRE Adversarial Tactics, Techniques, and Common Knowledge *(ATT&CK)* framework
+  + Open Source Intelligence *(OSINT)* tools
+  + Metasploit and Meterpreter
+  + Vulnerability scanning with Nmap and Nessus
+  + Burp Suite
+  + Report writing
 
 ## Executive Summary
 

@@ -34,9 +34,9 @@ Described in further detail with-in the report, the following findings were made
 
 ## Equipment and Tools
 
-Digitech utilized the open-source forensic tool Autopsy, operating on a Kali Linux host, to examinine an image sourced from Tracy's iPhone. This analysis extracted pertinent details and specifications regarding Tracy's mobile device, along with the content of her messages and emails, complete with sender and recipient contacts. Furthermore, the examination uncovered latitude and longitude coordinates, indicative of the precise geographic locations to which Tracy's phone had communicated during the relevant timeframe.
+I utilized the open-source forensic tool Autopsy, operating on a Kali Linux host, to examinine an image sourced from Tracy's iPhone. This analysis extracted pertinent details and specifications regarding Tracy's mobile device, along with the content of her messages and emails, complete with sender and recipient contacts. Furthermore, my examination uncovered latitude and longitude coordinates, indicative of the precise geographic locations to which Tracy's phone had communicated during the relevant timeframe.
 
-To verify Tracy's presence at the museum during the heist, these coordinates were cross-referenced using an online resource and tool, specifically “maps.google.com”. This process allowed for the precise determination of Tracy's location, providing compelling evidence that she was indeed situated at the museum during the time of the incident.
+To verify Tracy's presence at the museum during the heist, I cross-referenced the coordinates using an online resource and tool, specifically [Google Maps](https://www.google.com/maps). This process allowed for the precise determination of Tracy's location, providing compelling evidence that she was indeed situated at the museum during the time of the incident.
 
 ## Details of Tracy's iPhone
 

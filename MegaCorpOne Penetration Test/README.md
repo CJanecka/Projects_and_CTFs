@@ -27,13 +27,23 @@ The project requirements included:
 
 ## Equipment and Tools
 
-***Technologies Used:*** Penetration testing methodology, OSINT (Google dorking, Shodan, certificate transparency), MITRE matrix, Nmap (with NSE scripts), Metasploit, Privilege Escalation, John the Ripper, Lateral Movement, Mimikatz, msfvenom, Meterpreter, Windows and Linux OS, DC replication, DCSync attack, Persistence, Reporting.
+The technologies used in this project include:
 
-  + Conducted a penetration test on a simulated organization using the Penetration Testing Execution Standard (PTES) methodology and the MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) framework.
-
-  + Found and successfully exploited vulnerabilities in the organization's web application, Linux, and Windows hosts.
-
-  + Summarized the results and suggested ways to address the identified issues in a detailed penetration testing report.
+  + Penetration Testing Execution Standard (PTES) methodology
+  + Open Source Intelligence (OSINT) tools
+    - Google Dorking
+    - Shodan.io
+    - Certificate tranparency
+  + MITRE Adversarial Tactics, Techniques, and Common Knowledge *(ATT&CK)* matrix
+  + Network Mapper *(Nmap)* scanning with NSE scripts
+  + Metasploit and Meterpreter
+  + Privilege Escalation
+  + John the Ripper
+  + Lateral Movement
+  + Mimikatz
+  + MSFvenom
+  + Windows and Linux OS
+  + Reporting
 
 ## Executive Summary
 

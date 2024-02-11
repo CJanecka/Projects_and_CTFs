@@ -15,7 +15,7 @@
 
 ## Overview
 
-I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This approach empowers a secure and reliable system against potential cyber threats. My project technical brief is provided as a PDF, in this GitHub repository, titled [Securing Cloud Applications - Technical Brief](https://github.com/CJanecka/Projects_and_CTFs/files/14233926/Securing.Cloud.Applications.-.Technical.Brief._.Collin.Janecka.pdf). This document offers a detailed overview of the project, providing insights and addressing the questions that were posed to me.
+I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This approach empowers a secure and reliable system against potential cyber threats. My project technical brief is provided as a PDF, in this GitHub repository, titled [Securing Cloud Applications - Technical Brief](https://github.com/CJanecka/Projects_and_CTFs/files/14234281/Securing.Cloud.Applications.-.Technical.Brief._.Collin.Janecka.pdf). This document offers a detailed overview of the project, providing insights and addressing the questions that were posed to me.
 
 
 ## Project Requirements
@@ -87,6 +87,12 @@ To address the challenge posed by the use of a self-signed certificate; I opted 
 *What is Azure’s Security Center, and how did I apply its features?*
 
 Azure's Front Door is a cloud resource, positioned ahead of my web application, serving as a defense mechanism. Operating at the Application Layer of the OSI Model (Layer 7), its central function revolves around load balancing. Moreover, it offers the capability to integrate a Web Application Firewall (WAF) to fortify defenses against vulnerabilities inherent to web attacks. In conjunction with the WAF, a custom rule was implemented to safeguard against web requests originating from regions not within the anticipated scope of visitors. This proactive measure plays a crucial role in protecting the system against potential threats in cases where unexpected visitors may pose a security risk.
+
+*Figure 01 - Azure Front Door enabled.*                                                                        
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/84fd63e5-1a8b-4848-8602-8550a251c37f)
+
+*Figure 02 - Custom Web Application Firewall (WAF).*                                                    
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a6d6f7de-2862-415b-b744-778c73bb101b)
 
 ## Azure's Security Center
 

@@ -74,4 +74,18 @@ The advantages of choosing Azure’s App Service resource, instead of creating a
 
   + Azure App Services come equipped with an array of built-in features designed to secure and host web applications, including DNS management, Web Application Firewalls (WAF), domain procurement, and SSL certificate binding.
 
-## Security Concerns
+## Security Issues
+
+A self-signed certificate is an unsigned certificate, meaning it has not received validation from a recognized certificate authority. Although creating such certificates is a straightforward and cost-effective process, it's imperative to note that most web browsers will issue a warning to users when they visit a webpage secured with a self-signed certificate. This warning notifies users that the webpage lacks verification from a certificate authority listed in the browser's root store, thus urging caution when proceeding.
+
+## Addressing the Security Concerns
+
+To address the challenge posed by the use of a self-signed certificate; I opted to generate, and link, a managed certificate supplied by Azure. This certificate holds the endorsement of a certificate authority (CA), ensuring its trustworthiness and wide recognition across most web browsers.
+
+## Azure's Front Door
+
+*What is Azure’s Security Center, and how did I apply its features?*
+
+Azure's Front Door is a cloud resource, positioned ahead of my web application, serving as a defense mechanism. Operating at the Application Layer of the OSI Model (Layer 7), its central function revolves around load balancing. Moreover, it offers the capability to integrate a Web Application Firewall (WAF) to fortify defenses against vulnerabilities inherent to web attacks. In conjunction with the WAF, a custom rule was implemented to safeguard against web requests originating from regions not within the anticipated scope of visitors. This proactive measure plays a crucial role in protecting the system against potential threats in cases where unexpected visitors may pose a security risk.
+
+## Azure's Security Center

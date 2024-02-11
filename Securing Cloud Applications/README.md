@@ -89,3 +89,7 @@ To address the challenge posed by the use of a self-signed certificate; I opted 
 Azure's Front Door is a cloud resource, positioned ahead of my web application, serving as a defense mechanism. Operating at the Application Layer of the OSI Model (Layer 7), its central function revolves around load balancing. Moreover, it offers the capability to integrate a Web Application Firewall (WAF) to fortify defenses against vulnerabilities inherent to web attacks. In conjunction with the WAF, a custom rule was implemented to safeguard against web requests originating from regions not within the anticipated scope of visitors. This proactive measure plays a crucial role in protecting the system against potential threats in cases where unexpected visitors may pose a security risk.
 
 ## Azure's Security Center
+
+*What is Azure’s Security Center, and how did I apply its features?*
+
+Azure Security Center serves as a management system, offering a repository of best practices and guidance to augment the security of cloud-based resources. During my evaluation, an array of security recommendations was observed spanning diverse criticality levels. One noteworthy recommendation suggests strengthening the security of data transmissions, by enforcing FTP access, to the web application through FTPS. FTPS refers to the encrypted version of File Transfer Protocol, providing a secure means of transferring data. This measure enhances the overall security posture of the system.

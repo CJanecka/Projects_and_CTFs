@@ -59,3 +59,19 @@ The technologies used in this project include:
   + Docker
 
 ## Advantages of Azure's App Service
+
+The advantages of choosing Azure’s App Service resource, instead of creating a Virtual Machine from scratch:
+
+  + By leveraging Azure App Service, the responsibility for managing features beyond the web application is transferred to the cloud service provider.
+
+    - In essence, I was able to focus on the deployment and management of the web application along with its associated data.
+   
+  + The deployment of web applications becomes significantly faster as users are relieved from the intricacies of configuring their operating systems.
+
+  + Users are unburdened from concerns related to OS and middleware maintenance, including the installation of software updates and patch management.
+
+  + Azure App Services offer a cost-effective alternative to running Virtual Machines.
+
+  + Azure App Services come equipped with an array of built-in features designed to secure and host web applications, including DNS management, Web Application Firewalls (WAF), domain procurement, and SSL certificate binding.
+
+## Security Concerns

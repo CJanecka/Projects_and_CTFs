@@ -18,14 +18,24 @@
 
 ## Overview
 
-This project centered on leveraging the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. My complete case report is provided as a PDF in this GitHub repository, titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/14253947/Case.Report.National.Gallery.DC_Collin_Janecka.pdf). This README file encapsulates the details of my involvement. Operating, in the capacity of investigator, under the guise of 'Digitech, Inc.' I was tasked to investigate a conspiracy aimed at stealing valuable collectible stamps from Washington, DC's National Gallery. A forensic image extracted from an iPhone was provided; from this image, I analyzed and gathered evidence to support the criminal investigation.
+I leveraged the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. This README file encapsulates the details of my findings. Operating, in the capacity of an investigator, employed by *Digitech, Inc.* I was tasked to look into the theft of valuable, collectible, stamps from Washington, DC's National Gallery. As well as inquiring to the correlation of a flash mob, which had occured during the robbery. A forensic image, extracted from an iPhone, was provided; from this image, I analyzed and gathered evidence to support the criminal investigation. My complete case report is provided as a PDF in this GitHub repository, titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/14253947/Case.Report.National.Gallery.DC_Collin_Janecka.pdf).
 
 ## Equipment and Tools
 
-I utilized the open-source forensic tool Autopsy, operating on a Kali Linux host, to examinine an image sourced from Tracy's iPhone. This analysis extracted pertinent details and specifications regarding Tracy's mobile device, along with the content of her messages and emails, complete with sender and recipient contacts. Furthermore, my examination uncovered latitude and longitude coordinates, indicative of the precise geographic locations to which Tracy's phone had communicated during the relevant timeframe.
+The technologies and equipment used in this project include:
 
-To verify Tracy's presence at the museum during the heist, I cross-referenced the coordinates using an online resource and tool, specifically [Google Maps](https://www.google.com/maps). This process allowed for the precise determination of Tracy's location, providing compelling evidence that she was indeed situated at the museum during the time of the incident.
-
+  + Basic priciples and methodologies of digital forensics.
+    - The NICCS link provided below details the skills, knowledge, and various other aspects associated with digital forensics:
+      + [Cyber Security Workforce Framework - Digital Forensics](https://niccs.cisa.gov/workforce-development/nice-framework/specialty-areas/digital-forensics)
+    - The National Institute of Standards and Technology *(NIST)* defines a process for performing digital forensics in the following link:
+      + [Special Publication 800-86: Cloud Forensics Challenges](https://github.com/CJanecka/Projects_and_CTFs/files/14255817/Special.Publication.800-86_Cloud_Forensics_Challenges.pdf)
+  + Autopsy [(The Sleuth Kit Forensic Application)](https://sleuthkit.org/autopsy/docs/user-docs/4.3/index.html)
+  + Oracle Java Development Kit
+    - Needed to run Autopsy properly. To ensure this is installed and updated, execute the following in a new terminal window:
+      + ***apt install -y default-jdk***
+  + Kali Linux OS
+  + Windows *(Hyper-V)* Server Virtualization
+    
 ## Executive Summary
 
 On January 21, 2016, Digitech Inc. was called in to assist the National Gallery, Washington D.C. (NGDC) case involving the conspiracy associated with the theft of valuable stamps and defacing of museums are at the NGDC. 
@@ -34,7 +44,7 @@ On January 21, 2016, Digitech Inc. was called in to assist the National Gallery,
   + As part of the investigation, Tracy’s iPhone was taken into custody. 
   + Digitech, Inc. was tasked with investigating evidence relevant to the aforementioned conspiracy.
 
-Described in further detail with-in the report, the following findings were made: 
+Described in further detail with-in my report, the following findings were made: 
 
   + Evidence shows that Tracy and her brother, Pat, colluded with an unidentified third-party using the alias 'King kthings' and email 'throne1966@hotmail.com' in a plot to steal collectible stamps from the National Gallery.
 
@@ -74,8 +84,7 @@ This data serves as a foundational element for identifying the primary individua
     - Email:			carrysum2012@yahoo.com
     - Relationship:		Tracy's Accomplice & Friend
 
-*Figure 0: Visual representation of personas under investigation*
-
+*Figure 0: Visual representation of personas under investigation.*                                                            
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/285210fe-6aee-4d7a-bd52-bba900ed2498)
 
 ## Evidence pertaining to the Theft of Valuable Stamps
@@ -86,8 +95,7 @@ Emails and SMS messages were exchanged between Tracy, Pat, Carry, and an unident
 
 Within an email from 'King,' an attachment was included containing a list detailing the items required for the theft.
 
-*Figure 1: Email attachment 'needs.txt' from "King kthings"*
-
+*Figure 1: Email attachment 'needs.txt' from "King kthings".*                                                    
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5ef73025-24e2-4cf5-9724-50732d42f00a)
 
 An additional piece of evidence includes an attached MP3 audio file labeled as "Crazydave1.mp3". This audio file contains instructions on how to install the VirtualBox Machine (VM) on a host computer with intended use in this crime.
@@ -96,32 +104,27 @@ An SMS message was discovered, notifying Tracy of her receipt of a $1000 Target 
 
 Three (3) PDF email attachments were identified, each of which contained Memoranda of Insurance pertaining to valuable stamps. Additionally, photographic documentation of these stamps was found within the camera storage location, as indicated below. Furthermore, the phone contained photographic representations of each stamp listed in the insurance documents.
 
-*Figure 2: “Stamp insurance 1.pdf” email attachment*
-
+*Figure 2: “Stamp insurance 1.pdf” email attachment.*                                
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/203affc5-f42c-4259-b1e6-348721097a31)
 
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0056.JPG
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0051.JPG
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0057.JPG
 
-*Figure 3: The three (3) stamps mentioned above (Figure 2)*
-
+*Figure 3: The three (3) stamps mentioned above (Figure 2).*                                                                          
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b2daff13-29a1-4c73-8b13-ec95c76004ae)
 
-*Figure 4: “Stamp Insurance 2.pdf” email attachment*
-
+*Figure 4: “Stamp Insurance 2.pdf” email attachment.*                                                                                      
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fc90aac5-2528-410d-88f3-1990beecef64)
 
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0067.JPG
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0055.JPG
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0050.JPG
 
-*Figure 5: The three (3) stamps mentioned above (Figure 4)*
-
+*Figure 5: The three (3) stamps mentioned above (Figure 4).*                                                                                              
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e7cd2bba-0ca7-4344-82e5-0253c47c1c22)
 
-*Figure 6: “Stamp insurance 3.pdf” email attachment*
-
+*Figure 6: “Stamp insurance 3.pdf” email attachment.*                                                                          
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9fcee37b-8893-49ad-bf71-65e7fd858a4d)
 
   + /vol5/mobile/Media/DCIM/100APPLE/IMG_0054.JPG
@@ -134,12 +137,10 @@ This sub-section provides details regarding the evidence found as it relates to 
 
 Correspondence between Tracy and Carry, preserved within the email and SMS databases, substantiates Tracy's willingness to assist Carry in surreptitiously introducing a tablet into the museum and circumventing its security measures. Furthermore, these messages provide conclusive evidence that a flash mob was strategically employed as a diversionary tactic to divert the attention of the museum's security personnel during the commission of the heist.
 
-*Figure 8: Email from Carry to Tracy, inquiring about bringing the tablet into the museum. The flash mob was also discussed.*
-
+*Figure 8: Email from Carry to Tracy, inquiring about bringing the tablet into the museum. The flash mob was also discussed.*                                                    
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/14745afc-701d-4878-8f25-1b93cabc3ec6)
 
-*Figure 9: Texts from Tracy to Carry, saying she will bring the tablet in and a follow-up on the status of the flash mob*
-
+*Figure 9: Texts from Tracy to Carry, saying she will bring the tablet in and a follow-up on the status of the flash mob.*                                                                                        
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ddfb2232-684a-424c-82a9-c7cf4ea2eb81)
 
 ## Plot Timeline
@@ -200,6 +201,5 @@ This subsection will provide a breakdown of the email and SMS correspondence evi
 
 WiFi locations gathered from /vol5/root/Library/Caches/locationd/consolidated.db and plotted using "maps.google.com".
 
-*Figure 9: Map of Art Gallery vs iPhone GPS coordinate clusters*
-
+*Figure 9: Map of Art Gallery vs iPhone GPS coordinate clusters.*                                                                                    
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/71de5cb1-58ee-43fd-b6e5-56dd7b6a42bb)

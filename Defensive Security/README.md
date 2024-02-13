@@ -27,6 +27,8 @@ The technologies used in this project include:
     - This server houses the intellectual property of VSI's cutting-edge virtual reality programs for the next generation.
   + Apache Server Logs
     - This server is dedicated to hosting VSI's primary public-facing website, *vsi-company.com*.
+  + Ubuntu OS
+  + Apache Guacamole
 
 ## Project Requirements
 

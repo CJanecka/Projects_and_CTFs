@@ -18,7 +18,7 @@
 
 ## Overview
 
-This project centered on leveraging the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. My complete case report is provided as a PDF in this GitHub repository titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/14253947/Case.Report.National.Gallery.DC_Collin_Janecka.pdf). This README file encapsulates the details of my involvement. Operating, in the capacity of investigator, under the guise of 'Digitech, Inc.' I was tasked to investigate a conspiracy aimed at stealing valuable collectible stamps from Washington, DC's National Gallery. A forensic image extracted from an iPhone was provided; from this image, I analyzed and gathered evidence to support the criminal investigation.
+This project centered on leveraging the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. My complete case report is provided as a PDF in this GitHub repository, titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/14253947/Case.Report.National.Gallery.DC_Collin_Janecka.pdf). This README file encapsulates the details of my involvement. Operating, in the capacity of investigator, under the guise of 'Digitech, Inc.' I was tasked to investigate a conspiracy aimed at stealing valuable collectible stamps from Washington, DC's National Gallery. A forensic image extracted from an iPhone was provided; from this image, I analyzed and gathered evidence to support the criminal investigation.
 
 ## Equipment and Tools
 

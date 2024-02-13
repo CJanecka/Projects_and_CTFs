@@ -5,8 +5,8 @@
 ## Table of Contents
 
   + [01. Overview](#Overview)
-  + [02. Executive Summary](#Executive-Summary)
-  + [03. Equipment and Tools](#Equipment-and-Tools)
+  + [02. Equipment and Tools](#Equipment-and-Tools)
+  + [03. Executive Summary](#Executive-Summary)
   + [04. Details of Tracy's iPhone](Details-of-Tracy's-iPhone)
   + [05. Evidence Establishing Personas](#Evidence-Establishing-Personas)
   + [06. Evidence pertaining to the Theft of Valuable Stamps](#Evidence-Pertaining-to-the-Theft-of-Valuable-Stamps)
@@ -18,7 +18,13 @@
 
 ## Overview
 
-This project centered on leveraging the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. The complete case report is provided as a PDF in this GitHub repository titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/13734026/iOS_Forensics_Report_Collin_Janecka.pdf). This README file encapsulates the details of our involvement. Operating in the capacity of investigators under the guise of 'Digitech, Inc.' we were tasked to investigate a conspiracy aimed at stealing valuable collectible stamps from Washington, DC's National Gallery. A forensic image extracted from an iPhone was provided; from this image, evidence was gathered to support the criminal investigation.
+This project centered on leveraging the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. My complete case report is provided as a PDF in this GitHub repository titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/13734026/iOS_Forensics_Report_Collin_Janecka.pdf). This README file encapsulates the details of my involvement. Operating, in the capacity of investigator, under the guise of 'Digitech, Inc.' I was tasked to investigate a conspiracy aimed at stealing valuable collectible stamps from Washington, DC's National Gallery. A forensic image extracted from an iPhone was provided; from this image, I analyzed and gathered evidence to support the criminal investigation.
+
+## Equipment and Tools
+
+I utilized the open-source forensic tool Autopsy, operating on a Kali Linux host, to examinine an image sourced from Tracy's iPhone. This analysis extracted pertinent details and specifications regarding Tracy's mobile device, along with the content of her messages and emails, complete with sender and recipient contacts. Furthermore, my examination uncovered latitude and longitude coordinates, indicative of the precise geographic locations to which Tracy's phone had communicated during the relevant timeframe.
+
+To verify Tracy's presence at the museum during the heist, I cross-referenced the coordinates using an online resource and tool, specifically [Google Maps](https://www.google.com/maps). This process allowed for the precise determination of Tracy's location, providing compelling evidence that she was indeed situated at the museum during the time of the incident.
 
 ## Executive Summary
 
@@ -31,12 +37,6 @@ On January 21, 2016, Digitech Inc. was called in to assist the National Gallery,
 Described in further detail with-in the report, the following findings were made: 
 
   + Evidence shows that Tracy and her brother, Pat, colluded with an unidentified third-party using the alias 'King kthings' and email 'throne1966@hotmail.com' in a plot to steal collectible stamps from the National Gallery.
-
-## Equipment and Tools
-
-I utilized the open-source forensic tool Autopsy, operating on a Kali Linux host, to examinine an image sourced from Tracy's iPhone. This analysis extracted pertinent details and specifications regarding Tracy's mobile device, along with the content of her messages and emails, complete with sender and recipient contacts. Furthermore, my examination uncovered latitude and longitude coordinates, indicative of the precise geographic locations to which Tracy's phone had communicated during the relevant timeframe.
-
-To verify Tracy's presence at the museum during the heist, I cross-referenced the coordinates using an online resource and tool, specifically [Google Maps](https://www.google.com/maps). This process allowed for the precise determination of Tracy's location, providing compelling evidence that she was indeed situated at the museum during the time of the incident.
 
 ## Details of Tracy's iPhone
 

@@ -5,8 +5,8 @@
 ## Table of Contents
 
   + [01. Overview](#Overview)
-  + [02. Project Requirements](#Project-Requirements)
-  + [03. Equipment and Tools](#Equipment-and-Tools)
+  + [02. Equipment and Tools](#Equipment-and-Tools)
+  + [03. Project Requirements](#Project-Requirements)
   + [04. Advantages of Azure's App Service](#Advantages-of-Azure's-App-Services)
   + [05. Security Issues](#Security-Issues)
   + [06. Addressing the Security Concerns](#Addressing-the-Security-Concerns)
@@ -17,6 +17,19 @@
 
 I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This approach empowers a secure and reliable system against potential cyber threats. My project technical brief is provided as a PDF, in this GitHub repository, titled [Securing Cloud Applications - Technical Brief](https://github.com/CJanecka/Projects_and_CTFs/files/14234281/Securing.Cloud.Applications.-.Technical.Brief._.Collin.Janecka.pdf). This document offers a detailed overview of the project, providing insights and addressing the questions that were posed to me.
 
+## Equipment and Tools
+
+The technologies used in this project include:
+
+  + Azure
+    - Keyvaults
+    - App Services
+    - Front Door
+    - Web Application Firewall *(WAF)*
+  + Hypertext Preprocessor *(PHP)*
+  + Hypertext Markup Language *(HTML)*
+  + Open-Source Software Library *(OpenSSL)*
+  + Docker
 
 ## Project Requirements
 
@@ -43,20 +56,6 @@ The project requirements included:
   + Implementing Azure's Front Door and configuring a WAF rule to restrict traffic from specific countries.
 
   + Conducting an analysis of Azure's Security Center recommendations and applying the recommended fixes.
-
-## Equipment and Tools
-
-The technologies used in this project include:
-
-  + Azure
-    - Keyvaults
-    - App Services
-    - Front Door
-    - Web Application Firewall *(WAF)*
-  + Hypertext Preprocessor *(PHP)*
-  + Hypertext Markup Language *(HTML)*
-  + Open-Source Software Library *(OpenSSL)*
-  + Docker
 
 ## Advantages of Azure's App Service
 

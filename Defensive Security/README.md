@@ -12,3 +12,5 @@
   + [06. Future Mitigations](#Future-Mitigations)
 
 ## Overview
+
+I employed Splunk to craft a customized monitoring environment, developing personalized reports, alerts, dashboards, and an add-on app to fortify the security of a fictional organization. A pivotal element of this project entailed simulating an attack to gauge the efficacy of my monitoring solutions. Subsequent to the simulated attack, I conducted a thorough analysis to evaluate the system's performance in detecting and mitigating the threat. The culmination of my efforts was presented to my cybersecurity bootcamp class, not only to underscore the importance of protective measures but also to offer insights for enhancing cybersecurity within a broader organizational context.

@@ -83,7 +83,7 @@ To address the challenge posed by the use of a self-signed certificate; I opted 
 
 ## Azure's Front Door
 
-***What is Azure’s Security Center, and how did I apply its features?***
+***What is Azure’s Front Door, and how did I apply its features?***
 
 Azure's Front Door is a cloud resource, positioned ahead of my web application, serving as a defense mechanism. Operating at the Application Layer of the OSI Model (Layer 7), its central function revolves around load balancing. Moreover, it offers the capability to integrate a Web Application Firewall (WAF) to fortify defenses against vulnerabilities inherent to web attacks. In conjunction with the WAF, a custom rule was implemented to safeguard against web requests originating from regions not within the anticipated scope of visitors. This proactive measure plays a crucial role in protecting the system against potential threats in cases where unexpected visitors may pose a security risk.
 

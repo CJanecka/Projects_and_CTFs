@@ -13,7 +13,7 @@
 
 ## Overview
 
-In this project I played the role of a Security Operations Center *(SOC)* analyst for a small company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. I employed Splunk to craft a monitoring environment, developing tailored reports, alerts, dashboards, and an add-on app to fortify the security of this fictitional  organization. A pivotal element of this project entailed simulating an attack to gauge the efficacy of my monitoring solutions. Subsequent to the simulated attack, I conducted an analysis to evaluate the system's performance in detecting and mitigating the threat. The culmination of this effort was presented to my cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
+In this project I played the role of a Security Operations Center *(SOC)* analyst for a small company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working as a small group, we employed Splunk to craft a monitoring environment, developing tailored reports, alerts, dashboards, and an add-on app to fortify the security of this fictitional organization. A pivotal element of this project entailed simulating an attack to gauge the efficacy of our monitoring solutions. Following the simulated attack, we conducted an analysis of the system's performance in detecting and mitigating the threat(s). The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
 
 ## Equipment and Tools
 
@@ -27,3 +27,16 @@ The technologies used in this project include:
     - This server houses the intellectual property of VSI's cutting-edge virtual reality programs for the next generation.
   + Apache Server Logs
     - This server is dedicated to hosting VSI's primary public-facing website, *vsi-company.com*.
+
+## Project Requirements
+
+The project requirements included:
+
+  + Loading Windows and Apache logs into a Splunk environment to centralize and streamline log management.
+  + Analyzing the log files to establish baselines and thresholds, enabling the detection of anomalies and potential security threats.
+  + Designing and implementing reports, alerts, and dashboards; within Splunk, each tailored to specific criteria. Providing real-time visibility into the health and security of system(s).
+  + Loading Apache and Windows logs, containing a simulated attack, into the Splunk environment.
+  + Assessing the effectiveness, and response, of the security measures implemented on both servers.
+  + Showcasing our monitoring environment, attack analysis, and future mitigation recommendations to the class.
+
+## Baselines and Thresholds

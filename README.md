@@ -1,3 +1,3 @@
-# Projects_and_CTFs
+# Projects and CTFs
 
-These are some of the projects that I have completed, both through a Cybersecurity Bootcamp and during my personal time, which I found particularly enjoyable to work on.
+These are some of the projects and capture the flag challenges that I have completed, both through a Cybersecurity Bootcamp and during my personal time, which I found particularly enjoyable.

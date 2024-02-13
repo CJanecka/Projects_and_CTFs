@@ -26,7 +26,7 @@ The technologies and equipment used in this project include:
 
   + Basic priciples and methodologies of digital forensics.
     - The NICCS link provided below details the skills, knowledge, and various other aspects associated with digital forensics:
-      + [Cyber Security Workforce Framework - Digital Forensics](https://niccs.cisa.gov/workforce-development/nice-framework/specialty-areas/digital-forensics)
+      + [Cybersecurity Workforce Framework - Digital Forensics](https://niccs.cisa.gov/workforce-development/nice-framework/specialty-areas/digital-forensics)
     - The National Institute of Standards and Technology *(NIST)* defines a process for performing digital forensics in the following link:
       + [Special Publication 800-86: Cloud Forensics Challenges](https://github.com/CJanecka/Projects_and_CTFs/files/14255817/Special.Publication.800-86_Cloud_Forensics_Challenges.pdf)
   + Autopsy [(The Sleuth Kit - User's Guide)](https://sleuthkit.org/autopsy/docs/user-docs/4.3/index.html)

@@ -96,7 +96,7 @@ We began by establishing a baseline and threshold for the hourly rate of failed 
 *Figure 08 - Hourly Failed Windows activity during normal operations.*                                                                            
 ![win server Failed Activities](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0299b35f-55e0-4b2e-8e1a-8a8f97f444c0)
 
-The failures shown, in Figure 7, reveal that VSI could typically expect to see 10-20 failed activities during any given hour on the Windows server. By hovering over the bar chart, we were able to pull additional information during each hour and determine:
+The failures shown, in Figure 7, reveal that VSI could typically expect to see 10-20 failed activities during any given hour on the Windows server. By hovering over the bar chart, we were able to pull additional information from each hour and determine:
 
   + Our basline is fifteen (15) failed events occurring, normally, on the Windows sever.
   + Our alert threshold is twenty (20) failed events, to notify VSI when suspicious activity is occuring.

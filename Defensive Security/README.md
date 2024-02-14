@@ -7,9 +7,12 @@
   + [01. Overview](#Overview)
   + [02. Equipment and Tools](#Equipment-and-Tools)
   + [03. Project Requirements](#Project-Requirements)
-  + [04. Baselines and Thresholds](#Baselines-and-Thresholds)
-  + [05. Post-Attack Modifications](#Post-Attack-Modifications)
-  + [06. Future Mitigations](#Future-Mitigations)
+  + [04. Windows Reports](#Windows-Reports)
+  + [05. Windows Alerts](#Windows-Alerts)
+  + [06. Apache Reports](#Apache-Reports)
+  + [07. Apache Alerts](#Apache-Alerts)
+  + [08. Post-Attack Modifications](#Post-Attack-Modifications)
+  + [09. Future Mitigations](#Future-Mitigations)
 
 ## Overview
 
@@ -24,9 +27,7 @@ The technologies used in this project include:
     - Alerting
     - Dashboards
   + Windows Server Logs
-    - This server houses the intellectual property of VSI's cutting-edge virtual reality programs for the next generation.
   + Apache Server Logs
-    - This server is dedicated to hosting VSI's primary public-facing website, *vsi-company.com*.
   + Ubuntu OS
   + Apache Guacamole
 
@@ -41,12 +42,35 @@ The project requirements included:
   + Assessing the effectiveness, and response, of the security measures implemented on both servers.
   + Showcasing our monitoring environment, attack analysis, and future mitigation recommendations to the class.
 
-## Baselines and Thresholds
+## Windows Reports
 
-This section outlines my group analysis conducted on the activity within VSI's operations. We first established a baseline for *normal* behavior by studying the log data and patterns. Once esablished, an alert threshold was designed, strategically positioned outside this baseline, to prevent false positives. The intent was to ensure that generated alerts truly indicate anomalous or potentially suspicious activities, bolstering the efficiency and accuracy of the monitoring system.
+In order to establish a baseline and gain a better understanding of the organization's normal operations, we uploaded and analyzed the provided security logs for the Windows server. To refine our search, the following Splunk fields were specifically examined:
 
-To establish a baseline and better understanding of how the organization operates normally, we uploaded and analyzed the two provided Windows security logs.
+  + signature_id
+  + signature
+  + user
+  + status
+  + severity
 
-*Figure 01 - Splunk report of Signatures and their respective ID's.*                                                                        
-![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e555cd76-45ea-4c32-a6b6-49cb05b1a587)
+Using these fields, we crafted a report which showed the ID number associated with each specific signature for Windows activity.
 
+*Figure 01 - Search ran to generate the Signatures and ID's report.*                                                                                            
+![windows server signature and ID search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a55dabe9-364a-4f02-a0e6-3eb16a3ef08e)
+
+*Figure 02 - Signatures, and their respective ID's, for activity on the Windows server.*                                                                              
+![windows server signature and ID report](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/599971ce-1703-4657-9c69-eac27d79a5ff)
+
+From here, an additional report was generated that displays the severity levels, along with the count and percentage of each.
+
+*Figure 03 - Search ran to generate the Severity level reoprt.*                                                                                          
+![windows server severity level search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3dd32c5a-05dd-4a38-a445-a3d93780160f)
+
+*Figure 04 - Severity Levels, their count, and percentages, on the Windows server.*                                                                  
+![windows server severity with percentage](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7ad34196-fe3b-4327-9241-5ebab017810e)
+
+Then we generated a report which provides a comparison between the success and failure of Windows activities.
+
+*Figure 05 - Comparison between the success and failure of Windows activities.*                                                                                
+![windows server succ-fail report](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/39c9f315-cdaa-4005-8cc3-388be5a824e7)
+
+## Windows Alerts

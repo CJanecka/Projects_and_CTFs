@@ -52,7 +52,7 @@ In order to gain a better understanding of the organization's normal operations,
   + status
   + severity
 
-Using these fields, we crafted a report which showed the ID number associated with each specific signature for Windows activity.
+Using these fields, we crafted a report which showcased the ID number associated with each specific signature for Windows activity.
 
 *Figure 01 - Search ran to generate the Signatures and ID's report.*                                                                                            
 ![windows server signature and ID search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a55dabe9-364a-4f02-a0e6-3eb16a3ef08e)

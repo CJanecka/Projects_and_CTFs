@@ -44,7 +44,7 @@ The project requirements included:
 
 ## Windows Reports
 
-In order to establish a baseline and gain a better understanding of the organization's normal operations, we uploaded and analyzed the provided security logs for the Windows server. To refine our search, the following Splunk fields were specifically examined:
+In order to gain a better understanding of the organization's normal operations, we uploaded and analyzed the provided security logs for the Windows server. To refine our search, the following Splunk fields were specifically examined:
 
   + signature_id
   + signature

@@ -74,3 +74,16 @@ Then we generated a report which provides a comparison between the success and f
 ![windows server succ-fail report](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/39c9f315-cdaa-4005-8cc3-388be5a824e7)
 
 ## Windows Alerts
+
+My group was also tasked with designing alerts that notify VSI of suspicious activity. To accomplish this, we needed to establish a baseline and threshold for the hourly rate of failed Windows activity.
+
+*Figure 06 - Search ran to view Failed Windows activity.*                                                                          
+![win server failed activity search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/02557ffe-fdbc-434f-a7fd-46f7b16f978a)
+
+*Figure 07 - Hourly Failed Windows activity during normal operations.*                                                                            
+![win server Failed Activities](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0299b35f-55e0-4b2e-8e1a-8a8f97f444c0)
+
+The failures shown, in figure 7, reveal that VSI could expect to see ten to twenty failed activities during any given hour on the Windows server. By hovering over the bar chart, we were able to pull additional information during each hour and determine:
+
+  + Our basline is fifteen (15) failed events occurring, normally, on the Windows sever.
+  + Our alert threshold will be twenty (20) failed events, to notify VSI when suspicious activity is occuring.

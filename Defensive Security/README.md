@@ -138,3 +138,7 @@ In Figure 14, the data reveals that VSI generally experiences the deletion of 20
   + Our alert threshold is seventeen (17) user accounts being deleted, to notify VSI when suspicious activity is occuring.
   + The corresponding Signature ID is: **4726** *(see Figure 2)*
 
+*Figure 15 - Alert enabled for suspicious signature count "a user account was deleted".*                                                        
+![win Alert - User Deleted](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dbf4c620-21fd-4a20-8e16-32d48cfefab4)
+
+## Apache Reports

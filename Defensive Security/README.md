@@ -96,7 +96,7 @@ We began by establishing a baseline and threshold for the hourly rate of failed 
 *Figure 08 - Hourly Failed Windows activity during normal operations.*                                                                            
 ![win server Failed Activities](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0299b35f-55e0-4b2e-8e1a-8a8f97f444c0)
 
-The failures shown, in Figure 7, reveal that VSI could typically expect to see 10-20 failed activities during any given hour on the Windows server. By hovering over the bar chart, we were able to pull additional information from each hour and determine:
+The failures shown, in Figure 8, reveal that VSI could typically expect to see 10-20 failed activities during any given hour on the Windows server. By hovering over the bar chart, we were able to pull additional information from each hour and determine:
 
   + Our basline is fifteen (15) failed events occurring, normally, on the Windows sever.
   + Our alert threshold is twenty (20) failed events, to notify VSI when suspicious activity is occuring.
@@ -104,7 +104,7 @@ The failures shown, in Figure 7, reveal that VSI could typically expect to see 1
 *Figure 09 - Alert enabled for suspicious level of failed activity.*                                                              
 ![win Alert - Failed Activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8be36de5-86d8-486e-b251-b7bb86004b3c)
 
-Having deployed this alert, my group's next step was to establish a baseline and threshold for the hourly count of the signature, *"an account was successfully logged on"*.
+Having deployed this alert, my group's next step was to establish a baseline and threshold for the hourly signature count of, *"an account was successfully logged on"*.
 
 *Figure 10 - Search ran to display an hourly count by signature.*                                                                                            
 ![win server hourly count by signature search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1bd7006a-e45e-4b15-bc54-5e73a33f60c8)
@@ -121,3 +121,20 @@ The data highlighted in Figure 11, shows that VSI sees the signature, "an accoun
 
 *Figure 12 - Alert enabled for suspicious signature count "an account was successfully logged on".*                                                            
 ![win alert - login success](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ddf15d29-c5dc-4712-828e-845c4f4ac64c)
+
+To craft the final Windows alert, requested by VSI, we proceeded to determine the baseline and threshold for the hourly signature count of, *"a user account was deleted"*.
+
+*Figure 13 - Search ran to display the hourly count of user accounts being deleted.*                                                                    
+![win server - deleted user acc search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/db247094-ee54-4d09-a6d9-8c3c89346cd0)
+
+*Figure 14 - Hourly user accounts being deleted, normally, on the Windows server.*                                                                                                                                          
+![win server - user acc deleted](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4306170d-098f-4543-bcca-3d3e3fec0180)
+
+In Figure 14, the data reveals that VSI generally experiences the deletion of 20-30 user accounts in any given hour on the Windows server. However, my team observed a variance in event counts and hourly totals. Upon deeper investigation, we identified that this discrepancy was attributed to the multiple uploads of the Windows server log on my system. From this, we determined:
+
+  + My Splunk report was the only one, in the group, with the log data uploaded multiple times.
+  + We opted to use the team's data to design this alert.
+  + Our baseline is ten (10) user accounts being deleted, normally, on the Windows server.
+  + Our alert threshold is seventeen (17) user accounts being deleted, to notify VSI when suspicious activity is occuring.
+  + The corresponding Signature ID is: **4726** *(see Figure 2)*
+

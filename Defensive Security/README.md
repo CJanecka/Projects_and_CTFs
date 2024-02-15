@@ -88,7 +88,7 @@ My group was also tasked with designing alerts that notify VSI of suspicious act
 
 Whenever activity surpasses the defined threshold, these alerts will promptly trigger an email to SOC@VSI-company.com.
 
-We began by establishing a baseline and threshold for the hourly rate of failed Windows activity.
+We began by establishing a baseline and threshold for the hourly rate of Failed Windows activity.
 
 *Figure 07 - Search ran to view Failed Windows activity.*                                                                          
 ![win server failed activity search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/02557ffe-fdbc-434f-a7fd-46f7b16f978a)

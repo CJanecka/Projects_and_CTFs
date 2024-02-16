@@ -191,7 +191,7 @@ Whenever activity surpasses the defined threshold, these alerts will promptly tr
 The activity levels from outside the United States displayed a varied range of counts, typically fluctuating between 100 and 170 connections, with occasional counts dropping below 100. From this, we determined:
 
   + Our baseline is eighty (80) connections, occuring from any region outside of the United States, to the web server.
-  + Our threshold is 170 connections, to the webpage, to notify VSI when suspicious activity is occuring.
+  + Our threshold is 170 connections, to the administrative webpage, to notify VSI when suspicious activity is occuring.
 
 *Figure 22 - Alert enabled for suspicious activity, from outside of the United States.*                                                                                  
 ![apache alert non US activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a404b858-7e72-4d17-bd9b-f002a5b76a40)

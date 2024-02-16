@@ -158,11 +158,20 @@ In order to refine our search, we examined the following Splunk fields:
 
 To assist in monitoring the Apache web server, we created the following reports:
 
-*Figure 17 - Report displaying a table of HTTP methods being utilized.*
+*Figure 17 - Report displaying a table of HTTP methods being utilized.*                                                                            
+![apache server - http methods table](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/84ef7489-9a08-4bd0-b380-9a98e0e5d674)
 
+  + This gave us insight into the types of HTTP activity requested against the web server.
 
-providing insights into the types of HTTP activity requested against the web server.
+*Figure 18 - Report highlighting the top 10 domains referring to VSI's website.*                                                                    
+![apache  server - top 10 domains](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6f5fe8db-daac-4f5f-8a4f-cb76f74707a1)
 
-  + A report highlighting the top 10 domains referring to VSI's website, aiding in the identification of suspicious referrers.
-  + A report showing the count of each HTTP response code, offering insights into potential suspicious levels of HTTP responses.
+  + This helped us to identify suspicious referrers.
+    - No suspicious referrer domains were identified during our analysis.
+  
+*Figure 19 - Report showing the count of each HTTP response code.*
+![apache server -  top http responses](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8a575834-96a1-47bf-a85c-0a58019c1ade)
 
+  + This provided insights into potential suspicious levels of HTTP responses.
+
+## Apache Alerts

@@ -142,3 +142,27 @@ In Figure 14, the data reveals that VSI generally experiences the deletion of 20
 ![win Alert - User Deleted](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dbf4c620-21fd-4a20-8e16-32d48cfefab4)
 
 ## Apache Reports
+
+During this stage, my team uploaded and analyzed the Apache web server logs, representing regular activity for VSI. 
+
+*Figure 16 - Splunk review page to verify upload settings.*                                                                                    
+![splunk review](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c19c46c7-009b-487a-a5d6-7aed4504cd3a)
+
+In order to refine our search, we examined the following Splunk fields:
+
+  + method
+  + referer_domain
+  + status
+  + clientip
+  + useragent
+
+To assist in monitoring the Apache web server, we created the following reports:
+
+*Figure 17 - Report displaying a table of HTTP methods being utilized.*
+
+
+providing insights into the types of HTTP activity requested against the web server.
+
+  + A report highlighting the top 10 domains referring to VSI's website, aiding in the identification of suspicious referrers.
+  + A report showing the count of each HTTP response code, offering insights into potential suspicious levels of HTTP responses.
+

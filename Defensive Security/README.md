@@ -16,7 +16,7 @@
 
 ## Overview
 
-I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working in a small group, we employed Splunk to craft a monitoring environment, developing tailored reports, alerts, dashboards, and an add-on app to fortify the security of this fictitional organization. A pivotal element of this project entailed simulating an attack to gauge the efficacy of our monitoring solutions. Following the simulated attack, we conducted an analysis of the system's performance in detecting the threat(s). The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
+I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working in a small group, we employed Splunk to craft a monitoring environment, tailored reports, alerts, dashboards, and an add-on app to fortify the security of this fictitional organization. A pivotal element of this project entailed simulating an attack to gauge the efficiency of our monitoring solutions. Following the simulated attack, we conducted an analysis of the system's performance in detecting the threat(s). The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
 
 ## Equipment and Tools
 
@@ -80,7 +80,7 @@ The ratio between success (9712) and failure (296) counts idicates a predominant
 
 ## Windows Alerts
 
-My group was also tasked with designing alerts that notify VSI of suspicious activity. The specific alerts requested:
+My group was also tasked with designing alerts that notify VSI of suspicious activity on the Windows server. The specific alerts requested:
 
   + Suspicious hourly level of failed Windows activity.
   + Suspicious hourly count of the signature *“an account was successfully logged on”*.
@@ -167,7 +167,6 @@ To assist in monitoring the Apache web server, we created the following reports:
 ![apache  server - top 10 domains](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6f5fe8db-daac-4f5f-8a4f-cb76f74707a1)
 
   + This helped us to identify suspicious referrers.
-    - No suspicious referrer domains were identified during our analysis.
   
 *Figure 19 - Report showing the count of each HTTP response code.*
 ![apache server -  top http responses](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8a575834-96a1-47bf-a85c-0a58019c1ade)
@@ -175,3 +174,24 @@ To assist in monitoring the Apache web server, we created the following reports:
   + This provided insights into potential suspicious levels of HTTP responses.
 
 ## Apache Alerts
+
+My group was tasked with designing alerts that notify VSI of suspicious activity on the Apache server. The specific alerts requested:
+
+  + Suspicious hourly activity from any country, aside from the United States.
+  + Suspicious hourly count of the HTTP **Post** method.
+
+Whenever activity surpasses the defined threshold, these alerts will promptly trigger an email to SOC@VSI-company.com.
+
+*Figure 20 - Search ran to filter events and exlcude the United States.*                                                  
+![apache server non US activity search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cca8551-bf25-4d18-8e04-6d34892053f1)
+
+*Figure 21 - Timeline of Non-US Activity on the web server.*                                                
+![apache server non US activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/40570795-460d-4ff9-aca5-346cb5d51008)
+
+The activity levels from outside the United States displayed a varied range of counts, typically fluctuating between 100 and 170 connections, with occasional counts dropping below 100. From this, we determined:
+
+  + Our baseline is eighty (80) connections, occuring from any region outside of the United States, to the web server.
+  + Our threshold is 170 connections, to the webpage, to notify VSI when suspicious activity is occuring.
+
+*Figure 22 - Alert enabled for suspicious activity, from outside of the United States.*                                                                                  
+![apache alert non US activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a404b858-7e72-4d17-bd9b-f002a5b76a40)

@@ -15,7 +15,9 @@
   - [a. Hourly Level of Failed Windows Activity](#Hourly-Level-of-Failed-Windows-Activity)
   - [b. Hourly Count of Successful User Logins](#Hourly-Count-of-Successful-User-Logins)
   - [c. Hourly Count of Deleted Users](#Hourly-Count-of-Deleted-Users)
-+ [06. Windows Visualizations and Dashboards](#Windiows-Visualizations-and-Dashboards)
++ [06. Windows Server Monitoring](#Windows-Server-Monitoring)
+  - [a. Signature Counts Timeline](#Signature-Counts-Timeline)
+  - [b. User Activity Timeline](#User-Activity-Timeline)
 + [07. Apache Reports](#Apache-Reports)
   - [a. HTTP Method Activity](#HTTP-Method-Activity)
   - [b. Top Referring Domains](#Top-Referring-Domains)
@@ -23,7 +25,7 @@
 + [08. Apache Alerts](#Apache-Alerts)
   - [a. Hourly Non-US Activity](#Hourly-Non-US-Activity)
   - [b. Hourly POST Method Count](#Hourly-POST-Method-Count)
-+ [09. Apache Visualizations and Dashboards](#Apache-Visualizations-and-Dashboards)
++ [09. Apache Server Monitoring](#Apache-Server-Monitoring)
 + [10. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
   - [a. Report Analysis for Severity](#Report-Analysis-for-Severity)
   - [b. Report Analysis for Failed Activities](#Report-Analysis-for-Failed-Activities)
@@ -180,6 +182,33 @@ In Figure 14, the data reveals that VSI generally experiences the deletion of 20
 
 *Figure 15 - Alert enabled for suspicious signature count "a user account was deleted".*                                                        
 ![win Alert - User Deleted](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dbf4c620-21fd-4a20-8e16-32d48cfefab4)
+
+## Windows Server Monitoring
+
+My team leveraged Splunk's visualization capabilities to transform raw log data into meaningful insights, making it easier to monitor and understand the Windows server activity.
+
+Splunk dashboards provide a centralized and user-friendly interface, facilitating interactive analysis of the data we acquired.
+
+### Signature Counts Timeline
+
+*Dashboard 01 - Line Chart and Table of Signature Field Values Over Time.*                                                                                
+![win serv monitoring -Signature Line Chart](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ffbfa581-22fe-4741-b0b7-abc022220986)
+
+  + This provides us with a clear and graphical representation, making it easier to identify patterns, trends, or anomalies in the data.
+
+### User Activity Timeline
+
+*Dashboard 02 - Line Chart of User Activity Over Time.*                                                  
+![win serv monitoring - users over time](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8ef1ef06-5487-46ac-8ad9-dc8ffcd55cce)
+
+  + This provides insight into the patterns, trends, and changes in user activity within a specified timeframe.
+
+###  Different User Counts
+
+*Dashboard 03 - Interactive Chart of total User Counts.*
+![win serv monitoring - user count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3261c8ba-43d5-42f2-a338-3add7ef4e6c7)
+
+  + By highlighting over the chart, within Splunk, my team was able to discern which user accounts were most active.
 
 ## Apache Reports
 

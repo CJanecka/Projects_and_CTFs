@@ -18,6 +18,7 @@
 + [06. Windows Server Monitoring](#Windows-Server-Monitoring)
   - [a. Signature Counts Timeline](#Signature-Counts-Timeline)
   - [b. User Activity Timeline](#User-Activity-Timeline)
+  - [c. Different User Counts](#Different-User-Counts)
 + [07. Apache Reports](#Apache-Reports)
   - [a. HTTP Method Activity](#HTTP-Method-Activity)
   - [b. Top Referring Domains](#Top-Referring-Domains)

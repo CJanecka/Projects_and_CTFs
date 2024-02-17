@@ -4,17 +4,33 @@
 
 ## Table of Contents
 
-  + [01. Overview](#Overview)
-  + [02. Equipment and Tools](#Equipment-and-Tools)
-  + [03. Project Requirements](#Project-Requirements)
-  + [04. Windows Reports](#Windows-Reports)
-  + [05. Windows Alerts](#Windows-Alerts)
-  + [06. Apache Reports](#Apache-Reports)
-  + [07. Apache Alerts](#Apache-Alerts)
-  + [08. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
-  + [09. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
-  + [10. Visualizations and Dashboards](#Visualizations-and-Dashboards)
-  + [11. Future Mitigations](#Future-Mitigations)
++ [01. Overview](#Overview)
++ [02. Equipment and Tools](#Equipment-and-Tools)
++ [03. Project Requirements](#Project-Requirements)
++ [04. Windows Reports](#Windows-Reports)
+  - [a. Signature ID's](#Signature-ID's)
+  - [b. Severity Levels](#Severity-Levels)
+  - [c. Successful vs Failed Activity](#Successful-vs-Failed-Activity)
++ [05. Windows Alerts](#Windows-Alerts)
+  - [a. Hourly Level of Failed Windows Activity](#Hourly-Level-of-Failed-Windows-Activity)
+  - [b. Hourly Count of Successful User Logins](#Hourly-Count-of-Successful-User-Logins)
+  - [c. Hourly Count of Deleted Users](#Hourly-Count-of-Deleted-Users)
++ [06. Apache Reports](#Apache-Reports)
+  - [a. HTTP Method Activity](#HTTP-Method-Activity)
+  - [b. Top Referring Domains](#Top-Referring-Domains)
+  - [c. HTTP Response Codes](#HTTP-Response-Codes)
++ [07. Apache Alerts](#Apache-Alerts)
+  - [a. Hourly Non-US Activity](#Hourly-Non-US-Activity)
+  - [b. Hourly POST Method Count](#Hourly-POST-Method-Count)
++ [08. Visualizations and Dashboards](#Visualizations-and-Dashboards)
++ [09. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
+  - [a. Report Analysis for Severity](#Report-Analysis-for-Severity)
+  - [b. Report Analysis for Failed Activities](#Report-Analysis-for-Failed-Activities)
+  - [c. Alert Analysis for Failed Windows Activity](#Alert-Analysis-for-Failed-Windows-Activity)
+  - [d. Alert Analysis for Successful Logins](#Alert-Analysis-for-Successful-Logins)
+  - [e. Alert Analysis for Deleted Accounts](#Alert-Analysis-for-Deleted-Accounts)
++ [10. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
++ [11. Future Mitigations](#Future-Mitigations)
 
 ## Overview
 
@@ -104,7 +120,7 @@ My group was tasked with designing alerts that notify VSI of suspicious activity
 
 Whenever activity surpasses the defined threshold, these alerts will promptly trigger an email to SOC@VSI-company.com.
 
-### Hourly level of failed Windows activity
+### Hourly Level of Failed Windows Activity
 
 We began by establishing a baseline and threshold for the hourly level.
 
@@ -122,7 +138,7 @@ The failures shown, in Figure 8, reveal that VSI could typically expect to see 1
 *Figure 09 - Alert enabled for suspicious level of failed activity.*                                                              
 ![win Alert - Failed Activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8be36de5-86d8-486e-b251-b7bb86004b3c)
 
-### Hourly count of Successful Logins
+### Hourly Count of Successful User Logins
 
 We began by establishing a baseline and threshold for the hourly count of successful logins.
 
@@ -142,7 +158,7 @@ The data highlighted in Figure 11, shows that VSI sees the signature, "an accoun
 *Figure 12 - Alert enabled for suspicious signature count "an account was successfully logged on".*                                                            
 ![win alert - login success](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ddf15d29-c5dc-4712-828e-845c4f4ac64c)
 
-### Hourly count of Deleted Users
+### Hourly Count of Deleted Users
 
 We began by establishing a baseline and threshold for the hourly count of deleted user accounts.
 
@@ -167,7 +183,7 @@ In Figure 14, the data reveals that VSI generally experiences the deletion of 20
 
 During this stage, my team uploaded and analyzed the Apache web server logs, representing regular activity for VSI. 
 
-*Figure 16 - Splunk review page to verify upload settings.*                                                                                    
+*Figure 16 - Splunk Review page to Verify Upload Settings.*                                                                                    
 ![splunk review](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c19c46c7-009b-487a-a5d6-7aed4504cd3a)
 
 In order to refine our search, we examined the following Splunk fields:
@@ -182,7 +198,7 @@ To assist in monitoring the Apache web server, we created the following reports:
 
 ### HTTP Method Activity
 
-*Figure 17 - Report displaying a table of HTTP methods being utilized.*                                                                            
+*Figure 17 - Report displaying a Table of HTTP Methods being Utilized.*                                                                            
 ![apache server - http methods table](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/84ef7489-9a08-4bd0-b380-9a98e0e5d674)
 
   + This gave us insight into the types of HTTP activity requested against the web server.
@@ -194,7 +210,7 @@ These are the general functions of the HTTP methods we found:
   + **HEAD**: Similar to *GET* but retrieves only the headers of the response, not the actual content.
   + **OPTIONS**: Allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without initiating a resource retrieval.
 
-## Top Referring Domains
+### Top Referring Domains
 
 Referrers are external domains or websites that direct traffic to another website. These referrers are other websites or domains that have links pointing to VSI's website, contributing to the incoming traffic.
 
@@ -273,7 +289,7 @@ The data depicted in Figure 23 reveals that the webpage typically registers 2-6 
   + Our baseline is two (2) instances of the **POST** method being registered on the administrative webpage.
   + Our alert threshold is seven (7) **POST** method occurances, to notify VSI when suspicious activity is occuring.
 
-*Figure 24 - Enabled alert for suspicious hourly POST method count.*                                                                      
+*Figure 24 - Alert enabled for suspicious hourly POST method count.*                                                                      
 ![apache alert http post](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c665dbde-0020-4003-8967-aca60ca47de1)
 
 ## Monitoring and Analyzing Windows Attacks

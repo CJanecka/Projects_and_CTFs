@@ -11,8 +11,9 @@
   + [05. Windows Alerts](#Windows-Alerts)
   + [06. Apache Reports](#Apache-Reports)
   + [07. Apache Alerts](#Apache-Alerts)
-  + [08. Visualizations and Dashboards](#Visualizations-and-Dashboards)
-  + [09. Future Mitigations](#Future-Mitigations)
+  + [08. Monitoring and Analyzing Attacks](#Monitoring-and-Analyzing-Attacks)
+  + [09. Visualizations and Dashboards](#Visualizations-and-Dashboards)
+  + [10. Future Mitigations](#Future-Mitigations)
 
 ## Overview
 
@@ -209,4 +210,18 @@ The data depicted in Figure 23 reveals that webpage typically registers 2-6 inst
 *Figure 24 - Enabled alert for suspicious hourly POST method count.*                                                                      
 ![apache alert http post](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c665dbde-0020-4003-8967-aca60ca47de1)
 
-## Visualizations and Dashboards
+## Monitoring and Analyzing Attacks
+
+We had been notified that VSI recently experienced several cyberattacks; unfortunately, this attack took down several of VSI’s systems. This targeted several systems, specifically, the Windows and Apache servers, which we were fortunately monitoring. Management provided us with additional logs from those same servers. These new logs cover the time period during which the attack occurred.
+
+Our new task was to analyze these *attack logs* with our monitoring solution; assessing the effectiveness of the monitoring solution in identifying, mitigating, and responding to the cyberattack on the Windows and Apache servers that were being monitored. 
+
+We uploaded the Windows server attack logs, to Splunk, to review the updated results and answer the following questions:
+
+  + Did we detect a suspicious volume of failed activity?
+  + If so, what was the count of events in the hour(s) it occurred?
+  + When did it occur?
+  + Would out alert be triggered for this activity?
+  + After reviewing, would we change our threshold from what was previously selected?
+
+<cont here>

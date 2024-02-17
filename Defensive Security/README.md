@@ -16,7 +16,7 @@
 
 ## Overview
 
-I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working in a small group, we employed Splunk to craft a monitoring environment, tailored reports, alerts, dashboards, and an add-on app to fortify the security of this fictitional organization. A pivotal element of this project entailed simulating an attack to gauge the efficiency of our monitoring solutions. Following the simulated attack, we conducted an analysis of the system's performance in detecting the threat(s). The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
+I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working in a small group, we employed Splunk to craft a monitoring environment, creating tailored reports, alerts, dashboards, and an add-on application to fortify the security of this fictitional organization. A pivotal element of this project entailed simulating an attack to gauge the efficiency of our monitoring solutions. Following the simulated attack, we conducted an analysis of the system's performance in detecting the threat(s). The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
 
 ## Equipment and Tools
 
@@ -104,7 +104,7 @@ The failures shown, in Figure 8, reveal that VSI could typically expect to see 1
 *Figure 09 - Alert enabled for suspicious level of failed activity.*                                                              
 ![win Alert - Failed Activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8be36de5-86d8-486e-b251-b7bb86004b3c)
 
-Having deployed this alert, my group's next step was to establish a baseline and threshold for the hourly signature count of, *"an account was successfully logged on"*.
+With this alert deployed, my group's next step was to establish a baseline and threshold for the hourly signature count of, *"an account was successfully logged on"*.
 
 *Figure 10 - Search ran to display an hourly count by signature.*                                                                                            
 ![win server hourly count by signature search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1bd7006a-e45e-4b15-bc54-5e73a33f60c8)
@@ -195,3 +195,8 @@ The activity levels from outside the United States displayed a varied range of c
 
 *Figure 22 - Alert enabled for suspicious activity, from outside of the United States.*                                                                                  
 ![apache alert non US activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a404b858-7e72-4d17-bd9b-f002a5b76a40)
+
+With this alert deployed, my group's next step was to establish a baseline and threshold for the hourly count of the HTTP **POST** method.
+
+*Figure 23 - Hourly count for the HTTP POST method on the administrative webpage.*                                                                      
+![apache server - hourly http post method count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a763194c-fe56-45aa-9ac1-fa55c1a8e2f5)

@@ -80,7 +80,7 @@ The ratio between success (9712) and failure (296) counts idicates a predominant
 
 ## Windows Alerts
 
-My group was also tasked with designing alerts that notify VSI of suspicious activity on the Windows server. The specific alerts requested:
+My group was tasked with designing alerts that notify VSI of suspicious activity on the Windows server. The specific alerts requested:
 
   + Suspicious hourly level of failed Windows activity.
   + Suspicious hourly count of the signature *“an account was successfully logged on”*.
@@ -180,7 +180,7 @@ My group was tasked with designing alerts that notify VSI of suspicious activity
   + Suspicious hourly activity from any country, aside from the United States.
   + Suspicious hourly count of the HTTP **Post** method.
 
-Whenever activity surpasses the defined threshold, these alerts will promptly trigger an email to SOC@VSI-company.com.
+Whenever activity surpasses the defined threshold, on the administrative webpage, these alerts will promptly trigger an email to SOC@VSI-company.com.
 
 *Figure 20 - Search ran to filter events and exlcude the United States.*                                                  
 ![apache server non US activity search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cca8551-bf25-4d18-8e04-6d34892053f1)
@@ -191,7 +191,7 @@ Whenever activity surpasses the defined threshold, these alerts will promptly tr
 The activity levels from outside the United States displayed a varied range of counts, typically fluctuating between 100 and 170 connections, with occasional counts dropping below 100. From this, we determined:
 
   + Our baseline is eighty (80) connections, occuring from any region outside of the United States, to the web server.
-  + Our threshold is 170 connections, to the administrative webpage, to notify VSI when suspicious activity is occuring.
+  + Our alert threshold is 170 connections, to notify VSI when suspicious activity is occuring.
 
 *Figure 22 - Alert enabled for suspicious activity, from outside of the United States.*                                                                                  
 ![apache alert non US activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a404b858-7e72-4d17-bd9b-f002a5b76a40)
@@ -200,3 +200,13 @@ With this alert deployed, my group's next step was to establish a baseline and t
 
 *Figure 23 - Hourly count for the HTTP POST method on the administrative webpage.*                                                                      
 ![apache server - hourly http post method count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a763194c-fe56-45aa-9ac1-fa55c1a8e2f5)
+
+The data depicted in Figure 23 reveals that webpage typically registers 2-6 instances of the **POST** method, occasionally exhibiting spikes with counts exceeding 6. With this information, we dertermined:
+
+  + Our baseline is two (2) instances of the **POST** method being registered on the administrative webpage.
+  + Our alert threshold is seven (7) **POST** method occurances, to notify VSI when suspicious activity is occuring.
+
+*Figure 24 - Enabled alert for suspicious hourly POST method count.*                                                                      
+![apache alert http post](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c665dbde-0020-4003-8967-aca60ca47de1)
+
+## Visualizations and Dashboards

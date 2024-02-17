@@ -33,9 +33,9 @@
   - [c. Alert Analysis for Failed Windows Activity](#Alert-Analysis-for-Failed-Windows-Activity)
   - [d. Alert Analysis for Successful Logins](#Alert-Analysis-for-Successful-Logins)
   - [e. Alert Analysis for Deleted Accounts](#Alert-Analysis-for-Deleted-Accounts)
-+ [11. Windows Dashboard Analysis](#Windows-Dashboard-Analysis) 
-+ [12. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
-+ [13. Future Mitigations](#Future-Mitigations)
++ [11. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
++ [12. Windows Dashboard Analysis](#Windows-Dashboard-Analysis) 
++ [13. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
 ## Overview
 

@@ -11,9 +11,10 @@
   + [05. Windows Alerts](#Windows-Alerts)
   + [06. Apache Reports](#Apache-Reports)
   + [07. Apache Alerts](#Apache-Alerts)
-  + [08. Monitoring and Analyzing Attacks](#Monitoring-and-Analyzing-Attacks)
-  + [09. Visualizations and Dashboards](#Visualizations-and-Dashboards)
-  + [10. Future Mitigations](#Future-Mitigations)
+  + [08. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
+  + [09. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
+  + [10. Visualizations and Dashboards](#Visualizations-and-Dashboards)
+  + [11. Future Mitigations](#Future-Mitigations)
 
 ## Overview
 
@@ -275,7 +276,7 @@ The data depicted in Figure 23 reveals that the webpage typically registers 2-6 
 *Figure 24 - Enabled alert for suspicious hourly POST method count.*                                                                      
 ![apache alert http post](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c665dbde-0020-4003-8967-aca60ca47de1)
 
-## Monitoring and Analyzing Attacks
+## Monitoring and Analyzing Windows Attacks
 
 We had been notified that VSI recently experienced several cyberattacks; unfortunately, this attack took down several of VSI’s systems. This targeted several systems, specifically, the Windows and Apache servers, which we were fortunately monitoring. Management provided us with additional logs from those same servers. These new logs cover the time period during which the attack occurred.
 

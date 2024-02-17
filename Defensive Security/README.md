@@ -283,7 +283,7 @@ Our goal was to analyze these *attack logs* with our monitoring solution; assess
 
 ### Report Analysis for Severity
 
-*Figure 25 - Windows Attack Log Severity Report.*
+*Figure 25 - Windows Attack Log: Severity Report.*
 ![win att log - severity report](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d259c1a-c184-4f53-b6c4-7222674be414)
 
 By comparing the data, from Figures 5 and 25, we addressed the following inquiry raised by VSI:
@@ -295,7 +295,10 @@ By comparing the data, from Figures 5 and 25, we addressed the following inquiry
 
 ### Report Analysis for Failed Activities
 
-By comparing the data found on the Windows attack log, to Figure 6, we addressed the following inquiry raised by VSI:
+*Figure 26 - Windows Attack Log: Successful vs Failed Activty.*                                                                          
+![win att log - succ and failed activ](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/12b00aa5-e3b3-4e71-a142-294bf2994f26)
+
+By comparing the data found, in Figures 6 and 26, we addressed the following inquiry raised by VSI:
 
   + Did we detect any suspicious changes in failed activities?
     - There were no significant shifts or suspicious changes in failed activities during the analyzed period.
@@ -304,10 +307,10 @@ By comparing the data found on the Windows attack log, to Figure 6, we addressed
 
 ### Alert Analysis for Failed Windows Activity
 
-*Figure 26 - Timeline of Failed Activities in the Attack Log.*                                                
+*Figure 27 - Timeline of Failed Activities in the Attack Log.*                                                
 ![win att log - failed activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/49143bc3-4d9a-4e99-a9c9-c86406ceb6a0)
 
-Using this, we addressed the following inquiry raised by VSI:
+By comparing the data found, in Figures 8 and 27, we addressed the following inquiries raised by VSI:
 
   + Did we detect a suspicious volume of failed Windows activity?
     - Yes, there was a suspicious volume of failed activity detected.
@@ -319,10 +322,13 @@ Using this, we addressed the following inquiry raised by VSI:
     - This occurred from 8:00 AM to 9:00 AM, Wednesday, March 25th, 2020.
     
   + Would our alert be triggered for this activity?
-    - Yes; the alert would be triggered as the threshold, we set, is at twenty (20) failed events.
+    - Yes; the alert would be triggered as the threshold, we set, is at twenty (20) failed events. *(See Figure 9)*
     
   + After reviewing, would we change our threshold from what was previously selected?
     - No; changing the threshold is unnecessary in this instance, as our alert should trigger without issue.
 
 ### Alert Analysis for Successful Logins
+
+*Figure 29 - Windows Attack Log: Successful Login Timeline.*                                                                        
+![win att log - successful logins](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/33001990-31ec-44cc-b1dc-960be1c1fdff)
 

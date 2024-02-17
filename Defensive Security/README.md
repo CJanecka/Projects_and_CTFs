@@ -324,6 +324,10 @@ The data depicted in Figure 23 reveals that the webpage typically registers 2-6 
 *Figure 24 - Alert enabled for suspicious hourly POST method count.*                                                                      
 ![apache alert http post](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c665dbde-0020-4003-8967-aca60ca47de1)
 
+## Apache Server Monitoring
+
+<cont here>
+
 ## Monitoring and Analyzing Windows Attacks
 
 We had been notified that VSI recently experienced several cyberattacks; unfortunately, this attack took down several of VSI’s systems. This targeted several systems, specifically, the Windows and Apache servers, which we were fortunately monitoring. Management provided us with additional logs from those same servers. These new logs cover the time period during which the attack occurred.
@@ -416,4 +420,4 @@ By comparing the data found; in Figures 14 and 31, we addressed the following in
   + Did we detect a suspicious volume of deleted accounts?
     - There were no signs of suspicious volumes of deleted accounts.
    
-## Apache Server Monitoring
+## <next section here>

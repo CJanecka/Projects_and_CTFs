@@ -66,7 +66,7 @@ Using the fields listed above, we crafted a report which showcased the ID number
 
   + This allowed us to easily associate each signature with its corresponding ID.
 
-*Figure 03 - Supplemental report showing the count for each signature.*
+*Figure 03 - Report showing the Count for each Signature.*
 ![win server - total signature counts](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ef7d5e6-e3a3-41f3-9943-0eb818142dc1)
 
   + This reveals how many times each signature occured.
@@ -75,10 +75,10 @@ Using the fields listed above, we crafted a report which showcased the ID number
 
 An additional report was made that displays the severity levels, along with the count and percentage of each.
 
-*Figure 04 - Search ran to generate the Severity level reoprt.*                                                                                          
+*Figure 04 - Search ran to generate the Severity Level Reoprt.*                                                                                          
 ![windows server severity level search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3dd32c5a-05dd-4a38-a445-a3d93780160f)
 
-*Figure 05 - Severity Levels, their count, and percentages, on the Windows server.*                                                                  
+*Figure 05 - Severity Levels, their Count, and Percentages, on the Windows server.*                                                                  
 ![windows server severity with percentage](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7ad34196-fe3b-4327-9241-5ebab017810e)
 
   + This provides insight into the distribution of severity levels, allowing us to assess the overall impact and significance of events recorded.
@@ -330,30 +330,42 @@ By comparing the data found, in Figures 8 and 27, we addressed the following inq
 
 ### Alert Analysis for Successful Logins
 
-*Figure 29 - Windows Attack Log: Successful Login Count Timeline.*                                                                        
+*Figure 28 - Windows Attack Log: Successful Login Count Timeline.*                                                                        
 ![win att log - successful logins](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/33001990-31ec-44cc-b1dc-960be1c1fdff)
 
-*Figure 30 - Timeline and the Count of each User Login during the Attack.*                                                                            
+*Figure 29 - Timeline and the Count of each User Login during the Attack.*                                                                            
 ![win att log - user login timeline](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4a0d4206-e485-41e0-b05d-ae399932d700)
 
-By comparing the data found; in Figures 3 and 29, and utilzing the data in Figure 30, we addressed the following inquiries raised by VSI:
+By comparing the data found; in Figures 3 and 28, and utilzing the data in Figure 29, we addressed the following inquiries raised by VSI:
 
   + Did we detect a suspicious volume of successful logins?
     - Yes, there was a suspicious volume of successful logins detected.
 
   + If so, what was the count of events in the hour(s) it occurred? 
-    - The successful login count was: 46 events at 10:00 AM, 392 events at 11:00AM, and 154 events at 12:00 PM. This led to a total of 592 events occurring during a three (3) hour window. *(See Figure 30)*
+    - The successful login count was: 46 events at 10:00 AM, 392 events at 11:00AM, and 154 events at 12:00 PM. This led to a total of 592 events occurring during a three (3) hour window. *(See Figure 29)*
    
   + Who was the primary user logging in?
-    - The primary user logging in during this timeframe was **user_j**. *(See Figure 30)*
+    - The primary user logging in during this timeframe was **user_j**. *(See Figure 29)*
    
   + When did it occur?
-    - The suspicious volume of logins occurred from 10:00 AM to 12:00 PM on Wednesday, March 25th 2020. *(See Figure 30)*
+    - The suspicious volume of logins occurred from 10:00 AM to 12:00 PM on Wednesday, March 25th 2020. *(See Figure 29)*
    
   + Would our alert be triggered for this activity?
     - Yes, the alert would be triggered as the threshold is set at forty-five (45). *(See Figure 12)*
-   
+
   + After reviewing, would you change your threshold from what you previously selected?
     - Yes, I would want to increase the threshold, slightly, from forty-five (45) to sixty (60). There were some data points that nearly reached our threshold, this would help to avoid any false positive alerts.
    
 ### Alert Analysis for Deleted Accounts
+
+Referencing the Signature ID's, shown in Figure 2, we filtered our Splunk search to show the successful deletion of user accounts during the attack. This Signature's ID: **4726**
+
+*Figure 31 - Timeline of Successful User Account Deletion.*                                                                              
+![win att log - successful user deletion](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5977e76d-f2c8-4eda-8a6f-970b71d869fa)
+
+By comparing the data found; in Figures 14 and 31, we addressed the following inquiry raised by VSI:
+
+  + Did we detect a suspicious volume of deleted accounts?
+    - There were no signs of suspicious volumes of deleted accounts.
+   
+## Monitoring and Analyzing Apache Attacks

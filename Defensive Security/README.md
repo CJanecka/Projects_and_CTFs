@@ -8,7 +8,7 @@
 + [02. Equipment and Tools](#Equipment-and-Tools)
 + [03. Project Requirements](#Project-Requirements)
 + [04. Windows Reports](#Windows-Reports)
-  - [a. Signature ID's](#Signature-ID's)
+  - [a. Signature IDs](#Signature-IDs)
   - [b. Severity Levels](#Severity-Levels)
   - [c. Successful vs Failed Activity](#Successful-vs-Failed-Activity)
 + [05. Windows Alerts](#Windows-Alerts)
@@ -75,7 +75,7 @@ In order to gain a better understanding of the organization's normal operations,
   + status
   + severity
 
-### Signature ID's
+### Signature IDs
 
 Using the fields listed above, we crafted a report which showcased the ID number associated with each specific signature for Windows activity.
 

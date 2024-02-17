@@ -307,7 +307,7 @@ By comparing the data found, in Figures 6 and 26, we addressed the following inq
 
 ### Alert Analysis for Failed Windows Activity
 
-*Figure 27 - Timeline of Failed Activities in the Attack Log.*                                                
+*Figure 27 - Timeline of Failed Activity in the Attack Log.*                                                
 ![win att log - failed activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/49143bc3-4d9a-4e99-a9c9-c86406ceb6a0)
 
 By comparing the data found, in Figures 8 and 27, we addressed the following inquiries raised by VSI:
@@ -329,6 +329,30 @@ By comparing the data found, in Figures 8 and 27, we addressed the following inq
 
 ### Alert Analysis for Successful Logins
 
-*Figure 29 - Windows Attack Log: Successful Login Timeline.*                                                                        
+*Figure 29 - Windows Attack Log: Successful Login Count Timeline.*                                                                        
 ![win att log - successful logins](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/33001990-31ec-44cc-b1dc-960be1c1fdff)
 
+*Figure 30 - Timeline and the Count of each User Login during the Attack.*                                                                            
+![win att log - user login timeline](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4a0d4206-e485-41e0-b05d-ae399932d700)
+
+By comparing the data found; in Figures 3 and 29, and utilzing the data in Figure 30, we addressed the following inquiries raised by VSI:
+
+  + Did we detect a suspicious volume of successful logins?
+    - Yes, there was a suspicious volume of successful logins detected.
+
+  + If so, what was the count of events in the hour(s) it occurred? 
+    - The successful login count was: 46 events at 10:00 AM, 392 events at 11:00AM, and 154 events at 12:00 PM. This led to a total of 592 events occurring during a three (3) hour window. *(See Figure 30)*
+   
+  + Who was the primary user logging in?
+    - The primary user logging in during this timeframe was **user_j**. *(See Figure 30)*
+   
+  + When did it occur?
+    - The suspicious volume of logins occurred from 10:00 AM to 12:00 PM on Wednesday, March 25th 2020. *(See Figure 30)*
+   
+  + Would our alert be triggered for this activity?
+    - Yes, the alert would be triggered as the threshold is set at forty-five (45). *(See Figure 12)*
+   
+  + After reviewing, would you change your threshold from what you previously selected?
+    - Yes, I would want to increase the threshold, slightly, from forty-five (45) to sixty (60). There were some data points that nearly reached our threshold, this would help to avoid any false positive alerts.
+   
+### Alert Analysis for Deleted Accounts

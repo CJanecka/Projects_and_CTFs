@@ -246,7 +246,7 @@ My group was tasked with designing alerts that notify VSI of suspicious activity
 
 Whenever activity surpasses the defined threshold, on the administrative webpage, these alerts will promptly trigger an email to SOC@VSI-company.com.
 
-### <title here>
+### Hourly Non-US Activity
 
 *Figure 20 - Search ran to filter events and exlcude the United States.*                                                  
 ![apache server non US activity search](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cca8551-bf25-4d18-8e04-6d34892053f1)
@@ -262,7 +262,7 @@ The activity levels from outside the United States displayed a varied range of c
 *Figure 22 - Alert enabled for suspicious activity, from outside of the United States.*                                                                                  
 ![apache alert non US activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a404b858-7e72-4d17-bd9b-f002a5b76a40)
 
-With this alert deployed, my group's next step was to establish a baseline and threshold for the hourly count of the HTTP **POST** method.
+### Hourly POST Method Count
 
 *Figure 23 - Hourly count for the HTTP POST method on the administrative webpage.*                                                                      
 ![apache server - hourly http post method count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a763194c-fe56-45aa-9ac1-fa55c1a8e2f5)

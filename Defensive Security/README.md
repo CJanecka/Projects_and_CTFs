@@ -416,4 +416,4 @@ By comparing the data found; in Figures 14 and 31, we addressed the following in
   + Did we detect a suspicious volume of deleted accounts?
     - There were no signs of suspicious volumes of deleted accounts.
    
-## Monitoring and Analyzing Apache Attacks
+## Apache Server Monitoring

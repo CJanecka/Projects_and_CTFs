@@ -211,7 +211,7 @@ HTTP response codes are standardized three-digit numerical codes that are sent b
 
   + This provided insights into potential suspicious levels of HTTP responses.
 
-Here is what each of the discovered response codes mean:
+Here is what each of the shown response codes mean:
 
   + **200** *- OK:*
     - This indicates that the request was successful. The server processed the request and provided the requested resource.
@@ -224,7 +224,7 @@ Here is what each of the discovered response codes mean:
       
   + **301** *- Moved Permanently:*
     - This indicates that the requested resource has been permanently moved to a new location. The client is usually redirected to the new location specified in the "Location" header.
-  
+      
   + **206** *- Partial Content:*
     - This indicates that the server is delivering only a portion of the requested resource, often in response to a "Range" header in the request.
       
@@ -236,7 +236,7 @@ Here is what each of the discovered response codes mean:
       
   + **403** *- Forbidden:*
     - This indicates that the server understood the request, but it refuses to authorize it. The client does not have the necessary permissions to access the requested resource.
-
+      
 ## Apache Alerts
 
 My group was tasked with designing alerts that notify VSI of suspicious activity on the Apache server. The specific alerts requested:
@@ -267,7 +267,7 @@ The activity levels from outside the United States displayed a varied range of c
 *Figure 23 - Hourly count for the HTTP POST method on the administrative webpage.*                                                                      
 ![apache server - hourly http post method count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a763194c-fe56-45aa-9ac1-fa55c1a8e2f5)
 
-The data depicted in Figure 23 reveals that webpage typically registers 2-6 instances of the **POST** method, occasionally exhibiting spikes with counts exceeding 6. With this information, we dertermined:
+The data depicted in Figure 23 reveals that the webpage typically registers 2-6 instances of the **POST** method, occasionally exhibiting spikes with counts exceeding 6. With this information, we dertermined:
 
   + Our baseline is two (2) instances of the **POST** method being registered on the administrative webpage.
   + Our alert threshold is seven (7) **POST** method occurances, to notify VSI when suspicious activity is occuring.
@@ -279,15 +279,50 @@ The data depicted in Figure 23 reveals that webpage typically registers 2-6 inst
 
 We had been notified that VSI recently experienced several cyberattacks; unfortunately, this attack took down several of VSI’s systems. This targeted several systems, specifically, the Windows and Apache servers, which we were fortunately monitoring. Management provided us with additional logs from those same servers. These new logs cover the time period during which the attack occurred.
 
-Our new task was to analyze these *attack logs* with our monitoring solution; assessing the effectiveness of the monitoring solution in identifying, mitigating, and responding to the cyberattack on the Windows and Apache servers that were being monitored. 
+Our goal was to analyze these *attack logs* with our monitoring solution; assessing its effectiveness in identifying, mitigating, and responding to the cyberattack on the Windows OS and Apache server that were being monitored. We uploaded the server *attack logs*, to Splunk, to review the updated results .
 
-We uploaded the server *attack logs*, to Splunk, to review the updated results:
+### Report Analysis for Severity
 
-  + Did we detect a suspicious volume of failed activity?
+*Figure 25 - Windows Attack Log Severity Report.*
+![win att log - severity report](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d259c1a-c184-4f53-b6c4-7222674be414)
+
+By comparing the data, from Figures 5 and 25, we addressed the following inquiry raised by VSI:
+
+  + Did we detect any suspicious changes in severity?
+    - Yes; these findings indicate the presence of suspicious changes in severity within the Windows OS.
+      + **Informational**: There has been a decrease of 13% in informational severity, declining from 93% to 80%.
+      + **High**: Conversely, high severity cases have seen an increase of 13%, rising from 7% to 20%.
+
+### Report Analysis for Failed Activities
+
+By comparing the data found on the Windows attack log, to Figure 6, we addressed the following inquiry raised by VSI:
+
+  + Did we detect any suspicious changes in failed activities?
+    - There were no significant shifts or suspicious changes in failed activities during the analyzed period.
+      + **Success Rate**: The success rate exhibited a marginal increase, transitioning from 97% to 98%, reflecting a modest 1% improvement.
+      + **Failure Rate**: Conversely, the failure rate saw a slight decrease, moving from 3% to 2%, indicating a 1% reduction.
+
+### Alert Analysis for Failed Windows Activity
+
+*Figure 26 - Timeline of Failed Activities in the Attack Log.*                                                
+![win att log - failed activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/49143bc3-4d9a-4e99-a9c9-c86406ceb6a0)
+
+Using this, we addressed the following inquiry raised by VSI:
+
+  + Did we detect a suspicious volume of failed Windows activity?
+    - Yes, there was a suspicious volume of failed activity detected.
+    
   + If so, what was the count of events in the hour(s) it occurred?
+    - During a single hour, there were seventy (70) events logged.
+    
   + When did it occur?
-  + Would out alert be triggered for this activity?
+    - This occurred from 8:00 AM to 9:00 AM, Wednesday, March 25th, 2020.
+    
+  + Would our alert be triggered for this activity?
+    - Yes; the alert would be triggered as the threshold, we set, is at twenty (20) failed events.
+    
   + After reviewing, would we change our threshold from what was previously selected?
+    - No; changing the threshold is unnecessary in this instance, as our alert should trigger without issue.
 
-### Windows Server Attack Logs
+### Alert Analysis for Successful Logins
 

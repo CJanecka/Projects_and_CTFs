@@ -26,7 +26,8 @@
 + [08. Apache Alerts](#Apache-Alerts)
   - [a. Hourly Non-US Activity](#Hourly-Non-US-Activity)
   - [b. Hourly POST Method Count](#Hourly-POST-Method-Count)
-+ [09. Apache Server Monitoring](#Apache-Server-Monitoring)
++ [09. Apache Web Server Monitoring](#Apache-Web-Server-Monitoring)
+  - [a. Client IP Locations](#Client-IP-Locations)
 + [10. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
   - [a. Report Analysis for Severity](#Report-Analysis-for-Severity)
   - [b. Report Analysis for Failed Activities](#Report-Analysis-for-Failed-Activities)
@@ -186,9 +187,9 @@ In Figure 14, the data reveals that VSI generally experiences the deletion of 20
 
 ## Windows Server Monitoring
 
-My team leveraged Splunk's visualization capabilities to transform raw log data into meaningful insights, making it easier to monitor and understand the Windows server activity.
+My team leveraged Splunk's visualization capabilities to transform raw log data into meaningful insights, making it easier to monitor and understand the Windows server activity. This section includes the majority of the, Windows, dashboards we made.
 
-Splunk dashboards provide a centralized and user-friendly interface, facilitating interactive analysis of the data we acquired.
+Splunk dashboards provide a centralized and user-friendly interface, facilitating interactive analysis of the data we acquired. 
 
 ### Signature Counts Timeline
 
@@ -324,9 +325,18 @@ The data depicted in Figure 23 reveals that the webpage typically registers 2-6 
 *Figure 24 - Alert enabled for suspicious hourly POST method count.*                                                                      
 ![apache alert http post](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c665dbde-0020-4003-8967-aca60ca47de1)
 
-## Apache Server Monitoring
+## Apache Web Server Monitoring
 
-<cont here>
+My team leveraged Splunk's visualization capabilities to provide a centralized and user-friendly interface; facilitating interactive analysis of the, Apache web server, data we acquired. This section includes the majority of the, Apache, dashboards we made.
+
+### Client IP Locations
+
+*Dashboard 04 - Geographical Map, and Table, showing the location of the Client-side IP's.*                   
+![apache serv monitoring - Clientip Cluster Map](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/44340332-995d-4a7c-8d46-5945a39d0b0f)
+
+  + This provides
+
+
 
 ## Monitoring and Analyzing Windows Attacks
 

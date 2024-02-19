@@ -18,7 +18,7 @@
 + [06. Windows Server Monitoring](#Windows-Server-Monitoring)
   - [a. Signature Counts Timeline](#Signature-Counts-Timeline)
   - [b. User Activity Timeline](#User-Activity-Timeline)
-  - [c. Different User Counts](#Different-User-Counts)
+  - [c. User Counts](#User-Counts)
 + [07. Apache Reports](#Apache-Reports)
   - [a. HTTP Method Activity](#HTTP-Method-Activity)
   - [b. Top Referring Domains](#Top-Referring-Domains)
@@ -30,6 +30,7 @@
   - [a. Geographical Mapping of Client IPs](#Geographical-Mapping-of-Client-IPs)
   - [b. Uniform Resource Identifiers](#Uniform-Resource-Identifiers)
   - [c. Top 10 Active Countries](#Top-10-Active-Countries)
+  - [d. User Agent Counts](#User-Agent-Counts)
 + [10. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
   - [a. Report Analysis for Severity](#Report-Analysis-for-Severity)
   - [b. Report Analysis for Failed Activities](#Report-Analysis-for-Failed-Activities)
@@ -207,7 +208,7 @@ Splunk dashboards provide a centralized and user-friendly interface, facilitatin
 
   + This provides insight into the patterns, trends, and changes in user activity within a specified timeframe.
 
-###  Different User Counts
+### User Counts
 
 *Dashboard 03 - Interactive Chart of total User Counts.*
 ![win serv monitoring - user count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3261c8ba-43d5-42f2-a338-3add7ef4e6c7)
@@ -351,7 +352,7 @@ URIs are strings of characters that identify a particular resource, typically on
     - **isbn**: Namespace identifier
     - **0451450523**: Unique identifier within the specified namespace
 
-This dashboard focused on the Uniform Resource Locators *(URLs)*.
+This dashboard focuses on the Uniform Resource Locators *(URLs)*.
 
 *Dashboard 05 - Bar Chart and Table of Different URI Counts.*
 ![apache serv monitoring - URI counts](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/884b8ceb-a8d5-4602-be09-44771210228d)
@@ -363,7 +364,16 @@ This dashboard focused on the Uniform Resource Locators *(URLs)*.
 *Dashboard 06 - Bar Chart and Table of Top 10 Countries.*                                                                                        
 ![apache serv monitoring - Top 10 Countries](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2978c8c6-cbf2-4928-9d13-07cfc28d208f)
 
-  + This identifies countries with a high connection count, and provides a baseline of activity.
+  + This identifies countries with a high connection count, to the administrative webpage, and provides a baseline of activity.
+
+### User Agent Counts
+
+A User Agent refers to a string of information that is included in the HTTP header of a request made by a client (such as a web browser) to a web server. The User Agent string, includes browser, operating system, and device information, that provides context about the client's environment. Such as, identifying that a user is running Google Chrome 58 on Windows 10, macOS 10.15.7, or an iPhone running iOS 14.4.
+
+*Dashboard 07 - Pie Chart and Table displaying the percentage of User Agent Counts.*                                                        
+![apache serv monitoring - User Agents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/430b87fc-26e1-44f5-9f48-de5354dbd683)
+
+  + This helps us to establish a baseline of activty for the different User Agents.
 
 ## Monitoring and Analyzing Windows Attacks
 

@@ -27,7 +27,9 @@
   - [a. Hourly Non-US Activity](#Hourly-Non-US-Activity)
   - [b. Hourly POST Method Count](#Hourly-POST-Method-Count)
 + [09. Apache Web Server Monitoring](#Apache-Web-Server-Monitoring)
-  - [a. Client IP Locations](#Client-IP-Locations)
+  - [a. Geographical Mapping of Client IPs](#Geographical-Mapping-of-Client-IPs)
+  - [b. Uniform Resource Identifiers](#Uniform-Resource-Identifiers)
+  - [c. Top 10 Active Countries](#Top-10-Active-Countries)
 + [10. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
   - [a. Report Analysis for Severity](#Report-Analysis-for-Severity)
   - [b. Report Analysis for Failed Activities](#Report-Analysis-for-Failed-Activities)
@@ -187,7 +189,7 @@ In Figure 14, the data reveals that VSI generally experiences the deletion of 20
 
 ## Windows Server Monitoring
 
-My team leveraged Splunk's visualization capabilities to transform raw log data into meaningful insights, making it easier to monitor and understand the Windows server activity. This section includes the majority of the, Windows, dashboards we made.
+My team leveraged Splunk's visualization capabilities to transform raw log data into meaningful insights, making it easier to monitor and understand the Windows server activity. This section includes the majority of the Windows dashboards that we created.
 
 Splunk dashboards provide a centralized and user-friendly interface, facilitating interactive analysis of the data we acquired. 
 
@@ -327,16 +329,41 @@ The data depicted in Figure 23 reveals that the webpage typically registers 2-6 
 
 ## Apache Web Server Monitoring
 
-My team leveraged Splunk's visualization capabilities to provide a centralized and user-friendly interface; facilitating interactive analysis of the, Apache web server, data we acquired. This section includes the majority of the, Apache, dashboards we made.
+My team leveraged Splunk's visualization capabilities to provide a centralized and user-friendly interface; facilitating interactive analysis of the, Apache web server, data we acquired. This section includes the majority of the Apache dashboards that we created.
 
-### Client IP Locations
+### Geographical Mapping of Client IPs
 
-*Dashboard 04 - Geographical Map, and Table, showing the location of the Client-side IP's.*                   
+*Dashboard 04 - Map and Table showing the location of the Client-side IP's.*                                                         
 ![apache serv monitoring - Clientip Cluster Map](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/44340332-995d-4a7c-8d46-5945a39d0b0f)
 
-  + This provides
+  + This provides us with a better understanding of the geographic distribution of users accessing the Administrative webpage.
 
+### Uniform Resource Identifiers
 
+URIs are strings of characters that identify a particular resource, typically on the internet. A URI can be categorized into two subtypes: **URLs** *(Uniform Resource Locators)* and **URNs** *(Uniform Resource Names)*.
+
+  + URLs are a type of URI that specifies the means of accessing a resource and the protocol used to access said resource. Typical components include:
+    - **https**: Protocol (in this case, Hypertext Transfer Protocol Secure)
+    - **www.example.com**: Domain or host
+    - **/index.html**: Path to the specific resource on the server
+  + URNs are a type of URI that is used to identify resources by name in a particular namespace. Typical components include:
+    - **urn**: Identifier type
+    - **isbn**: Namespace identifier
+    - **0451450523**: Unique identifier within the specified namespace
+
+This dashboard focused on the Uniform Resource Locators *(URLs)*.
+
+*Dashboard 05 - Bar Chart and Table of Different URI Counts.*
+![apache serv monitoring - URI counts](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/884b8ceb-a8d5-4602-be09-44771210228d)
+
+  + This helped us monitor access to specific resources on the administrative webpage.
+
+### Top 10 Active Countries
+
+*Dashboard 06 - Bar Chart and Table of Top 10 Countries.*                                                                                        
+![apache serv monitoring - Top 10 Countries](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2978c8c6-cbf2-4928-9d13-07cfc28d208f)
+
+  + This identifies countries with a high connection count, and provides a baseline of activity.
 
 ## Monitoring and Analyzing Windows Attacks
 

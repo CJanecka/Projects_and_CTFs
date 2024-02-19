@@ -31,15 +31,16 @@
   - [b. Uniform Resource Identifiers](#Uniform-Resource-Identifiers)
   - [c. Top 10 Active Countries](#Top-10-Active-Countries)
   - [d. User Agent Counts](#User-Agent-Counts)
-+ [10. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
++ [10. Add-On Splunk Application](#Add-On-Splunk-Application)
++ [11. Monitoring and Analyzing Windows Attacks](#Monitoring-and-Analyzing-Windows-Attacks)
   - [a. Report Analysis for Severity](#Report-Analysis-for-Severity)
   - [b. Report Analysis for Failed Activities](#Report-Analysis-for-Failed-Activities)
   - [c. Alert Analysis for Failed Windows Activity](#Alert-Analysis-for-Failed-Windows-Activity)
   - [d. Alert Analysis for Successful Logins](#Alert-Analysis-for-Successful-Logins)
   - [e. Alert Analysis for Deleted Accounts](#Alert-Analysis-for-Deleted-Accounts)
-+ [11. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
-+ [12. Windows Dashboard Analysis](#Windows-Dashboard-Analysis) 
-+ [13. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
++ [12. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
++ [13. Windows Dashboard Analysis](#Windows-Dashboard-Analysis) 
++ [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
 ## Overview
 
@@ -53,6 +54,7 @@ The technologies used in this project include:
     - Reporting
     - Alerting
     - Dashboards
+    - Add-on Application: [Website Monitoring](https://splunkbase.splunk.com/app/1493)
   + Windows Server Logs
   + Apache Server Logs
   + Ubuntu OS
@@ -373,13 +375,29 @@ A User Agent refers to a string of information that is included in the HTTP head
 *Dashboard 07 - Pie Chart and Table displaying the percentage of User Agent Counts.*                                                        
 ![apache serv monitoring - User Agents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/430b87fc-26e1-44f5-9f48-de5354dbd683)
 
-  + This helps us to establish a baseline of activty for the different User Agents.
+  + This helped us to establish a baseline of activty for the different User Agents.
+
+## Add-On Splunk Application
+
+My team chose the Splunk add-on app, [Website Monitoring](https://splunkbase.splunk.com/app/1493), to provide additional monitoring of VSI's systems. 
+
+This application enables continuous monitoring of a designated website at predefined intervals. Providing insight into the average response time, historical response time data, maximum connection response time, and the count of previous website failures.
+
+Additionally, this app allows VSI to monitor their website and react faster if they were to be attacked by Distributed Denial of Service *(DDoS)*. A type of cyberattack where multiple compromised computers or devices are used to flood a target system, service, or network with traffic, rendering it unavailable to its users.
+
+Unfortunately due to how our systems were configured, for the Bootcamp, we were unable to get this add-on to connect during testing. The following is what you could expect to see when using the Website Monitoring application.
+
+*Add-on Status Overview.*                                                                                                            
+![addon tool - status overview](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/59ec283b-1ee1-4b4e-b42c-f72fe6c989b3)
+
+*Add-on Connection Responses.*                                                                                                  
+![addon tool - responses](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3507e3b5-7efc-404a-b9e5-519a7d12ebb1)
 
 ## Monitoring and Analyzing Windows Attacks
 
 We had been notified that VSI recently experienced several cyberattacks; unfortunately, this attack took down several of VSI’s systems. This targeted several systems, specifically, the Windows and Apache servers, which we were fortunately monitoring. Management provided us with additional logs from those same servers. These new logs cover the time period during which the attack occurred.
 
-Our goal was to analyze these *attack logs* with our monitoring solution; assessing its effectiveness in identifying, mitigating, and responding to the cyberattack on the Windows OS and Apache server that were being monitored. We uploaded the server *attack logs*, to Splunk, to review the updated results .
+Our goal was to analyze these *attack logs* with our monitoring solution; assessing its effectiveness in identifying, mitigating, and responding to the cyberattack on the Windows Domain Controller and Apache server that were being monitored. We uploaded the server *attack logs*, to Splunk, to review the updated results.
 
 ### Report Analysis for Severity
 

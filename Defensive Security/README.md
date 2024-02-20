@@ -43,6 +43,7 @@
 + [12. Windows Dashboard Analysis](#Windows-Dashboard-Analysis)
   - [a. Analysis for Time Chart of Signatures](#Analysis-for-Time-Chart-of-Signatures)
   - [b. Analysis for Users](#Analysis-for-Users)
+  - [c. Analysis of Statistical Charts](#Analysis-of-Statistical-Charts)
 + [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
@@ -571,3 +572,19 @@ We addressed the following inquiries raised by VSI:
   + What is the peak count of the different users?
     - **User_a** showed a peak count of 1,968.
     - **User_k** showed a peak count of 2,512.
+
+### Analysis of Statistical Charts
+
+My team addressed the following inquiry made by VSI:
+
+  + What are the advantages and disadvantages of using a statistical chart, compared to the other panels that you created?
+    - **Advantages:**
+      + Statistical charts provide a visual representation of data, making it easier to identify patterns, trends, and outliers.
+      + Effective at displaying time-based data, enabling the observation of trends and fluctuations over time.
+      + Many statistical charts in Splunk offer interactive features, such as zooming and panning, providing the ability to explore and interact with the data dynamically.
+    - **Disadvantages:**
+      + Charts may provide an overview but can lack the detailed information available in raw data tables, requiring reference to the underlying data for specific values.
+      + In situations with a large volume of data, charts can become crowded, potentially leading to information overload and making it challenging to discern specific details.
+      + Some users, particularly those with visual impairments, may face challenges with visual charts. Ensuring accessibility for all users may require additional considerations.
+     
+Statistical charts in Splunk offer valuable visual insights and are effective for certain types of analysis. However, considerations should be made based on the specific data, analytical goals, and the organization's preferences. Depending on the context, a combination of statistical charts and other panels may provide the most comprehensive and user-friendly approach to data analysis.

@@ -46,6 +46,7 @@
   - [c. Analysis of Statistical Charts](#Analysis-of-Statistical-Charts)
 + [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
+  - [a. Analysis for HTTP Methods](#Analysis-for-HTTP-Methods)
 
 ## Overview
 
@@ -508,7 +509,7 @@ By comparing the data found; in Figures 14 and 31, we addressed the following in
    
 ## Windows Dashboard Analysis
 
-We accessed the Windows dashboards initially made; changing the source from the *original log* to the *attack log*. This adjustment enabled us to seamlessly view the new log data, while retaining the existing dashboard configurations. 
+We accessed the Windows dashboards initially made; changing the source from the *original log* to the *attack log*. This adjustment enabled us to seamlessly view the new log data, while retaining the existing dashboard configurations. This section only covers part of my team's dashboard analysis.
 
 ### Analysis for Time Chart of Signatures
 
@@ -588,3 +589,12 @@ My team addressed the following inquiry made by VSI:
       + Some users, particularly those with visual impairments, may face challenges with visual charts. Ensuring accessibility for all users may require additional considerations.
      
 Statistical charts in Splunk offer valuable visual insights and are effective for certain types of analysis. However, considerations should be made based on the specific data, analytical goals, and the organization's preferences. Depending on the context, a combination of statistical charts and other panels may provide the most comprehensive and user-friendly approach to data analysis.
+
+## Monitoring and Analyzing Apache Attacks
+
+## Apache Dashboard Analysis
+
+We accessed the Apache dashboards initially made; changing the source from the *original log* to the *attack log*, enabling us to view the new log data, while retaining the existing dashboard configurations. This section only covers part of my team's dashboard analysis.
+
+### Analysis for HTTP Methods
+

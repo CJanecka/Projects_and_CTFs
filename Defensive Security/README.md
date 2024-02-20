@@ -42,6 +42,7 @@
   - [e. Alert Analysis for Deleted Accounts](#Alert-Analysis-for-Deleted-Accounts)
 + [12. Windows Dashboard Analysis](#Windows-Dashboard-Analysis)
   - [a. Analysis for Time Chart of Signatures](#Analysis-for-Time-Chart-of-Signatures)
+  - [b. Analysis for Users](#Analysis-for-Users)
 + [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 

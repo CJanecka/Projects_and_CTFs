@@ -45,8 +45,8 @@
   - [b. Analysis for Users](#Analysis-for-Users)
   - [c. Analysis of Statistical Charts](#Analysis-of-Statistical-Charts)
 + [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
+  - [a. Report Analysis for HTTP Methods](#Report-Analysis-for-HTTP-Methods)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
-  - [a. Analysis for HTTP Methods](#Analysis-for-HTTP-Methods)
 
 ## Overview
 
@@ -419,7 +419,7 @@ Unfortunately due to how our systems were configured, for the Bootcamp, we were 
 
 We had been notified that VSI recently experienced several cyberattacks; unfortunately, this attack took down several of VSI’s systems. This targeted several systems, specifically, the Windows and Apache servers, which we were fortunately monitoring. Management provided us with additional logs from those same servers. These new logs cover the time period during which the attack occurred.
 
-Our goal was to analyze these *attack logs* with our monitoring solution; assessing its effectiveness in identifying, mitigating, and responding to the cyberattack on the Windows Domain Controller and Apache server that were being monitored. We uploaded the server *attack logs*, to Splunk, to review the updated results.
+Our goal was to analyze these *attack logs* with our monitoring solution; assessing its effectiveness in identifying, mitigating, and responding to the cyberattack on the Windows Domain Controller that was being monitored. We uploaded the server *attack logs*, to Splunk, to review the updated results.
 
 ### Report Analysis for Severity
 
@@ -579,10 +579,12 @@ We addressed the following inquiries raised by VSI:
 My team addressed the following inquiry made by VSI:
 
   + What are the advantages and disadvantages of using a statistical chart, compared to the other panels that you created?
+    
     - **Advantages:**
       + Statistical charts provide a visual representation of data, making it easier to identify patterns, trends, and outliers.
       + Effective at displaying time-based data, enabling the observation of trends and fluctuations over time.
       + Many statistical charts in Splunk offer interactive features, such as zooming and panning, providing the ability to explore and interact with the data dynamically.
+    
     - **Disadvantages:**
       + Charts may provide an overview but can lack the detailed information available in raw data tables, requiring reference to the underlying data for specific values.
       + In situations with a large volume of data, charts can become crowded, potentially leading to information overload and making it challenging to discern specific details.
@@ -592,9 +594,24 @@ Statistical charts in Splunk offer valuable visual insights and are effective fo
 
 ## Monitoring and Analyzing Apache Attacks
 
+Our goal was to analyze the *attack logs* with our monitoring solution; assessing its effectiveness in identifying, mitigating, and responding to the cyberattack on the Apache web server that was being monitored. We uploaded the server *attack logs*, to Splunk, to review the updated results.
+
+### Report Analysis for HTTP Methods
+
+*Figure 34 - Graph and Table showing HTTP Method Count during the Attack.*                                                          
+![apache attack - HTTP Methods](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1d5a720f-8d44-42a9-8a9d-e1226bccc7a0)
+
+By comparing the data found, in Figures 19 and 34, we addressed the following inquiries raised by VSI:
+
+  + Did you detect any suspicious changes in HTTP methods? If so, which one?
+    - Yes; there was a 29% decrease in **GET** activity, from 99% to 70%, and as well as a 29% increase in **POST** activity, from 1% to 29%.
+   
+  + What is that method used for?
+    - **GET**: Used to request data from a specified resource.
+      + The data is visible in the URL, making it suitable for non-sensitive information. However, there is a limitation on the amount of data that can be sent via URL.
+    - **POST**: Used to submit data to be processed to a specified resource.
+      + The data is not visible in the URL, providing a more secure way to transmit sensitive information.
+
 ## Apache Dashboard Analysis
 
 We accessed the Apache dashboards initially made; changing the source from the *original log* to the *attack log*, enabling us to view the new log data, while retaining the existing dashboard configurations. This section only covers part of my team's dashboard analysis.
-
-### Analysis for HTTP Methods
-

@@ -550,7 +550,7 @@ We addressed the following inquiries raised by VSI:
 *Dashboard 09 - Line Chart of User Activity during the Attack.*                                                                    
 ![Win Att Dash - User Activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d208deb-f6e4-4714-ac72-44a3694268fe)
 
-*Dashboard 10 - Bar Graph of User Counts during the Attack*                                                                        
+*Dashboard 10 - Bar Graph of User Counts during the Attack.*                                                                        
 ![Win Att Dash - User Count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/42f47ccb-f233-4ad8-b502-dc9de0590ee1)
 
 By comparing data from:

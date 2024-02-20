@@ -544,3 +544,30 @@ We addressed the following inquiries raised by VSI:
     - Signature 4724 displayed a peak count of 2,516 attempts to reset an account's password.
 
 ### Analysis for Users
+
+*Dashboard 09 - Line Chart of User Activity during the Attack.*                                                                    
+![Win Att Dash - User Activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d208deb-f6e4-4714-ac72-44a3694268fe)
+
+*Dashboard 10 - Bar Graph of User Counts during the Attack*                                                                        
+![Win Att Dash - User Count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/42f47ccb-f233-4ad8-b502-dc9de0590ee1)
+
+By comparing data from:
+
+  + Dashboard 2 and 9.
+  + Dashboard 3 and 10.
+
+We addressed the following inquiries raised by VSI:
+
+  + Does anything stand out as suspicious?
+    - Yes, there was suspicious activity detected.
+   
+  + Which users stand out?
+    - “user_a” and “user_k”.
+   
+  + What time did it begin and stop for each user?
+    - **User_a** started at 12:00 AM and stopped at 3:00 AM on Wednesday, March 25th 2020.
+    - **User_k** started at 8:00 AM and stopped at 11:00 AM on Wednesday, March 25th 2020.
+   
+  + What is the peak count of the different users?
+    - **User_a** showed a peak count of 1,968.
+    - **User_k** showed a peak count of 2,512.

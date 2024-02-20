@@ -397,7 +397,7 @@ A User Agent refers to a string of information that is included in the HTTP head
 *Dashboard 07 - Pie Chart and Table displaying the percentage of User Agent Counts.*                                                        
 ![apache serv monitoring - User Agents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/430b87fc-26e1-44f5-9f48-de5354dbd683)
 
-  + This helped us to establish a baseline of activty for the different User Agents.
+  + This helped us to establish a baseline of activty for the different User Agents, and understand the browsers, operating systems, and devices users are employing to connect to VSI's webpage.
 
 ## Add-On Splunk Application
 

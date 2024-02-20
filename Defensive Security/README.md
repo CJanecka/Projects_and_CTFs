@@ -38,8 +38,9 @@
   - [c. Alert Analysis for Failed Windows Activity](#Alert-Analysis-for-Failed-Windows-Activity)
   - [d. Alert Analysis for Successful Logins](#Alert-Analysis-for-Successful-Logins)
   - [e. Alert Analysis for Deleted Accounts](#Alert-Analysis-for-Deleted-Accounts)
-+ [12. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
-+ [13. Windows Dashboard Analysis](#Windows-Dashboard-Analysis) 
++ [12. Windows Dashboard Analysis](#Windows-Dashboard-Analysis)
+  - [a. Analysis for Time Chart of Signatures](#Analysis-for-Time-Chart-of-Signatures)
++ [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
 ## Overview
@@ -485,4 +486,14 @@ By comparing the data found; in Figures 14 and 31, we addressed the following in
   + Did we detect a suspicious volume of deleted accounts?
     - There were no signs of suspicious volumes of deleted accounts.
    
-## <next section here>
+## Windows Dashboard Analysis
+
+We accessed the Windows dashboards initially made; changing the source from the *original log* to the *attack log*. This adjustment enabled us to seamlessly view the new log data, while retaining the existing dashboard configurations. 
+
+### Analysis for Time Chart of Signatures
+
+*Dahboard 08 - New Line Chart of Signature Field Values Over Time.*                                                                      
+![Win Att Dash - signature timeline chart](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d14f07cc-744e-454f-b39f-13a8ce45f285)
+
+By comparing the data from Dasboard 8 and Dashboard 1, we addressed the following inquiries raised by VSI:
+

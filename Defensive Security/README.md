@@ -12,7 +12,7 @@
   - [b. Severity Levels](#Severity-Levels)
   - [c. Successful vs Failed Activity](#Successful-vs-Failed-Activity)
   - [d. User Account Locked Out](#User-Account-Locked-Out)
-  - [e. Password Reset Attempt](#Password-Reset-Attempt)
+  - [e. Password Reset Attempts](#Password-Reset-Attempts)
 + [05. Windows Alerts](#Windows-Alerts)
   - [a. Hourly Level of Failed Windows Activity](#Hourly-Level-of-Failed-Windows-Activity)
   - [b. Hourly Count of Successful User Logins](#Hourly-Count-of-Successful-User-Logins)
@@ -136,7 +136,7 @@ A report that displays when user accounts were locked out on the Windows server.
 
   + This helps us to establish a baseline of activity for user accounts being locked out.
 
-### Password Reset Attempt
+### Password Reset Attempts
 
 *Figure 08 - Timeline of normal Attempts to Reset an Account Password.*                                                                          
 ![win server -  Password Reset Attempt](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dcc706fc-a587-4bc3-ac44-7e9c844804ea)

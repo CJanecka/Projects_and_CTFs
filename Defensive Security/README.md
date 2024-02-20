@@ -510,13 +510,16 @@ We accessed the Windows dashboards initially made; changing the source from the 
 
 ### Analysis for Time Chart of Signatures
 
-*Dashboard 08 - Line Chart of Signature Field Values during the Attack period.*                                                                      
+*Dashboard 08 - Line Chart of Signature Field Values during the Attack.*                                                                      
 ![Win Att Dash - signature timeline chart](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d14f07cc-744e-454f-b39f-13a8ce45f285)
 
-*Figure 32 - Bar Graph and Table of the Locked Out User Signature during the Attack period.*                                                      
+*Figure 32 - Bar Graph and Table of the Locked Out User Signature during the Attack.*                                                      
 ![Win Att - Locked Out Accounts](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a4a8e07e-3346-4cea-bd11-ade8643459d5)
 
-By comparing data from the proceeding dashboards and figures/reports:
+*Figure 33 - Line Chart and Table of Attempted Password Resets during the Attack.*                                                      
+![Win Att - Password Reset Attempt](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d37e5b26-a45e-40cb-8f16-d39a04820e3a)
+
+By comparing data from:
 
   + Dashboard 1 and 8.
   + Figure 7 and 32.
@@ -538,3 +541,5 @@ We addressed the following inquiries raised by VSI:
   + What is the peak count of the different signatures?
     - Signature 4740 displayed a peak count of 1,792 account lockouts.
     - Signature 4724 displayed a peak count of 2,516 attempts to reset an account's password.
+
+### Analysis for Users

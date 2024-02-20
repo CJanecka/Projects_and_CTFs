@@ -237,7 +237,7 @@ Splunk dashboards provide a centralized and user-friendly interface, facilitatin
 *Dashboard 03 - Interactive Chart of total User Counts.*
 ![win serv monitoring - user count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3261c8ba-43d5-42f2-a338-3add7ef4e6c7)
 
-  + By highlighting over the chart, within Splunk, my team was able to discern which user accounts were most active.
+  + By highlighting over the chart, within Splunk, my team was able to discern which user accounts had the highest count(s).
 
 ## Apache Reports
 

@@ -695,7 +695,7 @@ By comparing the data found, in Figure 25 and Dashboard 11, we addressed the fol
    
   + At what times did the attack start and stop?
     - **GET**: Occurred on Wednesday, March 25th 2020. Starting at 5:00 PM and stopping at 7:00 PM.
-    - **POST**: Occurred on Wednesday, March 25th 2020. Starting at 7:00 PM and stopping at 8:00 PM.
+    - **POST**: Occurred on Wednesday, March 25th 2020. Starting at 7:00 PM and stopping at 9:00 PM.
    
   + What is the peak count of the top method during the attack?
     - *POST* was the top method, with a count of 1,296.
@@ -704,3 +704,17 @@ By comparing the data found, in Figure 25 and Dashboard 11, we addressed the fol
 
 *Dashboard 12 - Map showing the location of the Client-side IP's during the attack.*                                                            
 ![apache attack - Clientip Cluster Map](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/773151cf-0b45-4bbd-bd74-3e980774a8a1)
+
+By comparing the data found, Dashboards 4 and 12, we addressed the following inquiries raised by VSI:
+
+  + Does anything stand out as suspicious?
+    - Yes; new clusters formed at a location that was not previously shown to have connected with VSI’s administrative webpage.
+   
+  + Which new location (city, country) on the map has a high volume of activity?
+    - By zooming in on the cluster map, shown in Dashboard 12, we can see that the new cluster(s) of high activity are from Kiev, Ukraine and Kharkiv, Ukraine.
+   
+  + What is the count of that city?
+    - **Kiev**: Displays a count of 454 connections to the webpage.
+    - **Kharkiv**: Displays a count of 433 connections to the webpage.
+   
+  ### 

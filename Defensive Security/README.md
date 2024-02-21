@@ -53,6 +53,7 @@
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
   - [a. Analysis for Time Chart of HTTP Methods](#Analysis-for-Time-Chart-of-HTTP-Methods)
   - [b. Analysis for Cluster Map](#Analysis-for-Cluster-Map)
+  - [c. Analysis for URI Data](#Analysis-for-URI-Data)
 
 ## Overview
 
@@ -717,4 +718,21 @@ By comparing the data found, Dashboards 4 and 12, we addressed the following inq
     - **Kiev**: Displays a count of 454 connections to the webpage.
     - **Kharkiv**: Displays a count of 433 connections to the webpage.
    
-  ### 
+### Analysis for URI Data
+
+**Dashboard 13 - Bar Chart of Different URI Counts during the attack.*                                          
+![apache attack - URIs](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/13707e3e-80b2-42ca-a95a-5c9f3c4969b9)
+
+By comparing the data found, Dashboards 7 and 13, we addressed the following inquiries raised by VSI:
+
+  + Does anything stand out as suspicious?
+    - Suspicious activity was observed with the URI "/files/logstash/logstash-1.3.2-monolithic.jar" between 6:00 PM and 7:00 PM on Wednesday, March 25th, 2020.
+    - Another instance of suspicious activity was identified with the URI "/VSI_Account_logon.php" occurring from 8:00 PM to 9:00 PM on the same day, Wednesday, March 25th, 2020.
+
+  + What URI is hit the most?
+    - The URI “/VSI_Account_logon.php” was hit the most with 1,296 occurances.
+   
+  + Based on the URI being accessed, what could the attacker potentially be doing?
+    - The access to "/files/logstash/logstash-1.3.2-monolithic.jar" suggests an attempt to access or download a specific file, which could potentially be a part of an attack involving the exploitation of vulnerabilities associated with the file or software it represents. This may include attempts to gain unauthorized access, install malicious software, or compromise the integrity of the file.
+
+    - The access to "/VSI_Account_logon.php" is indicative of potential involvement in a credential-based attack or an attempt to gain unauthorized access to an application or system. Attackers might use this URI to launch phishing campaigns, attempt brute force login attacks, or exploit vulnerabilities in the login functionality to compromise user accounts or system security.

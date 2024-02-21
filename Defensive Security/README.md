@@ -47,6 +47,8 @@
 + [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
   - [a. Report Analysis for HTTP Methods](#Report-Analysis-for-HTTP-Methods)
   - [b. Report Analysis for Referrer Domains](#Report-Analysis-for-Referrer-Domains)
+  - [c. Report Analysis for HTTP Response Codes](#Report-Analysis-for-HTTP-Response-Codes)
+  - [d. Alert Analysis for International Activity](#Alert-Analysis-for-International-Activity)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
 ## Overview
@@ -429,8 +431,8 @@ Our goal was to analyze these *attack logs* with our monitoring solution; assess
 
 By comparing the data, from Figures 5 and 27, we addressed the following inquiry raised by VSI:
 
-  + Did we detect any suspicious changes in severity?
-    - Yes; these findings indicate the presence of suspicious changes in severity within the Windows OS.
+  + Did you detect any suspicious changes in severity?
+    - Yes; these findings indicate the presence of suspicious changes in severity on the Windows server.
       + **Informational**: There has been a decrease of 13% in informational severity, declining from 93% to 80%.
       + **High**: Conversely, high severity cases have seen an increase of 13%, rising from 7% to 20%.
 
@@ -441,7 +443,7 @@ By comparing the data, from Figures 5 and 27, we addressed the following inquiry
 
 By comparing the data found, in Figures 6 and 28, we addressed the following inquiry raised by VSI:
 
-  + Did we detect any suspicious changes in failed activities?
+  + Did you detect any suspicious changes in failed activities?
     - There were no significant shifts or suspicious changes in failed activities during the analyzed period.
       + **Success Rate**: The success rate exhibited a marginal increase, transitioning from 97% to 98%, reflecting a modest 1% improvement.
       + **Failure Rate**: Conversely, the failure rate saw a slight decrease, moving from 3% to 2%, indicating a 1% reduction.
@@ -453,19 +455,19 @@ By comparing the data found, in Figures 6 and 28, we addressed the following inq
 
 By comparing the data found, in Figures 9 and 29, we addressed the following inquiries raised by VSI:
 
-  + Did we detect a suspicious volume of failed Windows activity?
+  + Did you detect a suspicious volume of failed Windows activity?
     - Yes, there was a suspicious volume of failed activity detected.
     
-  + If so, what was the count of events in the hour(s) it occurred?
+  + What was the count of events in the hour(s) it occurred?
     - During a single hour, there were seventy (70) events logged.
     
   + When did it occur?
     - This occurred from 8:00 AM to 9:00 AM, Wednesday, March 25th, 2020.
     
-  + Would our alert be triggered for this activity?
+  + Would your alert be triggered for this activity?
     - Yes; the alert would be triggered as the threshold, we set, is at twenty (20) failed events. *(See Figure 11)*
     
-  + After reviewing, would we change our threshold from what was previously selected?
+  + After reviewing, would you change the threshold from what was previously selected?
     - No; changing the threshold is unnecessary in this instance, as our alert should trigger without issue.
 
 ### Alert Analysis for Successful Logins
@@ -478,22 +480,22 @@ By comparing the data found, in Figures 9 and 29, we addressed the following inq
 
 By comparing the data found in the following figures Figure 3 and 30, and using the data in Figure 31. We addressed the following inquiries raised by VSI:
 
-  + Did we detect a suspicious volume of successful logins?
-    - Yes, there was a suspicious volume of successful logins detected.
+  + Did you detect a suspicious volume of successful logins?
+    - Yes, there was a suspicious level of successful logins detected.
 
-  + If so, what was the count of events in the hour(s) it occurred? 
-    - The successful login count was: 46 events at 10:00 AM, 392 events at 11:00AM, and 154 events at 12:00 PM. This led to a total of 592 events occurring during a three (3) hour window. *(See Figure 29)*
+  + What was the count of events in the hour(s) it occurred? 
+    - The successful login count was: 46 events at 10:00 AM, 392 events at 11:00AM, and 154 events at 12:00 PM. This led to a total of 592 events occurring during a three (3) hour window.
    
   + Who was the primary user logging in?
-    - The primary user logging in during this timeframe was **user_j**. *(See Figure 29)*
+    - The primary user logging in during this timeframe was **user_j**. 
    
   + When did it occur?
-    - The suspicious volume of logins occurred from 10:00 AM to 12:00 PM on Wednesday, March 25th 2020. *(See Figure 29)*
+    - The suspicious volume of logins occurred from 10:00 AM to 12:00 PM on Wednesday, March 25th 2020. 
    
-  + Would our alert be triggered for this activity?
+  + Would your alert be triggered for this activity?
     - Yes, the alert would be triggered as the threshold is set at forty-five (45). *(See Figure 12)*
 
-  + After reviewing, would you change your threshold from what you previously selected?
+  + After reviewing, would you change the threshold from what was previously selected?
     - Yes, I would want to increase the alert threshold, slightly, from forty-five (45) to sixty (60). There were some data points that nearly reached our threshold, this would help to avoid any false positive alerts.
    
 ### Alert Analysis for Deleted Accounts
@@ -505,7 +507,7 @@ Referencing the Signature ID's, shown in Figure 2, we filtered our Splunk search
 
 By comparing the data found; in Figures 14 and 31, we addressed the following inquiry raised by VSI:
 
-  + Did we detect a suspicious volume of deleted accounts?
+  + Did you detect a suspicious volume of deleted accounts?
     - There were no signs of suspicious volumes of deleted accounts.
    
 ## Windows Dashboard Analysis
@@ -618,12 +620,35 @@ By comparing the data found, in Figures 19 and 34, we addressed the following in
 *Figure 35 - Bar Graph and Table of the Top 10 Domains, referring to VSI's website, during the attack.*                                        
 ![apache attack - Referer Top 10 Domains](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/043b589a-8e7d-4a4e-8212-3bc81ee93b15)
 
-By comparing the data found, in Figures 20 and 35, we addressed the following inquiries raised by VSI:
+By comparing the data found, in Figures 20 and 35, we addressed the following inquiry raised by VSI:
 
   + Did you detect any suspicious changes in referrer domains?
     - No; we did not detect any suspicious changes in referrer domain activity.
    
-### 
+### Report Analysis for HTTP Response Codes
+
+*Figure 36 - Bar Graph and Table of HTTP Responses during the attack.*                                                                
+![apache attack - HTTP Responses](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/35c7e59a-2f98-417a-af62-3a48a7e4cb10)
+
+By comparing the data found, in Figures 21 and 36, we addressed the following inquiry raised by VSI:
+
+  + Did you detect any suspicious changes in HTTP response codes?
+    - Yes; while numerous minor changes occured, the most suspicious was the change in *404* responses. It displayed an 11% increase, rising from 4% to 15%.
+
+### Alert Analysis for International Activity
+
+*Dashboard 11 - Map showing the location of the Client-side IP's during the attack.*                                                            
+![apache attack - Clientip Cluster Map](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/773151cf-0b45-4bbd-bd74-3e980774a8a1)
+
+By comparing the data found, in Dashboards 4 and 11, we addressed the following inquiries raised by VSI:
+
+  + Did you detect a suspicious volume of international activity?
+    - Yes, there was a suspicious level of activity in Kiev, Ukraine at 8:00 PM on March 25th 2020.
+   
+  + What was the count of the hour(s) it occurred in?
+    - There was a total of 937 connections, to the administrative webpage from Kiev, during the 8:00 PM attack.
+   
+  + Would your alert be triggered for this activity?
 
 ## Apache Dashboard Analysis
 

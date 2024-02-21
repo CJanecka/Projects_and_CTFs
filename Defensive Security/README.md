@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-+ [01. Overview](#Overview)
++ [01. Summary](#Summary)
 + [02. Equipment and Tools](#Equipment-and-Tools)
 + [03. Project Requirements](#Project-Requirements)
 + [04. Windows Reports](#Windows-Reports)
@@ -55,7 +55,7 @@
   - [b. Analysis for Cluster Map](#Analysis-for-Cluster-Map)
   - [c. Analysis for URI Data](#Analysis-for-URI-Data)
 
-## Overview
+## Summary
 
 I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working in a small group, we employed Splunk to craft a monitoring environment, creating tailored reports, alerts, dashboards, and an add-on application to fortify the security of this fictitional organization. A key element of this project entailed analyzing a simulated attack to gauge the efficiency of our monitoring solutions. The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
 

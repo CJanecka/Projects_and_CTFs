@@ -49,6 +49,7 @@
   - [b. Report Analysis for Referrer Domains](#Report-Analysis-for-Referrer-Domains)
   - [c. Report Analysis for HTTP Response Codes](#Report-Analysis-for-HTTP-Response-Codes)
   - [d. Alert Analysis for International Activity](#Alert-Analysis-for-International-Activity)
+  - [e. Alert Analysis for HTTP POST Activity](#Alert-Analysis-for-HTTP-POST-Activity)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
 ## Overview
@@ -653,6 +654,28 @@ By comparing the data found, in Dashboards 4 and 11, we addressed the following 
    
   + After reviewing, would you change the threshold that was previously selected?
     - Yes; I want to increase the threshold from 170 to 200, to help avoid any false positive alerts.
+
+### Alert Analysis for HTTP POST Activity
+
+*Dashboard 12 - Timeline of HTTP Method Activity during the attack.*                                                                        
+![apache attack - http method activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d51f7344-7de6-4c68-adc7-87456b129ae0)
+
+*Figure 37 - Timeline of POST Method Activity during the attack.*                                                                     
+![apache attack - HTTP POST Count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6cb93f09-46e3-4bd1-b363-f3de3ef3187c)
+
+By comparing the data found; in Figures 25, 37, and Dashboard 12, we addressed the following inquiries raised by VSI:
+
+  + Did you detect any suspicious volume of HTTP POST activity?
+    - Yes, a suspicious and potentially concerning elevation in *POST* method activities was detected.
+   
+  + What was the count of the hour(s) it occurred in?
+    - There was a total count of 1,296 for the *POST* method during the attack.
+   
+  + When did it occur?
+    - The attack occurred at 8:00 PM, Wednesday, March 25th 2020.
+   
+  + After reviewing, would you change the threshold that you previously selected?
+    - No, changing the threshold is unnecessary in this instance.
 
 ## Apache Dashboard Analysis
 

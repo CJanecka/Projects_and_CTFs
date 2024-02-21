@@ -51,6 +51,8 @@
   - [d. Alert Analysis for International Activity](#Alert-Analysis-for-International-Activity)
   - [e. Alert Analysis for HTTP POST Activity](#Alert-Analysis-for-HTTP-POST-Activity)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
+  - [a. Analysis for Time Chart of HTTP Methods](#Analysis-for-Time-Chart-of-HTTP-Methods)
+  - [b. Analysis for Cluster Map](#Analysis-for-Cluster-Map)
 
 ## Overview
 
@@ -638,35 +640,32 @@ By comparing the data found, in Figures 21 and 36, we addressed the following in
 
 ### Alert Analysis for International Activity
 
-*Dashboard 11 - Map showing the location of the Client-side IP's during the attack.*                                                            
-![apache attack - Clientip Cluster Map](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/773151cf-0b45-4bbd-bd74-3e980774a8a1)
+*Figure 37 - Timeline of Non-US Activity on the web server during the attack.*                                                            
+![apache attack - Non US Activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/49363f82-47c3-4d64-8631-3a44541f2a9c)
 
-By comparing the data found, in Dashboards 4 and 11, we addressed the following inquiries raised by VSI:
+By comparing the data found, in Figures 23 and 37, we addressed the following inquiries raised by VSI:
 
   + Did you detect a suspicious volume of international activity?
-    - Yes; there was a suspicious level of activity in Kiev, Ukraine at 8:00 PM on March 25th 2020.
+    - Yes; there was a suspicious volume of activity detected.
    
   + What was the count of the hour(s) it occurred in?
-    - There was a total of 937 connections, to the administrative webpage from Kiev, during the 8:00 PM attack.
+    - There was a total of 937 connections, to the administrative webpage from outside the US, during the 8:00 PM attack.
    
   + Would your alert be triggered for this activity?
     - Yes; the alert would be triggered, as our threshold is set at 170. *(See Figure 24)*
    
   + After reviewing, would you change the threshold that was previously selected?
-    - Yes; I want to increase the threshold from 170 to 200, to help avoid any false positive alerts.
+    - Yes; I want to increase the threshold from 170 to 300, to help avoid any false positive alerts.
 
 ### Alert Analysis for HTTP POST Activity
 
-*Dashboard 12 - Timeline of HTTP Method Activity during the attack.*                                                                        
-![apache attack - http method activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d51f7344-7de6-4c68-adc7-87456b129ae0)
-
-*Figure 37 - Timeline of POST Method Activity during the attack.*                                                                     
+*Figure 38 - Timeline of POST Method Activity during the attack.*                                                                     
 ![apache attack - HTTP POST Count](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6cb93f09-46e3-4bd1-b363-f3de3ef3187c)
 
-By comparing the data found; in Figures 25, 37, and Dashboard 12, we addressed the following inquiries raised by VSI:
+By comparing the data found, in Figures 25 and 38, we addressed the following inquiries raised by VSI:
 
   + Did you detect any suspicious volume of HTTP POST activity?
-    - Yes, a suspicious and potentially concerning elevation in *POST* method activities was detected.
+    - Yes, a suspicious and potentially concerning elevation was detected.
    
   + What was the count of the hour(s) it occurred in?
     - There was a total count of 1,296 for the *POST* method during the attack.
@@ -680,3 +679,16 @@ By comparing the data found; in Figures 25, 37, and Dashboard 12, we addressed t
 ## Apache Dashboard Analysis
 
 We accessed the Apache dashboards initially made; changing the source from the *original log* to the *attack log*, enabling us to view the new log data, while retaining the existing dashboard configurations. This section only covers part of my team's dashboard analysis.
+
+### Analysis for Time Chart of HTTP Methods
+
+*Dashboard 11 - Timeline of HTTP Method Activity during the attack.*                                                                        
+![apache attack - http method activity](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d51f7344-7de6-4c68-adc7-87456b129ae0)
+
+By comparing the data found, in Figure 25 and Dashboard 11, we addressed the following inquiries raised by VSI:
+
+
+### Analysis for Cluster Map
+
+*Dashboard 12 - Map showing the location of the Client-side IP's during the attack.*                                                            
+![apache attack - Clientip Cluster Map](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/773151cf-0b45-4bbd-bd74-3e980774a8a1)

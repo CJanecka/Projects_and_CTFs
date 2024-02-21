@@ -643,12 +643,16 @@ By comparing the data found, in Figures 21 and 36, we addressed the following in
 By comparing the data found, in Dashboards 4 and 11, we addressed the following inquiries raised by VSI:
 
   + Did you detect a suspicious volume of international activity?
-    - Yes, there was a suspicious level of activity in Kiev, Ukraine at 8:00 PM on March 25th 2020.
+    - Yes; there was a suspicious level of activity in Kiev, Ukraine at 8:00 PM on March 25th 2020.
    
   + What was the count of the hour(s) it occurred in?
     - There was a total of 937 connections, to the administrative webpage from Kiev, during the 8:00 PM attack.
    
   + Would your alert be triggered for this activity?
+    - Yes; the alert would be triggered, as our threshold is set at 170. *(See Figure 24)*
+   
+  + After reviewing, would you change the threshold that was previously selected?
+    - Yes; I want to increase the threshold from 170 to 200, to help avoid any false positive alerts.
 
 ## Apache Dashboard Analysis
 

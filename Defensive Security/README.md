@@ -687,6 +687,18 @@ We accessed the Apache dashboards initially made; changing the source from the *
 
 By comparing the data found, in Figure 25 and Dashboard 11, we addressed the following inquiries raised by VSI:
 
+  + Does anything stand out as suspicious?
+    - Yes; there were unusual spikes in HTTP method activity.
+   
+  + Which method seems to be used in the attack?
+    - Both the *GET* and *POST* method seem to be used in this attack.
+   
+  + At what times did the attack start and stop?
+    - **GET**: Occurred on Wednesday, March 25th 2020. Starting at 5:00 PM and stopping at 7:00 PM.
+    - **POST**: Occurred on Wednesday, March 25th 2020. Starting at 7:00 PM and stopping at 8:00 PM.
+   
+  + What is the peak count of the top method during the attack?
+    - *POST* was the top method, with a count of 1,296.
 
 ### Analysis for Cluster Map
 

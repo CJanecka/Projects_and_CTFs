@@ -46,6 +46,7 @@
   - [c. Analysis of Statistical Charts](#Analysis-of-Statistical-Charts)
 + [13. Monitoring and Analyzing Apache Attacks](#Monitoring-and-Analyzing-Apache-Attacks)
   - [a. Report Analysis for HTTP Methods](#Report-Analysis-for-HTTP-Methods)
+  - [b. Report Analysis for Referrer Domains](#Report-Analysis-for-Referrer-Domains)
 + [14. Apache Dashboard Analysis](#Apache-Dashboard-Analysis)
 
 ## Overview
@@ -611,6 +612,18 @@ By comparing the data found, in Figures 19 and 34, we addressed the following in
       + The data is visible in the URL, making it suitable for non-sensitive information. However, there is a limitation on the amount of data that can be sent via URL.
     - **POST**: Used to submit data to be processed to a specified resource.
       + The data is not visible in the URL, providing a more secure way to transmit sensitive information.
+
+### Report Analysis for Referrer Domains
+
+*Figure 35 - Bar Graph and Table of the Top 10 Domains, referring to VSI's website, during the attack.*                                        
+![apache attack - Referer Top 10 Domains](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/043b589a-8e7d-4a4e-8212-3bc81ee93b15)
+
+By comparing the data found, in Figures 20 and 35, we addressed the following inquiries raised by VSI:
+
+  + Did you detect any suspicious changes in referrer domains?
+    - No; we did not detect any suspicious changes in referrer domain activity.
+   
+### 
 
 ## Apache Dashboard Analysis
 

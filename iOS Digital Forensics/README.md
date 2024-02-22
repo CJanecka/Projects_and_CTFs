@@ -18,7 +18,7 @@
 
 ## Overview
 
-I leveraged the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. This README file encapsulates the details of my findings. Operating, in the capacity of an investigator, employed by *Digitech, Inc.* I was tasked to look into the theft of valuable, collectible, stamps from Washington, DC's National Gallery. As well as inquiring to the correlation of a flash mob, which had occured during the robbery. A forensic image, extracted from an iPhone, was provided; from this image, I analyzed and gathered evidence to support the criminal investigation. My complete case report is provided as a PDF in this GitHub repository, titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/14253947/Case.Report.National.Gallery.DC_Collin_Janecka.pdf).
+Operating in the capacity of an investigator, employed by *Digitech, Inc.* I was tasked to look into the theft of valuable, collectible, stamps from Washington, DC's National Gallery. I leveraged the Autopsy tool (www.autopsy.com) to conduct a forensic analysis on an Apple iPhone image. As well as inquiring to the correlation of a flash mob, which had occured during the robbery. A forensic image, extracted from an iPhone, was provided; from this image, I analyzed and gathered evidence to support the criminal investigation. My complete case report is provided as a PDF in this GitHub repository, titled [Case Report National Gallery DC](https://github.com/CJanecka/Projects_and_CTFs/files/14253947/Case.Report.National.Gallery.DC_Collin_Janecka.pdf). This README file encapsulates the details of my findings. 
 
 ## Equipment and Tools
 

@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-+ [01. Summary](#Summary)
++ [01. Overview](#Overview)
 + [02. Equipment and Tools](#Equipment-and-Tools)
 + [03. Project Requirements](#Project-Requirements)
 + [04. Windows Reports](#Windows-Reports)
@@ -55,9 +55,11 @@
   - [b. Analysis for Cluster Map](#Analysis-for-Cluster-Map)
   - [c. Analysis for URI Data](#Analysis-for-URI-Data)
 
-## Summary
+## Overview
 
-I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. Tasked with monitoring an Apache web server, that hosts the administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. Working in a small group, we employed Splunk to craft a monitoring environment, creating tailored reports, alerts, dashboards, and an add-on application to fortify the security of this fictitional organization. A key element of this project entailed analyzing a simulated attack to gauge the efficiency of our monitoring solutions. The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. <add docs here>
+I played the role of a Security Operations Center *(SOC)* analyst for a company, called Virtual Space Industries *(VSI)*. My group was tasked with monitoring an Apache web server, that hosts an administrative webpage; and a Windows operating system, which runs many of VSI’s back-end operations. We employed Splunk to craft a monitoring environment, creating tailored reports, alerts, dashboards, and an add-on application to bolster the security of this fictitional organization. A key element of this project entailed analyzing a simulated attack to gauge the efficiency of our monitoring solutions. The culmination of this effort was later presented to our cybersecurity bootcamp class, to offer insights for enhancing cybersecurity within a broader organizational context. Unfortunetely, the recording of this presentation corrupted and I am unable to utilize it here.
+
+This GitHub page provides a detailed account of the analysis conducted by my team on VSI's systems. For a more focused view of this analysis, I have provided a PDF called [Defensive Security - Review Questions](https://github.com/CJanecka/Projects_and_CTFs/files/14367909/Defensive.Security.-.Review.Questions._.Collin.Janecka.pdf). Within this document, is our responses to the questions posed by VSI, covering the core findings from our analysis. My team also created a slideshow to serve as a visual aid while presenting, you can view it here if interested: [Defensive Security - Group Presentation Slides](https://github.com/CJanecka/Projects_and_CTFs/files/14368111/Defensive.Security.-.Group.Presentation.Slides._.Collin.Janecka.pdf)
 
 ## Equipment and Tools
 

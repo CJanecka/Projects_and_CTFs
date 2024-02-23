@@ -9,6 +9,8 @@
   + [03. Project Requirements](#Project-Requirements)
   + [04. Executive Summary](#Executive-Summary)
   + [05. Vulnerability Findings](#Vulnerabilty-Findings)
+    - [a. Weak Passwords on Public Web Application](#Weak-Passwords-on-Public-Web-Application)
+    - [b. Files with Administrative Credentials in Plain Text](#Files-with-Administrative-Credentials-in-Plain-Text)
   + [06. Mitigations](#Mitigations)
 
 ## Overview
@@ -47,69 +49,75 @@ The project requirements included:
 
 ## Executive Summary
 
-I conducted a solo penetration test, focusing on a simulated organization called *MegaCorpOne*. My assessment honed in on the organization's web application, Linux, and Windows hosts, revealing vulnerabilities and security weaknesses. The conclusion of this effort led to the creation of a detailed penetration testing report. In this report, I outline the findings, highlighting identified vulnerabilities across the assessed domains. Furthermore, I present a set of recommendations aimed at mitigating the discovered security concerns.
+I have successfully completed a thorough security assessment aligned with the specified scope for this engagement. The evaluation focused on identifying vulnerabilities within Megacorpone's network infrastructure, encompassing reconnaissance and implementation/exploitation phases.
+
+In the Reconnaissance phase, I utilized Google Dorking techniques to gather information, revealing security vulnerabilities and potential exposure of confidential data. Further enumeration of Megacorpone's domain using tools like Shodan.io and Nmap unveiled accessible ports and Common Vulnerabilities and Exposures (CVEs).
+
+Moving to the Implementation/Exploitation phase, I deduced usernames and passwords, which gave me access to the webpage through a script. By exploiting a Python file found on the webpage, administrator-level credentials were acquired, leading to root level access. This escalated privilege provided me with control over files, commands, and system settings. Overly simple passwords were being used, and additional security risks were introduced, including a hidden access point and a novel administrative user.
+
+The report linked above emphasizes the need for Megacorpone to promptly address these vulnerabilities to safeguard its network infrastructure and sensitive data. The "Vulnerability Findings" section provides detailed remediation strategies for a tailored security enhancement strategy. 
 
 ## Vulnerability Findings
 
 I found seven vulnerabilities throughout MegaCorpOne's network. Included here are two of those vulnerabilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
 
-  1. **Weak Password(s) on Public Web Application**
+### Weak Passwords on Public Web Application
 
-     By browsing MegaCorpOne's public web page, I obtained the credentials of five employees through process of deduction. The compromised users included: Tom Hudson (Web Designer), Tanya Rivera (Senior Developer), Matt Smith (Marketing Director), Mike Carlow (VP of Legal), and Alan Grofield (IT & Security Director).
+By browsing MegaCorpOne's public web page, I obtained the credentials of five employees through process of deduction. The compromised users included: Tom Hudson (Web Designer), Tanya Rivera (Senior Developer), Matt Smith (Marketing Director), Mike Carlow (VP of Legal), and Alan Grofield (IT & Security Director).
 
-     *Figure 01 - Portion of the webpage that discloses Executive Employee information.*                                          
-     ![Executive Team](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/93901eb0-a930-417c-8b68-31cc10a6baa7)
+*Figure 01 - Portion of the webpage that discloses Executive Employee information.*                                          
+![Executive Team](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/93901eb0-a930-417c-8b68-31cc10a6baa7)
 
-     *Figure 02 - Portion of the webpage that discloses other employee information.*                                              
-     ![Other Staff](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b6a5c337-278c-4160-8e58-219d2a3f3ddd)
+*Figure 02 - Portion of the webpage that discloses other employee information.*                                              
+![Other Staff](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b6a5c337-278c-4160-8e58-219d2a3f3ddd)
 
-     From the list of employee emails, I discovered that MegaCorpOne uses the same characters before the "@" sign for some of their employee usernames. Specifically:
+From the list of employee emails, I discovered that MegaCorpOne uses the same characters before the "@" sign for some of their employee usernames. Specifically:
 
-       + Tom Hudson: **thudson**
+  + Tom Hudson: **thudson**
     
-       + Tanya Rivera: **trivera**
+  + Tanya Rivera: **trivera**
     
-       + Matt Smith: **msmith**
+  + Matt Smith: **msmith**
     
-       + Mike Carlow: **mcarlow**
+  + Mike Carlow: **mcarlow**
     
-       + Alan Grofield: **agrofield**
+  + Alan Grofield: **agrofield**
     
-     I was able to get the passwords, for each of these users, by guessing. These users had very simple passwords, Specifically:
+I was able to get the passwords, for each of these users, by guessing. These users had very simple passwords, Specifically:
 
-       + Tom Hudson: **thudson** *(same as the username)*
+  + Tom Hudson: **thudson** *(same as the username)*
     
-       + Tanya Rivera: **Spring2021**
+  + Tanya Rivera: **Spring2021**
     
-       + Matt Smith: **Passw0rd**
+  + Matt Smith: **Passw0rd**
     
-       + Mike Carlow: **Pa55word**
+  + Mike Carlow: **Pa55word**
     
-       + Alan Grofield: **agrofield1**
+  + Alan Grofield: **agrofield1**
     
-     Using this information, I logged into the employee portal and accessed MegaCorpOne's Index page. On this page, there was a downloadable shell script named *vpn.sh* intended to facilitate direct employee access to the webpage. I successfully adjusted the script, using the nano text editor, to incorporate the compromised credentials. This modification allowed me to utilize the VPN script and access MegaCorpOne's webpage without being prompted to log in.
+Using this information, I logged into the employee portal and accessed MegaCorpOne's Index page. On this page, there was a downloadable shell script named *vpn.sh* intended to facilitate direct employee access to the webpage. I successfully adjusted the script, using the nano text editor, to incorporate the compromised credentials. This modification allowed me to utilize the VPN script and access MegaCorpOne's webpage without being prompted to log in.
 
-       *Figure 03 - VPN script location.*                                                                          
-       ![script location](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7869cfa9-df4f-44ce-9156-4412bea61f1d)
+*Figure 03 - VPN script location.*                                                                          
+![script location](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7869cfa9-df4f-44ce-9156-4412bea61f1d)
 
-       *Figure 04 - Modified script contents using "nano".*                                                                                
-       ![modified script contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a7057c8-4d58-4747-9129-0b80fd8e7448)
+*Figure 04 - Modified script contents using "nano".*                                                                                
+![modified script contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a7057c8-4d58-4747-9129-0b80fd8e7448)
 
-     The adjusted script ran successfully, granting me access to MegaCorpOne's Domain Controller. Through this connection, unauthorized individuals with malicious intent, are provided with the opportunity to exploit the network further, as shown in my full report.
+The adjusted script ran successfully, granting me access to MegaCorpOne's Domain Controller. Through this connection, unauthorized individuals with malicious intent, are provided with the opportunity to exploit the network further, as shown in my full report.
 
-  2. **File(s) with administrative credentials in plain text**
+### Files with Administrative Credentials in Plain Text
 
-     While operating through a reverse shell in Metasploit, I discovered a plaintext document addressed to *Jim*. This document contained administrator-level credentials, which I utilized to compromise MegaCorpOne's Linux machine.
+While operating through a reverse shell in Metasploit, I discovered a plaintext document addressed to *Jim*. This document contained administrator-level credentials, which I utilized to compromise MegaCorpOne's Linux machine.
 
-     *Figure 05 - Location and contents of the plaintext document.*                                                                          
-     ![plaintext document](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b42dd20b-2d10-4da1-94a5-ebfb7ea171cc)
+*Figure 05 - Location and contents of the plaintext document.*                                                                          
+![plaintext document](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b42dd20b-2d10-4da1-94a5-ebfb7ea171cc)
 
-     I then opened a new terminal to test if the credentials were valid.
+I then opened a new terminal to test if the credentials were valid.
 
-     *Figure 06 - Administrator credentials shown working.*                                                                                      
-     ![admin credentials working](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/64f5af79-5c13-4191-8b69-e3f04dad7f9f)
+*Figure 06 - Administrator credentials shown working.*                                                                                      
+![admin credentials working](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/64f5af79-5c13-4191-8b69-e3f04dad7f9f)
 
-     With the credentials working, I've effectively accessed the Linux machine as an administrative-level user. In my full report, you'll see how this can be leveraged for privilege escalation and persistence, posing a greater threat to the security of MegaCorpOne's network.
+With the credentials working, I've effectively accessed the Linux machine as an administrative-level user. In my full report, you'll see how this can be leveraged for privilege escalation and persistence, posing a greater threat to the security of MegaCorpOne's network.
 
 ## Mitigations
 

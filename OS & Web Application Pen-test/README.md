@@ -49,7 +49,7 @@ The project requirements included:
 
 ## Executive Summary
 
-I executed a thorough three-phase penetration test for Rekall Corporation's network, successfully meeting all predefined objectives. Each phase centered on scrutinizing web applications, Linux, and Windows system hosts, uncovering twenty-four vulnerabilities spanning from low to critical severity.
+I executed a thorough three-phase penetration test on Rekall Corporation's network, successfully meeting all predefined objectives. Each phase centered on scrutinizing web applications, Linux, and Windows system hosts, uncovering twenty-four vulnerabilities spanning from low to critical severity.
 
 In Phase 1, my web application assessment identified pressing security issues, such as Cross-Site Scripting (XSS), Insecure Direct Object Reference (IDOR), Local File Inclusion (LFI), sensitive data leakage, and more. 
 

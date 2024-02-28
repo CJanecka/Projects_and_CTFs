@@ -28,5 +28,6 @@ The technologies used in this project include:
   + [Oracle VirtualBox](https://www.virtualbox.org/)
   + Google Mail *(Gmail)*
   + Open-Source Intelligence *(OSINT)*
+  + [Social Engineering Methodology](https://www.ibm.com/topics/social-engineering#How+and+why+social+engineering+works)
 
 ## Project Requirements

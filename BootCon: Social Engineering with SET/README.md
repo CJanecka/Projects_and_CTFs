@@ -9,8 +9,9 @@
   + [03. Project Requirements](#Project-Requirements)
   + [04. What is Social Engineering?](#What-is-Social-Engineering?)
     - [a. Key Components](#Key-Components)
-    - [b. Targets and Motives](#Targets-and-Motives)
-    - [c. Attack Examples](#Attack-Examples)
+    - [b. Potential Targets](#Potential-Targets)
+    - [c. Potential Motives](#Potential-Motives)
+    - [d. Attack Examples](#Attack-Examples)
   + [05. Countermeasures](#Countermeasures)
   + [06. Social Engineering Toolkit](#Social-Engineering-Toolkit)
   + [07. Project Improvements](#Project-Improvements)
@@ -46,35 +47,64 @@ Social engineering is a manipulative technique employed by individuals or groups
 
 Key elements of social engineering include:
 
-  + ***Psychological Manipulation:***
+  + **Psychological Manipulation:**
     - Exploiting emotions, building trust, creating a sense of urgency, or appealing to a person's desire to help.
    
-  + ***Impersonation:***
+  + **Impersonation:**
     - Pretending to be someone in order to gain trust. Such as: a coworker, IT support, or even a company executive.
       + This can occur in person, over the phone, or through electronic communication.
      
-  + ***Phishing:***
+  + **Phishing:**
     - A common form of social engineering; where attackers use deceptive emails, messages, or websites to trick individuals into revealing sensitive information, such as usernames, passwords, or financial details.
    
-  + ***Pretexting:***
+  + **Pretexting:**
     - Creating a fabricated scenario, or pretext, to trick individuals into disclosing information or performing actions.
    
-  + ***Baiting:***
+  + **Baiting:**
     - Exploiting curiosity or desire for gain; compromising the security of information or systems. This can happen both physically and online.
-      + *Physically:* Strategically placed, malware-infected, flash drives in visible locations. This relys on the curiosity of potential victims. When the flash drive is inserted into a computer, regardless of location, malware is automatically installed on the system.
-      + *Online:* Through tempting ads directing users to malicious sites or encouraging them to download malware-infected apps.
+      + ***Physically:*** Strategically placed, malware-infected, flash drives in visible locations. When the flash drive is inserted into a computer, regardless of location, malware is automatically installed on the system.
+      + ***Online:*** Through tempting ads directing users to malicious sites or encouraging them to download malware-infected apps.
      
-  + ***Quid Pro Quo:***
+  + **Quid Pro Quo:**
     - Offering a service or benefit in exchange for information or access.
       + To gain this benefit, the victim must first carry out a specific action, such as allowing access to their computer or providing their login credentials.
      
-  + ***Reverse Social Engineering:***
+  + **Reverse Social Engineering:**
     - Victims are deceived into taking the first step, whether through a phone call, email, or online interaction. Exploiting their belief that they are the ones reaching out for assistance or information.
    
-  + ***Physical Social Engineering:***
+  + **Physical Social Engineering:**
     - Relies on face-to-face interactions and often exploits human tendencies/behaviors to gain access to physical spaces, confidential information, or valuable assets.
    
-### Targets and Motives
+### Potential Targets
 
-In the realm of social engineering attacks, various targets are identified based on the attackers' motives and objectives.
+Social engineering attacks can target individuals, organizations, or even entire systems with the goal of manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
 
+  + Individuals:
+    - **Personal Information:**
+      + Gaining access to personal information such as passwords, social security numbers, and financial details. 
+    - **Credentials:**
+      + Obtaining login credentials for email accounts, social media, or online banking.
+    - **Identity Theft:**
+      + Stealing identities for further fraudulent activities.
+     
+  + Employees:
+    - **Corporate Information:**
+      + Gaining access to sensitive information, trade secrets, or intellectual property.
+    - **Network Access:**
+      + Obtaining login credentials, or tricking employees into providing network access, to further compromise organizational systems.
+     
+  + Organizations:
+    - **Financial Gain:**
+      + Through extortion, fraud, or direct theft of funds.
+    - **Data Breaches:**
+      + Acquiring confidential data/information for resale, or to cause reputational damage.
+     
+  + Government Entities:
+    - **Espionage:**
+      + Gathering classified information or disrupting operations.
+    - **Political Motives:**
+      + Influencing
+     
+### Potential Motives
+
+The motives behind social engineering attacks vary, and attackers may choose their targets based on different objectives.

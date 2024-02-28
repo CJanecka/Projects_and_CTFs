@@ -145,9 +145,11 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
 
 ### *Step 2 -* Information Gathering
 
-  + **Identify Potential Sources**:
-  + **Gather Info from Sources**:
-  + **Assess Gathered Information**:
+  + **Identify Potential Sources**: Involves thorough research of publicly available information related to the platform. This may include exploring GitHub repositories, tracking open-source projects, and examining user profiles.
+    
+  + **Gather Info from Sources**: By scrutinizing commit histories, analyzing code contributions, and exploring public discussions within the platform. Information gathered from linked accounts or repositories provides insight into the broader digital footprint of the targets.
+    
+  + **Assess Gathered Information**: Analyze the targets/data to identify potential weaknesses or areas prone to errors. This is critical in determining the most effective approach.
 
 ### *Step 3 -* Preparation
 ### *Step 4 -* Develop Relationship

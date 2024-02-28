@@ -80,30 +80,16 @@ Key elements of social engineering include:
 Social engineering attacks can target individuals, organizations, or even entire systems with the goal of manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
 
   + **Individuals:**
-    - Personal Information:
-      + Gaining access to personal information such as passwords, social security numbers, and financial details. 
-    - Credentials:
-      + Obtaining login credentials for email accounts, social media, or online banking.
-    - Identity Theft:
-      + Stealing identities for further fraudulent activities.
+    - Often targeted due to the wealth of personal information they possess. Attackers aim to gain access to passwords, social security numbers, and financial details. Identity theft is a common objective, allowing perpetrators to engage in various fraudulent activities, using the stolen personal information.
      
   + **Employees:**
-    - Corporate Information:
-      + Gaining access to sensitive information, trade secrets, or intellectual property.
-    - Network Access:
-      + Obtaining login credentials, or tricking employees into providing network access, to further compromise organizational systems.
+    - Targeted to gain access to sensitive corporate information, trade secrets, or intellectual property. By manipulating individuals into providing network access or acquiring their login credentials, attackers can compromise organizational systems. Employees are often the gateway to valuable corporate assets.
      
   + **Organizations:**
-    - Financial Gain:
-      + Through extortion, fraud, or direct theft of funds.
-    - Data Breaches:
-      + Acquiring confidential data/information for resale, or to cause reputational damage.
+    -  Targeted for financial gain, including extortion, fraud, or direct theft of funds. Additionally, attackers may seek to obtain confidential data for resale or to cause reputational damage. Directly impacting an organization's financial and operational integrity.
      
   + **Government Entities:**
-    - Espionage:
-      + Gathering classified information or disrupting operations.
-    - Political Motives:
-      + Influencing decision-making or public perception through deceptive tactics.
+    - Often targeted with espionage objectives, where attackers aim to gather classified information or disrupt government operations. Some attacks on government entities are politically motivated, intending to influence decision-making or public perception. This has the potential to directly impact national security and governance.
      
 ### Potential Motives
 

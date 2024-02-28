@@ -79,32 +79,39 @@ Key elements of social engineering include:
 
 Social engineering attacks can target individuals, organizations, or even entire systems with the goal of manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
 
-  + Individuals:
-    - **Personal Information:**
+  + **Individuals:**
+    - Personal Information:
       + Gaining access to personal information such as passwords, social security numbers, and financial details. 
-    - **Credentials:**
+    - Credentials:
       + Obtaining login credentials for email accounts, social media, or online banking.
-    - **Identity Theft:**
+    - Identity Theft:
       + Stealing identities for further fraudulent activities.
      
-  + Employees:
-    - **Corporate Information:**
+  + **Employees:**
+    - Corporate Information:
       + Gaining access to sensitive information, trade secrets, or intellectual property.
-    - **Network Access:**
+    - Network Access:
       + Obtaining login credentials, or tricking employees into providing network access, to further compromise organizational systems.
      
-  + Organizations:
-    - **Financial Gain:**
+  + **Organizations:**
+    - Financial Gain:
       + Through extortion, fraud, or direct theft of funds.
-    - **Data Breaches:**
+    - Data Breaches:
       + Acquiring confidential data/information for resale, or to cause reputational damage.
      
-  + Government Entities:
-    - **Espionage:**
+  + **Government Entities:**
+    - Espionage:
       + Gathering classified information or disrupting operations.
-    - **Political Motives:**
-      + Influencing
+    - Political Motives:
+      + Influencing decision-making or public perception through deceptive tactics.
      
 ### Potential Motives
 
 The motives behind social engineering attacks vary, and attackers may choose their targets based on different objectives.
+
+  + **Financial Gain:**
+  + **Espionage:**
+  + **Information Manipulation:**
+  + **Disruption and Sabotage:**
+  + **Reputational Damage:**
+  + **Political or Ideological Motives:**

@@ -16,3 +16,17 @@
   + [07. Project Improvements](#Project-Improvements)
 
 ## Overview
+
+
+
+## Equipment and Tools
+
+The technologies used in this project include:
+
+  + [The Social Engineering Toolkit *(SET)*](https://github.com/trustedsec/social-engineer-toolkit/blob/master/README.md)
+  + [Kali Linux](https://github.com/trustedsec/social-engineer-toolkit/blob/master/README.md)
+  + [Oracle VirtualBox](https://www.virtualbox.org/)
+  + Google Mail *(Gmail)*
+  + Open-Source Intelligence *(OSINT)*
+
+## Project Requirements

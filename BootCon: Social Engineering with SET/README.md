@@ -41,18 +41,17 @@ The project requirements included:
 
 ## What is Social Engineering?
 
-Social engineering is a manipulative technique employed by individuals or groups to exploit human psychology. The goal is to gain unauthorized access to sensitive information, systems, or physical spaces.  This method entails deceiving or influencing people, leading them to disclose confidential information, perform specific actions, or make decisions that are not in their best interest. The overarching objective of social engineering is to capitalize on human trust, curiosity, fear, or other emotions as a means to circumvent established security measures.
+Social engineering is a manipulative technique employed by individuals or groups to exploit human psychology. The goal is to gain unauthorized access to sensitive information, systems, or physical spaces.  This method entails deceiving or influencing people, leading them to disclose confidential information, perform specific actions, or make decisions that are not in their best interest. The overarching objective is to capitalize on human trust, curiosity, fear, or other emotions as a means to circumvent established security measures.
 
 ### Key Components
 
 Key elements of social engineering include:
 
   + **Psychological Manipulation:**
-    - Exploiting emotions, building trust, creating a sense of urgency, or appealing to a person's desire to help.
+    - Where attackers use emotions and cognitive biases to influence people. This involves tactics like building trust, exploiting feelings, creating urgency, or appealing to the desire to help. By understanding and manipulating these aspects attackers can deceive individuals into, revealing sensitive information or, taking actions that benefit them.
    
   + **Impersonation:**
-    - Pretending to be someone in order to gain trust. Such as: a coworker, IT support, or even a company executive.
-      + This can occur in person, over the phone, or through electronic communication.
+    - The act of pretending to be someone else, in order to gain trust and deceive individuals. Attackers may impersonate trusted figures, such as coworkers, IT support, or company executives, exploiting this false identity to manipulate targets. This tactic can occur in various forms, including in-person interactions, phone calls, or electronic communication. By successfully impersonating a trusted entity, social engineers can trick individuals into divulging sensitive information or performing actions that compromise security.
      
   + **Phishing:**
     - A common form of social engineering; where attackers use deceptive emails, messages, or websites to trick individuals into revealing sensitive information, such as usernames, passwords, or financial details.

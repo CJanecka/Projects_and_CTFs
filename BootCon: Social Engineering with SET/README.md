@@ -11,10 +11,16 @@
     - [a. Key Components](#Key-Components)
     - [b. Potential Targets](#Potential-Targets)
     - [c. Potential Motives](#Potential-Motives)
-    - [d. Attack Examples](#Attack-Examples)
-  + [05. Countermeasures](#Countermeasures)
+  + [05. Campaign Example](#Campaign-Example)
+    - [a. *Step 1 -* Attack Formulation](#Step-1---Attack-Formulation)
+    - [b. *Step 2 -* Information Gathering](#Step-2---Information-Gathering)
+    - [c. *Step 3 -* Preparation](#Step-3---Preparation)
+    - [d. *Step 4 -* Develop Relationship](#Step-4---Develop-Relationship)
+    - [e. *Step 5 -* Exploit Relationship](#Step-5---Exploit-Relationship)
+    - [f. *Step 6 -* Debrief](#Step-6---Debrief)
   + [06. Social Engineering Toolkit](#Social-Engineering-Toolkit)
-  + [07. Project Improvements](#Project-Improvements)
+  + [07. Countermeasures](#Countermeasures)
+  + [08. Project Improvements](#Project-Improvements)
 
 ## Overview
 
@@ -111,5 +117,17 @@ The motives behind social engineering attacks vary, and attackers may choose the
   + **Political or Ideological Motives:**
     - Attackers aim to advance specific political agendas or promote particular ideologies. Through deceptive tactics, such as spreading propaganda, influencing public opinion, or engaging in cyber operations. Social engineering becomes a means of achieving broader sociopolitical goals through the manipulation of individuals, organizations, or even entire communities.
    
-### Attack Examples
+## Campaign Example
 
+This is what a typical social engineering campaign roadmap looks like.
+
+![Slide 4 v2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99c23393-5803-4d90-9306-1742701349c6)
+
+By utilizing this roadmap, my team designed the following example of what a camgaign could look like with GitHub as a target.
+
+### *Step 1 -* Attack Formulation
+### *Step 2 -* Information Gathering
+### *Step 3 -* Preparation
+### *Step 4 -* Develop Relationship
+### *Step 5 -* Exploit Relationship
+### *Step 6 -* Debrief

@@ -41,7 +41,7 @@ The project requirements included:
 
 ## What is Social Engineering?
 
-Social engineering is a manipulative technique employed by individuals or groups to exploit human psychology. The goal is to gain unauthorized access to sensitive information, systems, or physical spaces.  This method entails deceiving or influencing people, leading them to disclose confidential information, perform specific actions, or make decisions that are not in their best interest. The overarching objective is to capitalize on human trust, curiosity, fear, or other emotions as a means to circumvent established security measures.
+Social engineering is a manipulative technique employed by individuals, or groups, to exploit human psychology. The goal is to gain unauthorized access to sensitive information, systems, or physical spaces.  This method entails deceiving or influencing people, leading them to disclose confidential information, perform specific actions, or make decisions that are not in their best interest. The overarching objective is to capitalize on human trust, curiosity, fear, or other emotions as a means to circumvent established security measures.
 
 ### Key Components
 
@@ -94,7 +94,11 @@ Social engineering attacks can target individuals, organizations, or even entire
 The motives behind social engineering attacks vary, and attackers may choose their targets based on different objectives.
 
   + **Financial Gain:**
+    - Serves as a primary motive; where attackers aim to exploit individuals, employees, organizations, or government entities for monetary benefit(s). This may involve tactics like phishing for banking credentials, engaging in identity theft, orchestrating ransomware attacks, or defrauding individuals and government entities. 
+      
   + **Espionage:**
+    - Adversaries may foucs on individuals, employees, organizations, or government entities; to acquire classified or proprietary data for economic, political, or military advantage. This is frequently driven by nation-state and corporate actors; where attackers aim to gain a competitive edge, or influence geopolitical landscapes, through covert information gathering.
+      
   + **Information Manipulation:**
   + **Disruption and Sabotage:**
   + **Reputational Damage:**

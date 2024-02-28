@@ -18,6 +18,7 @@
     - [d. *Step 4 -* Develop Relationship](#Step-4---Develop-Relationship)
     - [e. *Step 5 -* Exploit Relationship](#Step-5---Exploit-Relationship)
     - [f. *Step 6 -* Debrief](#Step-6---Debrief)
+    - [g. GitHub Example](#GitHub-Example)
   + [06. Social Engineering Toolkit](#Social-Engineering-Toolkit)
   + [07. Countermeasures](#Countermeasures)
   + [08. Project Improvements](#Project-Improvements)
@@ -106,7 +107,7 @@ The motives behind social engineering attacks vary, and attackers may choose the
   + **Reputational Damage:**
     - The goal is to tarnish the image or credibility of individuals, organizations, or government entities. Attackers use deceptive tactics to spread false information, expose confidential data, and engage in activities that harm the targeted entity's reputation. The intention is to erode trust, credibility, and public perception, potentially leading to long-lasting and impactful consequences.
       
-  + **Political or Ideological Motives:**
+  + **Political or Ideological:**
     - Attackers aim to advance specific political agendas or promote particular ideologies. Through deceptive tactics, such as spreading propaganda, influencing public opinion, or engaging in cyber operations. Social engineering becomes a means of achieving broader sociopolitical goals through the manipulation of individuals, organizations, or even entire communities.
    
 ## Social Engineering Campaign
@@ -119,8 +120,8 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
 
 ### *Step 1 -* Attack Formulation
 
-  + **Goal Identification:** Clearly define the objectives of the operation.
-    - This could include obtaining sensitive information, gaining access to systems or facilities, or manipulating individuals into taking specific actions.
+  + **Goal Identification:** Clearly define the objectives of the campaign.
+    - This includes obtaining sensitive information, gaining access to systems or facilities, or manipulating individuals into taking specific actions.
    
   + **Target Identification:** Specific individuals, entities, or systems that possess the information or access required to achieve the defined goals.
     - Targeting the right individuals or systems maximizes the chances of achieving the established objectives.
@@ -152,6 +153,12 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
   + **Assess Gathered Information**: Analyze the targets/data to identify potential weaknesses or areas prone to errors. This is critical in determining the most effective approach.
 
 ### *Step 3 -* Preparation
+
+  + **Combination & Analysis of Gathered Info**:
+  + **Developing an Attack Vector**:
+  + **Goal Satisfaction**:
+
 ### *Step 4 -* Develop Relationship
 ### *Step 5 -* Exploit Relationship
 ### *Step 6 -* Debrief
+### GitHub Example

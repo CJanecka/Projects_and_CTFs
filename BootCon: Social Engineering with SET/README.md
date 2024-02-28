@@ -11,7 +11,7 @@
     - [a. Key Components](#Key-Components)
     - [b. Potential Targets](#Potential-Targets)
     - [c. Potential Motives](#Potential-Motives)
-  + [05. Campaign Example](#Campaign-Example)
+  + [05. Social Engineering Campaign](#Social-Engineering-Campaign)
     - [a. *Step 1 -* Attack Formulation](#Step-1---Attack-Formulation)
     - [b. *Step 2 -* Information Gathering](#Step-2---Information-Gathering)
     - [c. *Step 3 -* Preparation](#Step-3---Preparation)
@@ -117,15 +117,40 @@ The motives behind social engineering attacks vary, and attackers may choose the
   + **Political or Ideological Motives:**
     - Attackers aim to advance specific political agendas or promote particular ideologies. Through deceptive tactics, such as spreading propaganda, influencing public opinion, or engaging in cyber operations. Social engineering becomes a means of achieving broader sociopolitical goals through the manipulation of individuals, organizations, or even entire communities.
    
-## Campaign Example
+## Social Engineering Campaign
 
-This is what a typical social engineering campaign roadmap looks like.
+This is what a typical social engineering campaign looks like.
 
 ![Slide 4 v2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99c23393-5803-4d90-9306-1742701349c6)
 
-By utilizing this roadmap, my team designed the following example of what a camgaign could look like with GitHub as a target.
+By utilizing this roadmap, I designed the following example of what a camgaign could look like with GitHub as a target.
 
 ### *Step 1 -* Attack Formulation
+
+  + **Goal Identification:** Clearly define the objectives of the operation.
+    - This could include obtaining sensitive information, gaining access to systems or facilities, or manipulating individuals into taking specific actions.
+   
+  + **Target Identification:** Specific individuals, entities, or systems that possess the information or access required to achieve the defined goals.
+    - Targeting the right individuals or systems maximizes the chances of achieving the established objectives.
+
+#### Possible GitHub Targets
+
+  + **General Users**: These could be individuals or small organizations that use GitHub for various projects and code repositories.
+   
+  + **Developers**: Often have valuable intellectual property and access to repositories with sensitive information.
+   
+  + **Organization Administrators**: Responsible for managing and overseeing access to repositories.
+    - They can be targeted to gain control over an organization's codebase and resources.
+
+  + **Contributors and Collaborators**: Users who frequently collaborate on repositories and contribute to open-source projects.
+    - Their privileges could be exploited to gain access to multiple repositories at once.
+
+  + **Users with Administrative Privileges**: These individuals have significant control and access to sensitive data.
+
+  + **Users in Sensitive Industries**: Individuals or organizations in sectors like finance, healthcare, government, and defense.
+    
+  + **GitHub Employees**: Can be targeted for access to internal tools and systems.
+
 ### *Step 2 -* Information Gathering
 ### *Step 3 -* Preparation
 ### *Step 4 -* Develop Relationship

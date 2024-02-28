@@ -154,8 +154,10 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
 
 ### *Step 3 -* Preparation
 
-  + **Combination & Analysis of Gathered Info**:
+  + **Combination & Analysis of Gathered Info**: Pooling togehter and synthesizing insight from different sources. This step aids in creating a  profile of the target(s), highlighting their strengths, weaknesses, and potential points of vulnerability. Understanding a GitHub user's coding practices, the nature of their projects, and the dynamics of their interactions within the platform allows allows for a more refined approach.
+    
   + **Developing an Attack Vector**:
+    
   + **Goal Satisfaction**:
 
 ### *Step 4 -* Develop Relationship

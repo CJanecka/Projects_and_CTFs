@@ -75,7 +75,7 @@ Key elements of social engineering include:
    
 ### Potential Targets
 
-Social engineering attacks can target individuals, organizations, or even entire systems with the goal of manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
+Social engineering attacks can target individuals, organizations, or even entire systems by manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
 
   + **Individuals:**
     - Often targeted due to the wealth of personal information they possess. Attackers aim to gain access to passwords, social security numbers, and financial details. Identity theft is a common objective, allowing perpetrators to engage in various fraudulent activities, using the stolen personal information.
@@ -106,4 +106,10 @@ The motives behind social engineering attacks vary, and attackers may choose the
     - The objective is to induce chaos, impede operations, or damage critical infrastructure. Attackers aim to compromise systems, networks, or organizational functions using deceptive tactics, with the goal of disrupting normal operations. This involves intentionally creating instability, sowing discord, or inflicting harm; on individuals, organizations, and even entire sectors.
       
   + **Reputational Damage:**
+    - The goal is to tarnish the image or credibility of individuals, organizations, or government entities. Attackers use deceptive tactics to spread false information, expose confidential data, and engage in activities that harm the targeted entity's reputation. The intention is to erode trust, credibility, and public perception, potentially leading to long-lasting and impactful consequences.
+      
   + **Political or Ideological Motives:**
+    - Attackers aim to advance specific political agendas or promote particular ideologies. Through deceptive tactics, such as spreading propaganda, influencing public opinion, or engaging in cyber operations. Social engineering becomes a means of achieving broader sociopolitical goals through the manipulation of individuals, organizations, or even entire communities.
+   
+### Attack Examples
+

@@ -121,7 +121,7 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
 ### *Step 1 -* Attack Formulation
 
   + **Goal Identification:** Clearly define the objectives of the campaign.
-    - This includes obtaining sensitive information, gaining access to systems or facilities, or manipulating individuals into taking specific actions.
+    - This could include manipulating users into revealing credentials, exploiting trust to inject malicious code into repositories, or spreading malware within collaborative networks..
    
   + **Target Identification:** Specific individuals, entities, or systems that possess the information or access required to achieve the defined goals.
     - Targeting the right individuals or systems maximizes the chances of achieving the established objectives.
@@ -154,11 +154,9 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
 
 ### *Step 3 -* Preparation
 
-  + **Combination & Analysis of Gathered Info**: Pooling togehter and synthesizing insight from different sources. This step aids in creating a  profile of the target(s), highlighting their strengths, weaknesses, and potential points of vulnerability. Understanding a GitHub user's coding practices, the nature of their projects, and the dynamics of their interactions within the platform allows allows for a more refined approach.
+  + **Combination & Analysis of Gathered Info**: Pooling togehter and synthesizing insights from different sources. This step aids in creating a profile of the target(s), highlighting their strengths, weaknesses, and potential points of vulnerability. Understanding a GitHub user's coding practices, the nature of their projects, and the dynamics of their interactions within the platform allows allows for a more refined approach.
     
-  + **Developing an Attack Vector**:
-    
-  + **Goal Satisfaction**:
+  + **Developing an Attack Vector**: Entails crafting a tailored approach that aligns with the predefined goals of the social engineering attack For GitHub users, the attack vector could involve creating deceptive communications related to specific projects, leveraging known collaborators, or exploiting trust within contributor networks.
 
 ### *Step 4 -* Develop Relationship
 ### *Step 5 -* Exploit Relationship

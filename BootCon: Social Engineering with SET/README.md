@@ -156,9 +156,16 @@ By utilizing this roadmap, I designed the following example of what a camgaign c
 
   + **Combination & Analysis of Gathered Info**: Pooling togehter and synthesizing insights from different sources. This step aids in creating a profile of the target(s), highlighting their strengths, weaknesses, and potential points of vulnerability. Understanding a GitHub user's coding practices, the nature of their projects, and the dynamics of their interactions within the platform allows allows for a more refined approach.
     
-  + **Developing an Attack Vector**: Entails crafting a tailored approach that aligns with the predefined goals of the social engineering attack For GitHub users, the attack vector could involve creating deceptive communications related to specific projects, leveraging known collaborators, or exploiting trust within contributor networks.
+  + **Developing an Attack Vector**: Entails crafting a tailored approach that aligns with the predefined goals of the social engineering attack. For GitHub users, the attack vector could involve creating deceptive communications related to specific projects, leveraging known collaborators, or exploiting trust within contributor networks.
+
+  + **Goal Satisfaction**: By leveraging the obtained information, reassess and redefine the campaign's goals, ensuring a clear understanding of its purpose. The success of the attack hinges on how effectively these goals are met.
 
 ### *Step 4 -* Develop Relationship
+
+  + **Establish Communication**: Initial contact to establish a connection with the target, that goes beyond a mere transaction. The key is to create a non-intrusive and seemingly benign channel through which the relationship can be cultivated. This communication could take various forms, such as direct messages, comments on repositories, or engagement in project-related discussions.
+    
+  + **Rapport Building**: The attacker strategically engages with the target, demonstrating genuine interest in their activities, projects, or coding contributions. By offering positive feedback, asking relevant questions, and showcasing a shared interest in the GitHub community, the attacker aims to create a connection that feels authentic to the target.
+
 ### *Step 5 -* Exploit Relationship
 ### *Step 6 -* Debrief
 ### GitHub Example

@@ -116,37 +116,15 @@ This is what a typical social engineering campaign looks like.
 
 ![Slide 4 v2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99c23393-5803-4d90-9306-1742701349c6)
 
-By utilizing this roadmap, I designed the following example of what a camgaign could look like with GitHub as a target.
-
 ### *Step 1 -* Attack Formulation
 
-  + **Goal Identification:** Clearly define the objectives of the campaign.
-    - This could include manipulating users into revealing credentials, exploiting trust to inject malicious code into repositories, or spreading malware within collaborative networks..
+  + **Goal Identification:** Clearly define the goals of the social engineering campaign; whether it be, obtaining sensitive information, gaining unauthorized access, or influencing specific behaviors. Clearly identified goals serve as a guiding force, directing the subsequent steps of the campaign.
    
-  + **Target Identification:** Specific individuals, entities, or systems that possess the information or access required to achieve the defined goals.
-    - Targeting the right individuals or systems maximizes the chances of achieving the established objectives.
-
-#### Possible GitHub Targets
-
-  + **General Users**: These could be individuals or small organizations that use GitHub for various projects and code repositories.
-   
-  + **Developers**: Often have valuable intellectual property and access to repositories with sensitive information.
-   
-  + **Organization Administrators**: Responsible for managing and overseeing access to repositories.
-    - They can be targeted to gain control over an organization's codebase and resources.
-
-  + **Contributors and Collaborators**: Users who frequently collaborate on repositories and contribute to open-source projects.
-    - Their privileges could be exploited to gain access to multiple repositories at once.
-
-  + **Users with Administrative Privileges**: These individuals have significant control and access to sensitive data.
-
-  + **Users in Sensitive Industries**: Individuals or organizations in sectors like finance, healthcare, government, and defense.
-    
-  + **GitHub Employees**: Can be targeted for access to internal tools and systems.
+  + **Target Identification:** Once the goals are established, the focus shifts to identifying the targets – individuals, systems, or entities that possess the information or access needed to fulfill the predefined objectives. Effectively identifying targets streamlines the campaign's efforts, enabling a more precise and strategic execution.
 
 ### *Step 2 -* Information Gathering
 
-  + **Identify Potential Sources**: Involves thorough research of publicly available information related to the platform. This may include exploring GitHub repositories, tracking open-source projects, and examining user profiles.
+  + **Identify Potential Sources**: Involves research of publicly available information related to the platform. This may include exploring GitHub repositories, tracking open-source projects, and examining user profiles. Clearly identified goals serve as a guiding force, directing the subsequent steps of the campaign and ensuring a focused and purposeful approach.
     
   + **Gather Info from Sources**: By scrutinizing commit histories, analyzing code contributions, and exploring public discussions within the platform. Information gathered from linked accounts or repositories provides insight into the broader digital footprint of the targets.
     

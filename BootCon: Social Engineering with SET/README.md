@@ -120,15 +120,15 @@ This is what a typical social engineering campaign looks like.
 
   + **Goal Identification:** Clearly define the goals of the social engineering campaign; whether it be, obtaining sensitive information, gaining unauthorized access, or influencing specific behaviors. Clearly identified goals serve as a guiding force, directing the subsequent steps of the campaign.
    
-  + **Target Identification:** Once the goals are established, the focus shifts to identifying the targets – individuals, systems, or entities that possess the information or access needed to fulfill the predefined objectives. Effectively identifying targets streamlines the campaign's efforts, enabling a more precise and strategic execution.
+  + **Target Identification:** Once the goals are established, the focus shifts to identifying the target(s) – individuals, systems, or entities that possess the information or access needed to fulfill the predefined objectives. Effectively identifying targets streamlines the campaign's efforts, enabling a more precise and strategic execution.
 
 ### *Step 2 -* Information Gathering
 
-  + **Identify Potential Sources**: Involves research of publicly available information related to the platform. This may include exploring GitHub repositories, tracking open-source projects, and examining user profiles. Clearly identified goals serve as a guiding force, directing the subsequent steps of the campaign and ensuring a focused and purposeful approach.
+  + **Identify Potential Sources**: Take note of sources that could provide valuable insights or vulnerabilities related to the campaign's goals. This may include exploring online platforms, databases, or other sources to compile a list of targets or resources that could be leveraged in the subsequent stages of the campaign.
     
-  + **Gather Info from Sources**: By scrutinizing commit histories, analyzing code contributions, and exploring public discussions within the platform. Information gathered from linked accounts or repositories provides insight into the broader digital footprint of the targets.
+  + **Gather Info from Sources**: With potential sources identified, the next objective is to collect information from these sources. The purpose is to build profiles of the targets, understanding their behaviors, preferences, and potential weaknesses. Information gathered may include personal details, digital footprints, or patterns of behavior.
     
-  + **Assess Gathered Information**: Analyze the targets/data to identify potential weaknesses or areas prone to errors. This is critical in determining the most effective approach.
+  + **Assess Gathered Information**: Extract actionable insights that can inform the development of a targeted and effective social engineering strategy. This involves identifying potential attack vectors, understanding the operational environment, and evaluating the strengths and weaknesses of the target(s).
 
 ### *Step 3 -* Preparation
 
@@ -136,7 +136,7 @@ This is what a typical social engineering campaign looks like.
     
   + **Developing an Attack Vector**: Entails crafting a tailored approach that aligns with the predefined goals of the social engineering attack. For GitHub users, the attack vector could involve creating deceptive communications related to specific projects, leveraging known collaborators, or exploiting trust within contributor networks.
 
-  + **Goal Satisfaction**: By leveraging the obtained information, reassess and redefine the campaign's goals, ensuring a clear understanding of its purpose. The success of the attack hinges on how effectively these goals are met.
+  + **Goal Satisfaction**: By leveraging the obtained information, reassess and redefine the campaign's goals, ensuring a clear understanding of its purpose. The success of the attack hinges on how effectively these goals are met. 
 
 ### *Step 4 -* Develop Relationship
 

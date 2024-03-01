@@ -18,8 +18,7 @@
     - [d. *Step 4 -* Develop Relationship](#Step-4---Develop-Relationship)
     - [e. *Step 5 -* Exploit Relationship](#Step-5---Exploit-Relationship)
     - [f. *Step 6 -* Debrief](#Step-6---Debrief)
-    - [g. GitHub Example](#GitHub-Example)
-  + [06. Social Engineering Toolkit](#Social-Engineering-Toolkit)
+  + [06. The Social Engineering Toolkit](#The-Social-Engineering-Toolkit)
   + [07. Countermeasures](#Countermeasures)
   + [08. Project Improvements](#Project-Improvements)
 
@@ -144,6 +143,6 @@ This is what a typical social engineering campaign looks like.
 
   + **Maintenance**: Sustain the manipulated relationship over an extended period by keeping the target engaged and the rapport intact. This can involve periodic check-ins, updates, or casual conversations to reinforce the connection. 
     
-  + **Transition**:
+  + **Transition**: Conclude the engagement without raising suspicion or leaving traces. It's crucial to exit the relationship strategically, ensuring minimal risk of discovery.
 
-### GitHub Example
+## The Social Engineering Toolkit

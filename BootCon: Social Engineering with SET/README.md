@@ -132,8 +132,14 @@ This is what a typical social engineering campaign looks like.
 
   + **Establish Communication**: Initial contact to establish a connection with the target, that goes beyond a mere transaction. The key is to create a non-intrusive and seemingly benign channel through which the relationship can be cultivated. This could take various forms; such as, direct messages,  making phone calls, or using other communication channels.
     
-  + **Rapport Building**: Once communication is established; the focus shifts to building a connection that aids in garnering the trust of the target, rendering them more susceptible to manipulation. This could involve engaging in friendly conversations, finding common interests, and creating a sense of familiarity.
+  + **Rapport Building**: Once communication is established; build a connection that aids in garnering the trust of the target, rendering them more susceptible to manipulation. This could involve engaging in friendly conversations, finding common interests, and creating a sense of familiarity.
 
 ### *Step 5 -* Exploit Relationship
+
+  + **Prime the Target**:  Utilize the established relationship to subtly shape the target's thoughts, perceptions, or behavior. This includes strategically planting seeds or cues designed to make the target more receptive to the upcoming request; preparing them for a desired response without arousing suspicion.
+      
+  + **Citation**:
+    - Reference specific details or information gathered during the *Relationship Building* phase to convince the target that you have genuine knowledge and authority. This can include recalling names, events, or preferences discussed previously. This capitalizes on the trust established, increasing the likelihood of compliance.
+
 ### *Step 6 -* Debrief
 ### GitHub Example

@@ -138,8 +138,12 @@ This is what a typical social engineering campaign looks like.
 
   + **Prime the Target**:  Utilize the established relationship to subtly shape the target's thoughts, perceptions, or behavior. This includes strategically planting seeds or cues designed to make the target more receptive to the upcoming request; preparing them for a desired response without arousing suspicion.
       
-  + **Citation**:
-    - Reference specific details or information gathered during the *Relationship Building* phase to convince the target that you have genuine knowledge and authority. This can include recalling names, events, or preferences discussed previously. This capitalizes on the trust established, increasing the likelihood of compliance.
+  + **Citation**: Reference specific details or information gathered during the *Relationship Building* phase to convince the target that you have genuine knowledge and authority. This can include recalling names, events, or preferences discussed previously. This capitalizes on the trust established, increasing the likelihood of compliance.
 
 ### *Step 6 -* Debrief
+
+  + **Maintenance**: Sustain the manipulated relationship over an extended period by keeping the target engaged and the rapport intact. This can involve periodic check-ins, updates, or casual conversations to reinforce the connection. 
+    
+  + **Transition**:
+
 ### GitHub Example

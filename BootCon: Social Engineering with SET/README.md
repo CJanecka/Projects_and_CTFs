@@ -20,7 +20,7 @@
     - [f. *Step 6 -* Debrief](#Step-6---Debrief)
   + [06. The Social Engineering Toolkit](#The-Social-Engineering-Toolkit)
     - [a. Pros and Cons of SET](#Pros-and-Cons-of-SET)
-    - [b. Setup Tips](#Setup-Tips)
+    - [b. Initial Setup Tips](#Initial-Setup-Tips)
     - [c. Website Cloning](#Website-Cloning)
     - [d. Phishing Emails](#Phishing-Emails)
     - [e. Credential Harvesting](#Credential-Harvesting)
@@ -176,7 +176,9 @@ The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-enginee
 
 Balancing the benefits with these considerations is crucial for ethical, and effective, utilization of the Social Engineer Toolkit.
 
-### Setup Tips
+### Initial Setup Tips
+
+My team used Oracle VirtualBox to create an isolated testing environment, and avoid any potential negative impact on our personal system(s). Oracle VM's are capable of running a variety 
 
 ### Website Cloning
 ### Phishing Emails

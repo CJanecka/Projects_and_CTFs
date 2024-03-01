@@ -152,9 +152,9 @@ This is what a typical social engineering campaign looks like:
 
 ## The Social Engineer Toolkit
 
-The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) is an open-source penetration testing framework crafted for social engineering purposes. It was developed by TrustedSec, LLC - an information security consulting firm based in Cleveland, Ohio. SET includes multiple custom attack vectors, providing the capability to swiftly craft and launch believable attacks. This software is exclusively designed for testing and is permissible only in instances where explicit consent has been granted.
+The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) is an open-source penetration testing framework crafted for social engineering purposes. It comes preinstalled by default on Kali Linux, and was developed by TrustedSec, LLC - an information security consulting firm based in Cleveland, Ohio. SET includes multiple custom attack vectors, providing the capability to swiftly craft and launch believable attacks. This software is exclusively designed for testing and is permissible only in instances where explicit consent has been granted.
 
-*(The SET Welcome Page on Kali Linux.)*                                                                                            
+*(The SET Welcome Dashboard on Kali Linux.)*                                                                                            
 ![00_main_page](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/668539cc-8ab0-40c4-a3c3-9315afa2b3ff)
 
 ### Pros and Cons of SET

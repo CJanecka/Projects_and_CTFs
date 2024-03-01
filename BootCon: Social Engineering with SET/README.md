@@ -166,8 +166,12 @@ The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-enginee
     - **Educational Value**: Can be used for educational purposes, helping to better understand social engineering tactics & their mitigations.
     - **Open Source**: SET is freely available, and its code can be inspected & modified by users, contributing to transparency & trust.
    
-  + **Cons**:
-    - cont
+  + ***Cons***:
+    - **Legal & Ethical Concerns**: Using SET for malicious purposes is unethical, and unauthorized use can result in criminal charges. 
+    - **Risk of Data Misuse**: Harvested data can be used for malicious activities, posing data risk.
+    - **Bugs**: Often requires application relaunch for the toolkit to properly function.
+    - **Prior Knowledge Needed**: Good understanding of social engineering, networking, & cybersecurity principles are required in order to use this application effectively.
+    - **Platform Specific**: Primarily designed for Linux distributions. A less straightforward set-up is needed for macOS configurations.
 
 ### Website Cloning
 ### Phishing Emails

@@ -19,6 +19,11 @@
     - [e. *Step 5 -* Exploit Relationship](#Step-5---Exploit-Relationship)
     - [f. *Step 6 -* Debrief](#Step-6---Debrief)
   + [06. The Social Engineering Toolkit](#The-Social-Engineering-Toolkit)
+    - [a. Pros and Cons of SET](#Pros-and-Cons-of-SET)
+    - [b. Website Cloning](#Website-Cloning)
+    - [c. Phishing Emails](#Phishing-Emails)
+    - [d. Credential Harvesting](#Credential-Harvesting)
+    - [e. QR Code Attack](#QR-Code-Attack)
   + [07. Countermeasures](#Countermeasures)
   + [08. Project Improvements](#Project-Improvements)
 
@@ -101,7 +106,7 @@ The motives behind social engineering attacks vary, and attackers may choose the
    
 ## Social Engineering Campaign
 
-This is what a typical social engineering campaign looks like.
+This is what a typical social engineering campaign looks like:
 
 ![Slide 4 v2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99c23393-5803-4d90-9306-1742701349c6)
 
@@ -145,4 +150,15 @@ This is what a typical social engineering campaign looks like.
     
   + **Transition**: Conclude the engagement without raising suspicion or leaving traces. It's crucial to exit the relationship strategically, ensuring minimal risk of discovery.
 
-## The Social Engineering Toolkit
+## The Social Engineer Toolkit
+
+The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) is an open-source penetration testing framework crafted for social engineering purposes. It was developed by TrustedSec, LLC - an information security consulting firm based in Cleveland, Ohio. SET includes multiple custom attack vectors, providing the capability to swiftly craft and launch believable attacks. This software is exclusively designed for testing and is permissible only in instances where explicit consent has been granted.
+
+*(The SET Welcome Page on Kali Linux.)*                                                                                            
+![00_main_page](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/668539cc-8ab0-40c4-a3c3-9315afa2b3ff)
+
+### Pros and Cons of SET
+### Website Cloning
+### Phishing Emails
+### Credential Harvesting
+### QR Code Attack

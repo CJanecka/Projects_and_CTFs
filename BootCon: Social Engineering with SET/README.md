@@ -76,39 +76,29 @@ Key elements of social engineering include:
 
 Social engineering attacks can target individuals, organizations, or even entire systems by manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
 
-  + **Individuals:**
-    - Often targeted due to the wealth of personal information they possess. Attackers aim to gain access to passwords, social security numbers, and financial details. Identity theft is a common objective, allowing perpetrators to engage in various fraudulent activities, using the stolen personal information.
+  + **Individuals:** Often targeted due to the wealth of personal information they possess. Attackers aim to gain access to passwords, social security numbers, and financial details. Identity theft is a common objective, allowing perpetrators to engage in various fraudulent activities, using the stolen personal information.
      
-  + **Employees:**
-    - Targeted to gain access to sensitive corporate information, trade secrets, or intellectual property. By manipulating individuals into providing network access or acquiring their login credentials, attackers can compromise organizational systems. Employees are often the gateway to valuable corporate assets.
+  + **Employees:** Targeted to gain access to sensitive corporate information, trade secrets, or intellectual property. By manipulating individuals into providing network access or acquiring their login credentials, attackers can compromise organizational systems. Employees are often the gateway to valuable corporate assets.
      
-  + **Organizations:**
-    -  Targeted for financial gain, including extortion, fraud, or direct theft of funds. Additionally, attackers may seek to obtain confidential data for resale or to cause reputational damage. Directly impacting an organization's financial and operational integrity.
+  + **Organizations:** Targeted for financial gain, including extortion, fraud, or direct theft of funds. Additionally, attackers may seek to obtain confidential data for resale or to cause reputational damage. Directly impacting an organization's financial and operational integrity.
      
-  + **Government Entities:**
-    - Often targeted with espionage objectives, where attackers aim to gather classified information or disrupt government operations. Some attacks on government entities are politically motivated, intending to influence decision-making or public perception. This has the potential to directly impact national security and governance.
+  + **Government Entities:** Often targeted with espionage objectives, where attackers aim to gather classified information or disrupt government operations. Some attacks on government entities are politically motivated, intending to influence decision-making or public perception. This has the potential to directly impact national security and governance.
      
 ### Potential Motives
 
 The motives behind social engineering attacks vary, and attackers may choose their targets based on different objectives.
 
-  + **Financial Gain:**
-    - Serves as a primary motive; where attackers aim to exploit individuals, employees, organizations, or government entities for monetary benefit(s). This may involve tactics like phishing for banking credentials, engaging in identity theft, orchestrating ransomware attacks, or defrauding individuals and government entities. 
+  + **Financial Gain:** Serves as a primary motive; where attackers aim to exploit individuals, employees, organizations, or government entities for monetary benefit(s). This may involve tactics like phishing for banking credentials, engaging in identity theft, orchestrating ransomware attacks, or defrauding individuals and government entities. 
       
-  + **Espionage:**
-    - Adversaries may foucs on individuals, employees, organizations, or government entities; to acquire classified or proprietary data for economic, political, or military advantage. This is frequently driven by nation-state and corporate actors; where attackers aim to gain a competitive edge, or influence geopolitical landscapes, through covert information gathering.
+  + **Espionage:** Adversaries may foucs on individuals, employees, organizations, or government entities; to acquire classified or proprietary data for economic, political, or military advantage. This is frequently driven by nation-state and corporate actors; where attackers aim to gain a competitive edge, or influence geopolitical landscapes, through covert information gathering.
       
-  + **Information Manipulation:**
-    - The intentional distortion or dissemination of false information to influence *- public opinion, specific outcomes, or perceptions*. This is accomplished by; spreading fake news, creating misleading narratives, or conducting disinformation campaigns. Allowing social engineers to shape narratives and control discourse; or achieve political, social, and economic objectives.
+  + **Information Manipulation:** The intentional distortion or dissemination of false information to influence *- public opinion, specific outcomes, or perceptions*. This is accomplished by; spreading fake news, creating misleading narratives, or conducting disinformation campaigns. Allowing social engineers to shape narratives and control discourse; or achieve political, social, and economic objectives.
       
-  + **Disruption and Sabotage:**
-    - The objective is to induce chaos, impede operations, or damage critical infrastructure. Attackers aim to compromise systems, networks, or organizational functions using deceptive tactics, with the goal of disrupting normal operations. This involves intentionally creating instability, sowing discord, or inflicting harm; on individuals, organizations, and even entire sectors.
+  + **Disruption and Sabotage:** The objective is to induce chaos, impede operations, or damage critical infrastructure. Attackers aim to compromise systems, networks, or organizational functions using deceptive tactics, with the goal of disrupting normal operations. This involves intentionally creating instability, sowing discord, or inflicting harm; on individuals, organizations, and even entire sectors.
       
-  + **Reputational Damage:**
-    - The goal is to tarnish the image or credibility of individuals, organizations, or government entities. Attackers use deceptive tactics to spread false information, expose confidential data, and engage in activities that harm the targeted entity's reputation. The intention is to erode trust, credibility, and public perception, potentially leading to long-lasting and impactful consequences.
+  + **Reputational Damage:** The goal is to tarnish the image or credibility of individuals, organizations, or government entities. Attackers use deceptive tactics to spread false information, expose confidential data, and engage in activities that harm the targeted entity's reputation. The intention is to erode trust, credibility, and public perception, potentially leading to long-lasting and impactful consequences.
       
-  + **Political or Ideological:**
-    - Attackers aim to advance specific political agendas or promote particular ideologies. Through deceptive tactics, such as spreading propaganda, influencing public opinion, or engaging in cyber operations. Social engineering becomes a means of achieving broader sociopolitical goals through the manipulation of individuals, organizations, or even entire communities.
+  + **Political or Ideological:** Attackers aim to advance specific political agendas or promote particular ideologies. Through deceptive tactics, such as spreading propaganda, influencing public opinion, or engaging in cyber operations. Social engineering becomes a means of achieving broader sociopolitical goals through the manipulation of individuals, organizations, or even entire communities.
    
 ## Social Engineering Campaign
 
@@ -128,15 +118,15 @@ This is what a typical social engineering campaign looks like.
     
   + **Gather Info from Sources**: With potential sources identified, the next objective is to collect information from these sources. The purpose is to build profiles of the targets, understanding their behaviors, preferences, and potential weaknesses. Information gathered may include personal details, digital footprints, or patterns of behavior.
     
-  + **Assess Gathered Information**: Extract actionable insights that can inform the development of a targeted and effective social engineering strategy. This involves identifying potential attack vectors, understanding the operational environment, and evaluating the strengths and weaknesses of the target(s).
+  + **Assess Gathered Information**: Extract actionable insights that can inform the development of a targeted and effective social engineering strategy. This includes identifying potential attack vectors, understanding the operational environment, and evaluating the strengths and weaknesses of the target(s).
 
 ### *Step 3 -* Preparation
 
-  + **Combination & Analysis of Gathered Info**: Pooling togehter and synthesizing insights from different sources. This step aids in creating a profile of the target(s), highlighting their strengths, weaknesses, and potential points of vulnerability. Understanding a GitHub user's coding practices, the nature of their projects, and the dynamics of their interactions within the platform allows allows for a more refined approach.
+  + **Combination & Analysis of Gathered Info**: Combine and analyze the information gathered in the previous stages. The purpose is to formulate a better understanding of the target(s), their vulnerabilities, and the operational environment. By combining data from various sources, we gain insights that guide the subsequent steps of the campaign.
     
-  + **Developing an Attack Vector**: Entails crafting a tailored approach that aligns with the predefined goals of the social engineering attack. For GitHub users, the attack vector could involve creating deceptive communications related to specific projects, leveraging known collaborators, or exploiting trust within contributor networks.
+  + **Developing an Attack Vector**: Create a strategic approach that aligns with the predefined goals. This involves choosing the most effective methods, communication channels, and psychological tactics based on the analyzed information. This serves as the blueprint for the actual execution of the campaign.
 
-  + **Goal Satisfaction**: By leveraging the obtained information, reassess and redefine the campaign's goals, ensuring a clear understanding of its purpose. The success of the attack hinges on how effectively these goals are met. 
+  + **Goal Satisfaction**: Clarify what would signify success for the campaign. Specify the outcomes that align with the campaign's goals, such as gaining unauthorized access or extracting sensitive information.
 
 ### *Step 4 -* Develop Relationship
 

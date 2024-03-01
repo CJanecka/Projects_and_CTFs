@@ -20,10 +20,11 @@
     - [f. *Step 6 -* Debrief](#Step-6---Debrief)
   + [06. The Social Engineering Toolkit](#The-Social-Engineering-Toolkit)
     - [a. Pros and Cons of SET](#Pros-and-Cons-of-SET)
-    - [b. Website Cloning](#Website-Cloning)
-    - [c. Phishing Emails](#Phishing-Emails)
-    - [d. Credential Harvesting](#Credential-Harvesting)
-    - [e. QR Code Attack](#QR-Code-Attack)
+    - [b. Setup Tips](#Setup-Tips)
+    - [c. Website Cloning](#Website-Cloning)
+    - [d. Phishing Emails](#Phishing-Emails)
+    - [e. Credential Harvesting](#Credential-Harvesting)
+    - [f. QR Code Attack](#QR-Code-Attack)
   + [07. Countermeasures](#Countermeasures)
   + [08. Project Improvements](#Project-Improvements)
 
@@ -167,11 +168,15 @@ The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-enginee
     - **Open Source**: SET is freely available, and its code can be inspected & modified by users, contributing to transparency & trust.
    
   + ***Cons***:
-    - **Legal & Ethical Concerns**: Using SET for malicious purposes is unethical, and unauthorized use can result in criminal charges. 
-    - **Risk of Data Misuse**: Harvested data can be used for malicious activities, posing data risk.
-    - **Bugs**: Often requires application relaunch for the toolkit to properly function.
-    - **Prior Knowledge Needed**: Good understanding of social engineering, networking, & cybersecurity principles are required in order to use this application effectively.
+    - **Legal & Ethical Concerns**: Using SET for malicious purposes is unethical, unauthorized use can result in criminal charges. 
+    - **Risk of Data Misuse**: Harvested data can be used for further malicious activities.
+    - **Bugs**: Often froze or got stuck on processes, requiring application relaunch for the toolkit to properly function.
+    - **Prior Knowledge Needed**: A good understanding of social engineering, networking, & cybersecurity principles are necessary in order to use this application effectively.
     - **Platform Specific**: Primarily designed for Linux distributions. A less straightforward set-up is needed for macOS configurations.
+
+Balancing the benefits with these considerations is crucial for ethical, and effective, utilization of the Social Engineer Toolkit.
+
+### Setup Tips
 
 ### Website Cloning
 ### Phishing Emails

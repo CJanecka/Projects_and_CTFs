@@ -126,13 +126,13 @@ This is what a typical social engineering campaign looks like.
     
   + **Developing an Attack Vector**: Create a strategic approach that aligns with the predefined goals. This involves choosing the most effective methods, communication channels, and psychological tactics based on the analyzed information. This serves as the blueprint for the actual execution of the campaign.
 
-  + **Goal Satisfaction**: Clarify what would signify success for the campaign. Specify the outcomes that align with the campaign's goals, such as gaining unauthorized access or extracting sensitive information.
+  + **Goal Satisfaction**: Establish what would signify success for the campaign. Specify the outcomes that align with the campaign's goals, such as gaining unauthorized access or extracting sensitive information.
 
 ### *Step 4 -* Develop Relationship
 
-  + **Establish Communication**: Initial contact to establish a connection with the target, that goes beyond a mere transaction. The key is to create a non-intrusive and seemingly benign channel through which the relationship can be cultivated. This communication could take various forms, such as direct messages, comments on repositories, or engagement in project-related discussions.
+  + **Establish Communication**: Initial contact to establish a connection with the target, that goes beyond a mere transaction. The key is to create a non-intrusive and seemingly benign channel through which the relationship can be cultivated. This could take various forms; such as, direct messages,  making phone calls, or using other communication channels.
     
-  + **Rapport Building**: The attacker strategically engages with the target, demonstrating genuine interest in their activities, projects, or coding contributions. By offering positive feedback, asking relevant questions, and showcasing a shared interest in the GitHub community, the attacker aims to create a connection that feels authentic to the target.
+  + **Rapport Building**: Once communication is established; the focus shifts to building a connection that aids in garnering the trust of the target, rendering them more susceptible to manipulation. This could involve engaging in friendly conversations, finding common interests, and creating a sense of familiarity.
 
 ### *Step 5 -* Exploit Relationship
 ### *Step 6 -* Debrief

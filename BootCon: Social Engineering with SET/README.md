@@ -20,10 +20,10 @@
     - [f. *Step 6 -* Debrief](#Step-6---Debrief)
   + [06. The Social Engineering Toolkit](#The-Social-Engineering-Toolkit)
     - [a. Pros and Cons of SET](#Pros-and-Cons-of-SET)
-    - [b. Initial Setup Tips](#Initial-Setup-Tips)
+    - [b. Initial Setup](#Initial-Setup)
     - [c. Website Cloning](#Website-Cloning)
-    - [d. Phishing Emails](#Phishing-Emails)
-    - [e. Credential Harvesting](#Credential-Harvesting)
+    - [d. Credential Harvesting](#Credential-Harvesting)
+    - [e. Phishing Emails](#Phishing-Emails)
     - [f. QR Code Attack](#QR-Code-Attack)
   + [07. Countermeasures](#Countermeasures)
   + [08. Project Improvements](#Project-Improvements)
@@ -155,8 +155,14 @@ This is what a typical social engineering campaign looks like:
 
 The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit) is an open-source penetration testing framework crafted for social engineering purposes. It comes preinstalled by default on Kali Linux, and was developed by TrustedSec, LLC - an information security consulting firm based in Cleveland, Ohio. SET includes multiple custom attack vectors, providing the capability to swiftly craft and launch believable attacks. This software is exclusively designed for testing and is permissible only in instances where explicit consent has been granted.
 
-*(The SET Welcome Dashboard on Kali Linux.)*                                                                                            
+*The SET Welcome Dashboard on Kali Linux.*                                                                                            
 ![00_main_page](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/668539cc-8ab0-40c4-a3c3-9315afa2b3ff)
+
+*Social Engineering Attack Options.*                                                                                                      
+![01_Social_Engineering_Attack_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a1fd66c3-92f7-4238-81aa-a3db368d10b6)
+
+*Penetration Testing Attack Options.*                                                                                                                  
+![02_Penetration_Testing_Fast_Track_Attack_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/01f3dd3f-14a1-4714-a810-f3190909ea98)
 
 ### Pros and Cons of SET
 
@@ -176,11 +182,28 @@ The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-enginee
 
 Balancing the benefits with these considerations is crucial for ethical, and effective, utilization of the Social Engineer Toolkit.
 
-### Initial Setup Tips
+### Initial Setup
 
-My team used Oracle VirtualBox to create an isolated testing environment, and avoid any potential negative impact on our personal system(s). Oracle VM's are capable of running a variety 
+To establish a secure testing environment and mitigate any potential adverse effects on our personal systems, my team employed [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads). This virtualization tool offers the flexibility to run various operating systems, and for this project we chose [Kali Linux](https://www.kali.org/). The Social Engineer Toolkit is integrated into Kali, being among the pre-installed tools on this operating system. For a better understanding of Virtual Machines (VMs), and guidance on the setup of different operating systems, I recommend watching [NetworkChuck's YouTube video](https://youtu.be/wX75Z-4MEoM?si=eU4TRx4yWV-k9sDN) on the subject.
+
+Prior to using the Social Engineer Toolkit, we need to give ourselves root-level privileges, if this configuration was not established during the Kali installation process. This can be accomplished easily, by doing the following, in a new command line terminal:
+
+![enable root user on kali - disabled by default](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e4a3db5e-1c9e-4577-81dc-386b84ec2f14)
+
+Using root privileges:
+
+  + Check the package lists for upgrades and new package installations.
+  + Upgrade all installed packages to their latest versions. If new packages are required to satisfy dependencies, of upgraded packages, they will be installed.
+
+Keeping the system up-to-date from the start is essential for establishing a secure, stable, and efficient computing environment. This approach minimizes the risk of security vulnerabilities, and guarantees access to the most recent features and enhancements. To do this, open a new command terminal and run the following:
+
+  + sudo apt update && sudo apt upgrade -y
+
+The "-y" option will automatically answer *yes* to the confirmation prompts during the upgrade process, making it more suitable for unattended or scripted updates where user interaction is not desired. While this option is convenient for automated updates; it should be used judiciously. Specifically avoiding critical systems, production environments, systems with custom configurations, and situations where careful consideration, testing, and security measures are essential. 
+
+With the system updated, we went into the SET configuration file and turned on the Apache server. This increases the attack speed and automatically saves any credentials captured.
 
 ### Website Cloning
-### Phishing Emails
 ### Credential Harvesting
+### Phishing Emails
 ### QR Code Attack

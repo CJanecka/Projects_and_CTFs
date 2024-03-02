@@ -201,7 +201,15 @@ Keeping the system up-to-date from the start is essential for establishing a sec
 
 The "-y" option will automatically answer *yes* to the confirmation prompts during the upgrade process, making it more suitable for unattended or scripted updates where user interaction is not desired. While this option is convenient for automated updates; it should be used judiciously. Specifically avoiding critical systems, production environments, systems with custom configurations, and situations where careful consideration, testing, and security measures are essential. 
 
-With the system updated, we went into the SET configuration file and turned on the Apache server. This increases the attack speed and automatically saves any credentials captured.
+After updating the system, proceed to the SET configuration file and enable the Apache server. This enhances attack speed and automatically preserves any captured credentials, even when the utility is closed. While optional, it serves as a means to streamline data collection and run a continuous attack. If disabled, SET will still operate as intended; however, the application must be running, any acquired data will be temporary and overwritten after each use of a SET utility.
+
+*Apache Server Config File - Enabled.*
+![Enable Apache Server01](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ba76a730-689d-4be3-9473-a7745fa89a03)
+
+*Aknowledgment prompt when Enabling the Apache Server.*                                                                          
+![Enable Apache Server02](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2c28aa2f-e29a-46c0-932a-2cd9b994cf75)
+
+While there are additional configurations available within the Social Engineer Toolkit, those were not employed in this instance. The alterations made were sufficient for the objectives of this project.
 
 ### Website Cloning
 ### Credential Harvesting

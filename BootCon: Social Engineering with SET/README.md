@@ -206,7 +206,7 @@ After updating the system, proceed to the SET configuration file and enable the 
 *Apache Server Config File - Enabled.*
 ![Enable Apache Server01](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ba76a730-689d-4be3-9473-a7745fa89a03)
 
-*Aknowledgment prompt when Enabling the Apache Server.*                                                                          
+*Aknowledgment prompt to Enable the Listener.*                                                                          
 ![Enable Apache Server02](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2c28aa2f-e29a-46c0-932a-2cd9b994cf75)
 
 While there are additional configurations available within the Social Engineer Toolkit, those were not employed in this instance. The alterations made were sufficient for the objectives of this project.

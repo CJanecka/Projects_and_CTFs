@@ -21,10 +21,9 @@
   + [06. The Social Engineering Toolkit](#The-Social-Engineering-Toolkit)
     - [a. Pros and Cons of SET](#Pros-and-Cons-of-SET)
     - [b. Initial Setup](#Initial-Setup)
-    - [c. Website Cloning](#Website-Cloning)
-    - [d. Credential Harvesting](#Credential-Harvesting)
-    - [e. Phishing Emails](#Phishing-Emails)
-    - [f. QR Code Attack](#QR-Code-Attack)
+    - [c. Website Cloning and Credential Harvesting](#Website-Cloning-and-Credential-Harvesting)
+    - [d. Phishing Emails](#Phishing-Emails)
+    - [e. QR Code Attack](#QR-Code-Attack)
   + [07. Countermeasures](#Countermeasures)
   + [08. Project Improvements](#Project-Improvements)
 
@@ -211,7 +210,9 @@ After updating the system, proceed to the SET configuration file and enable the 
 
 While there are additional configurations available within the Social Engineer Toolkit, those were not employed in this instance. The alterations made were sufficient for the objectives of this project.
 
-### Website Cloning
-### Credential Harvesting
+### Website Cloning and Credential Harvesting
+
+Cloning a webpage serves as a deceptive technique, creating a replica of a legitimate website, with the intention of tricking users into interacting with it. The goal is to harvest sensitive information such as usernames and passwords. By going into *Social-Engineering Attacks* from the main menu, and selecting the *Credential Harvester Attack Method*, we are able to clone a range of websites successfully. This method will capture all POST activity from the designated page. For optimal credential harvesting, utilize websites that have both the username and password fields available on the same page.
+
 ### Phishing Emails
 ### QR Code Attack

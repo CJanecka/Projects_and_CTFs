@@ -24,7 +24,7 @@
     - [c. Website Cloning and Credential Harvesting](#Website-Cloning-and-Credential-Harvesting)
     - [d. Phishing Emails](#Phishing-Emails)
     - [e. QR Code Attack](#QR-Code-Attack)
-  + [07. Countermeasures](#Countermeasures)
+  + [07. Mitigations](#Mitigations)
   + [08. Project Improvements](#Project-Improvements)
 
 ## Overview
@@ -212,7 +212,7 @@ While there are additional configurations available within the Social Engineer T
 
 ### Website Cloning and Credential Harvesting
 
-Cloning a webpage serves as a deceptive technique, creating a replica of a legitimate website, with the intention of tricking users into interacting with it. The goal is to harvest sensitive information such as usernames and passwords. By going into *Social-Engineering Attacks* from the main menu, and selecting the *Credential Harvester Attack Method*, we are able to clone a range of websites successfully. This method will capture all POST activity from the designated page. For optimal credential harvesting, utilize websites that have both the username and password fields available on the same page.
+Cloning a webpage serves as a deceptive technique, creating a replica of a legitimate website, with the intention of tricking users into interacting with it. The goal is to harvest sensitive information such as usernames and passwords. By going into *Social-Engineering Attacks* from the main menu, and selecting the *Credential Harvester Attack Method*, we are able to clone a range of websites successfully. 
 
 The *Credential Harvester Attack Method* presents three (3) options:
 
@@ -220,7 +220,36 @@ The *Credential Harvester Attack Method* presents three (3) options:
 
 The *Templates* option comes with a set of default pages, but these tend to be outdated. The *Cloner* feature mirrors a site and searches for form fields to rewrite. However, if the POST fields deviate from the usual methods for posting forms, this method may fail. In such cases, save the HTML of the targeted webpage, modify the forms into standard format(s), and then use the *Import* feature for successful replication. 
 
-When utilizing an external IP address, input the external IP rather than the NAT address. Establishing port forwarding from the external IP to the NAT IP is necessary, since browsers cannot directly communicate with private IP addresses. Hence, specifying an external IP is essential for external access. This is a networking requirement, not an issue specific to *SET*.
+When utilizing an external IP address, input the external IP rather than the NAT address.  It's crucial to establish port forwarding from the external IP to the NAT IP because browsers cannot directly communicate with private IP addresses. Therefore, specifying an external IP is essential for external access. This is a networking requirement, not an issue specific to *SET*. For the purposes of this project, this step was unnecessary. My team utilized the *Cloner* method to illustrate the ease with which popular websites can be cloned and exploited for harvesting credentials. This method will capture all POST activity from the designated page. 
+
+For optimal credential harvesting, utilize websites that have both the username and password fields available on the same page. The following are examples of this:
+
+*GitHub Login Page | Real vs Clone.*                                                                                                      
+![GitHub-login_clone_and_actual_page](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a3fffecf-42e8-48cf-85c9-5f9518cd0715)
+
+*Chick-fil-A Login Page | Real vs Clone.*
+![Chickfila-login03](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a2c6f144-89dd-4e63-b9d8-d95039a94078)
+
+
 
 ### Phishing Emails
 ### QR Code Attack
+
+
+## Mitigations
+
+<temp bullet points - placeholder to revise>
+
+  + **Check the URL**: Examine the website's URL carefully. Phishing sites often have misspelled or slightly changed domain names. Watch out for variations, extra words, or different top-level domains *(.com, .net, etc..)*.
+
+  + **Look for HTTPS**: Legitimate websites typically use HTTPS for secure communication. Check for the padlock symbol and "https://" in the URL.
+
+  + **Check the Site/Page Design**: Examine the website's design; legitimate websites have a consistent and professional layout, fonts, and graphics. Check for brand consistency, proper color schemes, and responsive design.
+
+  + **Examine the Email Source and Content**: Check the sender's email address, spoofed emails often have slight variations in the sender's address. Look for grammatical errors, urgent language, or requests for sensitive information. Legitimate organizations usually communicate professionally.
+
+  + **Beware of Unexpected Attachments or Links**: Avoid clicking on unexpected attachments or links. Verify the legitimacy by contacting the sender through official channels.
+
+  + **Examine the Security Certificate**: Check the website's security certificate by clicking on the padlock icon in the address bar. A mismatch or untrusted certificate may indicate a phishing site.
+
+  + **Use Security Software**: Employ reliable antivirus and anti-phishing software to provide an additional layer of protection.

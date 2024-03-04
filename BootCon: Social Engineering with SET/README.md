@@ -214,5 +214,13 @@ While there are additional configurations available within the Social Engineer T
 
 Cloning a webpage serves as a deceptive technique, creating a replica of a legitimate website, with the intention of tricking users into interacting with it. The goal is to harvest sensitive information such as usernames and passwords. By going into *Social-Engineering Attacks* from the main menu, and selecting the *Credential Harvester Attack Method*, we are able to clone a range of websites successfully. This method will capture all POST activity from the designated page. For optimal credential harvesting, utilize websites that have both the username and password fields available on the same page.
 
+The *Credential Harvester Attack Method* presents three (3) options:
+
+![cred harvester options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/220ddda4-2445-4552-8d8d-dc8429ca9813)
+
+The *Templates* option comes with a set of default pages, but these tend to be outdated. The *Cloner* feature mirrors a site and searches for form fields to rewrite. However, if the POST fields deviate from the usual methods for posting forms, this method may fail. In such cases, save the HTML of the targeted webpage, modify the forms into standard format(s), and then use the *Import* feature for successful replication. 
+
+When utilizing an external IP address, input the external IP rather than the NAT address. Establishing port forwarding from the external IP to the NAT IP is necessary, since browsers cannot directly communicate with private IP addresses. Hence, specifying an external IP is essential for external access. This is a networking requirement, not an issue specific to *SET*.
+
 ### Phishing Emails
 ### QR Code Attack

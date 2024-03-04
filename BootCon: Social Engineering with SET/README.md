@@ -25,7 +25,6 @@
     - [d. Phishing Emails](#Phishing-Emails)
     - [e. QR Code Attack](#QR-Code-Attack)
   + [07. Mitigations](#Mitigations)
-  + [08. Project Improvements](#Project-Improvements)
 
 ## Overview
 
@@ -230,6 +229,11 @@ For optimal credential harvesting, utilize websites that have both the username 
 *Chick-fil-A Login Page | Real vs Clone.*
 ![Chickfila-login03](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a2c6f144-89dd-4e63-b9d8-d95039a94078)
 
+Differentiating between these is quite straightforward when inspecting the webpages. This intentional design choice serves to emphasize the key differences, and assist in the identification of genuine and malicious links. With some effort and configuration, the cloned website could be enhanced to appear more convincing, increasing the likelihood of deceiving someone into providing their credentials. Even these evident fakes could trick some less intuitive, or tech-savvy, individuals into disclosing their information.
+
+*Captured Data from the Fake GitHub Login.*                                                                                            
+![Github-login_txt_file_contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c114754a-6137-4ab6-9995-72875e6d526a)
+
 
 
 ### Phishing Emails
@@ -253,3 +257,6 @@ For optimal credential harvesting, utilize websites that have both the username 
   + **Examine the Security Certificate**: Check the website's security certificate by clicking on the padlock icon in the address bar. A mismatch or untrusted certificate may indicate a phishing site.
 
   + **Use Security Software**: Employ reliable antivirus and anti-phishing software to provide an additional layer of protection.
+
+  + **Use Multi-Factor Authentication (MFA)**: Even if a user's password is compromised through phishing or other means, an additional factor (such as a temporary code from a mobile app or a fingerprint) is needed for access.
+

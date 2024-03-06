@@ -22,8 +22,8 @@
     - [a. Pros and Cons of SET](#Pros-and-Cons-of-SET)
     - [b. Initial Setup](#Initial-Setup)
     - [c. Website Cloning and Credential Harvesting](#Website-Cloning-and-Credential-Harvesting)
-    - [d. Phishing Emails](#Phishing-Emails)
-    - [e. SET Demo](#SET-Demo)
+    - [d. Phishing Attacks](#Phishing-Attacks)
+    - [e. Video Demonstration](#Video-Demonstration)
     - [f. QR Code Attack](#QR-Code-Attack)
   + [07. Mitigations](#Mitigations)
 
@@ -71,8 +71,6 @@ Key elements of social engineering include:
 https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4603c33f-22f4-490a-86a8-201caf712b92
 
 https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/09fd4fab-ffd6-4f5d-941b-e3241712d3b8
-
-
 
   + **Pretexting:** Involves a threat actor crafting a deceptive scenario and pretending to be the person who can solve the issue. Ironically, scammers often claim the victim is affected by a security breach, offering to help in exchange for vital account details or control over the victim's device. Almost every social engineering attack includes some form of pretexting.
       
@@ -245,11 +243,32 @@ Differentiating between these is quite straightforward when inspecting the webpa
 
 The credential harvester is now prepared for further use; the choice of attack method depends on the desired target. For the purposes of this project, we continued using GitHub as an example.
 
-### Phishing Emails
+### Phishing Attacks
 
-Before sending an email, 
+To enhance the effectiveness of a phishing attempt, it's beneficial to have a well-crafted deceptive pretext ready. For example, a pretext for a GitHub email might be:
 
-### SET Demo
+![GitHub Pretext](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/71e51b58-ea17-4a5a-8f6b-df8fae718cfd)
+
+A fake link has been strategically embedded among real ones; specifically within the login link, to seem more authentic and increase the likelihood of the recipient clicking on it. The Social Engineer Toolkit leverages its website cloning and credential harvesting capabilities to launch phishing email attacks, through the Spear-Phishing and Mass Mailer menu options.
+
+*Spear-Phishing Menu.*                                                                                                              
+![01a_SE_Spearphishing_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/36d27d14-3917-4d99-8c3a-d47e6798ac1e)
+
+*Spear-Phishing Payload Options.*                                                                                                    
+![mass email attack payloads](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6f473b83-5f85-423d-9ba6-b71c2921975e)
+
+*Mass Mailer Menu.*                                                                                                                        
+![01e_SE_Mass_Mailer_Attack_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0196b44e-a7f0-4990-bd51-c532dad29652)
+
+*Single Email Attack Fields.*                                                                                                            
+![mass mailer - single email target](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cbc88473-bd6a-4589-a241-f4da999df530)
+
+*Mass Email Attack Format Info.*                                                                                                          
+![mass mailer - text file of emails](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d00ae929-b40f-4daf-be86-7e7e4b4c8e39)
+
+The same fields from the *single email attack* are used after uploading the text file containing the target usernames.
+
+### Video Demonstration
 
 
 

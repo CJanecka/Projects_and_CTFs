@@ -41,6 +41,8 @@ The technologies used in this project include:
   + Google Mail *(Gmail)*
   + Open-Source Intelligence *(OSINT)*
   + [Social Engineering Methodology](https://www.ibm.com/topics/social-engineering#How+and+why+social+engineering+works)
+  + [OpenAI - ChatGPT](https://openai.com/)
+  + [ElevenLabs - Generative Voice AI](https://elevenlabs.io/)
 
 ## Project Requirements
 
@@ -63,7 +65,15 @@ Key elements of social engineering include:
   + **Impersonation:** The act of pretending to be someone else, in order to gain trust and deceive individuals. Malicious users may impersonate trusted figures, such as coworkers, IT support, or company executives. Exploiting this false identity to manipulate targets. This tactic can occur in various forms; including, in-person, phone calls, or electronic communication.
      
   + **Phishing:** Deceptive digital or voice messages aimed at coercing recipients into divulging sensitive information, downloading malicious software, transferring funds or assets to unintended recipients, or engaging in other detrimental actions. Scammers construct these phishing messages to mimic the appearance or voice of a trusted and credible entity, even individual(s) known personally to the recipient.
-   
+
+    - As AI technology advances, distinguishing these attempts will become increasingly challenging. In under ten (10) minutes, I created the following vishing examples using ChatGPT and a text-to-speech synthesizer:
+
+https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4603c33f-22f4-490a-86a8-201caf712b92
+
+https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/09fd4fab-ffd6-4f5d-941b-e3241712d3b8
+
+
+
   + **Pretexting:** Involves a threat actor crafting a deceptive scenario and pretending to be the person who can solve the issue. Ironically, scammers often claim the victim is affected by a security breach, offering to help in exchange for vital account details or control over the victim's device. Almost every social engineering attack includes some form of pretexting.
       
   + **Baiting:** Involves enticing individuals to willingly, or unwittingly, disclose sensitive information or download malicious code; by presenting them with attractive offers or valuable objects.
@@ -237,7 +247,7 @@ The credential harvester is now prepared for further use; the choice of attack m
 
 ### Phishing Emails
 
-<add-here>
+Before sending an email, 
 
 ### SET Demo
 

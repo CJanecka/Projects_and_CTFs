@@ -23,7 +23,8 @@
     - [b. Initial Setup](#Initial-Setup)
     - [c. Website Cloning and Credential Harvesting](#Website-Cloning-and-Credential-Harvesting)
     - [d. Phishing Emails](#Phishing-Emails)
-    - [e. QR Code Attack](#QR-Code-Attack)
+    - [e. SET Demo](#SET-Demo)
+    - [f. QR Code Attack](#QR-Code-Attack)
   + [07. Mitigations](#Mitigations)
 
 ## Overview
@@ -234,9 +235,16 @@ Differentiating between these is quite straightforward when inspecting the webpa
 *Captured Data from the Fake GitHub Login.*                                                                                            
 ![Github-login_txt_file_contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c114754a-6137-4ab6-9995-72875e6d526a)
 
-
+The credential harvester is now prepared for further use; the choice of attack method depends on the desired target. For the purposes of this project, we continued using GitHub as an example.
 
 ### Phishing Emails
+
+<add-here>
+
+### SET Demo
+
+
+
 ### QR Code Attack
 
 

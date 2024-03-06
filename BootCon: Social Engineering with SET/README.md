@@ -58,21 +58,19 @@ Social engineering is a manipulative technique employed by individuals, or group
 
 Key elements of social engineering include:
 
-  + **Psychological Manipulation:** Emotions and cognitive biases and used to influence people. This involves tactics like building trust, exploiting feelings, creating urgency, or appealing to the desire to help.
+  + **Psychological Manipulation:** Emotions and cognitive biases and used to influence people. This involves tactics like building trust, exploiting feelings, creating urgency, or appealing to the desire to help, or take actions that are not in their best interests.
    
   + **Impersonation:** The act of pretending to be someone else, in order to gain trust and deceive individuals. Malicious users may impersonate trusted figures, such as coworkers, IT support, or company executives. Exploiting this false identity to manipulate targets. This tactic can occur in various forms; including, in-person, phone calls, or electronic communication.
      
-  + **Phishing:** Employing deceptive emails, messages, or websites to trick individuals into revealing sensitive information. Through various tactics; including, creating fake login pages or posing as trustworthy entities, to lure victims into providing usernames, passwords, or financial details. This tactic plays on human trust and curiosity, exploiting individuals' willingness to interact with a seemingly legitimate communication.
+  + **Phishing:** Deceptive digital or voice messages aimed at coercing recipients into divulging sensitive information, downloading malicious software, transferring funds or assets to unintended recipients, or engaging in other detrimental actions. Scammers construct these phishing messages to mimic the appearance or voice of a trusted and credible entity, even individual(s) known personally to the recipient.
    
-  + **Pretexting:** The creation of fabricated scenarios to trick individuals into disclosing information or performing actions. Emphasizing the manipulation of trust through storytelling, and exploiting the target's willingness to assist or provide information.
+  + **Pretexting:** Involves a threat actor crafting a deceptive scenario and pretending to be the person who can solve the issue. Ironically, scammers often claim the victim is affected by a security breach, offering to help in exchange for vital account details or control over the victim's device. Almost every social engineering attack includes some form of pretexting.
       
-  + **Baiting:** Exploits curiosity and desire; by enticing individuals, with false promises or tempting offers, leading them into a trap. This tactic can occur both physically and online.
-      + ***Physically:*** With strategically placed, malware-infected, flash drives in visible locations. When the flash drive is inserted into a computer, regardless of location, malware is automatically installed on the system.
-      + ***Online:*** Through tempting ads directing users to malicious sites or encouraging them to download malware-infected apps.
+  + **Baiting:** Involves enticing individuals to willingly, or unwittingly, disclose sensitive information or download malicious code; by presenting them with attractive offers or valuable objects.
+
+    - The [Nigerian Prince scam](https://nordvpn.com/blog/nigerian-prince-scam/#:~:text=The%20Nigerian%20Prince%20scam%20is%20a%20phishing%20attack%20when%20swindlers,details%20to%20get%20their%20reward.) stands out as a widely recognized use of this technique. More modern examples utilize seemingly free, but malware-infected; offerings such as games, music, or software downloads. However, some forms of baiting lack subtlety. An example of this involves threat actors strategically placing malware-infected USB drives in locations where unsuspecting individuals discover, pick up, and utilize them simply because they are perceived as "free USB drives".
      
-  + **Quid Pro Quo:** The exchange of a service, or benefit, in return for information or access. Social engineers may pose as helpful entities, offering assistance or rewards, such as IT support fixing a non-existent issue. The victim is required to perform a specific action, like providing login credentials, to receive the promised benefit. This tactic leverages the reciprocity principle, exploiting the target's willingness to give in exchange for perceived value. 
-     
-  + **Reverse Social Engineering:** Victims are manipulated into initiating contact. Instead of the attacker reaching out, the victim is deceived into believing they need assistance or protection, establishing a high level of trust. This method exploits the victim's perception that they are the ones seeking help or information, allowing for subtle influence in their decisions or actions.
+  + **Quid Pro Quo:** Hackers present an enticing good or service, seeking the victim's sensitive information in return. Examples of such schemes include fake contest winnings or seemingly benign loyalty rewards, where individuals are enticed with statements like, "As a token of gratitude for your payment, please accept this special gift".
    
   + **Physical Social Engineering:** Involves manipulating people, in person, to gain access to physical spaces, confidential information, or valuable assets. Unlike online interactions, this tactic relies on face-to-face engagement and exploiting tendencies and behaviors. Social engineers may impersonate authority figures, engage in tailgating, or use baiting techniques physically to deceive and gain trust.
    

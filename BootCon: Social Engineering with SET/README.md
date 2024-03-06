@@ -245,7 +245,7 @@ The credential harvester is now prepared for further use; the choice of attack m
 
 ### Phishing Attacks
 
-To enhance the effectiveness of a phishing attempt, it's beneficial to have a well-crafted deceptive pretext ready. For example, a pretext for a GitHub email might be:
+To enhance the effectiveness of a phishing attempt, it's beneficial to have a well-crafted deceptive pretext ready. For example, a pretext for a GitHub email targeting credentials might look like:
 
 ![GitHub Pretext](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/71e51b58-ea17-4a5a-8f6b-df8fae718cfd)
 

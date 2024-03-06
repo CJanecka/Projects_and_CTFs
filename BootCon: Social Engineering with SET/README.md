@@ -43,6 +43,7 @@ The technologies used in this project include:
   + [Social Engineering Methodology](https://www.ibm.com/topics/social-engineering#How+and+why+social+engineering+works)
   + [OpenAI - ChatGPT](https://openai.com/)
   + [ElevenLabs - Generative Voice AI](https://elevenlabs.io/)
+  + [PlayHT - Generative Voice AI](https://play.ht/)
 
 ## Project Requirements
 

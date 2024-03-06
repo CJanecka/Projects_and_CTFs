@@ -70,7 +70,7 @@ Key elements of social engineering include:
 
 https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4603c33f-22f4-490a-86a8-201caf712b92
 
-https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/09fd4fab-ffd6-4f5d-941b-e3241712d3b8
+https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4cdb4468-1c61-498e-b0bb-e758804aa90a
 
   + **Pretexting:** Involves a threat actor crafting a deceptive scenario and pretending to be the person who can solve the issue. Ironically, scammers often claim the victim is affected by a security breach, offering to help in exchange for vital account details or control over the victim's device. Almost every social engineering attack includes some form of pretexting.
       

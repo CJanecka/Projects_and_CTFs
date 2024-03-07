@@ -227,7 +227,7 @@ The *Credential Harvester Attack Method* presents three (3) options:
 
 The *Templates* option comes with a set of default pages, but these tend to be outdated. The *Cloner* feature mirrors a site and searches for form fields to rewrite. However, if the POST fields deviate from the usual methods for posting forms, this method may fail. In such cases, save the HTML of the targeted webpage, modify the forms into standard format(s), and then use the *Import* feature for successful replication. 
 
-When utilizing an external IP address, input the external IP rather than the NAT address.  It's crucial to establish port forwarding from the external IP to the NAT IP because browsers cannot directly communicate with private IP addresses. Therefore, specifying an external IP is essential for external access. This is a networking requirement, not an issue specific to *SET*. For the purposes of this project, this step was unnecessary. My team utilized the *Cloner* method to illustrate the ease with which popular websites can be cloned and exploited for harvesting credentials. This method will capture all POST activity from the designated page. 
+When utilizing an external IP address, input the external IP rather than the NAT address.  It's crucial to establish port forwarding from the external IP to the NAT IP because browsers cannot directly communicate with private IP addresses. Specifying an external IP is essential for external access. This is a networking requirement, not an issue specific to *SET*. For the purposes of this project, this step was unnecessary. My team utilized the *Cloner* method to illustrate the ease with which popular websites can be cloned and exploited for harvesting credentials. This method will capture all POST activity from the designated page. 
 
 For optimal credential harvesting, utilize websites that have both the username and password fields available on the same page. The following are examples of this:
 
@@ -273,26 +273,48 @@ These payloads exploit various vulnerabilities in popular software, including Mi
       + Uses a Gmail account to send the phishing email.
     - **Option 2**: Use your own server or open relay.
       + Allows users to utilize either their own mail server or an open relay for the email attack. Opting for an open relay involves employing a mail server, that allows sending emails without authentication, presenting which can be exploited for malicious purposes.
-     
+        
   + **From address**:
     - The email address that will appear in the "From" field of the email. Malicious use includes employee impersonation, brand spoofing, and leveraging perceived urgency to elicit responses, all aimed at confusing recipients and increasing the likelihood of successful phishing attempts.
-   
+      
   + **The from name the user will see:**
-    - This allows the user to set the name associated with the "From" email address. It's what the recipient will see as the sender's name.
-   
+    - This allows users to set the name associated with the "From" email address. It's what the recipient will see as the sender's name.
+      
   + **Username for open-relay [blank]**:
   + **Password for open-relay [blank]**:
     - The default option within *SET* is to leave these fields blank. This is because open relays, by definition, don't require authentication, and the toolkit can exploit them without the need for a username or password.
-   
+  
   + **SMTP email server address (ex. smtp.youremailserveryouown.com)**:
     - An SMTP (Simple Mail Transfer Protocol) server is a type of mail server responsible for sending emails.
-      + By providing the SMTP server address, the user can customize the email sending process. This allows the user to tailor the sender information, creating the illusion that the email is originating from a legitimate source.
-
+      + By providing the SMTP server address, users can customize the email sending process. This allows users to tailor the information sent, creating the illusion that the email is originating from a legitimate source.
+        
   + **Port number for the SMTP server [25]**:
     - Specify the communication endpoint through which the SMTP protocol operates. The default SMTP port is 25, but this can be customized based on the server configuration.
       + Port 25 is the standard port reserved for email transmission, and most SMTP servers are configured to listen for incoming email traffic on this port.
-     
-  + **cont
+        
+  + **Flag this message/s as high priority? [yes|no]**:
+    - This allows users to set the email's priority level to "high", creating a sense of urgency or importance for the recipient.
+      
+  + **Do you want to attach a file - [y/n]**:
+    - Users can attach files containing malicious payloads, such as malware, ransomware, or scripts designed to exploit vulnerabilities in the recipient's system. If selected, provide the file path or content.
+      
+  + **Do you want to attach an inline file - [y/n]**:
+    - Users can embed images or media files that appear legitimate or enticing; to trick recipients into viewing the content without suspicion.
+      
+  + **Email subject**:
+    - Insert attention-grabbing, subject lines that mimic legitimate communications, induce urgency and fear, personalize content, bypass filters, and build trust. This could look like:
+      + "URGENT: Your Account Security Compromised! Immediate Action Required!"
+      + "Order Confirmation: Invoice #123456 for Your Recent Purchase"
+      + "Official Communication: [Recipient's Company Name] IT Support Assistance"
+
+  + **Send the message as html or plain? 'h' or 'p' [p]**:
+    - Choose to send the email in HTML or plain text format. 'h' stands for HTML, 'p' stands for plain text.
+      + Use HTML ('h') when visual appeal, interactive elements, branding, tracking, complex layouts, or detailed formatting are important.
+      + Use plain text ('p') when wider compatibility, simplicity, reduced suspicion, faster load times, and avoiding markup issues are priorities. Especially in scenarios where a direct and concise communication approach is effective.
+
+  + **Email body**:
+    - A persuasive and deceptive message aimed at manipulating the recipient into taking a specific action.
+      + To conclude this, type "END" and press the enter/return key.
 
 *Mass Mailer Attack Information.*                                                                                                          
 ![mass mailer - text file of emails](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d00ae929-b40f-4daf-be86-7e7e4b4c8e39)

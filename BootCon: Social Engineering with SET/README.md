@@ -252,11 +252,15 @@ To enhance the effectiveness of a phishing attempt, it's beneficial to have a we
 
 A fake link has been strategically embedded among real ones; specifically within the login link, to seem more authentic and increase the likelihood of the recipient clicking on it. The Social Engineer Toolkit leverages its website cloning and credential harvesting capabilities to launch phishing email attacks, through the Spear-Phishing and Mass Mailer menu options.
 
+Unfortunately, we couldn't incorporate these tactics into this project due to technical constraints. However, with additional time and further configurations, these attack vectors could potentially be utilized to execute a variety of campaigns. I've included images of these vectors to underscore the various attack avenues that are available.
+
 *Spear-Phishing Menu.*                                                                                                              
 ![01a_SE_Spearphishing_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/36d27d14-3917-4d99-8c3a-d47e6798ac1e)
 
 *Spear-Phishing Payload Options.*                                                                                                    
 ![mass email attack payloads](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6f473b83-5f85-423d-9ba6-b71c2921975e)
+
+These payloads exploit various vulnerabilities in popular software, including Microsoft Windows, Adobe products, and third-party applications. The potential risks include unauthorized access, compromise of sensitive information, and the execution of malicious code on affected systems.
 
 *Mass Mailer Menu.*                                                                                                                        
 ![01e_SE_Mass_Mailer_Attack_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0196b44e-a7f0-4990-bd51-c532dad29652)
@@ -264,7 +268,13 @@ A fake link has been strategically embedded among real ones; specifically within
 *Single Email Attack Fields.*                                                                                                            
 ![mass mailer - single email target](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cbc88473-bd6a-4589-a241-f4da999df530)
 
-*Mass Email Attack Format Info.*                                                                                                          
+  + **Send email to**:
+    - **Option 1**: Use a Gmail Account for your email attack.
+      + Uses a Gmail account to send the phishing email.
+    - **Option 2**: Use your own server or open relay.
+      + Allows users to utilize either their own mail server or an open relay for the email attack. Opting for an open relay involves employing a mail server, that allows sending emails without authentication, presenting which can be exploited for malicious purposes.
+
+*Mass Mailer Attack Information.*                                                                                                          
 ![mass mailer - text file of emails](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d00ae929-b40f-4daf-be86-7e7e4b4c8e39)
 
 The same fields from the *single email attack* are used after uploading the text file containing the target usernames.

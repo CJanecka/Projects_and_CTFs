@@ -273,6 +273,26 @@ These payloads exploit various vulnerabilities in popular software, including Mi
       + Uses a Gmail account to send the phishing email.
     - **Option 2**: Use your own server or open relay.
       + Allows users to utilize either their own mail server or an open relay for the email attack. Opting for an open relay involves employing a mail server, that allows sending emails without authentication, presenting which can be exploited for malicious purposes.
+     
+  + **From address**:
+    - The email address that will appear in the "From" field of the email. Malicious use includes employee impersonation, brand spoofing, and leveraging perceived urgency to elicit responses, all aimed at confusing recipients and increasing the likelihood of successful phishing attempts.
+   
+  + **The from name the user will see:**
+    - This allows the user to set the name associated with the "From" email address. It's what the recipient will see as the sender's name.
+   
+  + **Username for open-relay [blank]**:
+  + **Password for open-relay [blank]**:
+    - The default option within *SET* is to leave these fields blank. This is because open relays, by definition, don't require authentication, and the toolkit can exploit them without the need for a username or password.
+   
+  + **SMTP email server address (ex. smtp.youremailserveryouown.com)**:
+    - An SMTP (Simple Mail Transfer Protocol) server is a type of mail server responsible for sending emails.
+      + By providing the SMTP server address, the user can customize the email sending process. This allows the user to tailor the sender information, creating the illusion that the email is originating from a legitimate source.
+
+  + **Port number for the SMTP server [25]**:
+    - Specify the communication endpoint through which the SMTP protocol operates. The default SMTP port is 25, but this can be customized based on the server configuration.
+      + Port 25 is the standard port reserved for email transmission, and most SMTP servers are configured to listen for incoming email traffic on this port.
+     
+  + **cont
 
 *Mass Mailer Attack Information.*                                                                                                          
 ![mass mailer - text file of emails](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d00ae929-b40f-4daf-be86-7e7e4b4c8e39)

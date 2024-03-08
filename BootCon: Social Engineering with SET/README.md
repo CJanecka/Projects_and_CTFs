@@ -329,12 +329,23 @@ The video linked is edited to minimize time. This content is provided for educat
 
 [ Video Timestamp ]
 
-[[00:00]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing) - Launch the Social Engineering Toolkit *(SET)* within a Kali Linux environment.
+[[00:00 to 00:09]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing) - Launch the Social Engineering Toolkit *(SET)* within a Kali Linux environment.
 
 [[00:10 to 00:21]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=10) - Open the website cloner for credential harvesting.
   + Select "Social-Engineering Attacks" from the menu.
   + Choose "Website Attack Vectors", then "Credential Harvester Attack Method".
   + Select the "Site Cloner" method.
+
+[[00:22 to 01:28]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=22) - Cloning a target webpage.
+  + Input the IP address, 10.0.2.15, to configure the location of where the captured credentials are recieved.
+    - This default IP address is set for Oracle VMs, and as this is intended for educational purposes, there's no need to alter this configuration.
+  + Copy the url of the genuine webpage to clone. The GitHub login was selected for this example.
+    - SET shows it successfully cloned the GitHub login page, by presenting the following message in the Kali terminal:
+      + "Credential Harvester is now listening below..."
+  + Comparison of the cloned login page to the legitimate page.
+    - Verify the cloned page is properly harvesting credentials.
+
+[[01:29 to --:--]]()
 
 ### QR Code Attack
 

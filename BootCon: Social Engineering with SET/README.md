@@ -323,7 +323,11 @@ The same fields from the *single email attack* are used after uploading the text
 
 ### Video Demonstration
 
+My team and I delivered a video presentation highlighting some of SET's utilities and demonstrating their use in a fake attack. Unfortunately, the recording for this presentation corrupted, preventing me from showcasing it here. Fortunately, I had a backup recording prepared for such situations. While the video is too large to attach directly in this repository, you can access it through the following link: [Demonstration Video on Google Drive](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=drive_link). In this video, I utilized specific SET utilities - the website cloner and credential harvester. Due to difficulties encountered with SET's email vectors, I opted to use Gmail for sending the link that directs users to the cloned website, to facilitate harvesting the recipients' credentials.
 
+The video linked is edited to minimize time. Here I present a breakdown of what is being demonstrated:
+
+  + cont here
 
 ### QR Code Attack
 

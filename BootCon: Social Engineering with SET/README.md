@@ -325,11 +325,16 @@ The same fields from the *single email attack* are used after uploading the text
 
 My team and I delivered a video presentation highlighting some of SET's utilities and demonstrating their use in a fake attack. Unfortunately, the recording for this presentation corrupted, preventing me from showcasing it here. Fortunately, I had a backup recording prepared for such situations. While the video is too large to attach directly in this repository, you can access it through the following link: [Demonstration Video on Google Drive](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=drive_link). In this video, I utilized specific SET utilities - the website cloner and credential harvester. Due to difficulties encountered with SET's email vectors, I opted to use Gmail for sending the link that directs users to the cloned website, to facilitate harvesting the recipients' credentials.
 
-The video linked is edited to minimize time. Here I present a breakdown of what is being demonstrated:
+The video linked is edited to minimize time. This content is provided for educational purposes, to illustrate the functioning of specific tools and techniques in a controlled and responsible environment. Here, I present a breakdown of what is being demonstrated:
 
 [ Video Timestamp ]
 
 [[00:00]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing) - Launch the Social Engineering Toolkit *(SET)* within a Kali Linux environment.
+
+[[00:10 to 00:21]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=10) - Open the website cloner for credential harvesting.
+  + Select "Social-Engineering Attacks" from the menu.
+  + Choose "Website Attack Vectors", then "Credential Harvester Attack Method".
+  + Select the "Site Cloner" method.
 
 ### QR Code Attack
 

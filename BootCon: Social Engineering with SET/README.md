@@ -327,7 +327,9 @@ My team and I delivered a video presentation highlighting some of SET's utilitie
 
 The video linked is edited to minimize time. Here I present a breakdown of what is being demonstrated:
 
-  + cont here
+[ Video Timestamp ]
+
+[[00:00]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing) - Launch the Social Engineering Toolkit *(SET)* within a Kali Linux environment.
 
 ### QR Code Attack
 

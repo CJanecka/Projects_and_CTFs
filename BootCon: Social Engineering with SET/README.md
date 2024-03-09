@@ -343,9 +343,17 @@ The video linked is edited to minimize time. This content is provided for educat
     - SET shows it successfully cloned the GitHub login page, by presenting the following message in the Kali terminal:
       + "Credential Harvester is now listening below..."
   + Comparison of the cloned login page to the legitimate page.
-    - Verify the cloned page is properly harvesting credentials.
+    - Verification that the cloned page is properly harvesting credentials.
 
-[[01:29 to --:--]]()
+[[01:29 to 02:26]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=89) - Sending a phising email.
+  + Chose Gmail to demonstrate what a phishing email looks like.
+  + Utilized pretexting to incorporate a predetermined scenario into the email body.
+    - This was crafted to appear authentic and more effectively deceive the recipient(s).
+  + Copied the URL, of the cloned login page, into the designated section of the email body.
+    - This was disguised to display "Login Here" instead of showing the actual URL when sent.
+
+[[02:41 to --:--]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=161) - Reviewing the email sent.
+  + <cont here>
 
 ### QR Code Attack
 

@@ -356,8 +356,14 @@ The video linked is edited to minimize time. This content is provided for educat
   + The recipient opens the email and *unwittingly* accesses the cloned login page. Once their credentials are submitted, the cloned page redirects them to the official GitHub login.
     - The credential harvester log indicates the successful capture of these credentials.
   + Email Content Overview:
-    - <add content info>
-    - A *fake* supplemental email, support@ghubsecurityupdate.com, is provided for the recipient to contact. GitHub's official support email is "support@github.com".
+    - The choice of subject, "Urgent: GitHub Security Update Required - Immediate Action Needed", is a psychological tactic commonly employed; to create a sense of panic or anxiety in the recipient, urging them to take immediate action without carefully confirming the email's legitimacy.
+    - The email is sent from, testsetkit@gmail.com, a non-official GitHub address. GitHub's official support email is "support@github.com".
+      + Fake GitHub Addresses:
+        - support@ghithub.com
+        - github.support@outlook.com
+        - github-security.alerts@mail.com
+    - 
+    - A *fake* supplemental email, support@ghubsecurityupdate.com, is provided for the recipient to contact. 
 
 ### QR Code Attack
 

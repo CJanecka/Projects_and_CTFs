@@ -331,12 +331,12 @@ The video linked is edited to minimize time. This content is provided for educat
 
 [[00:00 to 00:09]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing) - Launch the Social Engineering Toolkit *(SET)* within a Kali Linux environment.
 
-[[00:10 to 00:21]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=10) - Open the website cloner for credential harvesting.
+[[00:10 to 00:21]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=10) - Opening the Website Cloner for Credential Harvesting.
   + Select "Social-Engineering Attacks" from the menu.
   + Choose "Website Attack Vectors", then "Credential Harvester Attack Method".
   + Select the "Site Cloner" method.
 
-[[00:22 to 01:28]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=22) - Cloning a target webpage.
+[[00:22 to 01:28]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=22) - Cloning a Target Webpage.
   + Input the IP address, 10.0.2.15, to configure the location of where the captured credentials are recieved.
     - This default IP address is set for Oracle VMs, and as this is intended for educational purposes, there's no need to alter this configuration.
   + Copy the url of the genuine webpage to clone. The GitHub login was selected for this example.
@@ -345,15 +345,17 @@ The video linked is edited to minimize time. This content is provided for educat
   + Comparison of the cloned login page to the legitimate page.
     - Verification that the cloned page is properly harvesting credentials.
 
-[[01:29 to 02:26]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=89) - Sending a phising email.
+[[01:29 to 02:26]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=89) - Sending a Phising Email.
   + Chose Gmail to demonstrate what a phishing email looks like.
   + Utilized pretexting to incorporate a predetermined scenario into the email body.
     - This was crafted to appear authentic and more effectively deceive the recipient(s).
   + Copied the URL, of the cloned login page, into the designated section of the email body.
     - This was disguised to display "Login Here" instead of showing the actual URL when sent.
 
-[[02:41 to --:--]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=161) - Reviewing the email sent.
-  + <cont here>
+[[02:41 to 03:00]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=161) - Harvesting User Credentials.
+  + Recipient accesses the email. *Unknowingly* opens the cloned login page. Inputs their credentials, cloned page redirects them to the official GitHub login once submitted. The credential harvester log shows these credentials successfully captured.
+  + Email Content Overview:
+    - A *fake* email, support@ghubsecurityupdate.com, is provided for the recipient to contact. GitHub's official support email is "support@github.com".
 
 ### QR Code Attack
 

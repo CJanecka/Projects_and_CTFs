@@ -353,7 +353,8 @@ The video linked is edited to minimize time. This content is provided for educat
     - This was disguised to display "Login Here" instead of showing the actual URL when sent.
 
 [[02:41 to 03:00]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=161) - Harvesting User Credentials.
-  + Recipient accesses the email. *Unknowingly* opens the cloned login page. Inputs their credentials, cloned page redirects them to the official GitHub login once submitted. The credential harvester log shows these credentials successfully captured.
+  + The recipient opens the email and *unwittingly* accesses the cloned login page. Once their credentials are submitted, the cloned page redirects them to the official GitHub login.
+    - The credential harvester log indicates the successful capture of these credentials.
   + Email Content Overview:
     - <add content info>
     - A *fake* supplemental email, support@ghubsecurityupdate.com, is provided for the recipient to contact. GitHub's official support email is "support@github.com".

@@ -354,16 +354,20 @@ The video linked is edited to minimize time. This content is provided for educat
 
 [[02:41 to 03:00]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=161) - Harvesting User Credentials.
   + The recipient opens the email and *unwittingly* accesses the cloned login page. Once their credentials are submitted, the cloned page redirects them to the official GitHub login.
-    - The credential harvester log indicates the successful capture of these credentials.
-  + Email Content Overview:
+    - The credential harvester log shows the successful capture of these credentials.
+  + Email Content Analysis:
     - The choice of subject, "Urgent: GitHub Security Update Required - Immediate Action Needed", is a psychological tactic commonly employed; to create a sense of panic or anxiety in the recipient, urging them to take immediate action without carefully confirming the email's legitimacy.
-    - The email is sent from, testsetkit@gmail.com, a non-official GitHub address. GitHub's official support email is "support@github.com".
-      + Fake GitHub Addresses:
+    - The email is sent from, testsetkit@gmail.com, to highlight what users should obeserve. GitHub's official support email is "support@github.com".
+      + Additional Examples of Fake GitHub Addresses:
         - support@ghithub.com
         - github.support@outlook.com
         - github-security.alerts@mail.com
-    - 
-    - A *fake* supplemental email, support@ghubsecurityupdate.com, is provided for the recipient to contact. 
+    - The use of "Dear GitHub User", rather than addressing the recipient by their actual username or full name. This reflects a generic, non-personalized, approach commonly employed.
+      + It facilitates casting a wide net, attempting to deceive a large number of users by creating a sense of authenticity and urgency; all without the need for detailed information about each recipient.
+    - The link labeled "Login Here" directs users to the cloned GitHub login page, not the official GitHub login.
+      + Any credentials input on this page will be harvested and stored on the attacker's system.
+    - The provided support email, support@ghubsecurityupdate.com, is fake and not associated with GitHub's genuine support. This is a common technique to redirect inquiries to the attacker-controlled email address.
+    - The email requests that the recipient does not share it with others, claiming it contains unique details specific to their account. This is a tactic to prevent potential victims from seeking verification from others and to maintain the illusion of legitimacy. 
 
 ### QR Code Attack
 

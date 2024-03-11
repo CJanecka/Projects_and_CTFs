@@ -370,7 +370,12 @@ Email Content Analysis:
   + The provided support email, support@ghubsecurityupdate.com, is fake and not associated with GitHub's genuine support. This is a common technique to redirect inquiries to the attacker-controlled email address.
   + The email requests that the recipient does not share it with others, claiming it contains unique details specific to their account. This is a tactic to prevent potential victims from seeking verification from others and to maintain the illusion of legitimacy. 
 
-[[03:01 to --:--]]() - <cont here>
+[[03:09 to 03:42]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=189) - Analyze Credential Harvester Logs
+  + View active attack log on kali dashboard.
+  + Navigate to log file directory.
+    - Display directory contents with the "ls" command.
+    - Review content(s) of the stored log file(s).
+    - Easily access and view the credentials for each unique link cloned.
 
 ### QR Code Attack
 

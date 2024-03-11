@@ -371,9 +371,9 @@ Email Content Analysis:
   + The email requests that the recipient does not share it with others, claiming it contains unique details specific to their account. This is a tactic to prevent potential victims from seeking verification from others and to maintain the illusion of legitimacy. 
 
 [[03:09 to 03:42]](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=sharing&t=189) - Analyze Credential Harvester Logs
-  + View active attack log on kali dashboard.
-  + Navigate to log file directory.
-    - Display directory contents with the "ls" command.
+  + View the active attack log, if left open, on the Kali dashboard.
+  + Navigate to the log file directory, and display the directory contents using the "ls" command. *- these files are only available since the Apache Server was enabled during the Initial Setup.*
+    - <cont here>
     - Review content(s) of the stored log file(s).
     - Easily access and view the credentials for each unique link cloned.
 

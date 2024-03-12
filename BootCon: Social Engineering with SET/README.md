@@ -24,7 +24,7 @@
     - [c. Website Cloning and Credential Harvesting](#Website-Cloning-and-Credential-Harvesting)
     - [d. Phishing Attacks](#Phishing-Attacks)
     - [e. Video Demonstration](#Video-Demonstration)
-    - [f. QR Code Attack](#QR-Code-Attack)
+    - [f. QR Code Attacks](#QR-Code-Attacks)
   + [07. Mitigations](#Mitigations)
 
 ## Overview
@@ -408,8 +408,9 @@ Log File Analysis:
   + **[timestamp_secret]** → *cryptographic value*
     - This is a cryptographic *secret* that adds a layer of security to the timestamp value. It is designed to prevent tampering and unauthorized modifications to the timestamp.
 
-### QR Code Attack
+### QR Code Attacks
 
+*Why use a QR Code attack?*
 
 ## Mitigations
 

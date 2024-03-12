@@ -359,7 +359,7 @@ The video linked is edited to minimize time. This content is provided for educat
 Email Content Analysis:
   + The choice of subject, "Urgent: GitHub Security Update Required - Immediate Action Needed", is a psychological tactic commonly employed; to create a sense of panic or anxiety in the recipient, urging them to take immediate action without carefully confirming the email's legitimacy.
   + The email is sent from, testsetkit@gmail.com, to highlight what users should obeserve. GitHub's official support email is "support@github.com".
-    - Additional Examples of Fake GitHub Addresses:
+    - Examples of Fake GitHub Addresses:
       + support@ghithub.com
       + github.support@outlook.com
       + github-security.alerts@mail.com
@@ -379,7 +379,27 @@ Email Content Analysis:
 
 Log File Analysis:
 
-  + <cont here>
+  + **[commit]** → Sign in
+    - The "commit" field commonly signifies the intended action upon form submission. In this instance, it denotes the action of signing in, thereby confirming that the form is designed for user login.
+  + **[authenticity_token]** → *Unique and cryptographically generated token for each session.*
+    - These tokens are uniquely generated for each session, and verify that the form submissions are authentic and originate from the intended user. This serves as a security measure designed to prevent Cross-Site Request Forgery (CSRF) attacks; where an attacker deceives a user's browser into executing unintended actions on an authenticated website. 
+  + **[login]** → *Example usernames/emails displayed.*
+    - This field contains the email address, or username, associated with the login attempt. The user attempting to sign in is identified here.
+  + **[password]** → alwayschecktheurl
+    - This is where the password is provided, in plain text, as part of the login attempt.
+  + **[webauthn-conditional]** → undefined
+    - WebAuthn, short for Web Authentication, utilizes public-key cryptography to verify the user's identity. The *undefined status* implies that the specific conditions or circumstances determining the support for WebAuthn are not explicitly defined.
+  + **[javascript-support]** → true
+    - This signifies that the client's web browser possesses the capability to support and execute JavaScript.
+  + **[webauthn-iuvpaa-support]** → unsupported
+    - Iuvpaa is a specific aspect of WebAuthn that focuses on user verification and attestation of the platform's integrity. This indicates that this system doesn't have the ability to use these extra security features.
+  + **[return_to]** → GitHub's Login Page
+    - This specifies the URL to which the user was redirected after attempting to log in. In this case, the designated URL is "https://github.com/login".
+  + **[allow_signup]** → *blank*
+  + **[integration]** → *blank*
+  + **[required_field_7849]** → *blank*
+  + **[timestamp]** →
+  + **[timestamp_secret]** →
 
 ### QR Code Attack
 

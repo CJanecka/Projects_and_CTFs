@@ -418,6 +418,7 @@ QR codes are used commonly in modern society, facilitating a wide range of appli
   + **Tourism and Travel**: Tourist guides, maps, brochures, and signage often contain QR codes that visitors can scan to access audio guides, virtual tours, or additional details about points of interest.
   + **Ticketing and Event Management**: Tickets or registrations, allowing attendees to gain entry to venues, access event information, or participate in activities.
   + **Geolocation Data**: Coordinates, addresses, points of interest, directions, or recommendations based on the current or desired location.
+  + **WiFi Configurations**: WiFi network credentials, including SSID (network name) and password information; to automatically connect devices to the designated network.
 
 QR code attacks leverage the inherent trust users place in QR codes, enticing them to inadvertently visit malicious websites or download malware. With their cross-platform compatibility, these attacks can target users across various devices, offering a convenient means of accessing information, websites, or apps by scanning the code with a smartphone. Additionally, these attacks can bypass some email filters and other security measures, amplifying their effectiveness and reach. 
 

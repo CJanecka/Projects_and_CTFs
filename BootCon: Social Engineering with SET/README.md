@@ -412,20 +412,19 @@ Log File Analysis:
 
 *Why use QR Code attacks?*
 
-QR codes are used commonly in modern society, facilitating a wide range of applications across industries such as retail, finance, transportation, healthcare, and education. Their simplicity, versatility, and compatibility with mobile devices have contributed to their widespread adoption and continued relevance in various domains. This includes:
+QR codes are used commonly in modern society, facilitating a wide range of applications across industries such as retail, finance, transportation, healthcare, and education. Their simplicity, versatility, and compatibility with mobile devices have contributed to their widespread adoption and continued relevance in various domains. Common usage includes:
 
   + **Food Service Industry**: Menu presentation, ordering, payment, feedback collection, promotions, and health and safety communication.
   + **Tourism and Travel**: Tourist guides, maps, brochures, and signage often contain QR codes that visitors can scan to access audio guides, virtual tours, or additional details about points of interest.
   + **Ticketing and Event Management**: Tickets or registrations, allowing attendees to gain entry to venues, access event information, or participate in activities.
+  + **Geolocation Data**: Coordinates, addresses, points of interest, directions, or recommendations based on the current or desired location.
 
-QR code attacks leverage the inherent trust users place in QR codes, enticing them to inadvertently visit malicious websites or download malware. With their cross-platform compatibility, these attacks can target users across various devices, offering a convenient and swift means of accessing information, websites, or apps by scanning the code with a smartphone. Additionally, these attacks can bypass email filters and other security measures, amplifying their effectiveness and reach. The examples listed aboved could be exploited for various malicious purposes:
+QR code attacks leverage the inherent trust users place in QR codes, enticing them to inadvertently visit malicious websites or download malware. With their cross-platform compatibility, these attacks can target users across various devices, offering a convenient means of accessing information, websites, or apps by scanning the code with a smartphone. Additionally, these attacks can bypass some email filters and other security measures, amplifying their effectiveness and reach. 
 
 SET's QR Code Attack vector:                                                                                                          
 ![01h_SE_QRCode_Attack](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/01bfdb13-c071-4e51-b882-5ecd57479927)
 
-  + **Food Service Industry**: 
-  + **Tourism and Travel**: 
-  + **Ticketing and Event Management**:
+
 
 ## Mitigations
 

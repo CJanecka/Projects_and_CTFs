@@ -29,7 +29,11 @@
 
 ## Overview
 
-<add here>
+My team and I explore the capabilities of the Social Engineer Toolkit (SET), to demonstrate how specific tools can be employed in social engineering campaigns. This project focuses on four of SET's utilities *- Credential Harvester, Website Cloner, Phishing Emails, and QR Code Attack*. Our goal is to illustrate how attackers could exploit these tools to manipulate targets into disclosing sensitive information or performing unauthorized actions.
+
+Through this project; our secondary goal is to raise awareness of the risks associated with social engineering, highlighting the importance of security awareness training, robust access controls, and technological defenses in mitigating these threats. By understanding how attackers exploit human psychology and leveraging tools like SET, organizations can better defend against social engineering attacks and protect their assets and sensitive information.
+
+This repository provides imformation on the methodologies and attack vectors utilized. Additionally, a slideshow is available for those interested: [Presentation Slideshow](https://github.com/CJanecka/Projects_and_CTFs/files/14596223/Presentation.Slideshow._.Collin.Janecka.pdf)
 
 ## Equipment and Tools
 
@@ -41,6 +45,7 @@ The technologies used in this project include:
   + Google Mail *(Gmail)*
   + Open-Source Intelligence *(OSINT)*
   + [Social Engineering Methodology](https://www.ibm.com/topics/social-engineering#How+and+why+social+engineering+works)
+  + [Adobe Premiere Pro](https://www.adobe.com/products/premiere/features.html)
   + [OpenAI - ChatGPT](https://openai.com/)
   + [ElevenLabs - Generative Voice AI](https://elevenlabs.io/)
   + [PlayHT - Generative Voice AI](https://play.ht/)

@@ -429,21 +429,16 @@ Educational resources are essential for providing users with the knowledge and s
 
 ## Mitigations
 
-<temp bullet points - placeholder to revise>
+Mitigating social engineering requires a multi-layered approach that addresses both technological vulnerabilities and human behavior. Here are some key mitigations to consider:
 
-  + **Check the URL**: Examine the website's URL carefully. Phishing sites often have misspelled or slightly changed domain names. Watch out for variations, extra words, or different top-level domains *(.com, .net, etc..)*.
+  + **Employee Training and Awareness**: Regular security awareness training programs can educate employees about common social engineering tactics, such as phishing, pretexting, and baiting. Training should include recognizing suspicious communications, verifying requests for sensitive information, and reporting potential security incidents to the appropriate authorities.
 
-  + **Look for HTTPS**: Legitimate websites typically use HTTPS for secure communication. Check for the padlock symbol and "https://" in the URL.
+  + **Strict Access Controls**: Implementing strict access controls and least privilege principles limits the amount of sensitive information that employees have access to. This reduces the likelihood of insider threats and mitigates the impact of social engineering attacks targeting privileged accounts.
 
-  + **Check the Site/Page Design**: Examine the website's design; legitimate websites have a consistent and professional layout, fonts, and graphics. Check for brand consistency, proper color schemes, and responsive design.
+  + **Multi-Factor Authentication (MFA)**: MFA adds an additional layer of security by requiring users to provide multiple forms of authentication, such as passwords, biometrics, or security tokens, before accessing sensitive systems or data. This mitigates the risk of unauthorized access, resulting from compromised credentials.
 
-  + **Examine the Email Source and Content**: Check the sender's email address, spoofed emails often have slight variations in the sender's address. Look for grammatical errors, urgent language, or requests for sensitive information. Legitimate organizations usually communicate professionally.
+  + **Email Filtering and Spam Detection**: Deploying robust email filtering and spam detection mechanisms, help to identify and quarantine malicious emails containing phishing attempts or malware. Advanced threat detection technologies can analyze email content, attachments, and sender reputation to identify suspicious emails before they reach users' inboxes.
 
-  + **Beware of Unexpected Attachments or Links**: Avoid clicking on unexpected attachments or links. Verify the legitimacy by contacting the sender through official channels.
+  + **Endpoint Security Solutions**: Such as antivirus software, intrusion detection systems (IDS), and endpoint detection response (EDR) tools, help detect and prevent malware infections. These solutions can detect and block malicious files, URLs, or behaviors on endpoints to prevent data breaches and system compromise.
 
-  + **Examine the Security Certificate**: Check the website's security certificate by clicking on the padlock icon in the address bar. A mismatch or untrusted certificate may indicate a phishing site.
-
-  + **Use Security Software**: Employ reliable antivirus and anti-phishing software to provide an additional layer of protection.
-
-  + **Use Multi-Factor Authentication (MFA)**: Even if a user's password is compromised through phishing or other means, an additional factor (such as a temporary code from a mobile app or a fingerprint) is needed for access.
-
+It's essential to adopt a proactive and holistic approach to security that combines technology, education, and policy enforcement to mitigate the evolving threat landscape posed by social engineering.

@@ -29,7 +29,7 @@
 
 ## Overview
 
-My team and I explore the capabilities of the Social Engineer Toolkit (SET), to demonstrate how specific tools can be employed in social engineering campaigns. This project focuses on four of SET's utilities *- Credential Harvester, Website Cloner, Phishing Emails, and QR Code Attack*. Our goal is to illustrate how attackers could exploit these tools to manipulate targets into disclosing sensitive information or performing unauthorized actions.
+My team and I explore the capabilities of the Social Engineer Toolkit (SET), to demonstrate how specific tools can be employed in social engineering campaigns. This project focuses on four of SET's utilities *- Credential Harvester, Website Cloner, Phishing Emails, and QR Code Attack*. Our goal is to illustrate how attackers could exploit these tools to manipulate targets into disclosing sensitive information or performing unauthorized actions. The demonstration of these is intended to raise awareness of potential social engineering threats. Any misuse of these tools for malicious purposes is strictly prohibited and may result in legal consequences.
 
 Through this project; our secondary goal is to raise awareness of the risks associated with social engineering, highlighting the importance of security awareness training, robust access controls, and technological defenses in mitigating these threats. By understanding how attackers exploit human psychology and leveraging tools like SET, organizations can better defend against social engineering attacks and protect their assets and sensitive information.
 

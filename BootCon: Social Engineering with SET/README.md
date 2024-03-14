@@ -446,4 +446,18 @@ Mitigating social engineering requires a multi-layered approach that addresses b
 
   + **Endpoint Security Solutions**: Such as antivirus software, intrusion detection systems (IDS), and endpoint detection response (EDR) tools, help detect and prevent malware infections. These solutions can detect and block malicious files, URLs, or behaviors on endpoints to prevent data breaches and system compromise.
 
+To make it more difficult for websites to be cloned for credential harvesting, employ a multi-step login. This is when webpages use a login process with multiple pages, instead of having the username and password fields on the same page.
+
+*Single-step Login | Humble Bundle.*                                                                                        
+![firefox_ToWvZn3vnO](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b80dc7e9-65ad-4e56-bc1c-3ec6172c7d79)
+
+*Multi-step Login | Google Username.*                                                                                        
+![firefox_1Hhaa2Qmpr](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e4a0e1fe-cf0f-41c7-9b75-1ccdca4b7e72)
+
+*Multi-step Login | Google Security Check.*                                                                                              
+![firefox_0FXN9csiKi](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9898a71e-5a0d-48ee-a63c-d3150c79590d)
+
+*Multi-step Login | Google Password.*                                                                                      
+![firefox_worudMPM2k](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8f88044-d8dc-4a96-8756-cbb8af35a563)
+
 It's essential to adopt a proactive and holistic approach to security that combines technology, education, and policy enforcement to mitigate the evolving threat landscape posed by social engineering.

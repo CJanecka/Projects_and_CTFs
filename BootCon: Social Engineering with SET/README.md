@@ -425,7 +425,7 @@ QR code attacks leverage the inherent trust users place in QR codes, enticing th
 SET's QR Code Attack vector:                                                                                                          
 ![01h_SE_QRCode_Attack](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/01bfdb13-c071-4e51-b882-5ecd57479927)
 
-
+Educational resources are essential for providing users with the knowledge and skills needed to navigate QR code interactions safely.  [ThioJoe's YouTube video](https://youtu.be/jxTsI5XvM-c?si=tBP3h3IUwYAA88_o&t=583) and a [post by Malwarebytes](https://www.malwarebytes.com/cybersecurity/basics/what-is-a-qr-code) delve deeper into QR code security awareness and best practices.
 
 ## Mitigations
 

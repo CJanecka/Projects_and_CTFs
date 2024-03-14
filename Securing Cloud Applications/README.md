@@ -15,7 +15,7 @@
 
 ## Overview
 
-I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and seamlessly integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This approach empowers a secure and reliable system against potential cyber threats. My project technical brief is provided as a PDF, in this GitHub repository, titled [Securing Cloud Applications - Technical Brief](https://github.com/CJanecka/Projects_and_CTFs/files/14234281/Securing.Cloud.Applications.-.Technical.Brief._.Collin.Janecka.pdf). This document offers a detailed overview of the project, providing insights and addressing the questions that were posed to me.
+I developed a cyber-blog web application using Azure's Cloud services and Docker, prioritizing security measures throughout. SSL certificates were securely stored in Azure's Key Vault and integrated for enhanced protection. To fortify the web application, I implemented Azure's Security features, including Front Door, WAF, and Security Center. This approach empowers a secure and reliable system against potential cyber threats. My project technical brief is provided as a PDF, in this GitHub repository, titled [Securing Cloud Applications - Technical Brief](https://github.com/CJanecka/Projects_and_CTFs/files/14234281/Securing.Cloud.Applications.-.Technical.Brief._.Collin.Janecka.pdf). This document offers a detailed overview of the project, providing insights and addressing the questions that were posed to me.
 
 ## Equipment and Tools
 

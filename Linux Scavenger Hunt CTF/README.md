@@ -57,14 +57,14 @@ Every flag should be exactly the same length of characters. Be sure to remove an
 
 <add here>
 
-Flag 1.                                                                                                          
-![flag 1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ea60720d-5f65-4451-beb9-8ecb9da28250)
+Flag 1.                                                                                                                          
+![flag_1-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/89812d7b-4ed1-45b8-9d65-d8275acbbdaf)
 
 Flag 2.                                                                                                          
 ![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/66349b55-5073-4d8c-8bcc-a50207aa82f3)
 
 Flag 3.                                                                                                              
-![flag 3](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6f587098-6104-4d51-9591-b28c76b17eac)
+![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)
 
 Flag 4.                                                                                                        
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)

@@ -56,3 +56,31 @@ Every flag should be exactly the same length of characters. Be sure to remove an
 ## Capturing the Flags
 
 <add here>
+
+Flag 1.                                                                                                          
+![flag 1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ea60720d-5f65-4451-beb9-8ecb9da28250)
+
+Flag 2.                                                                                                          
+![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/66349b55-5073-4d8c-8bcc-a50207aa82f3)
+
+Flag 3.                                                                                                              
+![flag 3](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6f587098-6104-4d51-9591-b28c76b17eac)
+
+Flag 4.                                                                                                        
+![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)
+
+Flag 5.                                                                                                        
+![flag 5](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ae6814d4-711d-4a89-be89-f9bf61326b46)
+
+Flag 6.                                                                                                        
+![flag 6](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/489f6888-f7af-41ae-a2ef-099f99e8bef9)
+
+Flag 7.                                                                                                        
+![flag 7](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9299b52f-b2f9-4651-9e22-0e8105471226)
+
+Flag 8.
+Hashed Password List:                                                                                                        
+![hashed password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/05f96b23-c353-4a5d-8d4d-6372e2bb1194)
+
+Cracked Password List:                                                                                                          
+![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d154dc1e-e981-49a1-ba11-b5a2ce7b0f7f)

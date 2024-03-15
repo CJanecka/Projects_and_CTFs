@@ -7,6 +7,7 @@
   + [01. Overview](#Overview)
   + [02. Equipment and Tools](#Equipment-and-Tools)
   + [03. Activity Requirements](#Activity-Requirements)
+  + [04. Capturing the Flags](#Capturing-the-Flags)
 
 ## Overview
 
@@ -46,6 +47,10 @@ Inspect this user's custom aliases and run the suspicious one for the proper fla
 
 **flag_7**:
 Find an exploit to gain a root shell. Login as the root user.
+
+## Capturing the Flags
+
+<add here>
 
 **flag_8**:
 Gather each of the 7 flags into a file and format it as if each flag was a username and password.

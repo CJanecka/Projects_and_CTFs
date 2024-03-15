@@ -15,18 +15,21 @@
 - Worked in a team of six, competing against seven other teams.
 - launched a headless virtual machine server and logged in.
 - Found all eight flags, finishind second out of the eight total competing teams.
+- I personally found three of the eight flags.
 
 ## Equipment and Tools
 
-- Virtual Machine running Ubuntu OS
-- [SSH Protocol](#https://www.ssh.com/academy/ssh/protocol)
+- [SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
 - Bash Scripting
+- [Apache Guacamole](https://guacamole.apache.org/)
+- [Ubuntu OS](https://ubuntu.com/desktop)
 
 ## Activity Requirements
 
 - 8 flags in total. 7 flags from the system combine to make up the final flag.
   + When a flag is found, it is seen in this format - flag_1:97df27aec8c251503f5e3749eb2ddea2
 - Timeline of 2.5 hours to get as many flags as possible, if not all of them.
+- Every team member must participate and work at least one task
 
 ## Flag Hints
 

@@ -48,11 +48,11 @@ Inspect this user's custom aliases and run the suspicious one for the proper fla
 **flag_7**:
 Find an exploit to gain a root shell. Login as the root user.
 
-## Capturing the Flags
-
-<add here>
-
 **flag_8**:
 Gather each of the 7 flags into a file and format it as if each flag was a username and password.
 Crack these passwords for the final flag.
 Every flag should be exactly the same length of characters. Be sure to remove any backslashes that you find!
+
+## Capturing the Flags
+
+<add here>

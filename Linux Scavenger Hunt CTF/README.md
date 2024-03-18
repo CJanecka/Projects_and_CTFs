@@ -94,6 +94,11 @@ Combining these options provides a view of the entire directory structure, inclu
 
 The hint says a famous hacker had created a user on the system a year ago. We navigated to the "/etc/shadow" file which stores encrypted passwords and other security-related information for user accounts. Here we found the user *mitnik* which represents Kevin Mitnick; a prominent computer hacker and cybersecurity consultant that gained notoriety in the 1980s and 1990s.
 
+Ran John the Ripper to crack the hashed password for the user *mitnik*.
+
+*Illustration of executing John the Ripper.*                                                                      
+![john the ripper - mitnik](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7af7c6fd-5c6f-4d63-9da2-eb01b73e0cfe)
+
 Flag 2 - sample text here.                                                                                   
 ![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1fa1be45-5f66-42a4-a0ad-9ff50320d096)
 

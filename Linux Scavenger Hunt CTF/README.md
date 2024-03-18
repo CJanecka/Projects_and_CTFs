@@ -27,10 +27,13 @@
 
 ## Activity Requirements
 
-- 8 flags in total. 7 flags from the system combine to make up the final flag.
-  + When a flag is found, it is seen in this format - flag_1:97df27aec8c251503f5e3749eb2ddea2
-- Timeline of 2.5 hours to get as many flags as possible, if not all of them.
-- Every team member must participate and work at least one task
+- A 2.5-hour timeframe to obtain as many flags as possible.
+- There are a total of 8 flags. Seven flags are obtained from the system, which are then combined to form the final flag. 
+  + When a flag is found, it is seen in this format - flag_#:97df27aec8c251503f5e3749eb2ddea2
+- Every team member must participate and work at least one task.
+- Before accessing the challenge, all participants must install the provided scavenger hunt script. Once installed, participants can connect via ssh by running:
+  + ssh student@192.168.200.105
+  + Password: Goodluck!
 
 ## Flag Hints
 
@@ -64,9 +67,11 @@ These hints were provided for guidance in uncovering the flags within this chall
   
 ## Capturing the Flags
 
-<add here>
+*Before proceeding, it's worth mentioning that some of the images presented are illustrative examples, rather than exact representations of the command dashboard. They've been included to offer improved guidance on this project.*
 
-Flag 1.                                                                                                                          
+<cont here>
+
+Flag 1 - Found in the Home directory of the Student user.                                                      
 ![flag 1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8ec21f67-b8e3-4cf1-957f-2c0e4c753216)
 
 Flag 2.                                                                                                          

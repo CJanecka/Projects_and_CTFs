@@ -9,6 +9,7 @@
   + [03. Activity Requirements](#Activity-Requirements)
   + [04. Flag Hints](#Flag-Hints)
   + [05. Capturing the Flags](#Capturing-the-Flags)
+  + [06. Mitigations](#Mitigations) <placeholder- might remove or change>
 
 ## Overview
 
@@ -69,12 +70,29 @@ These hints were provided for guidance in uncovering the flags within this chall
 
 *Before proceeding, it's worth mentioning that some of the images presented are illustrative examples, rather than exact representations of the command dashboard. They've been included to offer improved guidance on this project.*
 
-<cont here>
+### Flag 1
 
-Flag 1 - Found in the Home directory of the Student user.                                                      
+After successfully connecting using the command "ssh student@192.168.200.105" as specified in the preceding requirements, we can initiate our search for the first flag. The provided hint suggests that the flag is not well-hidden. Therefore, I decided to list all files and directories recursively from the initial login point. This was done using the following command:
+
+  + ls -Ra
+    - The *-R* option instructs ls to list directories recursively, meaning it will display the contents of subdirectories as well.
+    - The *-a* option tells ls to show all files and directories, including those whose names start with a dot (.), which are typically hidden.
+
+Combining these options provides a view of the entire directory structure, including all files and directories, both visible and hidden.
+
+*Illustration of *ls -Ra* command results.*                                                                        
+![displaying](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ab648d71-5c1e-41e4-881e-d70072719e14)
+
+  + This reveals two (2) files in the student's desktop:
+    - A file titled Flag 1.
+    - A password list contained in a text file.
+
+*Flag 1 - File Contents.*                                                                                    
 ![flag 1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8ec21f67-b8e3-4cf1-957f-2c0e4c753216)
 
-Flag 2.                                                                                                          
+### Flag 2
+
+Flag 2 - sample text here.                                                                                   
 ![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1fa1be45-5f66-42a4-a0ad-9ff50320d096)
 
 Flag 3.                                                                                                              
@@ -98,3 +116,9 @@ Hashed Password List:
 
 Cracked Password List:                                                                                                          
 ![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d154dc1e-e981-49a1-ba11-b5a2ce7b0f7f)
+
+## Mitigations
+
+Mitigations for the methods used to capture the flags in this project.
+
+### Flag 1 <rename to specific topic>

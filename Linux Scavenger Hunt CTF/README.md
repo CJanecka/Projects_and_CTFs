@@ -64,10 +64,10 @@ Every flag should be exactly the same length of characters. Be sure to remove an
 <add here>
 
 Flag 1.                                                                                                                          
-![flag_1-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/89812d7b-4ed1-45b8-9d65-d8275acbbdaf)
+![flag 1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8ec21f67-b8e3-4cf1-957f-2c0e4c753216)
 
 Flag 2.                                                                                                          
-![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/66349b55-5073-4d8c-8bcc-a50207aa82f3)
+![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1fa1be45-5f66-42a4-a0ad-9ff50320d096)
 
 Flag 3.                                                                                                              
 ![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)

@@ -23,8 +23,9 @@
 
 - [SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
 - Bash Scripting
-- [Apache Guacamole](https://guacamole.apache.org/)
+- [John the Ripper](https://www.openwall.com/john/)
 - [Ubuntu OS](https://ubuntu.com/desktop)
+- [Apache Guacamole](https://guacamole.apache.org/)
 
 ## Activity Requirements
 
@@ -94,14 +95,26 @@ Combining these options provides a view of the entire directory structure, inclu
 
 The hint mentions that a famous hacker created a user on the system a year ago. We followed this clue by navigating to the "/etc/shadow" file, where encrypted passwords and other security-related information for user accounts are stored. Here, we identified the user *mitnik*, believed to represent Kevin Mitnick, a renowned computer hacker and cybersecurity consultant that gained notoriety in the 1980s and 1990s. 
 
-Furthermore, we discovered a hashed password for the *student* user. Given the hint's emphasis on a famous hacker, we focused our attention on *mitnik* as the target. Returning to the desktop directory, we utilized John the Ripper to crack the hashed passwords found. The command used for this is as follows:
+Furthermore, we discovered a hashed password for the *student* user. Given the hint's emphasis on a famous hacker, we focused our attention on *mitnik* as the primary target. Returning to the desktop directory, we utilized John the Ripper to crack the hashed passwords found. The command used for this is as follows:
 
   + john --wordlist=.pass_list.txt ../Documents/my-files/shadow
 
-*Illustration of executing John the Ripper.*                                                                      
-![john the ripper - mitnik](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7af7c6fd-5c6f-4d63-9da2-eb01b73e0cfe)
+When this command is executed, John the Ripper will systematically compare the hashed passwords stored in the "/etc/shadow" file with the entries in the provided wordlist. It will attempt various combinations and permutations of words from the wordlist to find matches for the hashed passwords. If a match is found, John the Ripper will reveal the corresponding plaintext password, thus successfully cracking the hashed password.
 
-Flag 2 - sample text here.                                                                                   
+*Illustration of executing John the Ripper.*                                                                      
+![john1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cd1f1eb4-d7ef-4527-870a-770835d87a73)
+
+  +  The "--show" option can be used to display the cracked passwords reliably.
+
+*Illustration of the "--show" option being utilized.*                                                                                        
+![john2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/18c207c7-1af4-48c7-a244-167f108f05f8)
+
+John the Ripper was successful and provided the following passwords:
+
+  + User: student | Password: letmein
+  + User: mitnik | Password: trustno1
+
+*Flag 2 - Found by logging in to the user mitnik.*                                                                                   
 ![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1fa1be45-5f66-42a4-a0ad-9ff50320d096)
 
 Flag 3.                                                                                                              

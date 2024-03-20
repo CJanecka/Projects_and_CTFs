@@ -49,6 +49,7 @@ These hints were provided for guidance in uncovering the flags within this chall
 
 **Flag 3**:
   + Find a ‘log’ file and a zip file related to the hacker's name.
+    - Use a compound command to figure out the unique count of IP Addresses in this log file. That number is a password.
 
 **Flag 4**:
   + Find a directory with a list of hackers. Look for a file that has read permissions for the owner, no permissions for groups and executable only for everyone else.
@@ -117,14 +118,40 @@ John the Ripper was successful and provided the following passwords:
 *Flag 2 - Found by logging in to the user mitnik.*                                                                                   
 ![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1fa1be45-5f66-42a4-a0ad-9ff50320d096)
 
-### Flag 3
+### Flag 3             <revise this section is a rough draft>
 
 While logged in as the user *mitnik*, we conducted a search for a log and zip file by recursively listing the directories starting from the home directory.
 
 *Illustration of listing mitnik's directories.*                                                                          
 ![chrome_nMXOheqDR6](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b07c56de-0644-4ce9-9e6a-e8119e2bb958)
 
-Flag 3.                                                                                                              
+  + A hidden zip file, *.secret.zip*, was found in the Documents directory.
+
+The log file is located in: */var/log/mitnik.log*
+
+*Illustration of mitnik's log folder contents.*                                                                    
+![mitnik logs](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/310cd646-f3d0-4af6-b110-75ec9de177db)
+
+Inspecting the file shows that the IP addresses are only at the beginning of each line.
+
+*Illustration of the contents of mitnik.log.*                                                                              
+![mitnik log contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bbc957a5-2e96-402a-8189-be09370967f6)
+
+Create a compound command that counts the number of uniqe lines.
+
+*Illustration of compund command.*                                                                                              
+![mitnik compound command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76c33f66-26b6-49c7-8f16-cf252130c1f6)
+
+  + The password for the *.secret.zip* is: *102*
+
+*Illustration of unzipping the secret file.*                                                                        
+![mitnik unzip](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c814dd0e-a8c4-4a32-b53e-57d38ce9af89)
+
+  + The password for the *babbage* user is: *freedom*
+
+Login as babbage and found flag 3.
+
+*Successfully logged into babbage.*                                                                                                              
 ![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)
 
 Flag 4.                                                                                                        

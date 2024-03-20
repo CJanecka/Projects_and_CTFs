@@ -119,7 +119,10 @@ John the Ripper was successful and provided the following passwords:
 
 ### Flag 3
 
-While logged in as the user *mitnik* we searched for a log and zip file by listing the directories recursively.
+While logged in as the user *mitnik*, we conducted a search for a log and zip file by recursively listing the directories starting from the home directory.
+
+*Illustration of listing mitnik's directories.*                                                                          
+![chrome_nMXOheqDR6](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b07c56de-0644-4ce9-9e6a-e8119e2bb958)
 
 Flag 3.                                                                                                              
 ![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)

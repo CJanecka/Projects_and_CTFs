@@ -49,7 +49,7 @@ These hints were provided for guidance in uncovering the flags within this chall
 
 **Flag 3**:
   + Find a ‘log’ file and a zip file related to the hacker's name.
-    - Use a compound command to figure out the unique count of IP Addresses in this log file. That number is a password.
+    - Use a compound command to figure out the unique count of IP Addresses in this log file. That number is a password for the zip file.
 
 **Flag 4**:
   + Find a directory with a list of hackers. Look for a file that has read permissions for the owner, no permissions for groups and executable only for everyone else.
@@ -132,12 +132,16 @@ The log file is located in: */var/log/mitnik.log*
 *Illustration of mitnik's log folder contents.*                                                                    
 ![mitnik logs](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/310cd646-f3d0-4af6-b110-75ec9de177db)
 
-Inspecting the file shows that the IP addresses are only at the beginning of each line.
+Next we inspect the file, *mitnik.log*, to identify and analyze patterns within its contents, particularly focusing on the IP addresses present.
 
 *Illustration of the contents of mitnik.log.*                                                                              
 ![mitnik log contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bbc957a5-2e96-402a-8189-be09370967f6)
 
-Create a compound command that counts the number of uniqe lines.
+  + The file shows that the IP addresses are only at the beginning of each line. Followed by additional information; such as, the request method, HTTP status code, referrer URL, and user agent.
+
+By recognizing that the IP addresses consistently appear at the beginning of each line, we can leverage this pattern to extract the unique count of IP Addresses in this log file. To do this, create a compound command that counts the number of unique lines. The command we used for this is:
+
+  + <cont>
 
 *Illustration of compund command.*                                                                                              
 ![mitnik compound command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76c33f66-26b6-49c7-8f16-cf252130c1f6)

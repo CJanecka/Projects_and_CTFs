@@ -117,7 +117,7 @@ John the Ripper was successful and provided the following passwords:
 *Flag 2 - Found by logging in to the user mitnik.*                                                                                   
 ![flag 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1fa1be45-5f66-42a4-a0ad-9ff50320d096)
 
-### Flag 3             <revise this section is a rough draft>
+### Flag 3
 
 While logged in as the user *mitnik*, we conducted a search for a log and zip file by recursively listing the directories starting from the home directory.
 

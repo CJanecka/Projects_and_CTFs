@@ -9,6 +9,14 @@
   + [03. Activity Requirements](#Activity-Requirements)
   + [04. Flag Hints](#Flag-Hints)
   + [05. Capturing the Flags](#Capturing-the-Flags)
+    - [a. Flag 1](#Flag-1)
+    - [b. Flag 2](#Flag-2)
+    - [c. Flag 3](#Flag-3)
+    - [d. Flag 4](#Flag-4)
+    - [e. Flag 5](#Flag-5)
+    - [f. Flag 6](#Flag-6)
+    - [g. Flag 7](#Flag-7)
+    - [h. Flag 8](#Flag-8)
   + [06. Mitigations](#Mitigations) <placeholder- might remove or change>
 
 ## Overview

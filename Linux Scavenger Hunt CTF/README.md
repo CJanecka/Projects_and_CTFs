@@ -31,7 +31,6 @@
 
 - A 2.5-hour timeframe to obtain as many flags as possible.
 - There are a total of 8 flags. Seven flags are obtained from the system, which are then combined to form the final flag. 
-  + When a flag is found, it is seen in this format - flag_#:97df27aec8c251503f5e3749eb2ddea2
 - Every team member must participate and work at least one task.
 - Before accessing the challenge, all participants must install the provided scavenger hunt script. Once installed, participants can connect via ssh by running:
   + ssh student@192.168.200.105
@@ -39,34 +38,26 @@
 
 ## Flag Hints
 
-These hints were provided for guidance in uncovering the flags within this challenge.
+These hints were provided for guidance in uncovering the flags within this challenge. When a flag is found, it is seen in this format - flag_#:97df27aec8c251503f5e3749eb2ddea2
 
-**Flag 1**:
-  + Finding this flag is imperative to moving on quickly, as it contains the passwords from users before they were hacked. Luckily, it doesn't have a great hiding spot.
+  01. **Flag 1**: Finding this flag is imperative to moving on quickly, as it contains the passwords from users before they were hacked. Luckily, it doesn't have a great hiding spot.
 
-**Flag 2**:
-  + A famous hacker had created a user on the system a year ago. Find this user, crack his password, and login to his account.
+  02. **Flag 2**: A famous hacker had created a user on the system a year ago. Find this user, crack his password, and login to his account.
 
-**Flag 3**:
-  + Find a ‘log’ file and a zip file related to the hacker's name.
-    - Use a compound command to figure out the unique count of IP Addresses in this log file. That number is a password for the zip file.
+  03. **Flag 3**: Find a ‘log’ file and a zip file related to the hacker's name.
+       - Use a compound command to figure out the unique count of IP Addresses in this log file. That number is a password for the zip file.
 
-**Flag 4**:
-  + Find a directory with a list of hackers. Look for a file that has read permissions for the owner, no permissions for groups and executable only for everyone else.
+  04. **Flag 4**: Find a directory with a list of hackers. Look for a file that has read permissions for the owner, no permissions for groups and executable only for everyone else.
 
-**Flag 5**:
-  + This user is writing a bash script, except it isn't quite working yet. Find it, debug it, and run it.
+  05. **Flag 5**: This user is writing a bash script, except it isn't quite working yet. Find it, debug it, and run it.
 
-**Flag 6**:
-  + Inspect this user's custom aliases and run the suspicious one for the proper flag.
+  06. **Flag 6**: Inspect this user's custom aliases and run the suspicious one for the proper flag.
 
-**Flag 7**:
-  + Find an exploit to gain a root shell. Login as the root user.
+  07. **Flag 7**: Find an exploit to gain a root shell. Login as the root user.
 
-**Flag 8**:
-  + Gather each of the 7 flags into a file and format it as if each flag was a username and password.
-    - Every flag should be exactly the same length of characters. Be sure to remove any backslashes that you find!
-  + Crack these passwords for the final flag.
+  08. **Flag 8**: Gather each of the 7 flags into a file and format it as if each flag was a username and password.
+       - Crack these passwords for the final flag.
+       - Every flag should be exactly the same length of characters. Be sure to remove any backslashes that you find!
   
 ## Capturing the Flags
 

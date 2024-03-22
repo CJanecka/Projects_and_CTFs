@@ -139,9 +139,19 @@ Next we inspect the file, *mitnik.log*, to identify and analyze patterns within 
 
   + The file shows that the IP addresses are only at the beginning of each line. Followed by additional information; such as, the request method, HTTP status code, referrer URL, and user agent.
 
-By recognizing that the IP addresses consistently appear at the beginning of each line, we can leverage this pattern to extract the unique count of IP Addresses in this log file. To do this, create a compound command that counts the number of unique lines. The command we used for this is:
+By recognizing that the IP addresses consistently appear at the beginning of each line, we can leverage this pattern to extract the unique count of IP Addresses in this log file. To do this, create a compound command that counts the number of unique lines. The command my team used:
 
-  + <cont>
+  + cat /var/log/mitnik.log | sort | uniq | wc -l
+
+To break this compund command down:
+
+  + The command "**cat /var/log/mitnik.log**" utilizes the *cat* utility to display the contents of the *mitnik.log* file, outputting the entire log file contents to the standard output. 
+
+  + The "**| sort**" component uses a pipe (|) symbol to redirect the output from *cat* to the *sort* command, arranging the lines of text alphabetically, grouping identical lines together for subsequent processing.
+
+  + "**| uniq**" filters consecutive duplicate lines from the sorted input, retaining only unique lines while discarding duplicates.
+
+  + The "**| wc -l**" component directs the output to the word count (wc) command with the *-l* option, which tallies the number of lines in the input and prints the total line count to the standard output.
 
 *Illustration of compund command.*                                                                                              
 ![mitnik compound command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76c33f66-26b6-49c7-8f16-cf252130c1f6)

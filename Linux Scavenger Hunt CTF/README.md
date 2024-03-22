@@ -131,7 +131,7 @@ The log file is located in: */var/log/mitnik.log*
 *Illustration of mitnik's log folder contents.*                                                                    
 ![mitnik logs](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/310cd646-f3d0-4af6-b110-75ec9de177db)
 
-Next we inspect the file, *mitnik.log*, to identify and analyze patterns within its contents, particularly focusing on the IP addresses present.
+Inspect the file, *mitnik.log*, to identify and analyze patterns within its contents, particularly focusing on the IP addresses present.
 
 *Illustration of the contents of mitnik.log.*                                                                              
 ![mitnik log contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bbc957a5-2e96-402a-8189-be09370967f6)
@@ -142,7 +142,7 @@ By recognizing that the IP addresses consistently appear at the beginning of eac
 
   + cat /var/log/mitnik.log | sort | uniq | wc -l
 
-To break this command down:
+To break this down:
 
   + The command "**cat /var/log/mitnik.log**" utilizes the *cat* utility to display the contents of the *mitnik.log* file, outputting the entire log file contents to the standard output. 
 
@@ -152,15 +152,15 @@ To break this command down:
 
   + The "**| wc -l**" component directs the output to the word count (wc) command with the *-l* option, which tallies the number of lines in the input and prints the total line count to the standard output.
 
-*Illustration of compund command.*                                                                                              
+*Illustration of the compund command.*                                                                                              
 ![mitnik compound command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76c33f66-26b6-49c7-8f16-cf252130c1f6)
 
-  + The password for the *.secret.zip* is: *102*
+  + The password for *.secret.zip* is: *102*
 
 *Illustration of unzipping the secret file.*                                                                        
 ![mitnik unzip](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c814dd0e-a8c4-4a32-b53e-57d38ce9af89)
 
-  + The password for the *babbage* user is: *freedom*
+  + The password for the user *babbage* is: *freedom*
 
 Login as babbage and found flag 3.
 

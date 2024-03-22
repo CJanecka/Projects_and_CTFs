@@ -143,7 +143,7 @@ By recognizing that the IP addresses consistently appear at the beginning of eac
 
   + cat /var/log/mitnik.log | sort | uniq | wc -l
 
-To break this compund command down:
+To break this command down:
 
   + The command "**cat /var/log/mitnik.log**" utilizes the *cat* utility to display the contents of the *mitnik.log* file, outputting the entire log file contents to the standard output. 
 

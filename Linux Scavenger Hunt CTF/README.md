@@ -152,17 +152,19 @@ To break this down:
 
   + The "**| wc -l**" component directs the output to the word count (wc) command with the *-l* option, which tallies the number of lines in the input and prints the total line count to the standard output.
 
-*Illustration of the compund command.*                                                                                              
+*Illustration of the compound command.*                                                                                              
 ![mitnik compound command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76c33f66-26b6-49c7-8f16-cf252130c1f6)
 
   + The password for *.secret.zip* is: *102*
 
+We can now access the the zip file. Upon entering the correct password, the file "babbage" is extracted from the zip archive. The contents of the extracted file are displayed using the cat command.
+
 *Illustration of unzipping the secret file.*                                                                        
 ![mitnik unzip](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c814dd0e-a8c4-4a32-b53e-57d38ce9af89)
 
-  + The password for the user *babbage* is: *freedom*
+  + The output reveals that the password for the user *babbage* is: *freedom*
 
-Login as babbage and found flag 3.
+By logging in as *babbage*, we were promted with flag 3.
 
 *Successfully logged into babbage.*                                                                                                              
 ![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)

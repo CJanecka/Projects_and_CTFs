@@ -84,9 +84,9 @@ Combining these options provides a view of the entire directory structure, inclu
 *Illustration of *ls -Ra* command results.*                                                                        
 ![displaying](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ab648d71-5c1e-41e4-881e-d70072719e14)
 
-  + This reveals two (2) files in the student's desktop:
-    - A file titled Flag 1.
-    - A password list contained in a text file.
+  + This revealed two (2) hidden files on the student's desktop:
+    - A file named "flag_1", the contents on which are shown below.
+    - A text file called ".pass_list.txt", which contains a list of likely passwords, organized line by line. This includes; common words, dictionary terms, commonly used phrases, and other character combinations that are frequently chosen by users as passwords.
 
 *Flag 1 - File Contents.*                                                                                    
 ![flag 1](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8ec21f67-b8e3-4cf1-957f-2c0e4c753216)
@@ -126,7 +126,7 @@ While logged in as the user *mitnik*, we conducted a search for a log and zip fi
 
   + A hidden zip file, *.secret.zip*, was found in the Documents directory.
 
-The log file is located in: */var/log/mitnik.log*
+The zip file is password-protected. As per the hint provided, we need to figure out the unique count of IP Addresses in the log file, that number is a password for the zip file. This log file is located within the 'var' directory, specifically within the 'log' subdirectory.
 
 *Illustration of mitnik's log folder contents.*                                                                    
 ![mitnik logs](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/310cd646-f3d0-4af6-b110-75ec9de177db)

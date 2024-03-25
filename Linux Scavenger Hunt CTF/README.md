@@ -175,8 +175,8 @@ While logged in as *babbage*, from the provided hint, we need to find a director
 
 In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) can be seen as a string which is actually an expression of three different sets of permissions: **Owner**, **Group**, and **Others**
 
-*Linux File Permission Overview.*
-<image here>
+*Linux File Permission Overview.*                                                                                      
+![chrome_Z7rhexoqQb](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/eb14e468-b0d6-4adc-8fcd-e45744f48337)
 
 When Linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions
 

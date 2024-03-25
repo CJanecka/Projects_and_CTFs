@@ -164,10 +164,12 @@ We can now access the the zip file. Upon entering the correct password, the file
 
   + The output reveals that the password for the user *babbage* is: *freedom*
 
-By logging in as *babbage*, we were promted with flag 3.
+By logging in as *babbage*, we were prompted with flag 3.
 
 *Successfully logged into babbage.*                                                                                                              
 ![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)
+
+### Flag 4
 
 Flag 4.                                                                                                        
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)

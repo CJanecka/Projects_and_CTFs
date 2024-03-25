@@ -171,6 +171,12 @@ By logging in as *babbage*, we were prompted with flag 3.
 
 ### Flag 4
 
+While logged in as *babbage*, per the provided hint, we need to find a directory with a list of hackers. The desired file has read permissions for the owner, no permissions for groups, and executable only for everyone else. 
+
+In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) are represented by a three-digit value for each of the three categories: **Owner**, **Group**, and **Others**
+
+<cont here>
+
 Flag 4.                                                                                                        
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)
 

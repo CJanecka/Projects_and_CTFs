@@ -178,9 +178,20 @@ In operating systems such as Linux, [file permissions](https://www.redhat.com/sy
 *Linux File Permission Overview.*                                                                                      
 ![chrome_Z7rhexoqQb](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/eb14e468-b0d6-4adc-8fcd-e45744f48337)
 
-When Linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions
+When Linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions <might remove or relocate>
 
-<cont here>
+Each file and directory is associated with an owner, a Unix group, and a set of permission flags; defining separate read, write, and execute privileges for the three permission sets. Group permissions extend to all users that are part of the group associated with the file. "Other", also referred to as "world" permissions, encompasses all users with login access to the system. 
+
+<Insert Image of permissions here>
+From left to right, the fields above represent:
+
++ set of ten permission flags
++ link count (irrelevant to this topic)
++ owner
++ associated group
++ size
++ date of last modification
++ name of file
 
 Flag 4.                                                                                                        
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)

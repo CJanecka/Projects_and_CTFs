@@ -171,9 +171,14 @@ By logging in as *babbage*, we were prompted with flag 3.
 
 ### Flag 4
 
-While logged in as *babbage*, per the provided hint, we need to find a directory with a list of hackers. The desired file has read permissions for the owner, no permissions for groups, and executable only for everyone else. 
+While logged in as *babbage*, from the provided hint, we need to find a directory with a list of hackers. The desired file has read permissions for the owner, no permissions for groups, and executable only for everyone else. 
 
-In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) are represented by a three-digit value for each of the three categories: **Owner**, **Group**, and **Others**
+In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) can be seen as a string which is actually an expression of three different sets of permissions: **Owner**, **Group**, and **Others**
+
+*Linux File Permission Overview.*
+<image here>
+
+When Linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions
 
 <cont here>
 

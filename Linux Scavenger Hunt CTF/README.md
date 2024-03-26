@@ -312,7 +312,7 @@ Expanded information on the list of "hackers" found in flag 4.
   12. **James** - [Jonathan Joseph James](https://www.blackhatethicalhacking.com/articles/jonathan-james-the-teenager-who-hacked-nasa-for-fun/)
       - An American hacker, known by the alias "C0mrade". In 2000, he was the first juvenile incarcerated for cybercrime in the United States.
       - By age fifteen (15), he hacked into several high-profile organizations, including the Department of Defense (DoD) and NASA. In 1999, he managed to access NASA's network and download software worth approximately $1.7 million. Claiming that he did this to prove that he could, rather than for malicious purposes.
-      - In 2007, Jonathan James was linked to the TJX data breach. However, he denied any involvement.
+      - In 2007 Jonathan James was linked to the TJX data breach, through the pseudonym “JJ”. However, he denied any involvement.
       - In May 2008, at the age of 24, his life ended by suicide at his home in Pinecrest, Florida.
   
   13. **Kernighan** - []()

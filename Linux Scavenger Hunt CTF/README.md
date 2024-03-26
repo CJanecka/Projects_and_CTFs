@@ -30,15 +30,17 @@
 ## Equipment and Tools
 
 - [SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
-- Bash Scripting
+- [Bash Scripting](https://www.geeksforgeeks.org/bash-scripting-introduction-to-bash-and-bash-scripting/)
 - [John the Ripper](https://www.openwall.com/john/)
+- [Headless Computer](https://nordvpn.com/cybersecurity/glossary/headless-system/#:~:text=A%20headless%20system%20is%20a,through%20other%20devices%20or%20interfaces.)
 - [Ubuntu OS](https://ubuntu.com/desktop)
 - [Apache Guacamole](https://guacamole.apache.org/)
 
 ## Activity Requirements
 
 - A 2.5-hour timeframe to obtain as many flags as possible.
-- There are a total of 8 flags. Seven flags are obtained from the system, which are then combined to form the final flag. 
+- There are a total of eight (8) flags.
+  + Seven (7) flags are obtained from the system, which are then combined to form the final flag. 
 - Every team member must participate and work at least one task.
 - Before accessing the challenge, all participants must install a scavenger hunt script *(not provided here)*. Once installed, participants can connect via ssh by running:
   + ssh student@192.168.200.105
@@ -205,9 +207,14 @@ The sought after permissions "read for the owner, no permissions for groups, and
 *Illustration of the Four Files.*                                                                                      
 ![chrome_ksyR0lfMGk](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bd343d4c-2d82-4431-957a-a86fe9cdfecc)
 
-<cont here>
+Among the files shown, only the "stallman" file contains data. When we use the *cat* command to examine its contents, we find that it contains the word "computer".
 
-*Logged in as "stallman".*                                                                                 
+*Illustration of the stallman file contents.*                                                                            
+![chrome_rVmrwuAFuh](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/65d01451-ac53-4aaf-ad03-55c46a991211)
+
+This is the password used to log into the *stallman* user. After logging in, we obtained flag 4.
+
+*Successfully logged in as "stallman".*                                                                                 
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)
 
 ### Flag 5

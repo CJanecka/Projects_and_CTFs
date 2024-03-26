@@ -175,32 +175,39 @@ While logged in as *babbage*, from the provided hint, we need to find a director
 
 In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) can be seen as a string which is actually an expression of three different sets of permissions: **Owner**, **Group**, and **Others**
 
-*Linux File Permission Overview.*                                                                                      
+*Linux File Permissions Overview.*                                                                                      
 ![chrome_PZHQmcWnqt](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b2c1dec3-3eb5-490b-adc4-6c4c738a0c7c)
 
 Each file and directory is associated with an "owner" (user), a Unix group, and a set of permission flags; defining separate read, write, and execute privileges for the three permission sets. "Group" permissions extend to all users that are part of the group associated with the file. "Other", also referred to as "world" permissions, encompasses all users with login access to the system. 
 
-Running a recursive search, on the headless machine, allows us to explore the contents of the user babbage's directory.
+Running a recursive search, on the headless machine, allows us to explore the contents of babbage's directories.
 
 *Illustration listing the hacker files located in the Documents directory.*                                                 
 ![babbage listing files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8fc310d-34e4-49d5-8e89-d859467310a9)
 
-Switch over to the *Documents* folder and list the permissions for those files.
+Change directories to *Documents* and list the permissions for those files.
 
-*Illustrastion of listed file permission.*                                                                                
-![chrome_L600X1UM8E](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4e8d8f29-3d71-4991-8447-1debd4780e3c)
+*Illustrastion of listed file permissions.*                                                                                
+![chrome_T8ZYlWvjbD](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d2215d0f-f1f4-42b2-888f-54628bf96eaa)
 
 From left to right, the fields above represent:
 
-+ set of ten permission flags
-+ link count (irrelevant to this topic)
-+ owner
-+ associated group
-+ size
-+ date of last modification
-+ name of file
+  + **Ten Character String**: Set of ten characters representing the file's permissions.
+  + **Number of Hard Links**: The number of hard links to a file indicating how many directory entries (filenames) point to the same inode.
+  + **Owner**: Specifies the user who owns the file.
+  + **Associated Group**: Specifies the group associated with the file.
+  + **Size**: Indicates the size of the file in bytes.
+  + **Date of Last Modification**: Displays the date and time when the file was last modified. 
+  + **Name of File**: The name of the file or directory being listed.
 
-Flag 4.                                                                                                        
+The sought after permissions "read for the owner, no permissions for groups, and executable only for everyone else" are represented as: **-r-------x**. From the listed files and permissions, there are four (4) files with these:
+
+*Illustration of the Four Files.*                                                                                      
+![chrome_ksyR0lfMGk](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bd343d4c-2d82-4431-957a-a86fe9cdfecc)
+
+<cont here>
+
+*Logged in as "stallman".*                                                                                 
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)
 
 ### Flag 5

@@ -188,6 +188,8 @@ Running a recursive search, on the headless machine, allows us to explore the co
 *Illustration listing the hacker files located in the Documents directory.*                                                 
 ![babbage listing files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8fc310d-34e4-49d5-8e89-d859467310a9)
 
+  + See the [Appendix](#Appendix) below to for additional information on these people.
+
 Change directories to *Documents* and list the permissions for those files.
 
 *Illustrastion of listed file permissions.*                                                                                
@@ -276,8 +278,16 @@ Expanded information on the list of "hackers" found in flag 4.
      - Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
      - In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.
 
-  6. **Bevan** - []()
-  7. **Calce** - []()
+  6. **Bevan** - [Mathew Bevan](https://irp.fas.org/congress/1996_hr/s960605b.htm)
+     - Also known by his hacker alias "Kuji", gained notoriety in 1996 for his involvement in hacking into secure US government networks, particularly the files of the Griffiss Air Force Base Research Laboratory in New York.
+     - Born in Cardiff, Wales, Bevan was only 21 years old at the time of his arrest.
+     - His motive was to prove a UFO conspiracy theory, a goal he pursued using his hacking skills and a Commodore Amiga computer loaded with a blueboxing program called Roxbox.
+       
+  7. **Calce** - [Michael Calce](https://www.blackhatethicalhacking.com/articles/hacking-stories/mafiaboy-the-hacker-who-took-down-the-internet/)
+     - Also known as "MafiaBoy", is a security expert and former computer hacker from Île Bizard, Quebec.
+     - In February 2000, he initiated a sequence of widely publicized denial-of-service attacks targeting major commercial websites such as Yahoo, Fifa, Amazon, Dell, eBay, and CNN.
+     - In September 2001, he pleaded guilty to 55 counts of illegal access to computer systems and was sentenced to eight months of open custody, restricted use of the internet, and a small fine.
+  
   8. **Gates** - []()
   9. **Gonzalez** - []()
   10. **Gosling** - []()

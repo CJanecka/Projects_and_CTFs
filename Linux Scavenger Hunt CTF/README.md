@@ -257,37 +257,46 @@ Expanded information on the list of "hackers" found in flag 4.
      - He used these compromised computers to launch distributed denial-of-service (DDoS) attacks, steal sensitive information, and install malicious software, among other nefarious activities.
      - In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
 
-  2. **Anonymous** - []()
-  3. **Assange** - []()
-  4. **Astra** - []()
-
+  2. **Anonymous** - [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
+     - A decentralized collective of online and offline activists known for engaging in direct action, hacktivism, and other subversive activities.
+     - Founded on 4chan in 2003, the group lacks formal leadership or membership structures, operating instead as a network of individuals with shared interests.
+     - They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using their iconic Guy Fawkes masks as a symbol.
+     
+  3. **Assange** - [Julian Paul Assange](https://www.justice.gov/opa/press-release/file/1153486/dl)
+     - An Australian computer programmer, editor, publisher, and activist known for founding WikiLeaks, a website that publishes classified and confidential information provided by anonymous sources.
+     - Assange gained international attention for his involvement in releasing classified documents related to war, diplomacy, and surveillance.
+  
+  4. **Astra** - [Real Name Withheld](https://www.scmagazine.com/news/hacker-arrested-in-greece-for-stealing-selling-weapons-data) 
+     - A 58-year-old Greek mathematician who hacked into the computer systems of France's Dassault Group over a five-year period.
+     - They stole weapons technology data and 3D modeling software, which he subsequently sold to at least 250 individuals across various countries, including Brazil, France, Germany, Italy, South Africa, and the Middle East. Dassault initiated a global manhunt, ultimately tracing ASTRA to an apartment in Athens in January 2008.
+       
   5. **Berners-Lee** - [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)
      - Commonly known as Tim Berners-Lee, is a British computer scientist, best known for inventing the World Wide Web.
      - In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the first web browser, called WorldWideWeb (later renamed Nexus), and the first web server software.
      - Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
      - In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.
 
-  3. **Bevan** - []()
-  4. **Calce** - []()
-  5. **Gates** - []()
-  6. **Gonzalez** - []()
-  7. **Gosling** - []()
-  8. **Hopper** - []()
-  9. **James** - []()
-  10. **Kernighan** - []()
-  11. **Knuth** - []()
-  12. **Lamo** - []()
-  13. **Lovelace** - []()
-  14. **Mitnik** - []()
-  15. **Poulsen** - []()
-  16. **Pryce** - []()
-  17. **Ritchie** - []()
-  18. **Rossum** - []()
-  19. **Stallman** - []()
-  20. **Stroustrup** - []()
-  21. **Thompson** - []()
-  22. **Torvalds** - []()
-  23. **Wirth** - []()
-  24. **Woz** - []()
+  6. **Bevan** - []()
+  7. **Calce** - []()
+  8. **Gates** - []()
+  9. **Gonzalez** - []()
+  10. **Gosling** - []()
+  11. **Hopper** - []()
+  12. **James** - []()
+  13. **Kernighan** - []()
+  14. **Knuth** - []()
+  15. **Lamo** - []()
+  16. **Lovelace** - []()
+  17. **Mitnik** - []()
+  18. **Poulsen** - []()
+  19. **Pryce** - []()
+  20. **Ritchie** - []()
+  21. **Rossum** - []()
+  22. **Stallman** - []()
+  23. **Stroustrup** - []()
+  24. **Thompson** - []()
+  25. **Torvalds** - []()
+  26. **Wirth** - []()
+  27. **Woz** - []()
 
 

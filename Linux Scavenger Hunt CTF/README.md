@@ -303,7 +303,12 @@ Expanded information on the list of "hackers" found in flag 4.
       - Java, unveiled by Sun Microsystems in 1995, was designed to be platform-independent, robust, secure, and easy to use.
       - It became the foundation for countless web-based applications and services, powering everything from dynamic websites to complex enterprise systems. 
   
-  11. **Hopper** - []()
+  11. **Hopper** - [Grace Hopper](https://obamawhitehouse.archives.gov/blog/2014/12/22/honoring-grace-hopper)
+      - Known affectionately as "Amazing Grace" by her subordinates; was a computer scientist, mathematician, and United States Navy rear admiral.
+      - She created the first compiler, the A-0 System, which allowed programmers to write code in a more human-readable form rather than in machine code.
+      - Developed and standardized the Common Business-Oriented Language (COBOL) programming language.
+      - Throughout her career, she actively promoted diversity and encouraged more women to pursue careers in STEM fields.
+  
   12. **James** - []()
   13. **Kernighan** - []()
   14. **Knuth** - []()

@@ -18,6 +18,7 @@
     - [g. Flag 7](#Flag-7)
     - [h. Flag 8](#Flag-8)
   + [06. Mitigations](#Mitigations) <placeholder- might remove or change>
+  + [07. Appendix](#Appendix)
 
 ## Overview
 
@@ -246,3 +247,44 @@ Cracked Password List:
 Mitigations for the methods used to capture the flags in this project.
 
 ### Flag 1 <rename to specific topic>
+
+## Appendix
+
+Expanded information on the list of "hackers" found in flag 4.
+
+  1. **Ancheta** - [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)
+     - Also known as "ir Resilient" or "Zombie King", is a hacker who gained infamy for orchestrating a large-scale botnet operation. He utilized the RXBot computer worm, which infected hundreds of thousands of computers worldwide.
+     - He used these compromised computers to launch distributed denial-of-service (DDoS) attacks, steal sensitive information, and install malicious software, among other nefarious activities.
+     - In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
+
+  2. **Berners-Lee** - [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)
+     - Commonly known as Tim Berners-Lee, is a British computer scientist, best known for inventing the World Wide Web.
+     - In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the first web browser, called WorldWideWeb (later renamed Nexus), and the first web server software.
+     - Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
+     - In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.
+
+  3. **Gonzalez** - []()
+  4. **Kernighan** - []()
+  5. **Mitnik** - []()
+  6. **Rossum** - []()
+  7. **Torvalds** - []()
+  8. **Anonymous** - []()
+  9. **Bevan** - []()
+  10. **Gosling** - []()
+  11. **Knuth** - []()
+  12. **Poulsen** - []()
+  13. **Stallman** - []()
+  14. **Wirth** - []()
+  15. **Assange** - []()
+  16. **Calce** - []()
+  17. **Hopper** - []()
+  18. **Lamo** - []()
+  19. **Pryce** - []()
+  20. **Stroustrup** - []()
+  21. **Woz** - []()
+  22. **Astra** - []()
+  23. **Gates** - []()
+  24. **James** - []()
+  25. **Lovelace** - []()
+  26. **Ritchie** - []()
+  27. **Thompson** - []()

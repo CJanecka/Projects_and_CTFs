@@ -262,7 +262,7 @@ Expanded information on the list of "hackers" found in flag 4.
   2. **Anonymous** - [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
      - A decentralized collective of online and offline activists known for engaging in direct action, hacktivism, and other subversive activities.
      - Founded on 4chan in 2003, the group lacks formal leadership or membership structures, operating instead as a network of individuals with shared interests.
-     - They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using their iconic Guy Fawkes masks as a symbol.
+     - They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using the iconic Guy Fawkes masks as a symbol.
      
   3. **Assange** - [Julian Paul Assange](https://www.justice.gov/opa/press-release/file/1153486/dl)
      - An Australian computer programmer, editor, publisher, and activist known for founding WikiLeaks, a website that publishes classified and confidential information provided by anonymous sources.
@@ -288,9 +288,21 @@ Expanded information on the list of "hackers" found in flag 4.
      - In February 2000, he initiated a sequence of widely publicized denial-of-service attacks targeting major commercial websites such as Yahoo, Fifa, Amazon, Dell, eBay, and CNN.
      - In September 2001, he pleaded guilty to 55 counts of illegal access to computer systems and was sentenced to eight months of open custody, restricted use of the internet, and a small fine.
   
-  8. **Gates** - []()
-  9. **Gonzalez** - []()
-  10. **Gosling** - []()
+  8. **Gates** - [Bill Gates](https://www.britannica.com/biography/Bill-Gates)
+     - A computer programmer, businessman, and philanthropist from Seattle, Washington.
+     - Widely recognized as a co-founder of Microsoft Corporation, which he established alongside Paul Allen in 1975.
+     - While Microsoft had early success with programming languages and applications, it was the release of Windows in 1985 that propelled the company to new heights. Providing a user-friendly graphical interface for personal computers, making them more accessible to the general public and leading to widespread adoption.
+  
+  9. **Gonzalez** - [Albert Gonzalez](https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail)
+     - Also known as "Soupnazi", this infamous hacker gained notoriety for orchestrating the largest combined credit card theft and subsequent reselling operation in history.
+     - From 2005 to 2007, he masterminded the theft and distribution of over 170 million card and ATM numbers.
+     - In 2008, Gonzalez was apprehended by the U.S. Secret Service as part of "Operation Get Rich or Die Tryin'". This  targeted individuals involved in cybercrimes, specifically those responsible for the TJX and Heartland breaches.
+  
+  10. **Gosling** - [James Gosling](https://www.sis.pitt.edu/mbsclass/hall_of_fame/gosling.html)
+      - A Canadian computer scientist, renowned for his pivotal role in creating the Java programming language.
+      - Java, unveiled by Sun Microsystems in 1995, was designed to be platform-independent, robust, secure, and easy to use.
+      - It became the foundation for countless web-based applications and services, powering everything from dynamic websites to complex enterprise systems. 
+  
   11. **Hopper** - []()
   12. **James** - []()
   13. **Kernighan** - []()

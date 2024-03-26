@@ -40,7 +40,7 @@
 - A 2.5-hour timeframe to obtain as many flags as possible.
 - There are a total of 8 flags. Seven flags are obtained from the system, which are then combined to form the final flag. 
 - Every team member must participate and work at least one task.
-- Before accessing the challenge, all participants must install the provided scavenger hunt script. Once installed, participants can connect via ssh by running:
+- Before accessing the challenge, all participants must install a scavenger hunt script *(not provided here)*. Once installed, participants can connect via ssh by running:
   + ssh student@192.168.200.105
   + Password: Goodluck!
 
@@ -152,7 +152,7 @@ To break this down:
 
   + The "**| wc -l**" component directs the output to the word count (wc) command with the *-l* option, which tallies the number of lines in the input and prints the total line count to the standard output.
 
-*Illustration of the compound command.*                                                                                              
+*Illustration of the compound command.*                                                                           
 ![mitnik compound command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76c33f66-26b6-49c7-8f16-cf252130c1f6)
 
   + The password for *.secret.zip* is: *102*
@@ -166,7 +166,7 @@ We can now access the the zip file. Upon entering the correct password, the file
 
 By logging in as *babbage*, we were prompted with flag 3.
 
-*Successfully logged into babbage.*                                                                                                              
+*Successfully logged into babbage.*                                                                                      
 ![flag_3-transformed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0cd3320b-b904-4cb8-affb-8b6cb643312b)
 
 ### Flag 4
@@ -182,13 +182,13 @@ Each file and directory is associated with an "owner" (user), a Unix group, and 
 
 Running a recursive search, on the headless machine, allows us to explore the contents of the user babbage's directory.
 
-*Illustration listing the hacker files located in the documents directory.*                                                  
+*Illustration listing the hacker files located in the Documents directory.*                                                 
 ![babbage listing files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8fc310d-34e4-49d5-8e89-d859467310a9)
 
 Switch over to the *Documents* folder and list the permissions for those files.
 
 *Illustrastion of listed file permission.*                                                                                
-![chrome_L600X1UM8E](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4e8d8f29-3d71-4991-8447-1debd4780e3c)                  
+![chrome_L600X1UM8E](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4e8d8f29-3d71-4991-8447-1debd4780e3c)
 
 From left to right, the fields above represent:
 
@@ -203,20 +203,28 @@ From left to right, the fields above represent:
 Flag 4.                                                                                                        
 ![flag 4](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/74771b20-32eb-4f46-928c-0922326c5111)
 
+### Flag 5
+
 Flag 5.                                                                                                        
 ![flag 5](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ae6814d4-711d-4a89-be89-f9bf61326b46)
+
+### Flag 6
 
 Flag 6.                                                                                                        
 ![flag 6](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/489f6888-f7af-41ae-a2ef-099f99e8bef9)
 
+### Flag 7
+
 Flag 7.                                                                                                        
 ![flag 7](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9299b52f-b2f9-4651-9e22-0e8105471226)
 
+### Flag 8
+
 Flag 8.
-Hashed Password List:                                                                                                        
+Hashed Password List:                                                                                                     
 ![hashed password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/05f96b23-c353-4a5d-8d4d-6372e2bb1194)
 
-Cracked Password List:                                                                                                          
+Cracked Password List:                                                                                            
 ![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d154dc1e-e981-49a1-ba11-b5a2ce7b0f7f)
 
 ## Mitigations

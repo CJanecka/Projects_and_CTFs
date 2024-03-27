@@ -315,7 +315,11 @@ Expanded information on the list of "hackers" found in flag 4.
       - In 2007 Jonathan James was linked to the TJX data breach, through an unknown pseudonym “JJ”. However, he denied any involvement and the agents could not find anything to connect him with the ongoing crimes.
       - In May 2008, at the age of 24, his life ended by suicide at his home in Pinecrest, Florida.
   
-  13. **Kernighan** - []()
+  13. **Kernighan** - [Brian Kernighan](https://www.cs.princeton.edu/people/profile/bwk)
+      - A Canadian computer scientist name became widely known through co-authorship of the first book on the C programming, [The C Programming Language](https://github.com/CJanecka/Projects_and_CTFs/files/14781948/The_C_Programming_Language_.2nd_Edition_Ritchie_Kernighan.pdf), with Dennis Ritchie.
+      - This book played a significant role in the development of the C programming language and Unix operating system.
+      - In a 2003 [interview with the Linux Journal](https://www.linuxjournal.com/article/7035), Kernighan emphasized that he played no role in the design of the C language, stating - "it's entirely Dennis Ritchie's work".
+        
   14. **Knuth** - []()
   15. **Lamo** - []()
   16. **Lovelace** - []()
@@ -330,5 +334,3 @@ Expanded information on the list of "hackers" found in flag 4.
   25. **Torvalds** - []()
   26. **Wirth** - []()
   27. **Woz** - []()
-
-

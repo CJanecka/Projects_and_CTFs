@@ -318,9 +318,13 @@ Expanded information on the list of "hackers" found in flag 4.
   13. **Kernighan** - [Brian Kernighan](https://www.cs.princeton.edu/people/profile/bwk)
       - A Canadian computer scientist name became widely known through co-authorship of the first book on the C programming, [The C Programming Language](https://github.com/CJanecka/Projects_and_CTFs/files/14781948/The_C_Programming_Language_.2nd_Edition_Ritchie_Kernighan.pdf), with Dennis Ritchie.
       - This book played a significant role in the development of the C programming language and Unix operating system.
-      - In a 2003 [interview with the Linux Journal](https://www.linuxjournal.com/article/7035), Kernighan emphasized that he played no role in the design of the C language, stating - "it's entirely Dennis Ritchie's work".
+      - In a 2003 [interview with the Linux Journal](https://www.linuxjournal.com/article/7035), Kernighan emphasized that he played no role in the design of the C language, stating - *"it's entirely Dennis Ritchie's work"*.
         
-  14. **Knuth** - []()
+  14. **Knuth** - [Donald Ervin Knuth](https://www.britannica.com/biography/Donald-Knuth)
+      - An American computer scientist and mathematician that has been referred to as the "father of the analysis of algorithms".
+      - Known for his contributions to the analysis of algorithms and the creation of the [TeX typesetting system](https://ctan.org/tex?lang=en) and the associated [METAFONT](https://ctan.org/pkg/metafont?lang=en) font definition language.
+      - Knuth's most famous work is his multivolume series [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html). Initiated in 1962, this undertaking aims to represent the core of computer programming for sequential machines.
+  
   15. **Lamo** - []()
   16. **Lovelace** - []()
   17. **Mitnik** - []()

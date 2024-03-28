@@ -325,7 +325,11 @@ Expanded information on the list of "hackers" found in flag 4.
       - Known for his contributions to the analysis of algorithms and the creation of the [TeX typesetting system](https://ctan.org/tex?lang=en) and the associated [METAFONT](https://ctan.org/pkg/metafont?lang=en) font definition language.
       - Knuth's most famous work is his multivolume series [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html). Initiated in 1962, this undertaking aims to represent the core of computer programming for sequential machines.
   
-  15. **Lamo** - []()
+  15. **Lamo** - [Adrian Lamo](https://www.blackhatethicalhacking.com/articles/hacking-stories/andrian-lamo-homeless-hacker/)
+      - An American hacker, dubbed "The Homeless Hacker", and a controversial figure within the cybersecurity and hacking communities.
+      - In the early 2000s, he gained notoriety through a series of attacks against major corporations, which were largely benign in nature. His goal was to demonstrate point - If someone like him, who relied on borrowed internet access from a local Kinko’s, could easily breach companies such as AOL, Yahoo, Microsoft, and The New York Times; then, anyone could exploit them.
+      - In 2010, Chelsea Manning (then known as Bradley Manning) - an American activist, whistleblower, and former U.S. Army intelligence analyst who leaked classified documents to WikiLeaks, including diplomatic cables and military logs; made contact with Adrian Lamo via online chat, confiding in him about the leaks and expressing personal struggles. Lamo ultimately chose to disclose their exchanges to authorities, ultimately leading to Manning's arrest.
+  
   16. **Lovelace** - []()
   17. **Mitnik** - []()
   18. **Poulsen** - []()

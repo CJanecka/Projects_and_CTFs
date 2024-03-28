@@ -336,14 +336,16 @@ Expanded information on the list of "hackers" found in flag 4.
       - Despite her groundbreaking work, Lovelace's contributions were not widely recognized during her lifetime, partly due to the prevailing gender biases of the time. However, her work gained renewed attention in the mid-20th century, with computer scientists and historians acknowledging her as a pioneer in the field of computing.
       - She is now widely considered the world's first computer programmer.
   
-  17. **Mitnik** - []()
-  18. **Poulsen** - []()
-  19. **Pryce** - []()
-  20. **Ritchie** - []()
-  21. **Rossum** - []()
-  22. **Stallman** - []()
-  23. **Stroustrup** - []()
-  24. **Thompson** - []()
-  25. **Torvalds** - []()
-  26. **Wirth** - []()
-  27. **Woz** - []()
+  17. **Mitnik** - [Kevin Mitnick]()
+  18. **Poulsen** - [Kevin Lee Poulsen]()
+  19. **Pryce** - [Richard Pryce]()
+      - Also known as "Datastream Cowboy".
+  
+  20. **Ritchie** - [Dennis MacAlistair Ritchie]()
+  21. **Rossum** - [Guido van Rossum]()
+  22. **Stallman** - [Richard Matthew Stallman]()
+  23. **Stroustrup** - [Bjarne Stroustrup]()
+  24. **Thompson** - [Ken Thompson]()
+  25. **Torvalds** - [Linus Benedict Torvalds]()
+  26. **Wirth** - [Niklaus Emil Wirth]()
+  27. **Woz** - [Steve Wozniak]()

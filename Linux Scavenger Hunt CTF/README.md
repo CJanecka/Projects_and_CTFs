@@ -330,7 +330,12 @@ Expanded information on the list of "hackers" found in flag 4.
       - In the early 2000s, he gained notoriety through a series of attacks against major corporations, which were largely benign in nature. His goal was to demonstrate point - If someone like him, who relied on borrowed internet access from a local Kinko’s, could easily breach companies such as AOL, Yahoo, Microsoft, and The New York Times; then, anyone could exploit them.
       - In 2010, Chelsea Manning (then known as Bradley Manning) - an American activist, whistleblower, and former U.S. Army intelligence analyst who leaked classified documents to WikiLeaks, including diplomatic cables and military logs; made contact with Adrian Lamo via online chat, confiding in him about the leaks and expressing personal struggles. Lamo ultimately chose to disclose their exchanges to authorities, ultimately leading to Manning's arrest.
   
-  16. **Lovelace** - []()
+  16. **Lovelace** - [Augusta Ada Byron, Countess of Lovelace]()
+      - An English mathematician and writer, known for her work on Charles Babbage's proposed mechanical general-purpose computer, the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine).
+      - Ada translated an article about the Analytical Engine, by the Italian mathematician Luigi Federico Menabrea, from French to English. In this translation, she included extensive notes and annotations, three times the length of the original article. Expanding on the capabilities of the Analytical Engine, foreseeing its potential beyond mere number-crunching. She suggested algorithms for the Engine to compute Bernoulli numbers, which are considered the first published algorithms specifically tailored for implementation on a computer.
+      - Despite her groundbreaking work, Lovelace's contributions were not widely recognized during her lifetime, partly due to the prevailing gender biases of the time. However, her work gained renewed attention in the mid-20th century, with computer scientists and historians acknowledging her as a pioneer in the field of computing.
+      - She is now widely considered the world's first computer programmer.
+  
   17. **Mitnik** - []()
   18. **Poulsen** - []()
   19. **Pryce** - []()

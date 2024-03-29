@@ -188,7 +188,7 @@ Running a recursive search, on the headless machine, allows us to explore the co
 *Illustration listing the hacker files located in the Documents directory.*                                                 
 ![babbage listing files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8fc310d-34e4-49d5-8e89-d859467310a9)
 
-  + See the [Appendix](#Appendix) below to for additional information on these people.
+  + See the [Appendix](#Appendix) below to for additional information on who these people represent.
 
 Change directories to *Documents* and list the permissions for those files.
 

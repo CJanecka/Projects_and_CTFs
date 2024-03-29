@@ -332,11 +332,16 @@ Expanded information on the list of "hackers" found in flag 4.
   
   16. **Lovelace** - [Augusta Ada Byron, Countess of Lovelace](https://www.sdsc.edu/ScienceWomen/lovelace.html)
       - An English mathematician and writer, known for her work on Charles Babbage's proposed mechanical general-purpose computer, the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine).
-      - Ada translated an article about the Analytical Engine, by the Italian mathematician Luigi Federico Menabrea, from French to English. In this translation, she included extensive notes and annotations, three times the length of the original article. Expanding on the capabilities of the Analytical Engine, foreseeing its potential beyond mere number-crunching. She suggested algorithms for the Engine to compute Bernoulli numbers, which are considered the first published algorithms specifically tailored for implementation on a computer.
+      - Ada translated an article about the Analytical Engine, by the Italian mathematician Luigi Federico Menabrea, from French to English. In this translation, she included extensive notes and annotations, three times the length of the original article. Expanding on the capabilities of the Analytical Engine, foreseeing its potential beyond mere number-crunching. She suggested algorithms for the Engine to compute [Bernoulli numbers](https://www.whitman.edu/documents/academics/majors/mathematics/2019/Larson-Balof.pdf), which are considered the first published algorithms specifically tailored for implementation on a computer.
       - Despite her groundbreaking work, Lovelace's contributions were not widely recognized during her lifetime, partly due to the prevailing gender biases of the time. However, her work gained renewed attention in the mid-20th century, with computer scientists and historians acknowledging her as a pioneer in the field of computing.
       - She is now widely considered the world's first computer programmer.
   
-  17. **Mitnik** - [Kevin Mitnick]()
+  17. **Mitnik** - [Kevin Mitnick](https://www.mitnicksecurity.com/about-kevin-mitnick-mitnick-security)
+      - An American computer security consultant, author, and the most notorious hacker of all time. He led a remarkable journey as he transitioned from his origins as a black-hat hacker, to emerge as a prominent figure in cybersecurity consulting.
+      - He gained notoriety during the 1980s and 1990s by engaging in a series of unauthorized intrusions into the computer networks of industry giants. Among his targets were IBM, Nokia, and Motorola; where he managed to gain unauthorized access to sensitive information, including proprietary data and source code. His ability to penetrate supposedly secure systems earned him a reputation as one of the most skilled hackers to date.
+      - In 1995, Mitnick was [apprehended by the FBI](https://www.justice.gov/archive/opa/pr/Pre_96/February95/89.txt.html) after a highly publicized pursuit that involved extensive media coverage. His arrest marked the culmination of a years-long cat-and-mouse game between him and law enforcement agencies. He faced a series of legal proceedings and was ultimately convicted of multiple charges related to computer and wire fraud, as well as unauthorized access to computer systems.
+      - Upon his release from prison, Mitnick redirected his formidable talents toward constructive endeavors, leveraging his intimate understanding of hacking techniques for the greater good. Drawing on his firsthand experiences, he emerged as a trusted advisor, guiding organizations through the intricacies of cybersecurity.
+  
   18. **Poulsen** - [Kevin Lee Poulsen]()
   19. **Pryce** - [Richard Pryce]()
       - Also known as "Datastream Cowboy".

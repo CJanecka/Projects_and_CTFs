@@ -280,7 +280,7 @@ Expanded information on the list of "hackers" found in flag 4.
 
   6. **Bevan** - [Mathew Bevan](https://irp.fas.org/congress/1996_hr/s960605b.htm)
      - Also known by his hacker alias "Kuji", gained notoriety in 1996 for his involvement in hacking into secure US government networks, particularly the files of the Griffiss Air Force Base Research Laboratory in New York.
-     - Born in Cardiff, Wales, Bevan was only 21 years old at the time of his arrest.
+     - Born in Cardiff, Wales, Bevan was just 21 years old when arrested. He was part of a hacking duo that included Richard Pryce, also known as "Datastream Cowboy".
      - His motive was to prove a UFO conspiracy theory, a goal he pursued using his hacking skills and a Commodore Amiga computer loaded with a blueboxing program called Roxbox.
        
   7. **Calce** - [Michael Calce](https://www.blackhatethicalhacking.com/articles/hacking-stories/mafiaboy-the-hacker-who-took-down-the-internet/)
@@ -348,7 +348,9 @@ Expanded information on the list of "hackers" found in flag 4.
       - In 1983, Poulsen hacked into [ARPANET](https://www.techtarget.com/searchnetworking/definition/ARPANET#:~:text=The%20U.S.%20Advanced%20Research%20Projects,for%20academic%20and%20research%20purposes.), the Pentagon’s computer network. Despite being swiftly apprehended, the government opted to give Poulsen, who was a minor at the time, a warning. Following his arrest, Poulsen made legal history as the first American to be released from prison with a court-imposed prohibition against using computers and the internet after serving his sentence.
   
   19. **Pryce** - [Richard Pryce]()
-      - Also known as "Datastream Cowboy".
+      - A British hacker, also known as "Datastream Cowboy", and part of a hacking duo with Matthew Bevan (Kuji) which gained notoriety in 1996 by hacking into numerous military networks; including, the [Griffiss Air Force Base and the Korea Atomic Energy Research Institute (KAERI)](https://irp.fas.org/congress/1996_hr/s960605b.htm).
+      - At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. This raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
+      - As per Supervisory Special Agent Jim Christy of the Air Force Office of Special Investigations, Pryce was one of two hackers whose actions nearly incited a third world war.
   
   20. **Ritchie** - [Dennis MacAlistair Ritchie]()
   21. **Rossum** - [Guido van Rossum]()

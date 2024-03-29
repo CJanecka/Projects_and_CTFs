@@ -344,8 +344,8 @@ Expanded information on the list of "hackers" found in flag 4.
   
   18. **Poulsen** - [Kevin Lee Poulsen](https://www.blackhatethicalhacking.com/articles/hacking-stories/kevin-poulsen-dark-dante-and-his-hacking-activities-on-arpanets-networks/)
       - Also known by the moniker "Dark Dante", a former black-hat hacker who transitioned into a career as a journalist and cybersecurity expert.
-      - He gained notoriety through a KIIS-FM Porsche hack in 1990; during which, Poulsen commandeered all telephone lines for the Los Angeles radio station KIIS-FM, ensuring that he would be the 102nd caller and secure the prize of a Porsche 944 S2.
-      - Hacking the Pentagon's ARPANET network. <cont here>
+      - He gained notoriety through a KIIS-FM phone hack in 1990; during which, Poulsen commandeered all telephone lines for the Los Angeles radio station KIIS-FM, ensuring that he would be the 102nd caller and secure the prize of a Porsche 944 S2.
+      - In 1983, Poulsen hacked into [ARPANET](https://www.techtarget.com/searchnetworking/definition/ARPANET#:~:text=The%20U.S.%20Advanced%20Research%20Projects,for%20academic%20and%20research%20purposes.), the Pentagon’s computer network. Despite being swiftly apprehended, the government opted to give Poulsen, who was a minor at the time, a warning. Following his arrest, Poulsen made legal history as the first American to be released from prison with a court-imposed prohibition against using computers and the internet after serving his sentence.
   
   19. **Pryce** - [Richard Pryce]()
       - Also known as "Datastream Cowboy".

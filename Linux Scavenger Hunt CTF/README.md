@@ -255,7 +255,7 @@ Mitigations for the methods used to capture the flags in this project.
 Expanded information on the list of "hackers" found in flag 4.
 
   1. **Ancheta** - [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)
-     - Also known as "ir Resilient" or "Zombie King", is a hacker who gained infamy for orchestrating a large-scale botnet operation. He utilized the RXBot computer worm, which infected hundreds of thousands of computers worldwide.
+     - Also known as "ir Resilient" or "Zombie King", is a hacker who gained infamy for orchestrating a large-scale botnet operation. He utilized the [RXBot computer worm](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=4669&context=etd_theses), to infect hundreds of thousands of computers worldwide.
      - He used these compromised computers to launch distributed denial-of-service (DDoS) attacks, steal sensitive information, and install malicious software, among other nefarious activities.
      - In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
 
@@ -265,16 +265,16 @@ Expanded information on the list of "hackers" found in flag 4.
      - They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using the iconic Guy Fawkes masks as a symbol.
      
   3. **Assange** - [Julian Paul Assange](https://www.justice.gov/opa/press-release/file/1153486/dl)
-     - An Australian computer programmer, editor, publisher, and activist known for founding WikiLeaks, a website that publishes classified and confidential information provided by anonymous sources.
+     - An Australian computer programmer, editor, publisher, and activist known for founding [WikiLeaks](https://wikileaks.org/What-is-WikiLeaks.html), a website that publishes classified and confidential information provided by anonymous sources.
      - Assange gained international attention for his involvement in releasing classified documents related to war, diplomacy, and surveillance.
   
   4. **Astra** - [Real Name Withheld](https://www.scmagazine.com/news/hacker-arrested-in-greece-for-stealing-selling-weapons-data) 
      - A 58-year-old Greek mathematician who hacked into the computer systems of France's Dassault Group over a five-year period.
-     - They stole weapons technology data and 3D modeling software, which he subsequently sold to at least 250 individuals across various countries, including Brazil, France, Germany, Italy, South Africa, and the Middle East. Dassault initiated a global manhunt, ultimately tracing ASTRA to an apartment in Athens in January 2008.
+     - Astra stole weapons technology data and 3D modeling software, which they subsequently sold to at least 250 individuals across various countries, including Brazil, France, Germany, Italy, South Africa, and the Middle East. Dassault initiated a global manhunt, ultimately tracing ASTRA to an apartment in Athens in January 2008.
        
   5. **Berners-Lee** - [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)
      - Commonly known as Tim Berners-Lee, is a British computer scientist, best known for inventing the World Wide Web.
-     - In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the first web browser, called WorldWideWeb (later renamed Nexus), and the first web server software.
+     - In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the [first web browser](https://digital-archaeology.org/the-nexus-browser/), called WorldWideWeb (later renamed Nexus).
      - Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
      - In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.
 
@@ -290,29 +290,29 @@ Expanded information on the list of "hackers" found in flag 4.
   
   8. **Gates** - [Bill Gates](https://www.britannica.com/biography/Bill-Gates)
      - A computer programmer, businessman, and philanthropist from Seattle, Washington.
-     - Widely recognized as a co-founder of Microsoft Corporation, which he established alongside Paul Allen in 1975.
-     - While Microsoft had early success with programming languages and applications, it was the release of Windows in 1985 that propelled the company to new heights. Providing a user-friendly graphical interface for personal computers, making them more accessible to the general public and leading to widespread adoption.
+     - Widely recognized as a co-founder of Microsoft Corporation, which he established alongside [Paul Allen](https://www.britannica.com/biography/Paul-Allen) in 1975.
+     - While Microsoft had early success with programming languages and applications, it was the release of [Windows 1.0](https://microsoft.fandom.com/wiki/Windows_1.0) in 1985 that propelled the company to new heights. Providing a user-friendly graphical interface for personal computers, making them more accessible to the general public and leading to widespread adoption.
   
-  9. **Gonzalez** - [Albert Gonzalez](https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail)
-     - Also known as "Soupnazi", this infamous hacker gained notoriety for orchestrating the largest combined credit card theft and subsequent reselling operation in history.
+  9. **Gonzalez** - [Albert Gonzalez](https://www.blackhatethicalhacking.com/articles/albert-gonzalez-the-get-rich-or-die-trying-crew-who-stole-130-million-credit-card-numbers/)
+     - Also known as "SoupNazi", this infamous hacker gained notoriety for orchestrating the largest combined credit card theft and subsequent reselling operation in history.
      - From 2005 to 2007, he masterminded the theft and distribution of over 170 million card and ATM numbers.
-     - In 2008, Gonzalez was apprehended by the U.S. Secret Service as part of "Operation Get Rich or Die Tryin'". This  targeted individuals involved in cybercrimes, specifically those responsible for the TJX and Heartland breaches.
+     - In 2008, Gonzalez was [apprehended by the U.S. Secret Service](https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail) as part of "Operation Get Rich or Die Tryin'". This targeted individuals involved in cybercrimes, specifically those responsible for the TJX and Heartland breaches.
   
   10. **Gosling** - [James Gosling](https://www.sis.pitt.edu/mbsclass/hall_of_fame/gosling.html)
-      - A Canadian computer scientist, renowned for his pivotal role in creating the Java programming language.
+      - A Canadian computer scientist, renowned for creating the [Java programming language](https://www.java.com/en/download/help/whatis_java.html#:~:text=Java%20is%20a%20programming%20language,services%20and%20applications%20are%20built.).
       - Java, unveiled by Sun Microsystems in 1995, was designed to be platform-independent, robust, secure, and easy to use.
-      - It became the foundation for countless web-based applications and services, powering everything from dynamic websites to complex enterprise systems. 
+      - It became the foundation for countless web-based applications and services, powering everything from websites to enterprise systems. 
   
   11. **Hopper** - [Grace Hopper](https://obamawhitehouse.archives.gov/blog/2014/12/22/honoring-grace-hopper)
       - Known affectionately as "Amazing Grace" and "Grandma COBOL". She was a computer scientist, mathematician, and United States Navy Rear Admiral.
-      - She created the first compiler, the A-0 System, in 1951. Which allowed programmers to write code in a more human-readable form rather than in machine code.
-      - In 1959 she developed and standardized the Common Business-Oriented Language (COBOL) programming language.
+      - She created the first compiler, [the A-0 System](https://www.computinghistory.org.uk/det/5487/Grace-Hopper-completes-the-A-0-Compiler/), in 1951. Which allowed programmers to write code in a more human-readable form rather than in machine code.
+      - In 1959 she developed and standardized the [Common Business-Oriented Language (COBOL)](https://www.geeksforgeeks.org/what-is-cobolcommon-business-oriented-language/) programming language.
       - Throughout her career, she actively promoted diversity and encouraged more women to pursue careers in STEM fields.
   
   12. **James** - [Jonathan Joseph James](https://www.blackhatethicalhacking.com/articles/jonathan-james-the-teenager-who-hacked-nasa-for-fun/)
       - An American hacker, known by the alias "C0mrade". In 2000, he was the first juvenile incarcerated for cybercrime in the United States.
       - By age fifteen (15), he hacked into several high-profile organizations, including the Department of Defense (DoD) and NASA. In 1999, he managed to access NASA's network and download software worth approximately $1.7 million. Claiming that he did this to prove that he could, rather than for malicious purposes.
-      - In 2007 Jonathan James was linked to the TJX data breach, through an unknown pseudonym “JJ”. However, he denied any involvement and the agents could not find anything to connect him with the ongoing crimes.
+      - In 2007 Jonathan James was linked to the [TJX data breach](https://www.ftc.gov/sites/default/files/documents/cases/2008/03/080327complaint_0.pdf), through an unknown pseudonym “JJ”. However, he denied any involvement and the agents could not find anything to connect him with the ongoing crimes.
       - In May 2008, at the age of 24, his life ended by suicide at his home in Pinecrest, Florida.
   
   13. **Kernighan** - [Brian Kernighan](https://www.cs.princeton.edu/people/profile/bwk)
@@ -328,7 +328,7 @@ Expanded information on the list of "hackers" found in flag 4.
   15. **Lamo** - [Adrian Lamo](https://www.blackhatethicalhacking.com/articles/hacking-stories/andrian-lamo-homeless-hacker/)
       - An American hacker, dubbed "The Homeless Hacker", and a controversial figure within the cybersecurity and hacking communities.
       - In the early 2000s, he gained notoriety through a series of attacks against major corporations, which were largely benign in nature. His goal was to demonstrate point - If someone like him, who relied on borrowed internet access from a local Kinko’s, could easily breach companies such as AOL, Yahoo, Microsoft, and The New York Times; then, anyone could exploit them.
-      - In 2010, Chelsea Manning (then known as Bradley Manning) - an American activist, whistleblower, and former U.S. Army intelligence analyst who leaked classified documents to WikiLeaks, including diplomatic cables and military logs; made contact with Adrian Lamo via online chat, confiding in him about the leaks and expressing personal struggles. Lamo ultimately chose to disclose their exchanges to authorities, ultimately leading to Manning's arrest.
+      - In 2010, [Chelsea Manning](https://www.britannica.com/biography/Chelsea-Manning) (then known as Bradley Manning) - an American activist, whistleblower, and former U.S. Army intelligence analyst who leaked classified documents to WikiLeaks, including diplomatic cables and military logs; made contact with Adrian Lamo via online chat, confiding in him about the leaks and expressing personal struggles. Lamo ultimately chose to disclose their exchanges to authorities, ultimately leading to Manning's arrest.
   
   16. **Lovelace** - [Augusta Ada Byron, Countess of Lovelace](https://www.sdsc.edu/ScienceWomen/lovelace.html)
       - An English mathematician and writer, known for her work on Charles Babbage's proposed mechanical general-purpose computer, the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine).
@@ -338,16 +338,17 @@ Expanded information on the list of "hackers" found in flag 4.
   
   17. **Mitnik** - [Kevin Mitnick](https://www.mitnicksecurity.com/about-kevin-mitnick-mitnick-security)
       - An American computer security consultant, author, and the most notorious hacker of all time. He led a remarkable journey as he transitioned from his origins as a black-hat hacker, to emerge as a prominent figure in cybersecurity consulting.
-      - He gained notoriety during the 1980s and 1990s by engaging in a series of unauthorized intrusions into the computer networks of industry giants. Among his targets were IBM, Nokia, and Motorola; where he managed to gain unauthorized access to sensitive information, including proprietary data and source code. His ability to penetrate supposedly secure systems earned him a reputation as one of the most skilled hackers to date.
+      - He gained notoriety during the 1980s and 1990s by engaging in a series of unauthorized intrusions into the computer networks of 40 industry giants. Among his targets were IBM, Nokia, and Motorola; where he managed to gain unauthorized access to sensitive information, including proprietary data and source code. His ability to penetrate supposedly secure systems earned him a reputation as one of the most skilled hackers to date.
       - In 1995, Mitnick was [apprehended by the FBI](https://www.justice.gov/archive/opa/pr/Pre_96/February95/89.txt.html) after a highly publicized pursuit that involved extensive media coverage. His arrest marked the culmination of a years-long cat-and-mouse game between him and law enforcement agencies. He faced a series of legal proceedings and was ultimately convicted of multiple charges related to computer and wire fraud, as well as unauthorized access to computer systems.
       - Upon his release from prison, Mitnick redirected his formidable talents toward constructive endeavors, leveraging his intimate understanding of hacking techniques for the greater good. Drawing on his firsthand experiences, he emerged as a trusted advisor, guiding organizations through the intricacies of cybersecurity.
   
   18. **Poulsen** - [Kevin Lee Poulsen](https://www.blackhatethicalhacking.com/articles/hacking-stories/kevin-poulsen-dark-dante-and-his-hacking-activities-on-arpanets-networks/)
       - Also known by the moniker "Dark Dante", a former black-hat hacker who transitioned into a career as a journalist and cybersecurity expert.
       - He gained notoriety through a KIIS-FM phone hack in 1990; during which, Poulsen commandeered all telephone lines for the Los Angeles radio station KIIS-FM, ensuring that he would be the 102nd caller and secure the prize of a Porsche 944 S2.
-      - In 1983, Poulsen hacked into [ARPANET](https://www.techtarget.com/searchnetworking/definition/ARPANET#:~:text=The%20U.S.%20Advanced%20Research%20Projects,for%20academic%20and%20research%20purposes.), the Pentagon’s computer network. Despite being swiftly apprehended, the government opted to give Poulsen, who was a minor at the time, a warning. Following his arrest, Poulsen made legal history as the first American to be released from prison with a court-imposed prohibition against using computers and the internet after serving his sentence.
+      - In 1983, Poulsen hacked into [ARPANET](https://www.techtarget.com/searchnetworking/definition/ARPANET#:~:text=The%20U.S.%20Advanced%20Research%20Projects,for%20academic%20and%20research%20purposes.), the Pentagon’s computer network. Despite being swiftly apprehended, the government opted to give Poulsen, who was a minor at the time, a warning.
+      - In 1991, he was arrested and charged with multiple counts of computer fraud, wire fraud, and conspiracy. Following his arrest, Poulsen made legal history as the first American to be released from prison with a court-imposed prohibition against using computers and the internet after serving his sentence.
   
-  19. **Pryce** - [Richard Pryce]()
+  19. **Pryce** - [Richard Pryce](https://www.soldierx.com/hdb/Datastream-Cowboy)
       - A British hacker, also known as "Datastream Cowboy", and part of a hacking duo with Matthew Bevan (Kuji) which gained notoriety in 1996 by hacking into numerous military networks; including, the [Griffiss Air Force Base and the Korea Atomic Energy Research Institute (KAERI)](https://irp.fas.org/congress/1996_hr/s960605b.htm).
       - At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. This raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
       - As per Supervisory Special Agent Jim Christy of the Air Force Office of Special Investigations, Pryce was one of two hackers whose actions nearly incited a third world war.

@@ -342,7 +342,10 @@ Expanded information on the list of "hackers" found in flag 4.
       - In 1995, Mitnick was [apprehended by the FBI](https://www.justice.gov/archive/opa/pr/Pre_96/February95/89.txt.html) after a highly publicized pursuit that involved extensive media coverage. His arrest marked the culmination of a years-long cat-and-mouse game between him and law enforcement agencies. He faced a series of legal proceedings and was ultimately convicted of multiple charges related to computer and wire fraud, as well as unauthorized access to computer systems.
       - Upon his release from prison, Mitnick redirected his formidable talents toward constructive endeavors, leveraging his intimate understanding of hacking techniques for the greater good. Drawing on his firsthand experiences, he emerged as a trusted advisor, guiding organizations through the intricacies of cybersecurity.
   
-  18. **Poulsen** - [Kevin Lee Poulsen]()
+  18. **Poulsen** - [Kevin Lee Poulsen](https://www.blackhatethicalhacking.com/articles/hacking-stories/kevin-poulsen-dark-dante-and-his-hacking-activities-on-arpanets-networks/)
+      - Also known by the moniker "Dark Dante", a former black-hat hacker who transitioned into a career as a journalist and cybersecurity expert. He gained notoriety through a KIIS-FM Porsche hack in 1990; during which Poulsen commandeered all telephone lines for the Los Angeles radio station KIIS-FM, ensuring that he would be the 102nd caller and secure the prize of a Porsche 944 S2.
+      - Hacking the Pentagon's ARPANET network. <cont here>
+  
   19. **Pryce** - [Richard Pryce]()
       - Also known as "Datastream Cowboy".
   

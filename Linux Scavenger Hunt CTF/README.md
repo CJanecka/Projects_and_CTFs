@@ -355,7 +355,7 @@ Expanded information on the list of "hackers" found in flag 4.
   
   20. **Ritchie** - [Dennis MacAlistair Ritchie](https://www.sis.pitt.edu/mbsclass/hall_of_fame/ritchie.html)
       - An American computer scientist who developed the [C programming language](https://www.geeksforgeeks.org/c-programming-language/) and [Unix operating system](https://www.geeksforgeeks.org/introduction-to-unix-system/), at Bell Labs from the 1960s to 1970s.
-      - In 1971, Ritchie and  
+      - Unix was co-developed with Ken Thompson and introduced several concepts, such as a hierarchical file system, multi-user support, and a shell for command-line interaction, which have since become standard features in many operating systems.
       - C is a flexible, efficient, and portable programming language for the Unix OS. Released in 1972, it's simplicity and power made it immensely popular among programmers. Many modern programming languages; such as, [C++](https://www.geeksforgeeks.org/c-plus-plus/), [Java](https://www.ibm.com/topics/java), and [Python](https://www.geeksforgeeks.org/what-is-python/), have been influenced by or built upon C's syntax and concepts.
   
   21. **Rossum** - [Guido van Rossum]()

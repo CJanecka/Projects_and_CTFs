@@ -353,7 +353,11 @@ Expanded information on the list of "hackers" found in flag 4.
       - At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. This raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
       - As per Supervisory Special Agent Jim Christy of the Air Force Office of Special Investigations, Pryce was one of two hackers whose actions nearly incited a third world war.
   
-  20. **Ritchie** - [Dennis MacAlistair Ritchie]()
+  20. **Ritchie** - [Dennis MacAlistair Ritchie](https://www.sis.pitt.edu/mbsclass/hall_of_fame/ritchie.html)
+      - An American computer scientist who developed the [C programming language](https://www.geeksforgeeks.org/c-programming-language/) and [Unix operating system](https://www.geeksforgeeks.org/introduction-to-unix-system/), at Bell Labs from the 1960s to 1970s.
+      - In 1971, Ritchie and  
+      - C is a flexible, efficient, and portable programming language for the Unix OS. Released in 1972, it's simplicity and power made it immensely popular among programmers. Many modern programming languages; such as, [C++](https://www.geeksforgeeks.org/c-plus-plus/), [Java](https://www.ibm.com/topics/java), and [Python](https://www.geeksforgeeks.org/what-is-python/), have been influenced by or built upon C's syntax and concepts.
+  
   21. **Rossum** - [Guido van Rossum]()
   22. **Stallman** - [Richard Matthew Stallman]()
   23. **Stroustrup** - [Bjarne Stroustrup]()

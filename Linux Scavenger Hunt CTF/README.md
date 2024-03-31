@@ -368,7 +368,10 @@ Expanded information on the list of "hackers" found in flag 4.
       - The FSF was established in 1985, and stands to promote the rights of users *- to run, study, distribute, and modify computer software*. This is encapsulated in the FSF's seminal work; the GPL [(GNU General Public License)](https://www.gnu.org/licenses/gpl-3.0.en.html), which embodies the concept of [copyleft](https://www.gnu.org/licenses/copyleft.en.html#:~:text=Copyleft%20is%20a%20general%20method,in%20the%20public%20domain%2C%20uncopyrighted.) and ensures that software remains free for all users.
       - In 1989, he co-founded the LPF, which advocates for the rights of computer programmers and the preservation of software freedom. Their goal is to defend the principles of freedom in software development by opposing legislation and corporate policies that hinder programmers' ability to create and distribute software freely.
   
-  23. **Stroustrup** - [Bjarne Stroustrup]()
+  23. **Stroustrup** - [Bjarne Stroustrup](https://www.stroustrup.com/)
+      - A Danish computer scientist known for creating the [C++ programming language](https://www.geeksforgeeks.org/c-plus-plus/) in 1985.
+      - C++ is an extension of the [C programming language](https://www.geeksforgeeks.org/c-plus-plus/), and envisioned as a language that combined the efficiency and low-level control of C with high-level features such as classes, inheritance, and polymorphism. This led to the introduction of OOP [(Object-oriented programming)](https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/) to the C language.
+  
   24. **Thompson** - [Ken Thompson]()
   25. **Torvalds** - [Linus Benedict Torvalds]()
   26. **Wirth** - [Niklaus Emil Wirth]()

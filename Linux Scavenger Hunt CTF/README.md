@@ -360,9 +360,12 @@ Expanded information on the list of "hackers" found in flag 4.
   
   21. **Rossum** - [Guido van Rossum](https://gvanrossum.github.io/)
       - A Dutch programmer that created and released the [Python programming language](https://www.python.org/) in 1991.
-      - The language was named after the British comedy group Monty Python, and designed with a concise syntax that emphasizes readability combined with its extensive standard library, versatility, community, and open-source nature, which has made it an incredibly popular and widely used programming language.
+      - The language was named after the British comedy group Monty Python, and designed with a concise syntax that emphasizes readability; combined with its extensive standard library, versatility, community, and open-source nature, which has made it a popular and widely used programming language.
   
-  22. **Stallman** - [Richard Matthew Stallman]()
+  22. **Stallman** - [Richard Matthew Stallman](https://www.sis.pitt.edu/mbsclass/hall_of_fame/stallman.html)
+      - An American programmer and free software movement activist known for founding the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html), the [Free Software Foundation](https://www.fsf.org/about/), and the [League for Programming Freedom](https://groups.csail.mit.edu/mac/projects/lpf/).
+      - <cont here>
+  
   23. **Stroustrup** - [Bjarne Stroustrup]()
   24. **Thompson** - [Ken Thompson]()
   25. **Torvalds** - [Linus Benedict Torvalds]()

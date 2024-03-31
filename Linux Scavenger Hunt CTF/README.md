@@ -350,7 +350,7 @@ Expanded information on the list of "hackers" found in flag 4.
   
   19. **Pryce** - [Richard Pryce](https://www.soldierx.com/hdb/Datastream-Cowboy)
       - A British hacker, also known as "Datastream Cowboy", and part of a hacking duo with Matthew Bevan (Kuji) which gained notoriety in 1996 by hacking into numerous military networks; including, the [Griffiss Air Force Base and the Korea Atomic Energy Research Institute (KAERI)](https://irp.fas.org/congress/1996_hr/s960605b.htm).
-      - At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. This raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
+      - At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. The data's origins being unknown raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
       - As per Supervisory Special Agent Jim Christy of the Air Force Office of Special Investigations, Pryce was one of two hackers whose actions nearly incited a third world war.
   
   20. **Ritchie** - [Dennis MacAlistair Ritchie](https://www.sis.pitt.edu/mbsclass/hall_of_fame/ritchie.html)
@@ -358,7 +358,10 @@ Expanded information on the list of "hackers" found in flag 4.
       - Unix was co-developed with Ken Thompson and introduced several concepts, such as a hierarchical file system, multi-user support, and a shell for command-line interaction, which have since become standard features in many operating systems.
       - C is a flexible, efficient, and portable programming language for the Unix OS. Released in 1972, it's simplicity and power made it immensely popular among programmers. Many modern programming languages; such as, [C++](https://www.geeksforgeeks.org/c-plus-plus/), [Java](https://www.ibm.com/topics/java), and [Python](https://www.geeksforgeeks.org/what-is-python/), have been influenced by or built upon C's syntax and concepts.
   
-  21. **Rossum** - [Guido van Rossum]()
+  21. **Rossum** - [Guido van Rossum](https://gvanrossum.github.io/)
+      - A Dutch programmer that created and released the [Python programming language](https://www.python.org/) in 1991.
+      - The language was named after the British comedy group Monty Python, and designed with a concise syntax that emphasizes readability combined with its extensive standard library, versatility, community, and open-source nature, which has made it an incredibly popular and widely used programming language.
+  
   22. **Stallman** - [Richard Matthew Stallman]()
   23. **Stroustrup** - [Bjarne Stroustrup]()
   24. **Thompson** - [Ken Thompson]()

@@ -363,8 +363,10 @@ Expanded information on the list of "hackers" found in flag 4.
       - The language was named after the British comedy group Monty Python, and designed with a concise syntax that emphasizes readability; combined with its extensive standard library, versatility, community, and open-source nature, which has made it a popular and widely used programming language.
   
   22. **Stallman** - [Richard Matthew Stallman](https://www.sis.pitt.edu/mbsclass/hall_of_fame/stallman.html)
-      - An American programmer and free software movement activist known for founding the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html), the [Free Software Foundation](https://www.fsf.org/about/), and the [League for Programming Freedom](https://groups.csail.mit.edu/mac/projects/lpf/).
-      - <cont here>
+      - An American programmer and free software movement activist known for founding the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html), the FSF [(Free Software Foundation)](https://www.fsf.org/about/), and the LPF [(League for Programming Freedom)](https://groups.csail.mit.edu/mac/projects/lpf/).
+      - In 1983, Stallman launched the GNU Project, an initiative aimed at developing a complete Unix-like operating system composed entirely of free software. The project's name, "GNU", is a recursive acronym that stands for *GNU's Not Unix*.
+      - The FSF was established in 1985, and stands to promote the rights of users *- to run, study, distribute, and modify computer software*. This is encapsulated in the FSF's seminal work; the GPL [(GNU General Public License)](https://www.gnu.org/licenses/gpl-3.0.en.html), which embodies the concept of [copyleft](https://www.gnu.org/licenses/copyleft.en.html#:~:text=Copyleft%20is%20a%20general%20method,in%20the%20public%20domain%2C%20uncopyrighted.) and ensures that software remains free for all users.
+      - In 1989, he co-founded the LPF, which advocates for the rights of computer programmers and the preservation of software freedom. Their goal is to defend the principles of freedom in software development by opposing legislation and corporate policies that hinder programmers' ability to create and distribute software freely.
   
   23. **Stroustrup** - [Bjarne Stroustrup]()
   24. **Thompson** - [Ken Thompson]()

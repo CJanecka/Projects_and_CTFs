@@ -369,10 +369,15 @@ Expanded information on the list of "hackers" found in flag 4.
       - In 1989, he co-founded the LPF, which advocates for the rights of computer programmers and the preservation of software freedom. Their goal is to defend the principles of freedom in software development by opposing legislation and corporate policies that hinder programmers' ability to create and distribute software freely.
   
   23. **Stroustrup** - [Bjarne Stroustrup](https://www.stroustrup.com/)
-      - A Danish computer scientist known for creating the [C++ programming language](https://www.geeksforgeeks.org/c-plus-plus/) in 1985.
-      - C++ is an extension of the [C programming language](https://www.geeksforgeeks.org/c-plus-plus/), and envisioned as a language that combined the efficiency and low-level control of C with high-level features such as classes, inheritance, and polymorphism. This led to the introduction of OOP [(Object-oriented programming)](https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/) to the C language.
+      - A Danish computer scientist known for creating the [C++ programming language](https://www.geeksforgeeks.org/c-plus-plus/) at Bell Labs in 1985.
+      - C++ is an extension of the [C programming language](https://www.geeksforgeeks.org/c-plus-plus/), envisioned as a language that combines the efficiency and low-level control of C with high-level features such as classes, inheritance, and polymorphism. This led to the introduction of OOP [(Object-oriented programming)](https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/) to the C language.
   
-  24. **Thompson** - [Ken Thompson]()
+  24. **Thompson** - [Kenneth Lane Thompson](https://www.britannica.com/biography/Kenneth-Lane-Thompson)
+      - An American computer scientist who worked at [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs); and is known for, co-creating the Unix OS *(alongside Dennis Ritchie)*, inventing the [B programming language](https://www.bell-labs.com/usr/dmr/www/btut.pdf), being one of the early developers of the [Plan 9 operating system](https://9p.io/plan9/about.html).
+      - The *B language* was developed in 1969, and intended for writing computer programs that could repeat tasks, handle data that isn't just numbers, and work on different types of computers. B is a [typeless language](https://wiki.c2.com/?TypelessVsDynamic) that uses the basic memory format of the computer it is running on. Essentially all data is treated as just a bunch of numbers. Depending on what the program is doing, these numbers could be treated either as regular whole numbers *(integers)* or as memory addresses, which point to locations in the computer's memory where data is stored.
+      - <cont Plan9 here>
+      - In 2009, Thompson was one of the co-developers at Google for the [Go programming language](https://go.dev/doc/). Referred to as *Golang*, this open-source programming language was designed to be simple, efficient, and easy to learn. Its user-friendly nature made it a popular choice for building scalable network services, web applications, and command-line tools.
+  
   25. **Torvalds** - [Linus Benedict Torvalds]()
   26. **Wirth** - [Niklaus Emil Wirth]()
   27. **Woz** - [Steve Wozniak]()

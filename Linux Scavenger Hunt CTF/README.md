@@ -9,16 +9,44 @@
   + [03. Activity Requirements](#Activity-Requirements)
   + [04. Flag Hints](#Flag-Hints)
   + [05. Capturing the Flags](#Capturing-the-Flags)
-    - [a. Flag 1](#Flag-1)
-    - [b. Flag 2](#Flag-2)
-    - [c. Flag 3](#Flag-3)
-    - [d. Flag 4](#Flag-4)
-    - [e. Flag 5](#Flag-5)
-    - [f. Flag 6](#Flag-6)
-    - [g. Flag 7](#Flag-7)
-    - [h. Flag 8](#Flag-8)
+    - [Flag 1](#Flag-1)
+    - [Flag 2](#Flag-2)
+    - [Flag 3](#Flag-3)
+    - [Flag 4](#Flag-4)
+    - [Flag 5](#Flag-5)
+    - [Flag 6](#Flag-6)
+    - [Flag 7](#Flag-7)
+    - [Flag 8](#Flag-8)
   + [06. Mitigations](#Mitigations) <placeholder- might remove or change>
-  + [07. Appendix](#Appendix)
+  + [07. Appendix *- Key Figures*](#Appendix-Key-Figures)
+    - [Ancheta](#Ancheta)
+    - [Anonymous](#Anonymous)
+    - [Assange](#Assange)
+    - [Astra](#Astra)
+    - [Babbage](#Babbage)
+    - [Berners-Lee](#Berners-Lee)
+    - [Bevan](#Bevan)
+    - [Calce](#Calce)
+    - [Gates](#Gates)
+    - [Gonzalez](#Gonzalez)
+    - [Gosling](#Gosling)
+    - [Hopper](#Hopper)
+    - [James](#James)
+    - [Kernighan](#Kernighan)
+    - [Knuth](#Knuth)
+    - [Lamo](#Lamo)
+    - [Lovelace](#Lovelace)
+    - [Mitnik](#Mitnik)
+    - [Poulsen](#Poulsen)
+    - [Pryce](#Pryce)
+    - [Ritchie](#Ritchie)
+    - [Rossum](#Rossum)
+    - [Stallman](#Stallman)
+    - [Stroustrup](#Stroustrup)
+    - [Thompson](#Thompson)
+    - [Torvalds](#Torvalds)
+    - [Wirth](#Wirth)
+    - [Woz](#Woz)
 
 ## Overview
 
@@ -250,14 +278,15 @@ Mitigations for the methods used to capture the flags in this project.
 
 ### Flag 1 <rename to specific topic>
 
-## Appendix
+## Appendix *- Key Figures*
 
 Expanded information on the list of "hackers" found in flag 4.
 
-  1. **Ancheta** - [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)
-     - Also known as "ir Resilient" or "Zombie King", is a hacker who gained infamy for orchestrating a large-scale botnet operation. He utilized the [RXBot computer worm](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=4669&context=etd_theses), to infect hundreds of thousands of computers worldwide.
-     - He used these compromised computers to launch distributed denial-of-service (DDoS) attacks, steal sensitive information, and install malicious software, among other nefarious activities.
-     - In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
+### Ancheta
+Full Name: [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)
+  + Also known as "ir Resilient" or "Zombie King", is a hacker who gained infamy for orchestrating a large-scale botnet operation. He utilized the [RXBot computer worm](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=4669&context=etd_theses), to infect hundreds of thousands of computers worldwide.
+  + He used these compromised computers to launch distributed denial-of-service (DDoS) attacks, steal sensitive information, and install malicious software, among other nefarious activities.
+  + In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
 
   2. **Anonymous** - [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
      - A decentralized collective of online and offline activists known for engaging in direct action, hacktivism, and other subversive activities.

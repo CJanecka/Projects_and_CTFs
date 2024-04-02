@@ -289,7 +289,7 @@ Full Name: [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybe
   + In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
 
 ### Anonymous
-Full Name: [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
+Referring to: [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
   + A decentralized collective of online and offline activists known for engaging in direct action, hacktivism, and other subversive activities.
   + Founded on 4chan in 2003, the group lacks formal leadership or membership structures, operating instead as a network of individuals with shared interests.
   + They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using the iconic Guy Fawkes masks as a symbol.

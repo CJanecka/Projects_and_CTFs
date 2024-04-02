@@ -76,7 +76,7 @@ These hints were provided for guidance in uncovering the flags within this chall
 
 ### Flag 1
 
-After successfully connecting using the command "ssh student@192.168.200.105" as specified in the preceding requirements, we can initiate our search for the first flag. The provided hint suggests that the flag is not well-hidden. Therefore, I decided to list all files and directories recursively from the initial login point. This was done using the following command:
+After successfully connecting using the command "ssh student@192.168.200.105" as specified in the preceding requirements, we can initiate our search for the first flag. The provided hint suggests that the flag is not well-hidden. Therefore, we decided to list all files and directories recursively from the initial login point. This was done using the following command:
 
   + ls -Ra
     - The *-R* option instructs *ls* to list directories recursively, meaning it will display the contents of subdirectories as well.
@@ -378,6 +378,10 @@ Expanded information on the list of "hackers" found in flag 4.
       - In 2003 Bell Labs released the Plan 9 OS, a distributed operating system that allows users and programs to access resources from any machine on the network. It incorporates network transparency into its design, meaning that network communications are abstracted away from the applications using them. This allows programs to communicate with each other and access remote resources without needing to be aware of the underlying network details.
       - In 2009, Thompson was one of the co-developers at Google for the [Go programming language](https://go.dev/doc/). Referred to as *Golang*, this open-source programming language was designed to be simple, efficient, and easy to learn. Its user-friendly nature made it a popular choice for building scalable network services, web applications, and command-line tools.
   
-  25. **Torvalds** - [Linus Benedict Torvalds]()
+  25. **Torvalds** - [Linus Benedict Torvalds](https://www.britannica.com/biography/Linus-Torvalds)
+      - A Finnish-American software engineer, is known for his creation and development of the [Linux kernel](https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel), alongside the establishment of one of the most used distributed version control systems [Git](https://www.geeksforgeeks.org/what-is-a-git-repository/).
+      - In 1991 Linus developed the Linux Kernel; a foundational component of the Linux operating system, that serves as the bridge between the hardware and the software layers, managing system resources, facilitating communication between hardware devices, and providing essential services to higher-level software applications.
+      - Git is a [distributed version control system](https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/) (DVCS) created by Torvalds in 2005, designed to track versions of files and store them in a dedicated location known as a repository. Within these repositories, users can perform a multitude of operations to create different versions of a project. This includes - [commiting changes](https://www.git-tower.com/learn/git/commands/git-commit), [branching](https://www.git-tower.com/learn/git/commands/git-branch#:~:text=The%20Tower%20Git%20client%20allows,be%20more%20productive%20with%20Git!), [merging](https://www.git-tower.com/help/guides/branches-and-tags/merge-rebase/windows), [reverting changes](https://www.git-tower.com/help/guides/commit-history/undo-commits/windows#:~:text=The%20%22revert%22%20feature%20solves%20a,the%20effect%20of%20those%20changes.), [reviewing history](https://www.git-tower.com/blog/investigating-git-history/), and [collaborabtion](https://vickysteeves.gitlab.io/collaborating-with-git/collaborating-with-git.html).
+  
   26. **Wirth** - [Niklaus Emil Wirth]()
   27. **Woz** - [Steve Wozniak]()

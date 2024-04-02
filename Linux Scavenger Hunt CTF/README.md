@@ -309,7 +309,7 @@ Full Name:
 
 ### Berners-Lee
 Full Name: [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)
-  + Commonly known as Tim Berners-Lee, is a British computer scientist, best known for inventing the World Wide Web.
+  + Commonly known as Tim Berners-Lee, a British computer scientist, best known for inventing the World Wide Web.
   + In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the [first web browser](https://digital-archaeology.org/the-nexus-browser/), called WorldWideWeb (later renamed Nexus).
   + Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
   + In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.

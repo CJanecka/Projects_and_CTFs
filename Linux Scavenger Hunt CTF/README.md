@@ -444,7 +444,9 @@ Full Name: [Linus Benedict Torvalds](https://www.britannica.com/biography/Linus-
   + Git is a [distributed version control system](https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/) (DVCS) created by Torvalds in 2005, designed to track versions of files and store them in a dedicated location known as a repository. Within these repositories, users can perform a multitude of operations to create different versions of a project. *This includes - [commiting changes](https://www.git-tower.com/learn/git/commands/git-commit), [branching](https://www.git-tower.com/learn/git/commands/git-branch#:~:text=The%20Tower%20Git%20client%20allows,be%20more%20productive%20with%20Git!), [merging](https://www.git-tower.com/help/guides/branches-and-tags/merge-rebase/windows), [reverting changes](https://www.git-tower.com/help/guides/commit-history/undo-commits/windows#:~:text=The%20%22revert%22%20feature%20solves%20a,the%20effect%20of%20those%20changes.), [reviewing history](https://www.git-tower.com/blog/investigating-git-history/), and [collaborabtion](https://vickysteeves.gitlab.io/collaborating-with-git/collaborating-with-git.html).*
   
 ### Wirth
-Full Name: [Niklaus Emil Wirth]()
+Full Name: [Niklaus Emil Wirth](https://amturing.acm.org/award_winners/wirth_1025774.cfm)
+  + A Swiss computer scientist and recipient of the prestigious A.M. Turing Award in 1984. He designed a series of pioneering programming languages; including, Pascal, Modula, and Oberon.
+  + <cont here>
 
 ### Woz
 Full Name: [Steve Wozniak]()

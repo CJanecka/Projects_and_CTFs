@@ -18,7 +18,7 @@
     - [Flag 7](#Flag-7)
     - [Flag 8](#Flag-8)
   + [06. Mitigations](#Mitigations) <placeholder- might remove or change>
-  + [07. Appendix *- Key Figures*](#Appendix-Key-Figures)
+  + [07. Appendix - Key Figures](#Appendix-Key-Figures)
     - [Ancheta](#Ancheta)
     - [Anonymous](#Anonymous)
     - [Assange](#Assange)

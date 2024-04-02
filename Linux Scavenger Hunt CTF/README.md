@@ -280,7 +280,7 @@ Mitigations for the methods used to capture the flags in this project.
 
 ## Appendix *- Key Figures*
 
-Expanded information on the list of "hackers" found in flag 4.
+Expanded information on the list of "hackers" found in flag 4. <revise this>
 
 ### Ancheta
 Full Name: [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)
@@ -288,129 +288,159 @@ Full Name: [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybe
   + He used these compromised computers to launch distributed denial-of-service (DDoS) attacks, steal sensitive information, and install malicious software, among other nefarious activities.
   + In 2005, Ancheta was apprehended by law enforcement authorities as a result of a joint investigation involving the FBI, the U.S. Department of Defense, and other agencies. He was charged with multiple counts of cybercrime, including conspiracy, fraud, and unauthorized access to computers.
 
-  2. **Anonymous** - [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
-     - A decentralized collective of online and offline activists known for engaging in direct action, hacktivism, and other subversive activities.
-     - Founded on 4chan in 2003, the group lacks formal leadership or membership structures, operating instead as a network of individuals with shared interests.
-     - They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using the iconic Guy Fawkes masks as a symbol.
+### Anonymous
+Full Name: [The Hacker Group](https://www.anonymoushackers.net/anonymous-history/)
+  + A decentralized collective of online and offline activists known for engaging in direct action, hacktivism, and other subversive activities.
+  + Founded on 4chan in 2003, the group lacks formal leadership or membership structures, operating instead as a network of individuals with shared interests.
+  + They advocate for internet freedom, challenge censorship, and have been involved in various high-profile operations, often using the iconic Guy Fawkes masks as a symbol.
      
-  3. **Assange** - [Julian Paul Assange](https://www.justice.gov/opa/press-release/file/1153486/dl)
-     - An Australian computer programmer, editor, publisher, and activist known for founding [WikiLeaks](https://wikileaks.org/What-is-WikiLeaks.html), a website that publishes classified and confidential information provided by anonymous sources.
-     - Assange gained international attention for his involvement in releasing classified documents related to war, diplomacy, and surveillance.
+### Assange
+Full Name: [Julian Paul Assange](https://www.justice.gov/opa/press-release/file/1153486/dl)
+  + An Australian computer programmer, editor, publisher, and activist known for founding [WikiLeaks](https://wikileaks.org/What-is-WikiLeaks.html), a website that publishes classified and confidential information provided by anonymous sources.
+  + Assange gained international attention for his involvement in releasing classified documents related to war, diplomacy, and surveillance.
   
-  4. **Astra** - [Real Name Withheld](https://www.scmagazine.com/news/hacker-arrested-in-greece-for-stealing-selling-weapons-data) 
-     - A 58-year-old Greek mathematician who hacked into the computer systems of France's Dassault Group over a five-year period.
-     - Astra stole weapons technology data and 3D modeling software, which they subsequently sold to at least 250 individuals across various countries, including Brazil, France, Germany, Italy, South Africa, and the Middle East. Dassault initiated a global manhunt, ultimately tracing ASTRA to an apartment in Athens in January 2008.
-       
-  5. **Berners-Lee** - [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)
-     - Commonly known as Tim Berners-Lee, is a British computer scientist, best known for inventing the World Wide Web.
-     - In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the [first web browser](https://digital-archaeology.org/the-nexus-browser/), called WorldWideWeb (later renamed Nexus).
-     - Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
-     - In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.
+### Astra
+Full Name: [Real Name Withheld](https://www.scmagazine.com/news/hacker-arrested-in-greece-for-stealing-selling-weapons-data) 
+  + A 58-year-old Greek mathematician who hacked into the computer systems of France's Dassault Group over a five-year period.
+  + Astra stole weapons technology data and 3D modeling software, which they subsequently sold to at least 250 individuals across various countries, including Brazil, France, Germany, Italy, South Africa, and the Middle East. Dassault initiated a global manhunt, ultimately tracing ASTRA to an apartment in Athens in January 2008.
 
-  6. **Bevan** - [Mathew Bevan](https://irp.fas.org/congress/1996_hr/s960605b.htm)
-     - Also known by his hacker alias "Kuji", gained notoriety in 1996 for his involvement in hacking into secure US government networks, particularly the files of the Griffiss Air Force Base Research Laboratory in New York.
-     - Born in Cardiff, Wales, Bevan was just 21 years old when arrested. He was part of a hacking duo that included Richard Pryce, also known as "Datastream Cowboy".
-     - His motive was to prove a UFO conspiracy theory, a goal he pursued using his hacking skills and a Commodore Amiga computer loaded with a blueboxing program called Roxbox.
+### Babbage
+Full Name: 
+
+### Berners-Lee
+Full Name: [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)
+  + Commonly known as Tim Berners-Lee, is a British computer scientist, best known for inventing the World Wide Web.
+  + In 1989, while working at CERN (the European Organization for Nuclear Research) in Switzerland, Berners-Lee proposed the concept of a distributed hypertext system to facilitate communication and collaboration among researchers. He developed the [first web browser](https://digital-archaeology.org/the-nexus-browser/), called WorldWideWeb (later renamed Nexus).
+  + Berners-Lee's groundbreaking work laid the foundation for the modern internet and revolutionized the way people access, share, and interact with information online.
+  + In 1991, Berners-Lee made the World Wide Web freely available to the public, releasing the source code for the first web browser and web server software. This decision to make the web an open and accessible platform for all users was instrumental in its rapid growth and adoption.
+
+### Bevan
+Full Name: [Mathew Bevan](https://irp.fas.org/congress/1996_hr/s960605b.htm)
+  + Also known by his hacker alias "Kuji", gained notoriety in 1996 for his involvement in hacking into secure US government networks, particularly the files of the Griffiss Air Force Base Research Laboratory in New York.
+  + Born in Cardiff, Wales, Bevan was just 21 years old when arrested. He was part of a hacking duo that included Richard Pryce, also known as "Datastream Cowboy".
+  + His motive was to prove a UFO conspiracy theory, a goal he pursued using his hacking skills and a Commodore Amiga computer loaded with a blueboxing program called Roxbox.
        
-  7. **Calce** - [Michael Calce](https://www.blackhatethicalhacking.com/articles/hacking-stories/mafiaboy-the-hacker-who-took-down-the-internet/)
-     - Also known as "MafiaBoy", is a security expert and former computer hacker from Île Bizard, Quebec.
-     - In February 2000, he initiated a sequence of widely publicized denial-of-service attacks targeting major commercial websites such as Yahoo, Fifa, Amazon, Dell, eBay, and CNN.
-     - In September 2001, he pleaded guilty to 55 counts of illegal access to computer systems and was sentenced to eight months of open custody, restricted use of the internet, and a small fine.
+### Calce
+Full Name: [Michael Calce](https://www.blackhatethicalhacking.com/articles/hacking-stories/mafiaboy-the-hacker-who-took-down-the-internet/)
+  + Also known as "MafiaBoy", is a security expert and former computer hacker from Île Bizard, Quebec.
+  + In February 2000, he initiated a sequence of widely publicized denial-of-service attacks targeting major commercial websites such as Yahoo, Fifa, Amazon, Dell, eBay, and CNN.
+  + In September 2001, he pleaded guilty to 55 counts of illegal access to computer systems and was sentenced to eight months of open custody, restricted use of the internet, and a small fine.
   
-  8. **Gates** - [Bill Gates](https://www.britannica.com/biography/Bill-Gates)
-     - A computer programmer, businessman, and philanthropist from Seattle, Washington.
-     - Widely recognized as a co-founder of Microsoft Corporation, which he established alongside [Paul Allen](https://www.britannica.com/biography/Paul-Allen) in 1975.
-     - While Microsoft had early success with programming languages and applications, it was the release of [Windows 1.0](https://microsoft.fandom.com/wiki/Windows_1.0) in 1985 that propelled the company to new heights. Providing a user-friendly graphical interface for personal computers, making them more accessible to the general public and leading to widespread adoption.
+### Gates
+Full Name: [Bill Gates](https://www.britannica.com/biography/Bill-Gates)
+  + A computer programmer, businessman, and philanthropist from Seattle, Washington.
+  + Widely recognized as a co-founder of Microsoft Corporation, which he established alongside [Paul Allen](https://www.britannica.com/biography/Paul-Allen) in 1975.
+  + While Microsoft had early success with programming languages and applications, it was the release of [Windows 1.0](https://microsoft.fandom.com/wiki/Windows_1.0) in 1985 that propelled the company to new heights. Providing a user-friendly graphical interface for personal computers, making them more accessible to the general public and leading to widespread adoption.
   
-  9. **Gonzalez** - [Albert Gonzalez](https://www.blackhatethicalhacking.com/articles/albert-gonzalez-the-get-rich-or-die-trying-crew-who-stole-130-million-credit-card-numbers/)
-     - Also known as "SoupNazi", this infamous hacker gained notoriety for orchestrating the largest combined credit card theft and subsequent reselling operation in history.
-     - From 2005 to 2007, he masterminded the theft and distribution of over 170 million card and ATM numbers.
-     - In 2008, Gonzalez was [apprehended by the U.S. Secret Service](https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail) as part of "Operation Get Rich or Die Tryin'". This targeted individuals involved in cybercrimes, specifically those responsible for the TJX and Heartland breaches.
+### Gonzalez
+Full Name: [Albert Gonzalez](https://www.blackhatethicalhacking.com/articles/albert-gonzalez-the-get-rich-or-die-trying-crew-who-stole-130-million-credit-card-numbers/)
+  + Also known as "SoupNazi", this infamous hacker gained notoriety for orchestrating the largest combined credit card theft and subsequent reselling operation in history.
+  + From 2005 to 2007, he masterminded the theft and distribution of over 170 million card and ATM numbers.
+  + In 2008, Gonzalez was [apprehended by the U.S. Secret Service](https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail) as part of "Operation Get Rich or Die Tryin'". This targeted individuals involved in cybercrimes, specifically those responsible for the TJX and Heartland breaches.
   
-  10. **Gosling** - [James Gosling](https://www.sis.pitt.edu/mbsclass/hall_of_fame/gosling.html)
-      - A Canadian computer scientist, renowned for creating the [Java programming language](https://www.java.com/en/download/help/whatis_java.html#:~:text=Java%20is%20a%20programming%20language,services%20and%20applications%20are%20built.).
-      - Java, unveiled by Sun Microsystems in 1995, was designed to be platform-independent, robust, secure, and easy to use.
-      - It became the foundation for countless web-based applications and services, powering everything from websites to enterprise systems. 
+### Gosling
+Full Name: [James Gosling](https://www.sis.pitt.edu/mbsclass/hall_of_fame/gosling.html)
+  + A Canadian computer scientist, renowned for creating the [Java programming language](https://www.java.com/en/download/help/whatis_java.html#:~:text=Java%20is%20a%20programming%20language,services%20and%20applications%20are%20built.).
+  + Java, unveiled by Sun Microsystems in 1995, was designed to be platform-independent, robust, secure, and easy to use.
+  + It became the foundation for countless web-based applications and services, powering everything from websites to enterprise systems. 
   
-  11. **Hopper** - [Grace Hopper](https://obamawhitehouse.archives.gov/blog/2014/12/22/honoring-grace-hopper)
-      - Known affectionately as "Amazing Grace" and "Grandma COBOL". She was a computer scientist, mathematician, and United States Navy Rear Admiral.
-      - She created the first compiler, [the A-0 System](https://www.computinghistory.org.uk/det/5487/Grace-Hopper-completes-the-A-0-Compiler/), in 1951. Which allowed programmers to write code in a more human-readable form rather than in machine code.
-      - In 1959 she developed and standardized the [Common Business-Oriented Language (COBOL)](https://www.geeksforgeeks.org/what-is-cobolcommon-business-oriented-language/) programming language.
-      - Throughout her career, she actively promoted diversity and encouraged more women to pursue careers in STEM fields.
+### Hopper
+Full Name: [Grace Hopper](https://obamawhitehouse.archives.gov/blog/2014/12/22/honoring-grace-hopper)
+  + Known affectionately as "Amazing Grace" and "Grandma COBOL". She was a computer scientist, mathematician, and United States Navy Rear Admiral.
+  + She created the first compiler, [the A-0 System](https://www.computinghistory.org.uk/det/5487/Grace-Hopper-completes-the-A-0-Compiler/), in 1951. Which allowed programmers to write code in a more human-readable form rather than in machine code.
+  + In 1959 she developed and standardized the [Common Business-Oriented Language (COBOL)](https://www.geeksforgeeks.org/what-is-cobolcommon-business-oriented-language/) programming language.
+  + Throughout her career, she actively promoted diversity and encouraged more women to pursue careers in STEM fields.
   
-  12. **James** - [Jonathan Joseph James](https://www.blackhatethicalhacking.com/articles/jonathan-james-the-teenager-who-hacked-nasa-for-fun/)
-      - An American hacker, known by the alias "C0mrade". In 2000, he was the first juvenile incarcerated for cybercrime in the United States.
-      - By age fifteen (15), he hacked into several high-profile organizations, including the Department of Defense (DoD) and NASA. In 1999, he managed to access NASA's network and download software worth approximately $1.7 million. Claiming that he did this to prove that he could, rather than for malicious purposes.
-      - In 2007 Jonathan James was linked to the [TJX data breach](https://www.ftc.gov/sites/default/files/documents/cases/2008/03/080327complaint_0.pdf), through an unknown pseudonym “JJ”. However, he denied any involvement and the agents could not find anything to connect him with the ongoing crimes.
-      - In May 2008, at the age of 24, his life ended by suicide at his home in Pinecrest, Florida.
+### James
+Full Name: [Jonathan Joseph James](https://www.blackhatethicalhacking.com/articles/jonathan-james-the-teenager-who-hacked-nasa-for-fun/)
+  + An American hacker, known by the alias "C0mrade". In 2000, he was the first juvenile incarcerated for cybercrime in the United States.
+  + By age fifteen (15), he hacked into several high-profile organizations, including the Department of Defense (DoD) and NASA. In 1999, he managed to access NASA's network and download software worth approximately $1.7 million. Claiming that he did this to prove that he could, rather than for malicious purposes.
+  + In 2007 Jonathan James was linked to the [TJX data breach](https://www.ftc.gov/sites/default/files/documents/cases/2008/03/080327complaint_0.pdf), through an unknown pseudonym “JJ”. However, he denied any involvement and the agents could not find anything to connect him with the ongoing crimes.
+  + In May 2008, at the age of 24, his life ended by suicide at his home in Pinecrest, Florida.
   
-  13. **Kernighan** - [Brian Kernighan](https://www.cs.princeton.edu/people/profile/bwk)
-      - A Canadian computer scientist name became widely known through co-authorship of the first book on the C programming, [The C Programming Language](https://github.com/CJanecka/Projects_and_CTFs/files/14781948/The_C_Programming_Language_.2nd_Edition_Ritchie_Kernighan.pdf), with Dennis Ritchie.
-      - This book played a significant role in the development of the C programming language and Unix operating system.
-      - In a 2003 [interview with the Linux Journal](https://www.linuxjournal.com/article/7035), Kernighan emphasized that he played no role in the design of the C language, stating - *"it's entirely Dennis Ritchie's work"*.
+### Kernighan
+Full Name: [Brian Kernighan](https://www.cs.princeton.edu/people/profile/bwk)
+  + A Canadian computer scientist name became widely known through co-authorship of the first book on the C programming, [The C Programming Language](https://github.com/CJanecka/Projects_and_CTFs/files/14781948/The_C_Programming_Language_.2nd_Edition_Ritchie_Kernighan.pdf), with Dennis Ritchie.
+  + This book played a significant role in the development of the C programming language and Unix operating system.
+  + In a 2003 [interview with the Linux Journal](https://www.linuxjournal.com/article/7035), Kernighan emphasized that he played no role in the design of the C language, stating - *"it's entirely Dennis Ritchie's work"*.
         
-  14. **Knuth** - [Donald Ervin Knuth](https://www.britannica.com/biography/Donald-Knuth)
-      - An American computer scientist and mathematician that has been referred to as the "father of the analysis of algorithms".
-      - Known for his contributions to the analysis of algorithms and the creation of the [TeX typesetting system](https://ctan.org/tex?lang=en) and the associated [METAFONT](https://ctan.org/pkg/metafont?lang=en) font definition language.
-      - Knuth's most famous work is his multivolume series [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html). Initiated in 1962, this undertaking aims to represent the core of computer programming for sequential machines.
+### Knuth
+Full Name: [Donald Ervin Knuth](https://www.britannica.com/biography/Donald-Knuth)
+  + An American computer scientist and mathematician that has been referred to as the "father of the analysis of algorithms".
+  + Known for his contributions to the analysis of algorithms and the creation of the [TeX typesetting system](https://ctan.org/tex?lang=en) and the associated [METAFONT](https://ctan.org/pkg/metafont?lang=en) font definition language.
+  + Knuth's most famous work is his multivolume series [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html). Initiated in 1962, this undertaking aims to represent the core of computer programming for sequential machines.
   
-  15. **Lamo** - [Adrian Lamo](https://www.blackhatethicalhacking.com/articles/hacking-stories/andrian-lamo-homeless-hacker/)
-      - An American hacker, dubbed "The Homeless Hacker", and a controversial figure within the cybersecurity and hacking communities.
-      - In the early 2000s, he gained notoriety through a series of attacks against major corporations, which were largely benign in nature. His goal was to demonstrate point - If someone like him, who relied on borrowed internet access from a local Kinko’s, could easily breach companies such as AOL, Yahoo, Microsoft, and The New York Times; then, anyone could exploit them.
-      - In 2010, [Chelsea Manning](https://www.britannica.com/biography/Chelsea-Manning) (then known as Bradley Manning) - an American activist, whistleblower, and former U.S. Army intelligence analyst who leaked classified documents to WikiLeaks, including diplomatic cables and military logs; made contact with Adrian Lamo via online chat, confiding in him about the leaks and expressing personal struggles. Lamo ultimately chose to disclose their exchanges to authorities, ultimately leading to Manning's arrest.
+### Lamo
+Full Name: [Adrian Lamo](https://www.blackhatethicalhacking.com/articles/hacking-stories/andrian-lamo-homeless-hacker/)
+  + An American hacker, dubbed "The Homeless Hacker", and a controversial figure within the cybersecurity and hacking communities.
+  + In the early 2000s, he gained notoriety through a series of attacks against major corporations, which were largely benign in nature. His goal was to demonstrate point - If someone like him, who relied on borrowed internet access from a local Kinko’s, could easily breach companies such as AOL, Yahoo, Microsoft, and The New York Times; then, anyone could exploit them.
+  + In 2010, [Chelsea Manning](https://www.britannica.com/biography/Chelsea-Manning) (then known as Bradley Manning) - an American activist, whistleblower, and former U.S. Army intelligence analyst who leaked classified documents to WikiLeaks, including diplomatic cables and military logs; made contact with Adrian Lamo via online chat, confiding in him about the leaks and expressing personal struggles. Lamo ultimately chose to disclose their exchanges to authorities, ultimately leading to Manning's arrest.
   
-  16. **Lovelace** - [Augusta Ada Byron, Countess of Lovelace](https://www.sdsc.edu/ScienceWomen/lovelace.html)
-      - An English mathematician and writer, known for her work on Charles Babbage's proposed mechanical general-purpose computer, the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine).
-      - Ada translated an article about the Analytical Engine, by the Italian mathematician Luigi Federico Menabrea, from French to English. In this translation, she included extensive notes and annotations, three times the length of the original article. Expanding on the capabilities of the Analytical Engine, foreseeing its potential beyond mere number-crunching. She suggested algorithms for the Engine to compute [Bernoulli numbers](https://www.whitman.edu/documents/academics/majors/mathematics/2019/Larson-Balof.pdf), which are considered the first published algorithms specifically tailored for implementation on a computer.
-      - Despite her groundbreaking work, Lovelace's contributions were not widely recognized during her lifetime, partly due to the prevailing gender biases of the time. However, her work gained renewed attention in the mid-20th century, with computer scientists and historians acknowledging her as a pioneer in the field of computing.
-      - She is now widely considered the world's first computer programmer.
+### Lovelace
+Full Name: [Augusta Ada Byron, Countess of Lovelace](https://www.sdsc.edu/ScienceWomen/lovelace.html)
+  + An English mathematician and writer, known for her work on Charles Babbage's proposed mechanical general-purpose computer, the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine).
+  + Ada translated an article about the Analytical Engine, by the Italian mathematician Luigi Federico Menabrea, from French to English. In this translation, she included extensive notes and annotations, three times the length of the original article. Expanding on the capabilities of the Analytical Engine, foreseeing its potential beyond mere number-crunching. She suggested algorithms for the Engine to compute [Bernoulli numbers](https://www.whitman.edu/documents/academics/majors/mathematics/2019/Larson-Balof.pdf), which are considered the first published algorithms specifically tailored for implementation on a computer.
+  + Despite her groundbreaking work, Lovelace's contributions were not widely recognized during her lifetime, partly due to the prevailing gender biases of the time. However, her work gained renewed attention in the mid-20th century, with computer scientists and historians acknowledging her as a pioneer in the field of computing.
+  + She is now widely considered the world's first computer programmer.
   
-  17. **Mitnik** - [Kevin Mitnick](https://www.mitnicksecurity.com/about-kevin-mitnick-mitnick-security)
-      - An American computer security consultant, author, and the most notorious hacker of all time. He led a remarkable journey as he transitioned from his origins as a black-hat hacker, to emerge as a prominent figure in cybersecurity consulting.
-      - He gained notoriety during the 1980s and 1990s by engaging in a series of unauthorized intrusions into the computer networks of 40 industry giants. Among his targets were IBM, Nokia, and Motorola; where he managed to gain unauthorized access to sensitive information, including proprietary data and source code. His ability to penetrate supposedly secure systems earned him a reputation as one of the most skilled hackers to date.
-      - In 1995, Mitnick was [apprehended by the FBI](https://www.justice.gov/archive/opa/pr/Pre_96/February95/89.txt.html) after a highly publicized pursuit that involved extensive media coverage. His arrest marked the culmination of a years-long cat-and-mouse game between him and law enforcement agencies. He faced a series of legal proceedings and was ultimately convicted of multiple charges related to computer and wire fraud, as well as unauthorized access to computer systems.
-      - Upon his release from prison, Mitnick redirected his formidable talents toward constructive endeavors, leveraging his intimate understanding of hacking techniques for the greater good. Drawing on his firsthand experiences, he emerged as a trusted advisor, guiding organizations through the intricacies of cybersecurity.
+### Mitnik
+Full Name: [Kevin Mitnick](https://www.mitnicksecurity.com/about-kevin-mitnick-mitnick-security)
+  + An American computer security consultant, author, and the most notorious hacker of all time. He led a remarkable journey as he transitioned from his origins as a black-hat hacker, to emerge as a prominent figure in cybersecurity consulting.
+  + He gained notoriety during the 1980s and 1990s by engaging in a series of unauthorized intrusions into the computer networks of 40 industry giants. Among his targets were IBM, Nokia, and Motorola; where he managed to gain unauthorized access to sensitive information, including proprietary data and source code. His ability to penetrate supposedly secure systems earned him a reputation as one of the most skilled hackers to date.
+  + In 1995, Mitnick was [apprehended by the FBI](https://www.justice.gov/archive/opa/pr/Pre_96/February95/89.txt.html) after a highly publicized pursuit that involved extensive media coverage. His arrest marked the culmination of a years-long cat-and-mouse game between him and law enforcement agencies. He faced a series of legal proceedings and was ultimately convicted of multiple charges related to computer and wire fraud, as well as unauthorized access to computer systems.
+  + Upon release from prison, Mitnick redirected his talents toward constructive endeavors, leveraging his intimate understanding of hacking techniques for the greater good. Drawing on his firsthand experiences, he emerged as a trusted advisor, guiding organizations through the intricacies of cybersecurity.
   
-  18. **Poulsen** - [Kevin Lee Poulsen](https://www.blackhatethicalhacking.com/articles/hacking-stories/kevin-poulsen-dark-dante-and-his-hacking-activities-on-arpanets-networks/)
-      - Also known by the moniker "Dark Dante", a former black-hat hacker who transitioned into a career as a journalist and cybersecurity expert.
-      - He gained notoriety through a KIIS-FM phone hack in 1990; during which, Poulsen commandeered all telephone lines for the Los Angeles radio station KIIS-FM, ensuring that he would be the 102nd caller and secure the prize of a Porsche 944 S2.
-      - In 1983, Poulsen hacked into [ARPANET](https://www.techtarget.com/searchnetworking/definition/ARPANET#:~:text=The%20U.S.%20Advanced%20Research%20Projects,for%20academic%20and%20research%20purposes.), the Pentagon’s computer network. Despite being swiftly apprehended, the government opted to give Poulsen, who was a minor at the time, a warning.
-      - In 1991, he was arrested and charged with multiple counts of computer fraud, wire fraud, and conspiracy. Following his arrest, Poulsen made legal history as the first American to be released from prison with a court-imposed prohibition against using computers and the internet after serving his sentence.
+### Poulsen
+Full Name: [Kevin Lee Poulsen](https://www.blackhatethicalhacking.com/articles/hacking-stories/kevin-poulsen-dark-dante-and-his-hacking-activities-on-arpanets-networks/)
+  + Also known by the moniker "Dark Dante", a former black-hat hacker who transitioned into a career as a journalist and cybersecurity expert.
+  + He gained notoriety through a KIIS-FM phone hack in 1990; during which, Poulsen commandeered all telephone lines for the Los Angeles radio station KIIS-FM, ensuring that he would be the 102nd caller and secure the prize of a Porsche 944 S2.
+  + In 1983, Poulsen hacked into [ARPANET](https://www.techtarget.com/searchnetworking/definition/ARPANET#:~:text=The%20U.S.%20Advanced%20Research%20Projects,for%20academic%20and%20research%20purposes.), the Pentagon’s computer network. Despite being swiftly apprehended, the government opted to give Poulsen, who was a minor at the time, a warning.
+  + In 1991, he was arrested and charged with multiple counts of computer fraud, wire fraud, and conspiracy. Following his arrest, Poulsen made legal history as the first American to be released from prison with a court-imposed prohibition against using computers and the internet after serving his sentence.
   
-  19. **Pryce** - [Richard Pryce](https://www.soldierx.com/hdb/Datastream-Cowboy)
-      - A British hacker, also known as "Datastream Cowboy", and part of a hacking duo with Matthew Bevan (Kuji) which gained notoriety in 1996 by hacking into numerous military networks; including, the [Griffiss Air Force Base and the Korea Atomic Energy Research Institute (KAERI)](https://irp.fas.org/congress/1996_hr/s960605b.htm).
-      - At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. The data's origins being unknown raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
-      - As per Supervisory Special Agent Jim Christy of the Air Force Office of Special Investigations, Pryce was one of two hackers whose actions nearly incited a third world war.
+### Pryce
+Full Name: [Richard Pryce](https://www.soldierx.com/hdb/Datastream-Cowboy)
+  + A British hacker, also known as "Datastream Cowboy", and part of a hacking duo with Matthew Bevan (Kuji) which gained notoriety in 1996 by hacking into numerous military networks; including, the [Griffiss Air Force Base and the Korea Atomic Energy Research Institute (KAERI)](https://irp.fas.org/congress/1996_hr/s960605b.htm).
+  + At 16 years old, Pryce hacked into the KAERI facility, extracting and transferring the institute's database contents into the United States Air Force (USAF) computer system. The data's origins being unknown raised concerns; if North Korea discovered this, they could have interpreted the data theft as an intrusion by the USAF, potentially sparking retaliatory actions due to perceived espionage, it was later determined that the data belonged to South Korea.
+  + As per Supervisory Special Agent Jim Christy of the Air Force Office of Special Investigations, Pryce was one of two hackers whose actions nearly incited a third world war.
   
-  20. **Ritchie** - [Dennis MacAlistair Ritchie](https://www.sis.pitt.edu/mbsclass/hall_of_fame/ritchie.html)
-      - An American computer scientist who developed the [C programming language](https://www.geeksforgeeks.org/c-programming-language/) and [Unix operating system](https://www.geeksforgeeks.org/introduction-to-unix-system/), at Bell Labs from the 1960s to 1970s.
-      - Unix was co-developed with Ken Thompson and introduced several concepts, such as a hierarchical file system, multi-user support, and a shell for command-line interaction, which have since become standard features in many operating systems.
-      - C is a flexible, efficient, and portable programming language for the Unix OS. Released in 1972, it's simplicity and power made it immensely popular among programmers. Many modern programming languages; such as, [C++](https://www.geeksforgeeks.org/c-plus-plus/), [Java](https://www.ibm.com/topics/java), and [Python](https://www.geeksforgeeks.org/what-is-python/), have been influenced by or built upon C's syntax and concepts.
+### Ritchie
+Full Name: [Dennis MacAlistair Ritchie](https://www.sis.pitt.edu/mbsclass/hall_of_fame/ritchie.html)
+  + An American computer scientist who developed the [C programming language](https://www.geeksforgeeks.org/c-programming-language/) and [Unix operating system](https://www.geeksforgeeks.org/introduction-to-unix-system/), at Bell Labs from the 1960s to 1970s.
+  + Unix was co-developed with Ken Thompson and introduced several concepts, such as a hierarchical file system, multi-user support, and a shell for command-line interaction, which have since become standard features in many operating systems.
+  + C is a flexible, efficient, and portable programming language for the Unix OS. Released in 1972, it's simplicity and power made it immensely popular among programmers. Many modern programming languages; such as, [C++](https://www.geeksforgeeks.org/c-plus-plus/), [Java](https://www.ibm.com/topics/java), and [Python](https://www.geeksforgeeks.org/what-is-python/), have been influenced by or built upon C's syntax and concepts.
   
-  21. **Rossum** - [Guido van Rossum](https://gvanrossum.github.io/)
-      - A Dutch programmer that created and released the [Python programming language](https://www.python.org/) in 1991.
-      - The language was named after the British comedy group Monty Python, and designed with a concise syntax that emphasizes readability; combined with its extensive standard library, versatility, community, and open-source nature, which has made it a popular and widely used programming language.
+### Rossum
+Full Name: [Guido van Rossum](https://gvanrossum.github.io/)
+  + A Dutch programmer that created and released the [Python programming language](https://www.python.org/) in 1991.
+  + The language was named after the British comedy group Monty Python, and designed with a concise syntax that emphasizes readability; combined with its extensive standard library, versatility, community, and open-source nature, which has made it a popular and widely used programming language.
   
-  22. **Stallman** - [Richard Matthew Stallman](https://www.sis.pitt.edu/mbsclass/hall_of_fame/stallman.html)
-      - An American programmer and free software movement activist known for founding the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html), the FSF [(Free Software Foundation)](https://www.fsf.org/about/), and the LPF [(League for Programming Freedom)](https://groups.csail.mit.edu/mac/projects/lpf/).
-      - In 1983, Stallman launched the GNU Project, an initiative aimed at developing a complete Unix-like operating system composed entirely of free software. The project's name, "GNU", is a recursive acronym that stands for *GNU's Not Unix*.
-      - The FSF was established in 1985, and stands to promote the rights of users *- to run, study, distribute, and modify computer software*. This is encapsulated in the FSF's seminal work; the GPL [(GNU General Public License)](https://www.gnu.org/licenses/gpl-3.0.en.html), which embodies the concept of [copyleft](https://www.gnu.org/licenses/copyleft.en.html#:~:text=Copyleft%20is%20a%20general%20method,in%20the%20public%20domain%2C%20uncopyrighted.) and ensures that software remains free for all users.
-      - In 1989, he co-founded the LPF, which advocates for the rights of computer programmers and the preservation of software freedom. Their goal is to defend the principles of freedom in software development by opposing legislation and corporate policies that hinder programmers' ability to create and distribute software freely.
+### Stallman
+Full Name: [Richard Matthew Stallman](https://www.sis.pitt.edu/mbsclass/hall_of_fame/stallman.html)
+  + An American programmer and free software movement activist known for founding the [GNU project](https://www.gnu.org/gnu/thegnuproject.en.html), the FSF [(Free Software Foundation)](https://www.fsf.org/about/), and the LPF [(League for Programming Freedom)](https://groups.csail.mit.edu/mac/projects/lpf/).
+  + In 1983, Stallman launched the GNU Project, an initiative aimed at developing a complete Unix-like operating system composed entirely of free software. The project's name, "GNU", is a recursive acronym that stands for *GNU's Not Unix*.
+  + The FSF was established in 1985, and stands to promote the rights of users *- to run, study, distribute, and modify computer software*. This is encapsulated in the FSF's seminal work; the GPL [(GNU General Public License)](https://www.gnu.org/licenses/gpl-3.0.en.html), which embodies the concept of [copyleft](https://www.gnu.org/licenses/copyleft.en.html#:~:text=Copyleft%20is%20a%20general%20method,in%20the%20public%20domain%2C%20uncopyrighted.) and ensures that software remains free for all users.
+  + In 1989, he co-founded the LPF, which advocates for the rights of computer programmers and the preservation of software freedom. Their goal is to defend the principles of freedom in software development by opposing legislation and corporate policies that hinder programmers' ability to create and distribute software freely.
   
-  23. **Stroustrup** - [Bjarne Stroustrup](https://www.stroustrup.com/)
-      - A Danish computer scientist known for creating the [C++ programming language](https://www.geeksforgeeks.org/c-plus-plus/) at Bell Labs in 1985.
-      - C++ is an extension of the [C programming language](https://www.geeksforgeeks.org/c-plus-plus/), envisioned as a language that combines the efficiency and low-level control of C with high-level features such as classes, inheritance, and polymorphism. This led to the introduction of OOP [(Object-oriented programming)](https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/) to the C language.
+### Stroustrup
+Full Name: [Bjarne Stroustrup](https://www.stroustrup.com/)
+  + A Danish computer scientist known for creating the [C++ programming language](https://www.geeksforgeeks.org/c-plus-plus/) at Bell Labs in 1985.
+  + C++ is an extension of the [C programming language](https://www.geeksforgeeks.org/c-plus-plus/), envisioned as a language that combines the efficiency and low-level control of C with high-level features such as classes, inheritance, and polymorphism. This led to the introduction of OOP [(Object-oriented programming)](https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/) to the C language.
   
-  24. **Thompson** - [Kenneth Lane Thompson](https://www.britannica.com/biography/Kenneth-Lane-Thompson)
-      - An American computer scientist who worked at [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs); and is known for, co-creating the Unix OS *(alongside Dennis Ritchie)*, inventing the [B programming language](https://www.bell-labs.com/usr/dmr/www/btut.pdf), being one of the early developers of the [Plan 9 operating system](https://9p.io/plan9/about.html).
-      - The *B language* was developed in 1969, and intended for writing computer programs that could repeat tasks, handle data that isn't just numbers, and work on different types of computers. B is a [typeless language](https://wiki.c2.com/?TypelessVsDynamic) that uses the basic memory format of the computer it is running on. Essentially all data is treated as just a bunch of numbers. Depending on what the program is doing, these numbers could be treated either as regular whole numbers *(integers)* or as memory addresses, which point to locations in the computer's memory where data is stored.
-      - In 2003 Bell Labs released the Plan 9 OS, a distributed operating system that allows users and programs to access resources from any machine on the network. It incorporates network transparency into its design, meaning that network communications are abstracted away from the applications using them. This allows programs to communicate with each other and access remote resources without needing to be aware of the underlying network details.
-      - In 2009, Thompson was one of the co-developers at Google for the [Go programming language](https://go.dev/doc/). Referred to as *Golang*, this open-source programming language was designed to be simple, efficient, and easy to learn. Its user-friendly nature made it a popular choice for building scalable network services, web applications, and command-line tools.
+### Thompson
+Full Name: [Kenneth Lane Thompson](https://www.britannica.com/biography/Kenneth-Lane-Thompson)
+  + An American computer scientist who worked at [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs); and is known for, co-creating the Unix OS *(alongside Dennis Ritchie)*, inventing the [B programming language](https://www.bell-labs.com/usr/dmr/www/btut.pdf), being one of the early developers of the [Plan 9 operating system](https://9p.io/plan9/about.html).
+  + The *B language* was developed in 1969, and intended for writing computer programs that could repeat tasks, handle data that isn't just numbers, and work on different types of computers. B is a [typeless language](https://wiki.c2.com/?TypelessVsDynamic) that uses the basic memory format of the computer it is running on. Essentially all data is treated as just a bunch of numbers. Depending on what the program is doing, these numbers could be treated either as regular whole numbers *(integers)* or as memory addresses, which point to locations in the computer's memory where data is stored.
+  + In 2003 Bell Labs released the Plan 9 OS, a distributed operating system that allows users and programs to access resources from any machine on the network. It incorporates network transparency into its design, meaning that network communications are abstracted away from the applications using them. This allows programs to communicate with each other and access remote resources without needing to be aware of the underlying network details.
+  + In 2009, Thompson was one of the co-developers at Google for the [Go programming language](https://go.dev/doc/). Referred to as *Golang*, this open-source programming language was designed to be simple, efficient, and easy to learn. Its user-friendly nature made it a popular choice for building scalable network services, web applications, and command-line tools.
   
-  25. **Torvalds** - [Linus Benedict Torvalds](https://www.britannica.com/biography/Linus-Torvalds)
-      - A Finnish-American software engineer, is known for his creation and development of the [Linux kernel](https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel), alongside the establishment of one of the most used distributed version control systems [Git](https://www.geeksforgeeks.org/what-is-a-git-repository/).
-      - In 1991 Linus developed the Linux Kernel; a foundational component of the Linux operating system, that serves as the bridge between the hardware and the software layers, managing system resources, facilitating communication between hardware devices, and providing essential services to higher-level software applications.
-      - Git is a [distributed version control system](https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/) (DVCS) created by Torvalds in 2005, designed to track versions of files and store them in a dedicated location known as a repository. Within these repositories, users can perform a multitude of operations to create different versions of a project. This includes - [commiting changes](https://www.git-tower.com/learn/git/commands/git-commit), [branching](https://www.git-tower.com/learn/git/commands/git-branch#:~:text=The%20Tower%20Git%20client%20allows,be%20more%20productive%20with%20Git!), [merging](https://www.git-tower.com/help/guides/branches-and-tags/merge-rebase/windows), [reverting changes](https://www.git-tower.com/help/guides/commit-history/undo-commits/windows#:~:text=The%20%22revert%22%20feature%20solves%20a,the%20effect%20of%20those%20changes.), [reviewing history](https://www.git-tower.com/blog/investigating-git-history/), and [collaborabtion](https://vickysteeves.gitlab.io/collaborating-with-git/collaborating-with-git.html).
+### Torvalds
+Full Name: [Linus Benedict Torvalds](https://www.britannica.com/biography/Linus-Torvalds)
+  + A Finnish-American software engineer, is known for his creation and development of the [Linux kernel](https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel), alongside the establishment of one of the most used distributed version control systems [Git](https://www.geeksforgeeks.org/what-is-a-git-repository/).
+  + In 1991 Linus developed the Linux Kernel; a foundational component of the Linux operating system, that serves as the bridge between the hardware and the software layers, managing system resources, facilitating communication between hardware devices, and providing essential services to higher-level software applications.
+  + Git is a [distributed version control system](https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/) (DVCS) created by Torvalds in 2005, designed to track versions of files and store them in a dedicated location known as a repository. Within these repositories, users can perform a multitude of operations to create different versions of a project. This includes - [commiting changes](https://www.git-tower.com/learn/git/commands/git-commit), [branching](https://www.git-tower.com/learn/git/commands/git-branch#:~:text=The%20Tower%20Git%20client%20allows,be%20more%20productive%20with%20Git!), [merging](https://www.git-tower.com/help/guides/branches-and-tags/merge-rebase/windows), [reverting changes](https://www.git-tower.com/help/guides/commit-history/undo-commits/windows#:~:text=The%20%22revert%22%20feature%20solves%20a,the%20effect%20of%20those%20changes.), [reviewing history](https://www.git-tower.com/blog/investigating-git-history/), and [collaborabtion](https://vickysteeves.gitlab.io/collaborating-with-git/collaborating-with-git.html).
   
-  26. **Wirth** - [Niklaus Emil Wirth]()
-  27. **Woz** - [Steve Wozniak]()
+### Wirth
+Full Name: [Niklaus Emil Wirth]()
+
+### Woz
+Full Name: [Steve Wozniak]()

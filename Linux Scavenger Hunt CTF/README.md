@@ -305,7 +305,11 @@ Full Name: [Real Name Withheld](https://www.scmagazine.com/news/hacker-arrested-
   + Astra stole weapons technology data and 3D modeling software, which they subsequently sold to at least 250 individuals across various countries, including Brazil, France, Germany, Italy, South Africa, and the Middle East. Dassault initiated a global manhunt, ultimately tracing ASTRA to an apartment in Athens in January 2008.
 
 ### Babbage
-Full Name: 
+Full Name: [Charles Babbage](https://cse.umn.edu/cbi/who-was-charles-babbage)
+  + An English polymath renowned for his contributions across various fields including mathematics, philosophy, invention, and mechanical engineering. He is commonly hailed as the "father of the computer".
+  + He is best known for his pioneering work in developing early mechanical computers. He conceptualized [the Difference Engine](https://ed-thelen.org/bab/DoronSwadeIEEE.pdf) in 1821 and [the Analytical Engine](https://web.archive.org/web/20160304081812id_/http://profs.scienze.univr.it/~manca/storia-informatica/babbage.pdf) in 1837.
+  + The Difference Engine was designed to automate complex mathematical calculations. Its primary purpose was to produce accurate tables of mathematical functions. The design was based on the [Finite Difference Method](https://www.ljll.fr/frey/cours/UdC/ma691/ma691_ch6.pdf), a mathematical technique for approximating values of functions by examining the differences between successive values. Additionally, it had the ability to compute values to a high degree of precision, exceeding the capabilities of [human calculators](https://en.wikipedia.org/wiki/Mental_calculator).
+  + The Analytical Engine is a mechanical computing device designed to perform a wide range of calculations and operations. It was intended to be a universal computing machine, capable of executing any sequence of instructions and had a [Central Processing Unit](https://www.geeksforgeeks.org/central-processing-unit-cpu/) (CPU), which could execute instructions stored on [punch cards](https://en.wikipedia.org/wiki/Punched_card). Additionally, it included memory storage, allowing it to store and manipulate data throughout computations. Unfortunately, Babbage was never able to construct a working model of the Analytical Engine during his lifetime.
 
 ### Berners-Lee
 Full Name: [Sir Timothy John Berners-Lee](https://webfoundation.org/about/sir-tim-berners-lee/)

@@ -280,7 +280,7 @@ Mitigations for the methods used to capture the flags in this project.
 
 ## Appendix *- Key Figures*
 
-Expanded information on the list of "hackers" found in flag 4. <revise this>
+During this capture the flag challenge, I encountered the names of influential figures in the fields of computing, technology, and cybersecurity. While some of these figures were familiar to me, others were not. In this section; I expand on the backgrounds, contributions, and significance of these individuals, and their impact on the digital landscape.
 
 ### Ancheta
 Full Name: [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)

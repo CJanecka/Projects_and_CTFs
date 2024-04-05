@@ -204,19 +204,14 @@ By logging in as *babbage*, we were prompted with flag 3.
 
 While logged in as *babbage*, from the provided hint, we need to find a directory with a list of hackers. The desired file has read permissions for the owner, no permissions for groups, and executable only for everyone else. 
 
-In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) can be seen as a string which is actually an expression of three different sets of permissions: **Owner**, **Group**, and **Others**
-
-*Linux File Permissions Overview.*                                                                                      
-![chrome_PZHQmcWnqt](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b2c1dec3-3eb5-490b-adc4-6c4c738a0c7c)
-
-Each file and directory is associated with an "owner" (user), a Unix group, and a set of permission flags; defining separate read, write, and execute privileges for the three permission sets. "Group" permissions extend to all users that are part of the group associated with the file. "Other", also referred to as "world" permissions, encompasses all users with login access to the system. 
+In operating systems such as Linux, [file permissions](https://www.redhat.com/sysadmin/linux-file-permissions-explained#:~:text=All%20Linux%20files%20belong%20to,write%2C%20and%20x%20for%20execute.) can be seen as a string which is actually an expression of three different sets of permissions: **Owner**, **Group**, and **Others**. Each file and directory is associated with an "owner" (user), a Unix group, and a set of permission flags; defining separate read, write, and execute privileges for the three permission sets. "Group" permissions extend to all users that are part of the group associated with the file. "Other", also referred to as "world" permissions, encompasses all users with login access to the system. 
 
 Running a recursive search, on the headless machine, allows us to explore the contents of babbage's directories.
 
 *Illustration listing the hacker files located in the Documents directory.*                                                 
 ![babbage listing files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8fc310d-34e4-49d5-8e89-d859467310a9)
 
-  + See the [Appendix](#Appendix) below for additional information on who these people represent.
+  + See [Appendix *- Key Figures*](#Appendix---Key-Figures) below for additional information on who these people represent.
 
 Change directories to *Documents* and list the permissions for those files.
 
@@ -233,7 +228,7 @@ From left to right, the fields above represent:
   + **Date of Last Modification**: Displays the date and time when the file was last modified. 
   + **Name of File**: The name of the file or directory being listed.
 
-The sought after permissions "read for the owner, no permissions for groups, and executable only for everyone else" are represented as: **-r-------x**. From the listed files and permissions, there are four (4) files with these:
+The sought after permissions "read for the owner, no permissions for groups, and executable only for everyone else" are represented as: **-r-------x**. From the listed files and permissions, there are four (4) files that match:
 
 *Illustration of the Four Files.*                                                                                      
 ![chrome_ksyR0lfMGk](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bd343d4c-2d82-4431-957a-a86fe9cdfecc)

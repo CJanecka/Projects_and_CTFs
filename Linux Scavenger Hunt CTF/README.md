@@ -245,6 +245,16 @@ This is the password used to log into the *stallman* user. After logging in, we 
 
 ### Flag 5
 
+Having access to the *stallman* user; we can locate, via recursive search, and troubleshoot the malfunctioning bash script, then execute it. 
+
+*Illustration of the Recursive Search results.*                                                                          
+![chrome_6T3ZYZVMup](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a93ce14-2ae4-431a-9b97-ece5cc75a22e)
+
+To make the flag 5 script file executable, run the following command:
+  + chmod +x Documents/flag5.sh
+
+<cont here>
+
 Flag 5.                                                                                                        
 ![flag 5](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ae6814d4-711d-4a89-be89-f9bf61326b46)
 

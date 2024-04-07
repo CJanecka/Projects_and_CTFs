@@ -253,7 +253,19 @@ Having access to the *stallman* user; we can locate, via recursive search, and t
 The search revealed a script file located in the *Documents* directory. This script was not intially executable. To remedy this and make the flag 5 script file executable, run the following command:
   + chmod +x Documents/flag5.sh
 
-When you attempt to execute the script the system encounters an error. The error messages denotes a <cont here> 
+When trying to execute the script, an error occurs, indicating a syntax issue on line 4. This error prevents the interpreter from parsing the script correctly. To address this issue, I utilized the [VIM text editor](https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/) to review the script's contents and rectify the error on line 4, along with any other errors present within the script.
+
+*Contents of the Flag5 Script.*                                                                                          
+![01 initial script](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1b175e-99ca-4da8-be9a-2e3fe43d45ab)
+
+The errors found within the shell script:
+
+  + Line 4 - the *for* loop has an extra *do*.
+  + Line 13 - the *if* statement is missing the *then* declaration after Line 13.
+
+*Contents of the Corrected Flag5 Script.*                                                                                  
+![01 corrected script](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fda4ab15-9649-4594-b078-6c812b205b91)
+
 
 Flag 5.                                                                                                        
 ![flag 5](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ae6814d4-711d-4a89-be89-f9bf61326b46)

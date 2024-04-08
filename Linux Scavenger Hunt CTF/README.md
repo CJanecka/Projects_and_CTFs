@@ -208,7 +208,7 @@ In operating systems such as Linux, [file permissions](https://www.redhat.com/sy
 
 Running a recursive search, on the headless machine, allows us to explore the contents of babbage's directories.
 
-*Illustration listing the hacker files located in the Documents directory.*                                                 
+*Illustration listing the files located in the Documents directory.*                                                 
 ![babbage listing files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b8fc310d-34e4-49d5-8e89-d859467310a9)
 
   + See [Appendix *- Key Figures*](#Appendix---Key-Figures) below for additional information on who these files represent.
@@ -253,8 +253,8 @@ Having access to the *stallman* user; we can locate, via recursive search, and t
 The search revealed a script file located in the *Documents* directory. This script was not intially executable. To remedy this and make the flag 5 script file executable, run the following command:
   + chmod +x Documents/flag5.sh
 
-*<insert title here.>*                                                                                
-![flag 5 - script execute](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0810c73b-09fa-4c4b-bde9-e2c21ad64748)
+*Enabling and Executing the Script.*                                                                                                                                                                            
+![flag 5 - script execute](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a23f6f4e-3a0c-4fc2-9b57-245512bab0a9)
 
 When trying to execute the script, an error occurs, indicating a syntax issue on line 4. This error prevents the interpreter from parsing the script correctly. To address this issue, I utilized the [VIM text editor](https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/) to review the script's contents and rectify the error on line 4, along with any other errors present within the script.
 
@@ -273,11 +273,10 @@ The errors found within the shell script:
 
 Line 18 specifies that the input should be read from the file **/var/tmp/5galf**. *5galf* is the location of flag 5. <cont here>
 
-*<insert title here.>*
-![flag 5 - found flag in directory](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/beff744f-0f26-4389-b928-28f6afb9ef27)
+*Flag 5 and Sysadmin Password found.*                                                                                                  
+![flag 5 - found flag in directory](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/751fc346-dc74-4a20-af6b-e65ca9c10f7c)
 
-Flag 5.                                                                                                        
-![flag 5](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ae6814d4-711d-4a89-be89-f9bf61326b46)
+<cont to list alt method by running script>
 
 ### Flag 6
 

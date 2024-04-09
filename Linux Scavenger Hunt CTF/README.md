@@ -274,7 +274,10 @@ This script is designed to read a file, calculate its size and owner, and then d
 *Flag 5 and Sysadmin Password found.*                                                                                                  
 ![flag 5 - found flag in directory](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/751fc346-dc74-4a20-af6b-e65ca9c10f7c)
 
-<cont to list alt method by running script>
+The flag and *Sysadmin* password can also be found by running the corrected shell script.
+
+*Illustration of executing the script.*                                                                                  
+![chrome_sjmNOshRxu](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0f3504ee-b893-439b-90ce-e2ffc24d64cf)
 
 ### Flag 6
 

@@ -269,9 +269,7 @@ The errors found within the shell script:
 *Contents of the Corrected Flag5 Script.*                                                                                  
 ![01 corrected script](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fda4ab15-9649-4594-b078-6c812b205b91)
 
-  + This script is designed to read a file, calculate its size and owner, and then display its contents with formatting if necessary. 
-
-Line 18 specifies that the input will be read from **/var/tmp/5galf**. By accessing *5galf* directly, we can is the location of flag 5.
+This script is designed to read a file, calculate its size and owner, and then display its contents with formatting if necessary. Line 18 specifies that the input will be read from **/var/tmp/5galf**. *5galf* can be accessed, directly, without correcting the script. When doing so, we are prompted with flag 5.
 
 *Flag 5 and Sysadmin Password found.*                                                                                                  
 ![flag 5 - found flag in directory](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/751fc346-dc74-4a20-af6b-e65ca9c10f7c)

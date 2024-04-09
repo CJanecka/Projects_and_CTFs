@@ -256,7 +256,7 @@ The search revealed a script file located in the *Documents* directory. This scr
 *Enabling and Executing the Script.*                                                                                                                                                                            
 ![flag 5 - script execute](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a23f6f4e-3a0c-4fc2-9b57-245512bab0a9)
 
-When trying to execute the script, an error occurs, indicating a syntax issue on line 4. This error prevents the interpreter from parsing the script correctly. To address this issue, I utilized the [VIM text editor](https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/) to review the script's contents and rectify the error on line 4, along with any other errors present within the script.
+When trying to execute the script, an error occurs, indicating a syntax issue on line 4. This error prevents the interpreter from parsing the script correctly. To address this issue, we utilized the [VIM text editor](https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/) to review the script's contents and rectify the error on line 4, along with any other errors present within the script.
 
 *Contents of the Flag5 Script.*                                                                                          
 ![01 initial script](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1b175e-99ca-4da8-be9a-2e3fe43d45ab)
@@ -271,7 +271,7 @@ The errors found within the shell script:
 
   + This script is designed to read a file, calculate its size and owner, and then display its contents with formatting if necessary. 
 
-Line 18 specifies that the input should be read from the file **/var/tmp/5galf**. *5galf* is the location of flag 5. <cont here>
+Line 18 specifies that the input will be read from **/var/tmp/5galf**. By accessing *5galf* directly, we can is the location of flag 5.
 
 *Flag 5 and Sysadmin Password found.*                                                                                                  
 ![flag 5 - found flag in directory](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/751fc346-dc74-4a20-af6b-e65ca9c10f7c)

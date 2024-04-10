@@ -281,12 +281,15 @@ The flag and *Sysadmin* password can also be found by running the corrected shel
 
 ### Flag 6
 
-Using the *Sysadmin* credentials we examined the *.bashrc* file for aliases, to personalized shortcuts or abbreviations for frequently used commands.
+Using the *Sysadmin* credentials we examined the *.bashrc* file for aliases, which are custom shortcuts configured on the system. 
 
-<cont here>
+*Illustration of Accessing the Bashrc file.*                                                                          
+![flag 6 - login](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c599de5f-4645-4660-9403-7db8d927a056)
 
-Flag 6.                                                                                                        
-![flag 6](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fd5c5e75-edae-4d16-81b5-b6e73cc3e7fd)
+Within the *Alias definitions* section of the *bashrc* file, the alias "flag" has been defined. This alias has been set up to echo a message indicating the discovery of a flag.
+
+*Flag 6 provided from Alias.*                                                                                                        
+![flag 6](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a86caab-7b5c-4bc2-89ee-4e301508aefc)
 
 ### Flag 7
 

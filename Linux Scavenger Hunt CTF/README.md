@@ -55,6 +55,7 @@
 - launched a headless virtual machine server and logged in.
 - Found all eight flags, finishind second out of the eight total competing teams.
 - I personally found three of the eight flags.
+- Linear challenge in which the flags were found in successive order.
 
 ## Equipment and Tools
 
@@ -71,9 +72,6 @@
 - There are a total of eight (8) flags.
   + Seven (7) flags are obtained from the system, which are then combined to form the final flag. 
 - Every team member must participate and work at least one task.
-- Before accessing the challenge, all participants must install a scavenger hunt script *(not provided here)*. Once installed, participants can connect via ssh by running:
-  + ssh student@192.168.200.105
-  + Password: Goodluck!
 
 ## Flag Hints
 
@@ -293,7 +291,24 @@ Within the *Alias definitions* section of the *bashrc* file, the alias "flag" ha
 
 ### Flag 7
 
-Flag 7.                                                                                                        
+To find an exploit and gain root shell access, we began by looking at the *sudo* permissions for *sysadmin*.
+
+*Illustration of Sudo Permissions.*                                                                                                        
+![flag 7 - sysadmin default settings](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/580b4c76-4979-4455-885d-36e3e3c15dd7)
+
+This specifies the commands that the *sysadmin* user is permitted to run with *sudo* privileges on the system. We are able to utilize *sudo* and run *less* - a [pager](https://www.geeksforgeeks.org/paging-in-operating-system/) allowing us to interactively view file contents page by page, with elevated privileges. This was the method we used to launch a shell with root privileges.
+
+*The Command Utilized:*                                                                                                    
+![Flag 7 - less command](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c6663f4c-bd7d-4f71-8748-51206ff9690d)
+
+Open the command mode with "**:**", then launch a bash shell with "**!bash**". This was successful, and we were able to change the password for the *root* user.
+
+*Illustration of Changing the Password.*                                                                                        
+![flag 7 - root pass reset](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a54e622e-b665-4170-8ab2-0832985b1a37)
+
+Login using the newly set password, prompted with flag 7.
+
+*Successful login revealed Flag 7.*                                                                                                        
 ![flag 7](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9299b52f-b2f9-4651-9e22-0e8105471226)
 
 ### Flag 8
@@ -313,7 +328,7 @@ Mitigations for the methods used to capture the flags in this project.
 
 ## Appendix *- Key Figures*
 
-During this capture the flag challenge, I encountered the names of influential figures in the fields of computing, technology, and cybersecurity. While some of these figures were familiar to me, others were not. In this section; I expand on the backgrounds, contributions, and significance of these individuals, and their impact on the digital landscape.
+During this capture the flag challenge, I saw the names of influential figures in the fields of computing, technology, and cybersecurity. While some of these figures were familiar to me, others were not. In this section; I expand on the background, contributions, and significance of these individuals, and their impact on the digital landscape.
 
 ### Ancheta
 Full Name: [Jeanson James Ancheta](https://www.justice.gov/archive/criminal/cybercrime/press-releases/2005/anchetaArrest.htm)

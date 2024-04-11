@@ -93,7 +93,7 @@ These hints were provided for guidance in uncovering the flags within this chall
 
   08. **Flag 8**: Gather each of the 7 flags into a file and format it as if each flag was a username and password.
        - Crack these passwords for the final flag.
-       - Every flag should be exactly the same length of characters. Be sure to remove any backslashes that you find!
+       - Every flag should be exactly the same length of characters.
   
 ## Capturing the Flags
 
@@ -318,6 +318,15 @@ With *root* privileges, we can search the entire system for flags and consolidat
 
 *Illustration pulling the Non-Root user Flags.*                                                                                          
 ![Flag 8 - non root flags](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b0758d15-c0ce-4877-895c-e3d391bf2f35)
+
+This revealed five out of the seven flags. We need to add the missing flags, 5 and 7, separately. The following commands were used to compile all the flags into a text file:
+
+  + grep -ir 'flag' /home/ > flags
+  + cat /var/tmp/5galf >> flags
+  + grep -r 'flag' /root/.bashrc >> flags
+
+*Illustration of the Text File Contents.*                                                                                          
+![flag 8 - txt file contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6e4dded0-5e6e-4a67-af7a-8931cdfc32ca)
 
 <cont here>
 

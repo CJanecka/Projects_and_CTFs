@@ -17,8 +17,7 @@
     - [Flag 6](#Flag-6)
     - [Flag 7](#Flag-7)
     - [Flag 8](#Flag-8)
-  + [06. Mitigations](#Mitigations) <placeholder- might remove or change>
-  + [07. Appendix *- Key Figures*](#Appendix---Key-Figures)
+  + [06. Appendix *- Key Figures*](#Appendix---Key-Figures)
     - [Ancheta](#Ancheta)
     - [Anonymous](#Anonymous)
     - [Assange](#Assange)
@@ -306,7 +305,7 @@ Open the command mode with "**:**", then launch a bash shell with "**!bash**". T
 *Illustration of Changing the Password.*                                                                                        
 ![flag 7 - root pass reset](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a54e622e-b665-4170-8ab2-0832985b1a37)
 
-Login using the newly set password, prompted with flag 7.
+After changing the *root* password, we exited the *root shell*, and then re-entered the *root* account using the new password. This successful login gave us to access flag 7.
 
 *Successful login revealed Flag 7.*                                                                                                        
 ![flag 7](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9299b52f-b2f9-4651-9e22-0e8105471226)
@@ -319,10 +318,6 @@ Hashed Password List:
 
 Cracked Password List:                                                                                            
 ![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d154dc1e-e981-49a1-ba11-b5a2ce7b0f7f)
-
-## Mitigations
-
-Mitigations for the methods used to capture the flags in this project.
 
 ### Flag 1 <rename to specific topic>
 

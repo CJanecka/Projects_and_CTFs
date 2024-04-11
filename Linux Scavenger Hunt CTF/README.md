@@ -328,13 +328,22 @@ This revealed five out of the seven flags. We need to add the missing flags, 5 a
 *Illustration of the Text File Contents.*                                                                                          
 ![flag 8 - txt file contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6e4dded0-5e6e-4a67-af7a-8931cdfc32ca)
 
-<cont here>
+The flags file needs to be in a *username:hashed-password* format, in order to be cracked by [John the Ripper](https://www.openwall.com/john/). We used the [nano text editor](https://www.nano-editor.org/dist/latest/faq.html), to get rid of the unnecessary content. 
 
-Hashed Password List:                                                                                                     
+*Illustration of the Appended Content.*                                                                                                
+![flag 8 - initial txt file append](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/662a0339-ff4e-45c5-b26c-f495207ae0d2)
+
+Flag 6 has three backslashes that need to be removed.
+
+*Final Text File Contents:*                                                                                                    
 ![hashed password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/05f96b23-c353-4a5d-8d4d-6372e2bb1194)
 
-Cracked Password List:                                                                                            
-![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d154dc1e-e981-49a1-ba11-b5a2ce7b0f7f)
+The text file can now be run through *john*, using the word list found with Flag 1.
+
+*Cracked Passwords for Flag 8.*                                                                                            
+![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b0f036f0-7cd4-464b-b2fb-e1a230517124)
+
+The final flag, 8, was the statement *- "Congratulations you have completed this cyber challenge."*
 
 ## Appendix *- Key Figures*
 

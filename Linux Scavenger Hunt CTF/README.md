@@ -305,21 +305,22 @@ Open the command mode with "**:**", then launch a bash shell with "**!bash**". T
 *Illustration of Changing the Password.*                                                                                        
 ![flag 7 - root pass reset](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a54e622e-b665-4170-8ab2-0832985b1a37)
 
-After changing the *root* password, we exited the *root shell*, and then re-entered the *root* account using the new password. This successful login gave us to access flag 7.
+After changing the *root* password, we exited the *root shell*, and then re-entered the *root* account using the new password. This successful login gave us access to flag 7.
 
 *Successful login revealed Flag 7.*                                                                                                        
 ![flag 7](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9299b52f-b2f9-4651-9e22-0e8105471226)
 
 ### Flag 8
 
-With *root* privileges, we can search for flags (of non-*root* users) on the entire system and pull them into one file. <cont here>
+With *root* privileges, we can search the entire system for flags and consolidate them into a single file. We began by running a case-insensitive and recursive search for all flags within non-*root* users' directories. This search allowed us to locate files containing the term *'flag'*. The command we used:
 
-*Illustration of Non-Root user Flags.*                                                                                          
+  + grep -ir 'flag' /home/
+
+*Illustration pulling the Non-Root user Flags.*                                                                                          
 ![Flag 8 - non root flags](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b0758d15-c0ce-4877-895c-e3d391bf2f35)
 
 <cont here>
 
-Flag 8.
 Hashed Password List:                                                                                                     
 ![hashed password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/05f96b23-c353-4a5d-8d4d-6372e2bb1194)
 

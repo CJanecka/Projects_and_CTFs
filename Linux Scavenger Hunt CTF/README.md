@@ -312,14 +312,19 @@ After changing the *root* password, we exited the *root shell*, and then re-ente
 
 ### Flag 8
 
+With *root* privileges, we can search for flags (of non-*root* users) on the entire system and pull them into one file. <cont here>
+
+*Illustration of Non-Root user Flags.*                                                                                          
+![Flag 8 - non root flags](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b0758d15-c0ce-4877-895c-e3d391bf2f35)
+
+<cont here>
+
 Flag 8.
 Hashed Password List:                                                                                                     
 ![hashed password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/05f96b23-c353-4a5d-8d4d-6372e2bb1194)
 
 Cracked Password List:                                                                                            
 ![Cracked password list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d154dc1e-e981-49a1-ba11-b5a2ce7b0f7f)
-
-### Flag 1 <rename to specific topic>
 
 ## Appendix *- Key Figures*
 

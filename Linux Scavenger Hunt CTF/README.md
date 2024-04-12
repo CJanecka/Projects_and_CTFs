@@ -49,12 +49,7 @@
 
 ## Overview
 
-- 2.5 hour capture the flag challenge.
-- Worked in a team of six, competing against seven other teams.
-- launched a headless virtual machine server and logged in.
-- Found all eight flags, finishind second out of the eight total competing teams.
-- I personally found three of the eight flags.
-- Linear challenge in which the flags were found in successive order.
+In this 2.5-hour capture the flag challenge; my team of six competed against seven other teams, each consisting of 5-6 members. <cont here>
 
 ## Equipment and Tools
 

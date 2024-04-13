@@ -21,19 +21,20 @@ On behalf of IronCurtain Testing, LLC, I undertook a solo penetration test with 
 
 The technologies used in this project include:
 
-  + Penetration Testing Execution Standard (PTES) methodology
+  + Penetration Testing Execution Standard [(PTES)](https://www.geeksforgeeks.org/penetration-testing-execution-standard-ptes/) methodology
   + Open Source Intelligence (OSINT) tools
-    - Google Dorking
-    - Shodan.io
-    - Certificate transparency
-  + MITRE Adversarial Tactics, Techniques, and Common Knowledge *(ATT&CK)* matrix
+    - [Google Dorking](https://www.geeksforgeeks.org/what-is-google-dorking/)
+    - [Shodan.io](https://www.shodan.io/)
+    - [Certificate Transparency](https://www.geeksforgeeks.org/ct-exposer-uncover-hidden-subdomains-and-reveal-internal-server-information/)
+  + MITRE Adversarial Tactics, Techniques, and Common Knowledge [*(ATT&CK)* matrix](https://attack.mitre.org/)
   + Network Mapper *(Nmap)* scanning with NSE scripts
-  + Metasploit and Meterpreter
-  + Privilege Escalation
-  + John the Ripper
-  + Lateral Movement
-  + Mimikatz
-  + MSFvenom
+  + [Metasploit](https://www.metasploit.com/)
+    - [Meterpreter](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter.html)
+    - [Mimikatz](https://www.offsec.com/metasploit-unleashed/mimikatz/#:~:text=Mimikatz%20is%20an%20attempt%20to,disk%20of%20the%20compromised%20host.)
+    - [MSFvenom](https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html)
+  + [Privilege Escalation](https://www.geeksforgeeks.org/how-to-prevent-privilege-escalation/)
+  + [John the Ripper](https://www.openwall.com/john/)
+  + [Lateral Movement](https://www.crowdstrike.com/cybersecurity-101/lateral-movement/)
   + Windows and Linux OS
   + Reporting
 

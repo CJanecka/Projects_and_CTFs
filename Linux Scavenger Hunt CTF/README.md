@@ -49,16 +49,29 @@
 
 ## Overview
 
-In this 2.5-hour Capture the Flag *(CTF)* challenge, my team of six competed against seven other teams of 5-6 members each. Using the provided hints, we launched a headless virtual machine server and logged in to search for a total of eight flags. The challenge followed a linear structure, with each flag being discovered in successive order.
+In this 2.5-hour Capture the Flag *(CTF)* challenge, my team of six competed against seven other teams of 5-6 members each. Using the [provided hints](#Flag-Hints); we launched a headless virtual machine server and logged in, to search for a total of eight flags. The challenge followed a linear structure, with each flag being discovered in successive order.
 
-<add methods here?>
+***Flag 1*** was discovered by conducting a recursive file search from the initial login point; revealing, a hidden file, containing the first flag, and a word list.
 
-My team successfully located all eight flags, finishing in second place — fifteen minutes after the first place team finished. I contributed by finding three flags — 2, 4, and 8.
+***Flag 2*** was found by examining the [shadow file](), where encrypted passwords for user accounts are stored. Here the user *mitnik* was targeted. John the Ripper and the word list, from flag 1, were utilized to successfully crack the passwords found. Once logged into *mitnik*, my team was prompted with flag 2.
+
+***Flag 3*** 
+
+***Flag 4*** 
+
+***Flag 5*** 
+
+***Flag 6*** 
+
+***Flag 7*** 
+
+***Flag 8*** 
+
+My team finished this CTF challenge in second place — successfully locating all eight flags, fifteen minutes after the first place team finished. I contributed by finding three flags — 2, 4, and 8. The [flag capturing](#Capturing-the-Flags) section, included below, covers the steps my team took to acquire these flags.
 
 ## Equipment and Tools
 
 - [SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
-- Text Editors *(vim and nano)*
 - [Bash Scripting](https://www.geeksforgeeks.org/bash-scripting-introduction-to-bash-and-bash-scripting/)
 - [John the Ripper](https://www.openwall.com/john/)
 - [Headless Computer](https://nordvpn.com/cybersecurity/glossary/headless-system/#:~:text=A%20headless%20system%20is%20a,through%20other%20devices%20or%20interfaces.)
@@ -99,9 +112,11 @@ These hints were provided for guidance in uncovering the flags within this chall
 
 *Before proceeding, it's worth mentioning that some of the images presented are illustrative examples, rather than exact representations of the command dashboard. They've been included to offer improved guidance on this project.*
 
+We received login credentials for the scavenger hunt's server with the username "student", and the password "Goodluck!", for the IP address "192.168.200.105". Using these credentials, my team connected to the server and began our search for the first flag.
+
 ### Flag 1
 
-After successfully connecting using the command "ssh student@192.168.200.105" as specified in the preceding requirements, we can initiate our search for the first flag. The provided hint suggests that the flag is not well-hidden. Therefore, we decided to list all files and directories recursively from the initial login point. This was done using the following command:
+The provided hint suggests that the flag is not well-hidden. Therefore, we decided to list all files and directories recursively from the initial login point. This was done using the following command:
 
   + ls -Ra
     - The *-R* option instructs *ls* to list directories recursively, meaning it will display the contents of subdirectories as well.

@@ -10,12 +10,12 @@
   + [04. Networking Capture the Flag *- Cartoon Edition*](#Networking-Capture-the-Flag---Cartoon-Edition)
     - [a. Sponge Bob Square Ports](#Sponge-Bob-Square-Ports)
     - [b. Inspector Packet](#Inspector-Packet)
-    - [c. Where Waldo's Address?](#Where-Waldo's-Address?)
+    - [c. Where Waldo's Address?](#Where-Waldos-Address)
     - [d. Dragons Layers](#Dragons-Layers)
     - [e. The Ping Panther](#The-Ping-Panther)
     - [f. The Grinch Stole my wifi Password](#The-Grinch-Stole-my-wifi-Password)
     - [g. Ronald MACdonald](#Ronald-MACdonald)
-    - [h. SUPER Mario Hackers! *- Bonus*](#SUPER-Mario-Hackers!---Bonus)
+    - [h. SUPER Mario Hackers! *- Bonus*](#SUPER-Mario-Hackers---Bonus)
 
 ## Overview
 

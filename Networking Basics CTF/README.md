@@ -7,15 +7,15 @@
   + [01. Overview](#Overview)
   + [02. Equipment and Tools](#Equipment-and-Tools)
   + [03. Activity Requirements](#Activity-Requirements)
-  + Capturing the Flags
+  + [04. Networking Capture the Flag *— Cartoon Edition*](#Networking-Capture-the-Flag--—-Cartoon-Edition-)
     - <categories here>
 
 ## Overview
 
 <base points to change>
 
-  + a networking Capture the Flag competition, which answering 
-  + eight groups of four, two groups of 5 competed.
+  + a networking Capture the Flag competition.
+  + eight teams of four, two teams of 5 competed.
   + provided a spreadsheet of various networking questions and activities that are separated into different networking categories.
   + separated into eight different networking categories, one of which is a bonus, three required inspecting packets in Wireshark.
 
@@ -33,7 +33,7 @@
     - The higher the point value, the more challenging the question/activity.
   + The team that completes all the flags correctly first, or who has the most points by the end of the alotted time, wins the CTF.
 
-## Capturing the Flags
+## Networking Capture the Flag *— Cartoon Edition*
 
 <base points to change>
 

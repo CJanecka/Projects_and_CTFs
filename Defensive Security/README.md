@@ -65,15 +65,15 @@ This GitHub page provides a detailed account of the analysis conducted by my tea
 
 The technologies used in this project include:
 
-  + Splunk
+  + [Splunk Enterprise Security](https://www.splunk.com/en_us/products/enterprise-security.html)
     - Reporting
     - Alerting
     - Dashboards
     - Add-on Application: [Website Monitoring](https://splunkbase.splunk.com/app/1493)
   + Windows Server Logs
   + Apache Server Logs
-  + Ubuntu OS
-  + Apache Guacamole
+  + [Ubuntu OS](https://ubuntu.com/desktop)
+  + [Apache Guacamole](https://guacamole.apache.org/)
 
 ## Project Requirements
 

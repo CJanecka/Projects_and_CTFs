@@ -7,8 +7,15 @@
   + [01. Overview](#Overview)
   + [02. Equipment and Tools](#Equipment-and-Tools)
   + [03. Activity Requirements](#Activity-Requirements)
-  + [04. Networking Capture the Flag *— Cartoon Edition*](#Networking-Capture-the-Flag---Cartoon-Edition)
-    - <categories here>
+  + [04. Networking Capture the Flag *- Cartoon Edition*](#Networking-Capture-the-Flag---Cartoon-Edition)
+    - [a. Sponge Bob Square Ports](#Sponge-Bob-Square-Ports)
+    - [b. Inspector Packet](#Inspector-Packet)
+    - [c. Where Waldo's Address?](#Where-Waldo's-Address?)
+    - [d. Dragons Layers](#Dragons-Layers)
+    - [e. The Ping Panther](#The-Ping-Panther)
+    - [f. The Grinch Stole my wifi Password](#The-Grinch-Stole-my-wifi-Password)
+    - [g. Ronald MACdonald](#Ronald-MACdonald)
+    - [h. SUPER Mario Hackers! *- Bonus*](#SUPER-Mario-Hackers!---Bonus)
 
 ## Overview
 
@@ -37,3 +44,11 @@
 
 <base points to change>
 
+### Sponge Bob Square Ports
+### Inspector Packet
+### Where Waldo's Address?
+### Dragons Layers
+### The Ping Panther
+### The Grinch Stole my wifi Password
+### Ronald MACdonald
+### SUPER Mario Hackers! *- Bonus*

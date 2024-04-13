@@ -7,7 +7,7 @@
   + [01. Overview](#Overview)
   + [02. Equipment and Tools](#Equipment-and-Tools)
   + [03. Activity Requirements](#Activity-Requirements)
-  + [04. Networking Capture the Flag *— Cartoon Edition*](#Networking-Capture-the-Flag-—-Cartoon-Edition)
+  + [04. Networking Capture the Flag *— Cartoon Edition*](#Networking-Capture-the-Flag---Cartoon-Edition)
     - <categories here>
 
 ## Overview

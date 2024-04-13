@@ -49,11 +49,16 @@
 
 ## Overview
 
-In this 2.5-hour capture the flag challenge; my team of six competed against seven other teams, each consisting of 5-6 members. <cont here>
+In this 2.5-hour Capture the Flag *(CTF)* challenge, my team of six competed against seven other teams of 5-6 members each. Using the provided hints, we launched a headless virtual machine server and logged in to search for a total of eight flags. The challenge followed a linear structure, with each flag being discovered in successive order.
+
+<add methods here?>
+
+My team successfully located all eight flags, finishing in second place — fifteen minutes after the first place team finished. I contributed by finding three flags — 2, 4, and 8.
 
 ## Equipment and Tools
 
 - [SSH Protocol](https://www.ssh.com/academy/ssh/protocol)
+- Text Editors *(vim and nano)*
 - [Bash Scripting](https://www.geeksforgeeks.org/bash-scripting-introduction-to-bash-and-bash-scripting/)
 - [John the Ripper](https://www.openwall.com/john/)
 - [Headless Computer](https://nordvpn.com/cybersecurity/glossary/headless-system/#:~:text=A%20headless%20system%20is%20a,through%20other%20devices%20or%20interfaces.)
@@ -273,7 +278,7 @@ The flag and *Sysadmin* password can also be found by running the corrected shel
 
 ### Flag 6
 
-Using the *Sysadmin* credentials we examined the *.bashrc* file for aliases, which are custom shortcuts configured on the system. 
+Using the *Sysadmin* credentials we logged in and examined the *.bashrc* file for aliases, which are custom shortcuts configured on the system. 
 
 *Illustration of Accessing the Bashrc file.*                                                                          
 ![flag 6 - login](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c599de5f-4645-4660-9403-7db8d927a056)

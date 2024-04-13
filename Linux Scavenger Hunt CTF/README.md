@@ -51,21 +51,21 @@
 
 In this 2.5-hour Capture the Flag *(CTF)* challenge, my team of six competed against seven other teams of 5-6 members each. Using the [provided hints](#Flag-Hints); we launched a headless virtual machine server and logged in, to search for a total of eight flags. The challenge followed a linear structure, with each flag being discovered in successive order.
 
-***Flag 1*** was discovered by conducting a recursive file search from the initial login point; revealing, a hidden file, containing the first flag, and a word list.
+***Flag 1*** was discovered by conducting a recursive file search from the initial login point. This search revealed two hidden files on the student's desktop —  a file containing the first flag and a wordlist of potential passwords.
 
-***Flag 2*** was found by examining the [shadow file](https://linuxize.com/post/etc-shadow-file/). Here the user *mitnik* was targeted. John the Ripper and the word list, from flag 1, were utilized to successfully crack the passwords found. Once logged into *mitnik*, my team was prompted with the second flag.
+***Flag 2*** was found by examining the [shadow file](https://linuxize.com/post/etc-shadow-file/). Here the user *mitnik* was targeted. John the Ripper and the wordlist, from flag 1, were utilized to successfully crack the passwords found. Once logged into *mitnik*, my team was prompted with the second flag.
 
 ***Flag 3*** involved locating a hidden, password-protected, zip file while logged in as *mitnik*. Then analyzing a log file, to derive the password needed to unzip the file. My team unzipped the file and found the password "freedom" for the user "babbage". Once logged into *babbage*, we obtained the third flag.
 
-***Flag 4*** was obtained while logged in as *babbage* and running a recursive search, from the Documents directory, for a file with specific permissions. Four files matched the specified permissions, but only the "stallman" file contained data. Examining its contents revealed the password for the user *stallman*. Once logged into *stallman*, the fourth flag was displayed.
+***Flag 4*** was obtained while logged in as *babbage* and running a recursive search, from the documents directory, for a file with specific permissions. Four files matched the specified permissions, but only one file contained data. Examining its contents revealed a password, "computer", for the user "stallman". Once logged into this user, the fourth flag was displayed.
 
-***Flag 5*** 
+***Flag 5*** required examining a malfunctioning bash script found in the documents directory, while logged in as *stallman*. This script specifies the target file's name and location, which could be directly accessed without fixing the script. Viewing the contents of the file revealed the "sysadmin" password, "passw0rd", and the fifth flag.
 
-***Flag 6*** 
+***Flag 6*** was found by inspecting a shell configuration file on the *sysadmin* user. In the file, an alias named "flag" was set to execute the *echo* command. This alias displayed a message containing the sixth flag when invoked.
 
-***Flag 7*** 
+***Flag 7*** required obtaining *root* shell access. By examining the *sudo* permissions for the *sysadmin* user, my team identified that the *less* command is able to be used with elevated privileges. Using these privileges, we opened a new bash shell, acquired root access, and changed the *root* user password. Upon exiting the shell, and re-entering with the new *root* password, we were prompted with the seventh flag.
 
-***Flag 8*** 
+***Flag 8*** was found by compiling the first seven flags into a single text file, and formatted for use with John the Ripper. Cracking the passwords with the wordlist, found with flag 1, revealed the eighth flag.
 
 My team finished this CTF challenge in second place — successfully locating all eight flags, fifteen minutes after the first place team finished. I contributed by finding three flags — 2, 4, and 8. The [flag capturing](#Capturing-the-Flags) section, included below, expands on the steps my team took to acquire these flags.
 
@@ -257,7 +257,7 @@ This is the password used to log into the *stallman* user. After logging in, we 
 
 ### Flag 5
 
-Having access to the *stallman* user; we can locate, via recursive search, and troubleshoot the malfunctioning bash script, then execute it. 
+With access to the *stallman* user, we conducted a recursive search to locate the malfunctioning bash script. 
 
 *Illustration of the Recursive Search results.*                                                                          
 ![chrome_6T3ZYZVMup](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a93ce14-2ae4-431a-9b97-ece5cc75a22e)

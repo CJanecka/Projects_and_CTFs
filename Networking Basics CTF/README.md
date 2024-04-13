@@ -32,9 +32,9 @@
 
 ## Equipment and Tools
 
+  + [Networking CTF (Unanswered Form).xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx)
   + Wireshark
-  + [Networking_CTF.xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx)
-  + <cont here>
+  + Open-source intelligence
 
 ## Activity Requirements
 
@@ -42,24 +42,28 @@
 
   + There are a total of 64 questions and activites, four of which are bonus.
     - The answers for these are the flags to collect.
-  + Each flag has a different numeric point value.
+  + Each flag has a different numeric point value. Max possible score of 600 points.
     - The higher the point value, the more challenging the question/activity.
   + 2.5-hour alotted timeframe.
   + The team that completes all the flags correctly first, or who has the most points by the end of the alotted time, wins the CTF.
 
 ## Networking Capture the Flag *- Cartoon Edition*
 
-<base points to change>
+<add intro content>
 
 ![CTF0 - Header](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bbd020d9-e8a1-4176-b769-e2eb65733ffb)
+
+<base points to change>
 
 <cont here>
 
 ### Sponge Bob Square Ports
 
-<base points to change>
+<add intro content>
 
 ![CTF1 - S Bob](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3c037525-0326-4021-ab7d-9824b75e4ec0)
+
+**Question 01** *— What is the port of HTTPS?*
 
 <cont here>
 

@@ -33,7 +33,7 @@
     - The higher the point value, the more challenging the question/activity.
   + The team that completes all the flags correctly first, or who has the most points by the end of the alotted time, wins the CTF.
 
-## Networking Capture the Flag *— Cartoon Edition*
+## Networking Capture the Flag *- Cartoon Edition*
 
 <base points to change>
 

@@ -53,11 +53,11 @@ In this 2.5-hour Capture the Flag *(CTF)* challenge, my team of six competed aga
 
 ***Flag 1*** was discovered by conducting a recursive file search from the initial login point; revealing, a hidden file, containing the first flag, and a word list.
 
-***Flag 2*** was found by examining the [shadow file](), where encrypted passwords for user accounts are stored. Here the user *mitnik* was targeted. John the Ripper and the word list, from flag 1, were utilized to successfully crack the passwords found. Once logged into *mitnik*, my team was prompted with flag 2.
+***Flag 2*** was found by examining the [shadow file](https://linuxize.com/post/etc-shadow-file/). Here the user *mitnik* was targeted. John the Ripper and the word list, from flag 1, were utilized to successfully crack the passwords found. Once logged into *mitnik*, my team was prompted with the second flag.
 
-***Flag 3*** 
+***Flag 3*** involved locating a hidden, password-protected, zip file while logged in as *mitnik*. Then analyzing a log file, to derive the password needed to unzip the file. My team unzipped the file and found the password "freedom" for the user "babbage". Once logged into *babbage*, we obtained the third flag.
 
-***Flag 4*** 
+***Flag 4*** was obtained while logged in as *babbage* and running a recursive search, from the Documents directory, for a file with specific permissions. Four files matched the specified permissions, but only the "stallman" file contained data. Examining its contents revealed the password for the user *stallman*. Once logged into *stallman*, the fourth flag was displayed.
 
 ***Flag 5*** 
 
@@ -67,7 +67,7 @@ In this 2.5-hour Capture the Flag *(CTF)* challenge, my team of six competed aga
 
 ***Flag 8*** 
 
-My team finished this CTF challenge in second place — successfully locating all eight flags, fifteen minutes after the first place team finished. I contributed by finding three flags — 2, 4, and 8. The [flag capturing](#Capturing-the-Flags) section, included below, covers the steps my team took to acquire these flags.
+My team finished this CTF challenge in second place — successfully locating all eight flags, fifteen minutes after the first place team finished. I contributed by finding three flags — 2, 4, and 8. The [flag capturing](#Capturing-the-Flags) section, included below, expands on the steps my team took to acquire these flags.
 
 ## Equipment and Tools
 

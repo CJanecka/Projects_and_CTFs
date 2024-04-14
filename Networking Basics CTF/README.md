@@ -16,7 +16,7 @@
     - [f. The Grinch Stole my wifi Password](#The-Grinch-Stole-my-wifi-Password)
     - [g. Ronald MACdonald](#Ronald-MACdonald)
     - [h. SUPER Mario Hackers! *- Bonus*](#SUPER-Mario-Hackers---Bonus)
-  + <cont here>
+  + 05. Appendix
   
 ## Overview
 
@@ -63,16 +63,31 @@
 
 ![CTF1 - S Bob](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3c037525-0326-4021-ab7d-9824b75e4ec0)
 
-**Question 01** *— What is the port of HTTPS?*
+**Question 01** ***— What is the port of HTTPS?***
+
+  + Answer: HTTPS occurs on **Port 443**, by default.
+    - HTTPS stands for Hypertext Transfer Protocol Secure. It occurs on the *Application layer* of the [OSI Model](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/), as an extension of HTTP, and encrypts the data being transferred between a web server and a client *(web browser or application)*. Commonly used for online banking, secure logins, and e-commerce transactions.
+
 **Question 02** *— What is the port of SSH?*
+
+  + Answer: 
+
 **Question 03** *— What is the port of SMTP?*
+
 **Question 04** *— What is port 53?*
+
 **Question 05** *— What is port 123?*
+
 **Question 06** *— What is the port of BGMP?*
+
 **Question 07** *— What is the port of Tomcat Remote Shutdown?*
+
 **Question 08** *— What is the port of Bitcoin?*
+
 **Question 09** *— What is the total amount of TCP and UDP ports?*
+
 **Question 10** *— Well known ports are from zero to what?*
+
 **Question 11** *— What TCP port does Call of Duty: Ghosts use on the Xbox 360?*
 
 ### Inspector Packet
@@ -130,3 +145,5 @@
 ![CTF8 - Mario](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/247649be-461f-4056-9009-0055a133ba4b)
 
 <cont here>
+
+## Appendix

@@ -65,30 +65,34 @@
 
 **Question 01** ***— What is the port of HTTPS?***
 
-  + Answer: HTTPS occurs on **Port 443**, by default.
+  + Answer: HTTPS occurs on **port 443** by default.
     - HTTPS stands for Hypertext Transfer Protocol Secure. It occurs on the *Application layer* of the [OSI Model](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/), as an extension of HTTP, and encrypts the data being transferred between a web server and a client *(web browser or application)*. Commonly used for online banking, secure logins, and e-commerce transactions.
 
-**Question 02** *— What is the port of SSH?*
+**Question 02** ***— What is the port of SSH?***
 
-  + Answer: 
+  + Answer: SSH occurs on **port 22** by default.
+    - SSH stands for Secure Shell. It occurs on the *Application layer* of the OSI Model, and is a protocol that allows secure remote access and control of servers and systems. This is widely used for remote login and command execution over encrypted channels, making it a popular choice for server administrators.
 
-**Question 03** *— What is the port of SMTP?*
+**Question 03** ***— What is the port of SMTP?***
 
-**Question 04** *— What is port 53?*
+  + Answer: SMTP occurs on **port 25** by default.
+    - SMTP stands for Simple Mail Transfer Protocol. It occurs on the *Application layer* of the OSI Model; and is used to facilitate communication between the sending and receiving servers, when delivering an email message to a recipient.
 
-**Question 05** *— What is port 123?*
+**Question 04** ***— What is port 53?***
 
-**Question 06** *— What is the port of BGMP?*
+**Question 05** ***— What is port 123?***
 
-**Question 07** *— What is the port of Tomcat Remote Shutdown?*
+**Question 06** ***— What is the port of BGMP?***
 
-**Question 08** *— What is the port of Bitcoin?*
+**Question 07** ***— What is the port of Tomcat Remote Shutdown?***
 
-**Question 09** *— What is the total amount of TCP and UDP ports?*
+**Question 08** ***— What is the port of Bitcoin?***
 
-**Question 10** *— Well known ports are from zero to what?*
+**Question 09** ***— What is the total amount of TCP and UDP ports?***
 
-**Question 11** *— What TCP port does Call of Duty: Ghosts use on the Xbox 360?*
+**Question 10** ***— Well known ports are from zero to what?***
+
+**Question 11** ***— What TCP port does Call of Duty: Ghosts use on the Xbox 360?***
 
 ### Inspector Packet
 

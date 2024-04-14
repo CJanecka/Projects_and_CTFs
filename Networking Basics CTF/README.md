@@ -64,8 +64,16 @@
 ![CTF1 - S Bob](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3c037525-0326-4021-ab7d-9824b75e4ec0)
 
 **Question 01** *— What is the port of HTTPS?*
-
-<cont here>
+**Question 02** *— What is the port of SSH?*
+**Question 03** *— What is the port of SMTP?*
+**Question 04** *— What is port 53?*
+**Question 05** *— What is port 123?*
+**Question 06** *— What is the port of BGMP?*
+**Question 07** *— What is the port of Tomcat Remote Shutdown?*
+**Question 08** *— What is the port of Bitcoin?*
+**Question 09** *— What is the total amount of TCP and UDP ports?*
+**Question 10** *— Well known ports are from zero to what?*
+**Question 11** *— What TCP port does Call of Duty: Ghosts use on the Xbox 360?*
 
 ### Inspector Packet
 

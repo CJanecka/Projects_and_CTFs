@@ -65,46 +65,65 @@
 
 **Question 01** ***— What is the port of HTTPS?***
 
-  + Answer: HTTPS occurs on **port 443** by default.
+  + Answer — HTTPS occurs on **port 443** by default.
     - HTTPS stands for Hypertext Transfer Protocol Secure. It occurs on the *Application layer* of the [OSI model](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/), as an extension of HTTP, and encrypts the data being transferred between a web server and a client *(web browser or application)*. Commonly used for online banking, secure logins, and e-commerce transactions.
 
 **Question 02** ***— What is the port of SSH?***
 
-  + Answer: SSH occurs on **port 22** by default.
+  + Answer — SSH occurs on **port 22** by default.
     - SSH stands for Secure Shell. It occurs on the *Application layer* of the OSI model, and is a protocol that allows secure remote access and control of servers and systems. This is widely used for remote login and command execution over encrypted channels, making it a popular choice for server administrators.
 
 **Question 03** ***— What is the port of SMTP?***
 
-  + Answer: SMTP occurs on **port 25** by default.
-    - SMTP stands for Simple Mail Transfer Protocol. It occurs on the *Application layer* of the OSI model; and is used to facilitate communication between the sending and receiving servers, when delivering an email message to a recipient.
+  + Answer — SMTP occurs on **port 25** by default.
+    - SMTP stands for Simple Mail Transfer Protocol. It occurs on the *Application layer* of the OSI model; and is used to facilitate communication, between the sending and receiving servers, when delivering an email message to a recipient.
 
 **Question 04** ***— What is port 53 used for?***
 
-  + Answer: Port 53 is the default used for Domain Name System (**DNS**) queries and responses.
+  + Answer — Port 53 is the default used for Domain Name System (**DNS**) queries and responses.
     - DNS translates domain names (like, google.com) into IP addresses. It occurs on the *Application layer* of the OSI model, enabling web browsers and other applications to locate servers based on their domain names.
 
 **Question 05** ***— What is port 123 used for?***
 
-  + Answer: Port 123 is the default used for Network Time Protocol (**NTP**).
+  + Answer — Port 123 is the default used for Network Time Protocol (**NTP**).
     -  This protocol works over the *Application layer* of the OSI model, and facilitates accurate timekeeping across different systems, by synchronizing the clocks of networked devices.
 
 **Question 06** ***— What is the port of BGMP?***
 
-  + The default port number for BGMP is **264**.
+  + Answer — The default port number for BGMP is **264**.
     - BGMP stands for Border Gateway Multicast Protocol. It operates on the *Transport layer* of the OSI model, and is a protocol used in networking to manage the distribution of multicast traffic across the internet.
 
 **Question 07** ***— What is the port of Tomcat Remote Shutdown?***
 
-  + Tomcat uses TCP port **8005** as a dedicated port for accepting shutdown requests.
+  + Answer — Tomcat uses TCP port **8005** as a dedicated port for accepting shutdown requests.
     - This operates at the *Application layer* of the OSI model, and allows for administrative control over the Tomcat server, specifically for shutting down the server remotely.
 
 **Question 08** ***— What is the port of Bitcoin?***
 
+  + Answer — By default, Bitcoin nodes communicate with one another using port **8333**.
+    - This port is used for sharing and receiving data blocks and transaction information across the Bitcoin network.
+
 **Question 09** ***— What is the total amount of TCP and UDP ports?***
 
-**Question 10** ***— Well known ports are from zero to what?***
+  + Answer — There are **131,070** total TCP and UDP ports.
+    - TCP and UDP are two of the major *Transport layer* protocols in the [internet protocol suite](https://docs.oracle.com/cd/E19455-01/806-0916/6ja85398m/index.html). Both have a range of available ports from 0 to 65,535.
+      + 0 to 1,023 — Well-known or System ports
+      + 1,024 to 49,451 — Registered ports
+      + 49,512 to 65,535 — Dynamic and/or Private ports
+    - The total number of ports, when combining TCP and UDP is: 65,535 (TCP) + 65,535 (UDP) = 131,070. 
+
+**Question 10** ***— Well-known ports are from zero to what?***
+
+  + Answer — Well-known ports are from 0 to **1,023**.
+    - Well-known ports are defined by the [Internet Assigned Numbers Authority](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) (IANA), with the range from 0 to 1,023. These ports are reserved for standard protocols and services (such as: HTTP, FTP, and SMTP).
 
 **Question 11** ***— What TCP port does Call of Duty: Ghosts use on the Xbox 360?***
+
+  + Answer — *Call of Duty: Ghosts* uses port **3074** for online multiplayer on the 360.
+    - It is a standard port for several online gaming platforms and consoles. This port allows for game servers and clients to communicate for matchmaking and gameplay purposes. It is used to establish connections with game servers, allowing players to join multiplayer matches, communicate with other players, and synchronize game data.
+
+*Sponge Bob Square Ports — Successfully Completed*                                                                              
+![CTF1 - S Bob - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6e40aebd-d60b-4329-bf3f-d205fea5859d)
 
 ### Inspector Packet
 

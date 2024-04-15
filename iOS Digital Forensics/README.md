@@ -84,7 +84,7 @@ This data serves as a foundational element for identifying the primary individua
     - Email:			carrysum2012@yahoo.com
     - Relationship:		Tracy's Accomplice & Friend
 
-*Figure 0: Visual representation of personas under investigation.*                                                            
+*Visual representation of personas under investigation.*                                                            
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/285210fe-6aee-4d7a-bd52-bba900ed2498)
 
 ## Evidence pertaining to the Theft of Valuable Stamps

@@ -209,6 +209,36 @@ The Open Systems Interconnection (OSI) model is a reference framework that expla
 
 <add main image here>
 
+### Flow of Data
+
+When transferring information from one device to another, the data passes through all seven layers of the OSI model. Initially, on the sender's side, data moves **down** through the seven layers; then ascends back up the seven layers, on the recipient's side.
+
+Here are some examples of this:
+
+#### Example 1 *- Email*
+
+*Scenario* — Harry sends an email with an attachment to Hermione.
+
+  + **Sender's Side**:
+    - *Step 1* — Harry uses an email application, such as Outlook/Yahoo/Gmail, to compose an email and attach a file he wants to send to Hermione. **(Layer 7 — Application)**
+    - *Step 2* — The mail application encrypts and formats the email, and attachment, for transmission. **(Layer 6 — Presentation)**
+    - *Step 3* — A connection is established between Harry's device and Hermione's device. **(Layer 5 — Session)**
+    - *Step 4* — The email and attachment are broken down into smaller data segments. Maintaining reliable data transmission, by adding sequence numbers and error-checking information. **(Layer 4 — Transport)**
+    - *Step 5* — 
+    - *Step 6* —
+    - *Step 7* — 
+
+  + **Receiver's Side**:
+    - *Step 1* —
+    - *Step 2* —
+    - *Step 3* —
+    - *Step 4* —
+    - *Step 5* —
+    - *Step 6* —
+    - *Step 7* — 
+
+#### *Example 2 - Text*
+
 ### Application Layer *– Layer 7*
 ### Presentation Layer *– Layer 6*
 ### Session Layer *– Layer 5*

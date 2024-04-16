@@ -16,7 +16,8 @@
     - [f. The Grinch Stole my wifi Password](#The-Grinch-Stole-my-wifi-Password)
     - [g. Ronald MACdonald](#Ronald-MACdonald)
     - [h. SUPER Mario Hackers! *- Bonus*](#SUPER-Mario-Hackers---Bonus)
-  + 05. Appendix
+  + [05. Appendix - OSI Model](#Appendix---OSI-Model)
+    - [a. Application Layer *- Layer 7*](#Application-Layer---Layer-7)
   
 ## Overview
 
@@ -202,4 +203,16 @@ This section explores various network ports and their roles in facilitating a ra
 ***SUPER Mario Hackers!*** *— Bonus Successfully Completed*                                                                      
 ![CTF8 - Mario - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/020c90cd-107f-45da-b427-4043c6cc2007)
 
-## Appendix - OSI Model Layers
+## Appendix - OSI Model
+
+The Open Systems Interconnection (OSI) model is a reference framework that explains the process of transmitting data between computers. It is divided into seven layers, arranged in a top-down order, that work together to carry out specialised network functions. This section aims to dive deeper into the layers. <cont and revise draft here>
+
+<add main image here>
+
+### Application Layer *– Layer 7*
+### Presentation Layer *– Layer 6*
+### Session Layer *– Layer 5*
+### Transport Layer *– Layer 4*
+### Network Layer *– Layer 3*
+### Data Link Layer *– Layer 2*
+### Physical Layer *– Layer 1*

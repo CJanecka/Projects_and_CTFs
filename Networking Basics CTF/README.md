@@ -205,7 +205,7 @@ This section explores various network ports and their roles in facilitating a ra
 
 ## Appendix - OSI Model
 
-The Open Systems Interconnection (OSI) model is a reference framework that explains the process of transmitting data between computers. It is divided into seven layers, arranged in a top-down order, that work together to carry out specialised network functions. This section aims to dive deeper into the layers. <cont and revise draft here>
+The Open Systems Interconnection (OSI) model is a standard framework that allows different computer systems to communicate with each other. Developed by the International Organization for Standardization (ISO), the OSI model facilitates interoperability between diverse communication systems through standard [network protocols](https://www.comptia.org/content/guides/what-is-a-network-protocol). The model organizes a communication system into seven conceptual layers, each building upon the one below it.
 
 <add main image here>
 
@@ -239,7 +239,10 @@ The data then travels up the OSI model layers in reverse order on Hermione's dev
     - *Step 6* — The data is decrypted back into the original email and attachment. **(Layer 6 — Presentation)**
     - *Step 7* — The email and file attachment are delivered to Hermione's email application. **(Layer 7 — Application)**
 
-### Application Layer *– Layer 7*
+### Application Layer *— Layer 7*
+
+
+
 ### Presentation Layer *– Layer 6*
 ### Session Layer *– Layer 5*
 ### Transport Layer *– Layer 4*

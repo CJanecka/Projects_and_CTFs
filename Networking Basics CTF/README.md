@@ -213,31 +213,31 @@ The Open Systems Interconnection (OSI) model is a reference framework that expla
 
 When transferring information from one device to another, the data passes through all seven layers of the OSI model. Initially, on the sender's side, data moves **down** through the seven layers; then ascends back up the seven layers, on the recipient's side.
 
-Here are some examples of this:
+Here is an example of this:
 
-#### Example 1 *- Email*
+#### Example *- Email*
 
 *Scenario* — Harry sends an email with an attachment to Hermione.
 
   + **Sender's Side**:
     - *Step 1* — Harry uses an email application, such as Outlook/Yahoo/Gmail, to compose an email and attach a file he wants to send to Hermione. **(Layer 7 — Application)**
     - *Step 2* — The mail application encrypts and formats the email, and attachment, for transmission. **(Layer 6 — Presentation)**
-    - *Step 3* — A connection is established between Harry's device and Hermione's device. **(Layer 5 — Session)**
-    - *Step 4* — The email and attachment are broken down into smaller data segments. Maintaining reliable data transmission, by adding sequence numbers and error-checking information. **(Layer 4 — Transport)**
-    - *Step 5* — 
-    - *Step 6* —
-    - *Step 7* — 
+    - *Step 3* — A connection is established between Harry's device and Hermione's device for the email to be sent. **(Layer 5 — Session)**
+    - *Step 4* — The email and attachment are broken down into smaller data segments. Adding sequence numbers and error-checking information, to maintain data reliability. **(Layer 4 — Transport)**
+    - *Step 5* — The email segments are addressed using IP addresses to find the best route from Harry's device to Hermione's device. **(Layer 3 — Network)**
+    - *Step 6* — Data packets are encapsulated into frames, and MAC addresses are added for local devices. Error detection and correction are also performed. **(Layer 2 — Data Link)**
+    - *Step 7* — The frames are transmitted as electrical, optical, or radio signals over the network medium (e.g., Ethernet cable, fiber optics, or Wi-Fi) from Harry's device to Hermione's device. **(Layer 1 — Physical)**
+
+The data then travels up the OSI model layers in reverse order on Hermione's device.
 
   + **Receiver's Side**:
-    - *Step 1* —
-    - *Step 2* —
-    - *Step 3* —
-    - *Step 4* —
-    - *Step 5* —
-    - *Step 6* —
-    - *Step 7* — 
-
-#### *Example 2 - Text*
+    - *Step 1* — The received signals are converted back into digital data at Hermione's device. **(Layer 1 — Physical)**
+    - *Step 2* — The frames are reassembled into packets and checked for errors. **(Layer 2 — Data Link)**
+    - *Step 3* — The packets are routed to the appropriate higher layer for processing. **(Layer 3 — Network)**
+    - *Step 4* — The segments are reassembled into the complete email and attachment, then checked for any errors. **(Layer 4 — Transport)**
+    - *Step 5* — A connection is established between Harry's device and Hermione's device for the email to be received. **(Layer 5 — Session)**
+    - *Step 6* — The data is decrypted back into the original email and attachment. **(Layer 6 — Presentation)**
+    - *Step 7* — The email and file attachment are delivered to Hermione's email application. **(Layer 7 — Application)**
 
 ### Application Layer *– Layer 7*
 ### Presentation Layer *– Layer 6*

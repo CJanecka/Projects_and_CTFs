@@ -59,7 +59,7 @@
 
 ### Sponge Bob Square Ports
 
-<add intro content>
+This section explores various network ports and their roles in facilitating a range of internet services. *Including -* online gaming, web browsing, remote access, email delivery, and more.
 
 ![CTF1 - S Bob](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3c037525-0326-4021-ab7d-9824b75e4ec0)
 
@@ -123,7 +123,7 @@
     - It is a standard port for several online gaming platforms and consoles. This port allows for game servers and clients to communicate for matchmaking and gameplay purposes. It is used to establish connections with game servers, allowing players to join multiplayer matches, communicate with other players, and synchronize game data.
 
 *Sponge Bob Square Ports — Successfully Completed*                                                                              
-![CTF1 - S Bob - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6e40aebd-d60b-4329-bf3f-d205fea5859d)
+![CTF1 - S Bob - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d44117d-c518-4f51-a133-e56f126f186f)
 
 ### Inspector Packet
 

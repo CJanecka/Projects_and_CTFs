@@ -122,7 +122,7 @@ This section explores various network ports and their roles in facilitating a ra
   + Answer — *Call of Duty: Ghosts* uses port **3074** for online multiplayer on the 360.
     - It is a standard port for several online gaming platforms and consoles. This port allows for game servers and clients to communicate for matchmaking and gameplay purposes. It is used to establish connections with game servers, allowing players to join multiplayer matches, communicate with other players, and synchronize game data.
 
-*Sponge Bob Square Ports — Successfully Completed*                                                                              
+***Sponge Bob Square Ports*** *— Successfully Completed*                                                                              
 ![CTF1 - S Bob - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d44117d-c518-4f51-a133-e56f126f186f)
 
 ### Inspector Packet
@@ -133,6 +133,9 @@ This section explores various network ports and their roles in facilitating a ra
 
 <cont here>
 
+***Inspector Packet*** *— Successfully Completed*                                                                                    
+![CTF2 - Packet Insp - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ea05fe9-4241-4fc3-82fc-82ba46acc39c)
+
 ### Where Waldo's Address?
 
 <base points to change>
@@ -140,6 +143,9 @@ This section explores various network ports and their roles in facilitating a ra
 ![CTF3 - Waldo Address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99dac332-e279-4fd1-91e0-f536adedf21f)
 
 <cont here>
+
+***Where Waldo's Address?*** *— Successfully Completed*                                                                                
+![CTF3 - Waldo Address - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8e803f8f-52c4-46dc-a046-675b47bfef35)
 
 ### Dragons Layers
 
@@ -149,6 +155,9 @@ This section explores various network ports and their roles in facilitating a ra
 
 <cont here>
 
+***Dragons Layers*** *— Successfully Completed*                                                                                        
+![CTF4 - Dragon Layers - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5acdb7db-f561-4f2d-9606-196612a4e124)
+
 ### The Ping Panther
 
 <base points to change>
@@ -156,6 +165,9 @@ This section explores various network ports and their roles in facilitating a ra
 ![CTF5 - Ping Panther](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6ef243a8-8acb-4d16-91ba-64f74e327d64)
 
 <cont here>
+
+***The Ping Panther*** *— Successfully Completed*                                                                                      
+![CTF5 - Ping Panther - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/504e4128-385a-40f3-b60a-2454ceac00f8)
 
 ### The Grinch Stole my wifi Password
 
@@ -165,6 +177,9 @@ This section explores various network ports and their roles in facilitating a ra
 
 <cont here>
 
+***The Grinch Stole my wifi Password*** *— Successfully Completed*                                                                
+![CTF6 - Grinch - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9d170575-7cfe-4b05-a944-ba1becd50c04)
+
 ### Ronald MACdonald
 
 <base points to change>
@@ -173,6 +188,9 @@ This section explores various network ports and their roles in facilitating a ra
 
 <cont here>
 
+***Ronald MACdonald*** *— Successfully Completed*                                                                                  
+![CTF7 - MACdonald - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e233f907-9a14-4865-85d5-74a2e0a69baf)
+
 ### SUPER Mario Hackers! *- Bonus*
 
 <base points to change>
@@ -180,5 +198,8 @@ This section explores various network ports and their roles in facilitating a ra
 ![CTF8 - Mario](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/247649be-461f-4056-9009-0055a133ba4b)
 
 <cont here>
+
+***SUPER Mario Hackers!*** *— Bonus Successfully Completed*                                                                      
+![CTF8 - Mario - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/020c90cd-107f-45da-b427-4043c6cc2007)
 
 ## Appendix - OSI Model Layers

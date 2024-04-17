@@ -324,3 +324,6 @@ The data then travels up the OSI model layers in reverse order on Hermione's dev
     - *Step 5* — A connection is established between Harry's device and Hermione's device for the email to be received. **(Layer 5 — Session)**
     - *Step 6* — The data is decrypted back into the original email and attachment. **(Layer 6 — Presentation)**
     - *Step 7* — The email and attachment are delivered to Hermione's email application. **(Layer 7 — Application)**
+
+*Visual Representation:*                                                                                          
+![OSI Model](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3a4af882-05f2-417f-9312-eafed4a6bc8d)

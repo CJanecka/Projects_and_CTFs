@@ -17,7 +17,14 @@
     - [g. Ronald MACdonald](#Ronald-MACdonald)
     - [h. SUPER Mario Hackers! *- Bonus*](#SUPER-Mario-Hackers---Bonus)
   + [05. Appendix - OSI Model](#Appendix---OSI-Model)
-    - [a. Application Layer *- Layer 7*](#Application-Layer---Layer-7)
+    - [a. Layer 7 *- Application*](#Layer-7---Application)
+    - [b. Layer 6 *- Presentation*](#Layer-6---Presentation)
+    - [c. Layer 5 *- Session*](#Layer-5---Session)
+    - [d. Layer 4 *- Transport*](#Layer-4---Transport)
+    - [e. Layer 3 *- Network*](##Layer-3---Network)
+    - [f. Layer 2 *- Data Link*](##Layer-2---Data-Link)
+    - [g. Layer 1 *- Physical*](##Layer-1---Physical)
+    - [h. Flow of Data](#Flow-of-Data)
   
 ## Overview
 
@@ -205,17 +212,73 @@ This section explores various network ports and their roles in facilitating a ra
 
 ## Appendix - OSI Model
 
-The Open Systems Interconnection (OSI) model is a standard framework that allows different computer systems to communicate with each other. Developed by the International Organization for Standardization (ISO), the OSI model facilitates interoperability between diverse communication systems through standard [network protocols](https://www.comptia.org/content/guides/what-is-a-network-protocol). The model organizes a communication system into seven conceptual layers, each building upon the one below it.
+The Open Systems Interconnection (OSI) model is a standard framework that allows different computer systems to communicate with each other. Developed by the International Organization for Standardization (ISO), the OSI model facilitates interoperability between diverse communication systems through standard [network protocols](https://www.comptia.org/content/guides/what-is-a-network-protocol). This model organizes a communication system into seven conceptual layers, each building upon the one below it.
 
 <add main image here>
 
+While today's Internet may not strictly adhere to the OSI model, the framework is valuable for troubleshooting network issues. Whether a single user cannot connect their laptop to the Internet, or a website is down for thousands of users, the OSI model helps break down the problem and isolate its source. By pinpointing the specific layer where the issue arises, unnecessary work can be minimized.
+
+### Layer 7 *- Application*
+
+<add Application layer image here>
+
+Also known as the *"End User Layer"*, it is the only layer that directly interacts with data from the user.
+
+#### Functions
+
+#### Protocols
+
+### Layer 6 *- Presentation*
+
+<add Presentation layer image here>
+
+#### Functions
+
+#### Protocols
+
+### Layer 5 *- Session*
+
+<add Session layer image here>
+
+#### Functions
+
+#### Protocols
+
+### Layer 4 *- Transport*
+
+<add Transport layer image here>
+
+#### Functions
+
+#### Protocols
+
+### Layer 3 *- Network*
+
+<add Network layer image here>
+
+#### Functions
+
+#### Protocols
+
+### Layer 2 *- Data Link*
+
+<add Data Link layer image here>
+
+#### Functions
+
+#### Protocols
+
+### Layer 1 *- Physical*
+
+<add Physical layer image here>
+
+#### Functions
+
+#### Protocols
+
 ### Flow of Data
 
-When transferring information from one device to another, the data passes through all seven layers of the OSI model. Initially, on the sender's side, data moves **down** through the seven layers; then ascends back up the seven layers, on the recipient's side.
-
-Here is an example of this:
-
-#### Example *- Email*
+When transferring information from one device to another, the data passes through all seven layers of the OSI model. Initially, on the sender's side, data moves **down** through the seven layers; then ascends back **up** the seven layers, on the recipient's side. The following is an example of this:
 
 *Scenario* — Harry sends an email with an attachment to Hermione.
 
@@ -238,14 +301,3 @@ The data then travels up the OSI model layers in reverse order on Hermione's dev
     - *Step 5* — A connection is established between Harry's device and Hermione's device for the email to be received. **(Layer 5 — Session)**
     - *Step 6* — The data is decrypted back into the original email and attachment. **(Layer 6 — Presentation)**
     - *Step 7* — The email and file attachment are delivered to Hermione's email application. **(Layer 7 — Application)**
-
-### Application Layer *— Layer 7*
-
-
-
-### Presentation Layer *– Layer 6*
-### Session Layer *– Layer 5*
-### Transport Layer *– Layer 4*
-### Network Layer *– Layer 3*
-### Data Link Layer *– Layer 2*
-### Physical Layer *– Layer 1*

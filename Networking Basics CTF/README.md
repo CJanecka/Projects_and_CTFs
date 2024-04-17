@@ -222,7 +222,7 @@ While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org
 
 <add Application layer image here>
 
-Also known as the *"End User Layer"*, and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application Layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
+Also known as the *"End User Layer"*, and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
 
 #### Functions
 
@@ -247,6 +247,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Protocols
 
+*Presentation layer protocols include:*
+
 ### Layer 5 *- Session*
 
 <add Session layer image here>
@@ -254,6 +256,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 #### Functions
 
 #### Protocols
+
+*Session layer protocols include:*
 
 ### Layer 4 *- Transport*
 
@@ -263,6 +267,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Protocols
 
+*Transport layer protocols include:*
+
 ### Layer 3 *- Network*
 
 <add Network layer image here>
@@ -270,6 +276,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 #### Functions
 
 #### Protocols
+
+*Network layer protocols include:*
 
 ### Layer 2 *- Data Link*
 
@@ -279,6 +287,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Protocols
 
+*Data Link layer protocols include:*
+
 ### Layer 1 *- Physical*
 
 <add Physical layer image here>
@@ -286,6 +296,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 #### Functions
 
 #### Protocols
+
+*Physical layer protocols include:*
 
 ### Flow of Data
 
@@ -304,11 +316,11 @@ When transferring information from one device to another, the data passes throug
 
 The data then travels up the OSI model layers in reverse order on Hermione's device.
 
-  + **Receiver's Side**:
+  + **Recipient's Side**:
     - *Step 1* — The received signals are converted back into digital data at Hermione's device. **(Layer 1 — Physical)**
     - *Step 2* — The frames are reassembled into packets and checked for errors. **(Layer 2 — Data Link)**
     - *Step 3* — The packets are routed to the appropriate higher layer for processing. **(Layer 3 — Network)**
     - *Step 4* — The segments are reassembled into the complete email and attachment, then checked for any errors. **(Layer 4 — Transport)**
     - *Step 5* — A connection is established between Harry's device and Hermione's device for the email to be received. **(Layer 5 — Session)**
     - *Step 6* — The data is decrypted back into the original email and attachment. **(Layer 6 — Presentation)**
-    - *Step 7* — The email and file attachment are delivered to Hermione's email application. **(Layer 7 — Application)**
+    - *Step 7* — The email and attachment are delivered to Hermione's email application. **(Layer 7 — Application)**

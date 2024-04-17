@@ -212,21 +212,32 @@ This section explores various network ports and their roles in facilitating a ra
 
 ## Appendix - OSI Model
 
-The Open Systems Interconnection (OSI) model is a standard framework that allows different computer systems to communicate with each other. Developed by the International Organization for Standardization (ISO), the OSI model facilitates interoperability between diverse communication systems through standard [network protocols](https://www.comptia.org/content/guides/what-is-a-network-protocol). This model organizes a communication system into seven conceptual layers, each building upon the one below it.
+The Open Systems Interconnection (OSI) model is a reference framework that allows different computer systems to communicate with each other. Developed by the International Organization for Standardization (ISO), the OSI model facilitates interoperability between diverse communication systems through standard [network protocols](https://www.comptia.org/content/guides/what-is-a-network-protocol). This model organizes a communication system into seven conceptual layers, each building upon the one below it.
 
 <add main image here>
 
-While today's Internet may not strictly adhere to the OSI model, the framework is valuable for troubleshooting network issues. Whether a single user cannot connect their laptop to the Internet, or a website is down for thousands of users, the OSI model helps break down the problem and isolate its source. By pinpointing the specific layer where the issue arises, unnecessary work can be minimized.
+While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org/tcp-ip-model/), the OSI Model can be valuable for troubleshooting network issues. Whether a single user cannot connect their laptop to the Internet, or a website is down for thousands of users, the OSI model helps break down the problem and isolate its source. By pinpointing the specific layer where the issue arises, unnecessary work can be minimized.
 
 ### Layer 7 *- Application*
 
 <add Application layer image here>
 
-Also known as the *"End User Layer"*, it is the only layer that directly interacts with data from the user.
+Also known as the *"End User Layer"*, and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application Layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
 
 #### Functions
 
+The Application Layer, being topmost layer in OSI model, serves as the interface between network services and end-user applications, providing the necessary protocols and services to facilitate communication, data exchange, and resource management across networks.
+
+  + *Network Virtual Terminal* — allows a user to log into a remote host, and interact with it, as if they were directly connected to it.
+  + *File Transfer Access and Management (FTAM)* — allows users to access files stored on a remote host, retrieve files from a remote host, and manage or control files remotely.
+  + *Mail Services* — provides email services, enabling users to send and receive email messages across networks.
+  + *Directory Services* — provides a distributed database for managing and accessing information about various objects and services in a network.
+
 #### Protocols
+
+*Application layer protocols include:*
+
+[TELetype NETwork](https://www.geeksforgeeks.org/introduction-to-telnet/) (TELNET) | [File Transfer Protocol](https://www.geeksforgeeks.org/file-transfer-protocol-ftp-in-application-layer/) (FTP) | [Network File System](https://www.geeksforgeeks.org/network-file-system-nfs/) (NFS) | [Simple Mail Transfer Protocol](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/) (SMTP) | [Simple Network Management Protocol](https://www.geeksforgeeks.org/simple-network-management-protocol-snmp/) (SNMP) | [Domain Name System](https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/) (DNS) | [Dynamic Host Configuration Protocol](https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/) (DHCP) | [Hypertext Transfer Protocol](https://www.geeksforgeeks.org/http-full-form/) (HTTP/HTTPS) | [Internet Relay Chat](https://www.geeksforgeeks.org/internet-relay-chat-irc/) (IRC) | [Post Office Protocol](https://www.geeksforgeeks.org/pop-full-form/) (POP) | [Multipurpose Internet Mail Extension](https://www.geeksforgeeks.org/multipurpose-internet-mail-extension-mime-protocol/) (MIME)
 
 ### Layer 6 *- Presentation*
 

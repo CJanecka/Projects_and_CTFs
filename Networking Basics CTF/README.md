@@ -259,7 +259,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
   + *Encryption and Decryption* — converts plain text data into encrypted ciphertext for transmission. Upon receipt, the layer decrypts the ciphertext back into plain text, making the data readable and usable by the application.
   + *Compression* — reduces the size of data and bandwith usage, minimizing the number of bits that need to be transmitted over the network. Upon receipt, data is decompressed to its original form for use by the application.
 
-#### Protocols and File Formats
+#### Protocol or File Format Use
 
 *Presentation layer protocols and file formats include:*
 

@@ -214,7 +214,8 @@ This section explores various network ports and their roles in facilitating a ra
 
 The Open Systems Interconnection (OSI) model is a reference framework that allows different computer systems to communicate with each other. Developed by the International Organization for Standardization (ISO), the OSI model facilitates interoperability between diverse communication systems through standard [network protocols](https://www.comptia.org/content/guides/what-is-a-network-protocol). This model organizes a communication system into seven conceptual layers, each building upon the one below it.
 
-<add main image here>
+![OSI Model - detailed](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/52c8b521-e9df-48a3-8763-76b48607975c)                                                                                                
+*Image sourced from [FS Community](https://community.fs.com/article/tcpip-vs-osi-whats-the-difference-between-the-two-models.html).*
 
 While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org/tcp-ip-model/), the OSI Model can be valuable for troubleshooting network issues. Whether a single user cannot connect their laptop to the Internet, or a website is down for thousands of users, the OSI model helps break down the problem and isolate its source. By pinpointing the specific layer where the issue arises, unnecessary work can be minimized.
 
@@ -222,7 +223,7 @@ While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org
 
 <add Application layer image here>
 
-Also known as the *"End User Layer"*, and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
+Also known as the "End User Layer", and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
 
 #### Functions
 
@@ -233,7 +234,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
   + *Mail Services* — provides email services, enabling users to send and receive email messages across networks.
   + *Directory Services* — provides a distributed database for managing and accessing information about various objects and services in a network.
 
-#### Protocols
+#### Device or Protocol Use
 
 *Application layer protocols include:*
 
@@ -243,9 +244,15 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 <add Presentation layer image here>
 
+Also known as the "Translation Layer", and is the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present, unencrypted, readable information to the application layer. It also compresses data received from the application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
+
+<cont here>
+
 #### Functions
 
-#### Protocols
+The Presentation layer is 
+
+#### Device or Protocol Use
 
 *Presentation layer protocols include:*
 
@@ -255,7 +262,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Functions
 
-#### Protocols
+#### Device or Protocol Use
 
 *Session layer protocols include:*
 
@@ -265,7 +272,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Functions
 
-#### Protocols
+#### Device or Protocol Use
 
 *Transport layer protocols include:*
 
@@ -275,7 +282,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Functions
 
-#### Protocols
+#### Device or Protocol Use
 
 *Network layer protocols include:*
 
@@ -285,7 +292,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Functions
 
-#### Protocols
+#### Device or Protocol Use
 
 *Data Link layer protocols include:*
 
@@ -295,7 +302,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 #### Functions
 
-#### Protocols
+#### Device or Protocol Use
 
 *Physical layer protocols include:*
 

@@ -244,13 +244,16 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 <add Presentation layer image here>
 
-Also known as the "Translation Layer", and is the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present, unencrypted, readable information to the application layer. It also compresses data received from the application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
+Also known as the "Translation Layer", and is the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. 
 
-<cont here>
+When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present, unencrypted, readable information to the application layer. It also compresses data received from the Application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
 
 #### Functions
 
-The Presentation layer is 
+The Presentation layer is the sixth layer in the OSI model, positioned just below the Application layer. It ensures that the data being transmitted is properly formatted and understood by the receiving application. 
+
+  + *Translation* — performs data translation, ensuring that data formats match the requirements of the receiving application.
+    - This can include converting character sets *(e.g., [ASCII](https://www.geeksforgeeks.org/ascii-table/) to [EBCDIC](https://www.ibm.com/docs/en/zos-basic-skills?topic=mainframe-ebcdic-character-set))* or data serialization formats *(e.g., [JSON](https://www.oracle.com/database/what-is-json/) to [XML](https://docs.oracle.com/cd/E13222_01/wls/docs92/xml/intro.html))*.
 
 #### Device or Protocol Use
 

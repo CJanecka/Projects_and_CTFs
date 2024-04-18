@@ -33,7 +33,7 @@
   + a networking Capture the Flag competition.
   + Total of 64 questions *(flags)*, 
   + eight teams of four, two teams of 5 competed.
-  + provided a spreadsheet of various networking questions and activities that are separated into different networking categories.
+  + provided with a spreadsheet of various networking questions and activities, that are separated into different networking categories.
   + separated into eight different networking categories, one of which is a bonus, three required inspecting packets in Wireshark.
   + <cont here>
   + Completed spreadsheet provided separately.
@@ -41,8 +41,10 @@
 ## Equipment and Tools
 
   + [Networking CTF (Unanswered Form).xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx)
-  + Wireshark
+  + [Wireshark](https://www.wireshark.org/about.html)
+  + [The OSI Model](#Appendix---OSI-Model)
   + Open-source intelligence
+  + <cont here>
 
 ## Activity Requirements
 
@@ -234,7 +236,7 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
   + *Mail Services* — provides email services, enabling users to send and receive email messages across networks.
   + *Directory Services* — provides a distributed database for managing and accessing information about various objects and services in a network.
 
-#### Device or Protocol Use
+#### Protocol or Device Use
 
 *Application layer protocols include:*
 
@@ -244,9 +246,9 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 <add Presentation layer image here>
 
-Also known as the "Translation Layer", and is the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. 
+Also known as the "Translation Layer", the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. 
 
-When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present, unencrypted, readable information to the application layer. It also compresses data received from the Application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
+When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present unencrypted readable information to the application layer. It also compresses data received from the Application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
 
 #### Functions
 
@@ -254,10 +256,14 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
   + *Translation* — performs data translation, ensuring that data formats match the requirements of the receiving application.
     - This can include converting character sets *(e.g., [ASCII](https://www.geeksforgeeks.org/ascii-table/) to [EBCDIC](https://www.ibm.com/docs/en/zos-basic-skills?topic=mainframe-ebcdic-character-set))* or data serialization formats *(e.g., [JSON](https://www.oracle.com/database/what-is-json/) to [XML](https://docs.oracle.com/cd/E13222_01/wls/docs92/xml/intro.html))*.
+  + *Encryption and Decryption* — converts plain text data into encrypted ciphertext for transmission. Upon receipt, the layer decrypts the ciphertext back into plain text, making the data readable and usable by the application.
+  + *Compression* — reduces the size of data and bandwith usage, minimizing the number of bits that need to be transmitted over the network. Upon receipt, data is decompressed to its original form for use by the application.
 
-#### Device or Protocol Use
+#### Protocols and File Formats
 
-*Presentation layer protocols include:*
+*Presentation layer protocols and file formats include:*
+
+[Joint Photographic Experts Group](https://www.adobe.com/creativecloud/file-types/image/raster/jpeg-file.html) (JPEG) | [Moving Picture Experts Group](https://www.pcmag.com/encyclopedia/term/mpeg) (MPEG) | [Graphics Interchange Format](https://www.adobe.com/creativecloud/file-types/image/raster/gif-file.html) (GIF) | [Hyper Text Markup Language](https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/) (HTML) | [Document file](https://www.pcmag.com/encyclopedia/term/doc-file) (DOC) | [MPEG Audio Layer 3](https://computer.howstuffworks.com/mp3.htm) (MP3) | [Audio Video Interleave](https://cloudinary.com/guides/video-formats/avi-format-should-you-still-use-avi) (AVI) | [Musical Instrument Digital Interface](https://blog.landr.com/what-is-midi/) (MIDI) | [Transport Driver Interface](https://www.komodia.com/tdi) (TDI) | [Transport Layer Security](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/#:~:text=Transport%20Layer%20Security%2C%20or%20TLS,web%20browsers%20loading%20a%20website.) (TLS) | [Extended Detection and Response](https://www.trendmicro.com/en_in/what-is/xdr.html) (XDR)
 
 ### Layer 5 *- Session*
 
@@ -265,7 +271,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 #### Functions
 
-#### Device or Protocol Use
+#### Protocol or Device Use
 
 *Session layer protocols include:*
 
@@ -275,7 +281,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 #### Functions
 
-#### Device or Protocol Use
+#### Protocol or Device Use
 
 *Transport layer protocols include:*
 
@@ -285,7 +291,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 #### Functions
 
-#### Device or Protocol Use
+#### Protocol or Device Use
 
 *Network layer protocols include:*
 
@@ -295,7 +301,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 #### Functions
 
-#### Device or Protocol Use
+#### Protocol or Device Use
 
 *Data Link layer protocols include:*
 
@@ -305,7 +311,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 #### Functions
 
-#### Device or Protocol Use
+#### Protocol or Device Use
 
 *Physical layer protocols include:*
 
@@ -322,7 +328,7 @@ When transferring information from one device to another, the data passes throug
     - *Step 4* — The email and attachment are broken down into smaller data segments. Adding sequence numbers and error-checking information, to maintain data reliability. **(Layer 4 — Transport)**
     - *Step 5* — The email segments are addressed using IP addresses to find the best route from Harry's device to Hermione's device. **(Layer 3 — Network)**
     - *Step 6* — Data packets are encapsulated into frames, and MAC addresses are added for local devices. Error detection and correction are also performed. **(Layer 2 — Data Link)**
-    - *Step 7* — The frames are transmitted as electrical, optical, or radio signals over the network medium (e.g., Ethernet cable, fiber optics, or Wi-Fi) from Harry's device to Hermione's device. **(Layer 1 — Physical)**
+    - *Step 7* — The frames are transmitted as electrical, optical, or radio signals over a network medium *(e.g., Ethernet cable, fiber optics, or Wi-Fi)* from Harry's device to Hermione's device. **(Layer 1 — Physical)**
 
 The data then travels up the OSI model layers in reverse order on Hermione's device.
 

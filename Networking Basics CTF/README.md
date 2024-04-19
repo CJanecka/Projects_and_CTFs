@@ -21,9 +21,9 @@
     - [b. Layer 6 *- Presentation*](#Layer-6---Presentation)
     - [c. Layer 5 *- Session*](#Layer-5---Session)
     - [d. Layer 4 *- Transport*](#Layer-4---Transport)
-    - [e. Layer 3 *- Network*](##Layer-3---Network)
-    - [f. Layer 2 *- Data Link*](##Layer-2---Data-Link)
-    - [g. Layer 1 *- Physical*](##Layer-1---Physical)
+    - [e. Layer 3 *- Network*](#Layer-3---Network)
+    - [f. Layer 2 *- Data Link*](#Layer-2---Data-Link)
+    - [g. Layer 1 *- Physical*](#Layer-1---Physical)
     - [h. Flow of Data](#Flow-of-Data)
   
 ## Overview

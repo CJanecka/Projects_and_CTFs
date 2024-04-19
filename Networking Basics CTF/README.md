@@ -223,7 +223,8 @@ While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org
 
 ### Layer 7 *- Application*
 
-<add Application layer image here>
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b4dcc207-b5ad-4bd9-b7e6-f7abca2829b1)                                                                                                              
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 Also known as the "End User Layer", and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
 
@@ -244,7 +245,8 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 
 ### Layer 6 *- Presentation*
 
-<add Presentation layer image here>
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/eead6d60-d268-4bae-bfb8-ff076319c3ff)                                                                                                                
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 Also known as the "Translation Layer", the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. 
 
@@ -267,7 +269,8 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 5 *- Session*
 
-<add Session layer image here>
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f5d54303-8e2b-40be-a5b4-e36cda743589)                                                                                                              
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions
 
@@ -277,7 +280,8 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 4 *- Transport*
 
-<add Transport layer image here>
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a69c39c8-3c48-4b6a-a241-f1c8acc8e325)                                                                                                               
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions
 
@@ -287,7 +291,8 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 3 *- Network*
 
-<add Network layer image here>
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1ac274-3aba-45a9-9487-8e6b407d1f6a)                                                                                                              
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions
 
@@ -297,7 +302,8 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 2 *- Data Link*
 
-<add Data Link layer image here>
+
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions
 
@@ -307,7 +313,8 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 1 *- Physical*
 
-<add Physical layer image here>
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/38598c42-0091-4f1f-b378-d37b56782c69)                                                                                                              
+*Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions
 

@@ -302,7 +302,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 2 *- Data Link*
 
-
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c91a2acb-7cc5-4488-bfcc-0894835d0f2a)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions
@@ -313,7 +313,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 
 ### Layer 1 *- Physical*
 
-![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/38598c42-0091-4f1f-b378-d37b56782c69)                                                                                                              
+![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7433bec7-f0b0-4876-9d85-a1e275755e14)                                                                                                               
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
 #### Functions

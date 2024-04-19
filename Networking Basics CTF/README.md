@@ -272,13 +272,15 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f5d54303-8e2b-40be-a5b4-e36cda743589)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-The Session Layer is responsible for establishing, managing, and terminating sessions between applications on different devices. A [session](https://d3fend.mitre.org/dao/artifact/d3f:NetworkSession/) is a dialogue or connection between two communicating systems that allows for data exchange over a network. <cont here>
+The Session Layer is responsible for establishing, managing, and terminating sessions between applications on different devices. A [session](https://d3fend.mitre.org/dao/artifact/d3f:NetworkSession/) is a dialogue or connection between two communicating systems that allows for data exchange over a network. Layer 5 software is also responsible for authentication and authorization, verifying the identity and permissions of the communicating parties. Additionally, it confirms that the data is delivered.
 
 #### Functions
 
-  + *Session establishment, maintenance, and termination* — <cont here>
-  + *Synchronization* — <cont here>
-  + *Dialog Controller* — <cont here>
+  + *Session Establishment* — initiates and sets up connections between applications on different devices. It negotiates the rules for communication, such as the duration and synchronization points, and establishes the session context.
+  + *Session Maintenance* — manages the communication between applications. This includes controlling data flow, sequencing data packets, and handling interruptions or reconnections.
+  + *Session Termination* — terminates sessions, in an orderly manner, when they are no longer needed; by gracefully closing connections, cleaning up allocated resources, and notifying parties of the session's end.
+  + *Synchronization* — synchronizes data exchange by setting checkpoints within the data stream; allowing for recovery and retransmission of data, in case of disruptions or errors during transmission.
+  + *Dialog Controller* — controls the communication dialogue between applications by determining whether the communication is full-duplex *(both devices can transmit simultaneously)* or half-duplex *(devices take turns transmitting)*.
 
 #### Protocol or Device Use
 

@@ -257,7 +257,7 @@ When communication is encrypted; this layer adds encryption at the sender's end,
 The Presentation layer is the sixth layer in the OSI model, positioned just below the Application layer. It ensures that the data being transmitted is properly formatted and understood by the receiving application. 
 
   + *Translation* — performs data translation, ensuring that data formats match the requirements of the receiving application.
-    - This can include converting character sets *(e.g., [ASCII](https://www.geeksforgeeks.org/ascii-table/) to [EBCDIC](https://www.ibm.com/docs/en/zos-basic-skills?topic=mainframe-ebcdic-character-set))* or data serialization formats *(e.g., [JSON](https://www.oracle.com/database/what-is-json/) to [XML](https://docs.oracle.com/cd/E13222_01/wls/docs92/xml/intro.html))*.
+    - This can include converting character sets *(e.g., [ASCII](https://www.geeksforgeeks.org/ascii-table/) to [EBCDIC](https://www.ibm.com/docs/en/zos-basic-skills?topic=mainframe-ebcdic-character-set))* or data serialization formats *(e.g., [JSON](https://www.json.org/json-en.html) to [XML](https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44))*.
   + *Encryption and Decryption* — converts plain text data into encrypted ciphertext for transmission. Upon receipt, the layer decrypts the ciphertext back into plain text, making the data readable and usable by the application.
   + *Compression* — reduces the size of data and bandwith usage, minimizing the number of bits that need to be transmitted over the network. Upon receipt, data is decompressed to its original form for use by the application.
 
@@ -285,6 +285,8 @@ The Session Layer is responsible for establishing, managing, and terminating ses
 #### Protocol or Device Use
 
 *Session layer protocols include:*
+
+[AppleTalk Data Stream Protocol](https://developer.apple.com/library/archive/documentation/mac/pdf/Networking/ADSP.pdf) (ADSP) | [AppleTalk Session Protocol](https://developer.apple.com/library/archive/documentation/mac/pdf/Networking/ASP.pdf) (ASP) | [Network Basic Input Output System](https://www.professormesser.com/security-plus/sy0-401/netbios/) (NetBIOS) | [Point-to-Point Tunneling Protocol](https://www.geeksforgeeks.org/pptp-full-form/) (PPTP) | [Real-time Transport Control Protocol](https://www.crazyegg.com/blog/rtp-protocol/) (RTCP) | [Password Authentication Protocol](https://www.geeksforgeeks.org/password-authentication-protocol-pap/) (PAP) | [Internet Storage Name Service](https://docs.netapp.com/us-en/ontap/san-admin/isns-concept.html#what-an-isns-server-does) (iSNS) | [Layer 2 Forwarding Protocol](https://www.geeksforgeeks.org/l2f-fullform/) (L2F) | [Layer 2 Tunnel Protocol](https://www.cisco.com/c/en/us/td/docs/net_mgmt/prime/network/3-8/reference/guide/l2tp.pdf) (L2TP) | [Zone Information Protocol](https://developer.apple.com/library/archive/documentation/mac/pdf/Networking/ZIP.pdf) (ZIP) | [Sockets Direct Protocol](https://network.nvidia.com/pdf/whitepapers/SDPCluster2006.pdf) (SDP) | [Session Control Protocol](https://www.w3.org/Protocols/HTTP-NG/http-ng-scp.html#:~:text=SCP%20is%20a%20simple%20protocol,and%20is%20modelled%20after%20TCP.) (SCP) | [Short Message Peer-to-Peer](https://smpp.org/) (SMPP)
 
 ### Layer 4 *- Transport*
 

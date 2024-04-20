@@ -302,6 +302,8 @@ The transport layer serves as a bridge between the upper layers *(Application, P
 
 *Transport layer protocols include:*
 
+[Transmission Control Protocol](https://www.fortinet.com/resources/cyberglossary/tcp-ip) (TCP) | [User Datagram Protocol](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/#:~:text=What%20is%20the%20User%20Datagram%20Protocol%20(UDP%2FIP)%3F,connection%20before%20data%20is%20transferred.) (UDP) | [AppleTalk Transaction Protocol]() (ATP) | [Stream Control Transmission Protocol](https://www.ibm.com/docs/en/aix/7.1?topic=protocol-stream-control-transmission) (SCTP) | [Secure Sockets Layer](https://www.ibm.com/docs/en/ibm-http-server/9.0.5?topic=communications-secure-sockets-layer-ssl-protocol) (SSL) | [Transport Layer Security](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/#:~:text=Transport%20Layer%20Security%2C%20or%20TLS,web%20browsers%20loading%20a%20website.) (TLS)
+
 ### Layer 3 *- Network*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1ac274-3aba-45a9-9487-8e6b407d1f6a)                                                                                                              

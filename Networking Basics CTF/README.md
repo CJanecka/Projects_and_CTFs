@@ -226,11 +226,9 @@ While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b4dcc207-b5ad-4bd9-b7e6-f7abca2829b1)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-Also known as the "End User Layer", and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the Application layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
+Also known as the "End User layer", and the only layer that directly interacts with data from the user. It supports software applications; such as web browsers and email clients, in establishing communications and delivering meaningful data to the user. The software applications themselves are not part of the OSI model; they operate within the *end-user environment*, and use the application layer to interact with network resources and services. This layer acts as a gateway for application services to connect to the network and present received information to the user.
 
 #### Functions
-
-The Application Layer, being topmost layer in OSI model, serves as the interface between network services and end-user applications, providing the necessary protocols and services to facilitate communication, data exchange, and resource management across networks.
 
   + *Network Virtual Terminal* — allows a user to log into a remote host, and interact with it, as if they were directly connected to it.
   + *File Transfer Access and Management (FTAM)* — allows users to access files stored on a remote host, retrieve files from a remote host, and manage or control files remotely.
@@ -248,13 +246,11 @@ The Application Layer, being topmost layer in OSI model, serves as the interface
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/eead6d60-d268-4bae-bfb8-ff076319c3ff)                                                                                                                
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-Also known as the "Translation Layer", the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. 
+Also known as the "Translation layer", the layer that handles data translation, encryption, and compression. It ensures data is formatted properly for applications to use, accommodating different encoding methods between communicating devices. Since devices might be using different encoding methods, layer 6 translates incoming data into a syntax that the receiving device's application layer can understand. 
 
-When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present unencrypted readable information to the application layer. It also compresses data received from the Application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
+When communication is encrypted; this layer adds encryption at the sender's end, and decrypts data at the receiver's end to present unencrypted readable information to the application layer. It also compresses data received from the application layer, before passing it to layer 5, reducing the data transfer size and enhancing the speed and efficiency of communication.
 
-#### Functions
-
-The Presentation layer is the sixth layer in the OSI model, positioned just below the Application layer. It ensures that the data being transmitted is properly formatted and understood by the receiving application. 
+#### Functions 
 
   + *Translation* — performs data translation, ensuring that data formats match the requirements of the receiving application.
     - This can include converting character sets *(e.g., [ASCII](https://www.geeksforgeeks.org/ascii-table/) to [EBCDIC](https://www.ibm.com/docs/en/zos-basic-skills?topic=mainframe-ebcdic-character-set))* or data serialization formats *(e.g., [JSON](https://www.json.org/json-en.html) to [XML](https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44))*.
@@ -272,7 +268,7 @@ The Presentation layer is the sixth layer in the OSI model, positioned just belo
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f5d54303-8e2b-40be-a5b4-e36cda743589)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-The Session Layer is responsible for establishing, managing, and terminating sessions between applications on different devices. A [session](https://d3fend.mitre.org/dao/artifact/d3f:NetworkSession/) is a dialogue or connection between two communicating systems that allows for data exchange over a network. Layer 5 software is also responsible for authentication and authorization, verifying the identity and permissions of the communicating parties. Additionally, it confirms that the data is delivered.
+The session layer is responsible for establishing, managing, and terminating sessions between applications on different devices. A [session](https://d3fend.mitre.org/dao/artifact/d3f:NetworkSession/) is a dialogue or connection between two communicating systems that allows for data exchange over a network. Layer 5 software is also responsible for authentication and authorization, verifying the identity and permissions of the communicating parties. Additionally, it confirms that the data is delivered.
 
 #### Functions
 
@@ -293,7 +289,13 @@ The Session Layer is responsible for establishing, managing, and terminating ses
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a69c39c8-3c48-4b6a-a241-f1c8acc8e325)                                                                                                               
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
+The transport layer serves as a bridge between the upper layers *(Application, Presentation, and Session)* responsible for user applications, and the lower layers *(Network, Data Link, and Physical)* that handle the actual transmission of data across the network. Its primary function is to ensure reliable, efficient, and orderly delivery of data between end systems. Mechanisms are implemented; such as acknowledgments, sequence numbers, and retransmissions - ensuring that data reaches the destination accurately and in the correct order.
+
 #### Functions
+
+  + *Segmentation and Reassembly* —
+  + ** — <cont here>
+  + ** — <cont here>
 
 #### Protocol or Device Use
 

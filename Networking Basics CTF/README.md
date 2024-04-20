@@ -293,9 +293,10 @@ The transport layer serves as a bridge between the upper layers *(Application, P
 
 #### Functions
 
-  + *Segmentation and Reassembly* —
-  + ** — <cont here>
-  + ** — <cont here>
+  + *Segmentation and Reassembly* — breaks down data from the upper layers into smaller units called segments for efficient transmission across the network. Upon receipt, it reassembles these segments into the original data.
+  + *Service Point Addressing* —  accurately delivers messages to the appropriate process by incorporating a type of address known as the service point address or port address within its header.
+  + *Flow Control* — mechanisms manage the rate of data transmission between sender and receiver, preventing data overflow and congestion. The flow of data is regulated to match the receiver's processing capabilities.
+  + *Multiplexing and Demultiplexing* — multiplexing allows multiple communication streams to be transmitted over a single network connection, while demultiplexing ensures that each stream reaches its intended destination.
 
 #### Protocol or Device Use
 

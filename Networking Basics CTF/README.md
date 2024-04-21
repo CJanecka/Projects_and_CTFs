@@ -294,7 +294,7 @@ The transport layer serves as a bridge between the upper layers *(Application, P
 #### Functions
 
   + *Segmentation and Reassembly* — breaks down data from the upper layers into smaller units called segments for efficient transmission across the network. Upon receipt, it reassembles these segments into the original data.
-  + *Service Point Addressing* —  accurately delivers messages to the appropriate process by incorporating a type of address known as the service point address or port address within its header.
+  + *Service Point Addressing* — accurately delivers messages to the appropriate process by incorporating a type of address known as the service point address or port address within its header.
   + *Flow Control* — mechanisms manage the rate of data transmission between sender and receiver, preventing data overflow and congestion. The flow of data is regulated to match the receiver's processing capabilities.
   + *Multiplexing and Demultiplexing* — multiplexing allows multiple communication streams to be transmitted over a single network connection, while demultiplexing ensures that each stream reaches its intended destination.
 
@@ -309,7 +309,12 @@ The transport layer serves as a bridge between the upper layers *(Application, P
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1ac274-3aba-45a9-9487-8e6b407d1f6a)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
+The network layer facilitates data transfer between different networks. However, when the communicating devices are on the same network, this layer is unnecessary. The network layer partitions segments, from the transport layer, into smaller units known as [packets](https://www.cloudflare.com/learning/network-layer/what-is-a-packet/) on the sender's device and reassembles them on the receiving end. Additionally, the network layer determines the optimal physical path for data to reach its destination, a process referred to as [routing](https://www.cloudflare.com/learning/network-layer/what-is-routing/).
+
 #### Functions
+
+  + *Routing* —
+  + *Logical Addressing* — 
 
 #### Protocol or Device Use
 

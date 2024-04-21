@@ -328,7 +328,7 @@ The network layer facilitates data transfer between different networks. However,
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c91a2acb-7cc5-4488-bfcc-0894835d0f2a)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-The data link layer is similar to the network layer, except that it facilitates data exchange between two devices within the same network. <cont here>
+The data link layer facilitates data transfer between neighboring network nodes within a wide area network (WAN) or on the same local area network (LAN) segment. It receives packets from the network layer and divides them into smaller units called frames. These data-link frames remain within the boundaries of a local network, as higher-layer functions handle inter-network routing and global addressing. With a focus on local delivery, addressing, and media arbitration, the data link layer manages flow control and error handling in intra-network communication.
 
 #### Functions
 

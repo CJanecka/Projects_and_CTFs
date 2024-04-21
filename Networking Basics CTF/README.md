@@ -52,7 +52,7 @@
 
   + There are a total of 64 questions and activites, four of which are bonus.
     - The answers for these are the flags to collect.
-  + Each flag has a different numeric point value. Max possible score of 600 points.
+  + Each flag has a different numeric point value, with a max possible score of 600 points.
     - The higher the point value, the more challenging the question/activity.
   + 2.5-hour alotted timeframe.
   + The team that completes all the flags correctly first, or who has the most points by the end of the alotted time, wins the CTF.
@@ -313,8 +313,9 @@ The network layer facilitates data transfer between different networks. However,
 
 #### Functions
 
-  + *Routing* —
-  + *Logical Addressing* — 
+  + *Routing* — determines the best path for data packets to travel from the source to the destination across interconnected networks. Routing algorithms calculate optimal routes based on factors like network topology, traffic congestion, and quality of service requirements.
+  + *Logical Addressing* — assigns logical addresses, such as IP addresses, to devices on the network. These addresses uniquely identify devices and enable routing decisions to be made based on destination addresses.
+  + *Fragmentation and Reassembly* — fragment data packets into smaller units for transmission over networks with different maximum transmission unit (MTU) sizes. At the receiving end, these fragments are reassembled into the original data packets.
 
 #### Protocol or Device Use
 

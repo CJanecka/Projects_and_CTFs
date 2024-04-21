@@ -321,6 +321,8 @@ The network layer facilitates data transfer between different networks. However,
 
 *Network layer protocols include:*
 
+[Internet Control Message Protocol](https://www.cloudflare.com/learning/ddos/glossary/internet-control-message-protocol-icmp/) (ICMP) | [Internet Group Management Protocol](https://www.geeksforgeeks.org/what-is-igmpinternet-group-management-protocol/) (IGMP) | [Internet Protocol Security](https://www.geeksforgeeks.org/ip-security-ipsec/) (IPsec) | [Distance Vector Multicast Routing Protocol](https://www.ietf.org/proceedings/43/I-D/draft-ietf-idmr-dvmrp-v3-07.txt) (DVMRP) | [Internetwork Packet Exchange](https://www.geeksforgeeks.org/what-is-ipxinternetwork-packet-exchange/) (IPX) | [Routing Information Protocol](https://www.geeksforgeeks.org/routing-information-protocol-rip/) (RIP)
+
 ### Layer 2 *- Data Link*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c91a2acb-7cc5-4488-bfcc-0894835d0f2a)                                                                                                              

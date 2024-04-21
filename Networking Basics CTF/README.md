@@ -309,7 +309,7 @@ The transport layer serves as a bridge between the upper layers *(Application, P
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1ac274-3aba-45a9-9487-8e6b407d1f6a)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-The network layer facilitates data transfer between different networks. However, when the communicating devices are on the same network, this layer is unnecessary. The network layer partitions segments, from the transport layer, into smaller units known as [packets](https://www.cloudflare.com/learning/network-layer/what-is-a-packet/) on the sender's device and reassembles them on the receiving end. Additionally, the network layer determines the optimal physical path for data to reach its destination, a process referred to as [routing](https://www.cloudflare.com/learning/network-layer/what-is-routing/).
+The network layer facilitates data transfer between different networks. However, when the communicating devices are on the same network, this layer is unnecessary and the data link layer is used instead. The network layer partitions segments, from the transport layer, into smaller units known as [packets](https://www.cloudflare.com/learning/network-layer/what-is-a-packet/) on the sender's device and reassembles them on the receiving end. Additionally, the network layer determines the optimal physical path for data to reach its destination, a process referred to as [routing](https://www.cloudflare.com/learning/network-layer/what-is-routing/).
 
 #### Functions
 
@@ -328,11 +328,21 @@ The network layer facilitates data transfer between different networks. However,
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c91a2acb-7cc5-4488-bfcc-0894835d0f2a)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
+The data link layer is similar to the network layer, except that it facilitates data exchange between two devices within the same network. <cont here>
+
 #### Functions
+
+  + *Framing* —
+  + *Physical Addressing* —
+  + *Error Control* —
+  + *Flow Control* —
+  + *Access Control* — 
 
 #### Protocol or Device Use
 
 *Data Link layer protocols include:*
+
+[]() () | []() () | []() () | []() () | []() () | []() () | []() () |
 
 ### Layer 1 *- Physical*
 

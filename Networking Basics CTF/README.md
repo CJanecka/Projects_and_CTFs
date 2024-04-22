@@ -142,18 +142,56 @@ This section explores various network ports and their roles in facilitating a ra
 ![CTF2 - Packet Insp](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e964bdcc-9f9f-4b7e-aa99-4f3d41cca863)
 
 **Question 12** ***— How many total packets are in the pcap file?***
+
+  + Answer — 50
+
 **Question 13** ***— How many total ARP packets are in the pcap file?***
+
+  + Answer — 19
+
 **Question 14** ***— What domain did the user first try to access?***
+
+  + Answer — thesimpsons.com
+
 **Question 15** ***— What HTTP response code did the user get?***
+
+  + Answer — 301
+
 **Question 16** ***— What primary domain was the website directed to?***
+
+  + Answer — fox.com
+
 **Question 17** ***— What is the status code of packet number 36?***
+
+  + Answer — 200
+
 **Question 18** ***— What is the source port of original HTTP request?***
+
+  + Answer — 50568
+
 **Question 19** ***— What is the primary NS server of the website being requested?***
+
+  + Answer — ns01.foxinc.com
+
 **Question 20** ***— What is the TTL of the A record of the original website requested?***
+
+  + Answer — 600
+
 **Question 21** ***— In the one SYN/ACK packet, what is the time between this and the previous SYN packet in seconds?***
+
+  + Answer — 0.026018
+
 **Question 22** ***— What is Homer Simpson’s phone number?***
+
+  + Answer — 856.238.2349
+
 **Question 23** ***— Where does Homer want Marge to meet him?***
+
+  + Answer — moes
+
 **Question 24** ***— What is the vendor name of Homer’s NIC?***
+
+  + Answer — intel
 
 ***Inspector Packet*** *— Successfully Completed*                                                                                    
 ![CTF2 - Packet Insp - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ea05fe9-4241-4fc3-82fc-82ba46acc39c)

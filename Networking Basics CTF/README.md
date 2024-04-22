@@ -141,7 +141,19 @@ This section explores various network ports and their roles in facilitating a ra
 
 ![CTF2 - Packet Insp](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e964bdcc-9f9f-4b7e-aa99-4f3d41cca863)
 
-<cont here>
+**Question 12** ***— How many total packets are in the pcap file?***
+**Question 13** ***— How many total ARP packets are in the pcap file?***
+**Question 14** ***— What domain did the user first try to access?***
+**Question 15** ***— What HTTP response code did the user get?***
+**Question 16** ***— What primary domain was the website directed to?***
+**Question 17** ***— What is the status code of packet number 36?***
+**Question 18** ***— What is the source port of original HTTP request?***
+**Question 19** ***— What is the primary NS server of the website being requested?***
+**Question 20** ***— What is the TTL of the A record of the original website requested?***
+**Question 21** ***— In the one SYN/ACK packet, what is the time between this and the previous SYN packet in seconds?***
+**Question 22** ***— What is Homer Simpson’s phone number?***
+**Question 23** ***— Where does Homer want Marge to meet him?***
+**Question 24** ***— What is the vendor name of Homer’s NIC?***
 
 ***Inspector Packet*** *— Successfully Completed*                                                                                    
 ![CTF2 - Packet Insp - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ea05fe9-4241-4fc3-82fc-82ba46acc39c)

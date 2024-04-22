@@ -355,14 +355,13 @@ The physical layer is a representation of the electrical and physical characteri
 
 #### Functions
 
-  + *Bit Synchronization* —
-  + *Bit Rate Control* —
-  + *Physical Topology* —
-  + ** — 
+  + *Bit Synchronization* — also known as clock synchronization or bit-level synchronization, is a process within the physical layer that ensures that the receiver's clock is synchronized with the incoming bit stream from the transmitter, allowing for accurate and reliable data recovery.
+  + *Bit Rate Control* — involves regulating the rate at which digital data is transmitted over a communication channel, adjusting the data transmission rate based on channel conditions and network requirements.
+  + *Physical Topology* — defines how devices are connected to each other and to the communication medium. [Physical topologies](https://www.geeksforgeeks.org/types-of-network-topology/) range from simple star and bus topologies, to complex mesh and hybrid configurations. The choice of physical topology depends on factors such as scalability, cost, performance, and fault tolerance, with each topology offering unique advantages and trade-offs.
 
 #### Protocol or Device Use
 
-*Physical layer protocols include:*
+*Physical layer protocol and device use include:*
 
 ### Flow of Data
 

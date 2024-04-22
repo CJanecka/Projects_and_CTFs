@@ -351,7 +351,7 @@ The data link layer is broken into [two distinct sublayers](https://www.tutorial
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7433bec7-f0b0-4876-9d85-a1e275755e14)                                                                                                               
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-The physical layer is a representation of the electrical and physical characteristics of the system. Such as, pin layouts for connectors, operational voltages of electrical cables, specifications for optical fiber cables, and frequencies for wireless devices. The physical layer sends data bits from one device to another, and is responsible for the communication of the unstructured raw data streams over a physical medium. <to review later>
+The physical layer is responsible for the actual physical connection between the devices, andserves as a representation of the electrical and physical characteristics of the system. Such as, pin layouts for connectors, operational voltages of electrical cables, specifications for optical fiber cables, and frequencies for wireless devices. The physical layer sends data bits from one device to another, and is responsible for the communication of the unstructured raw data streams over a physical medium.
 
 #### Functions
 
@@ -362,6 +362,8 @@ The physical layer is a representation of the electrical and physical characteri
 #### Protocol or Device Use
 
 *Physical layer protocol and device use include:*
+
+[Bluetooth Low Energy](https://developerhelp.microchip.com/xwiki/bin/view/applications/ble/introduction/bluetooth-architecture/bluetooth-controller-layer/physical/#:~:text=The%20Bluetooth%C2%AE%20Low%20Energy,services%20to%20the%20link%20layer.) (BLE) | [Digital Subscriber Line](https://www.geeksforgeeks.org/digital-subscriber-line-dsl/) (DSL) | [Repeaters](https://www.tutorialspoint.com/what-are-repeaters-in-computer-network) | [Network Hubs](https://www.geeksforgeeks.org/what-is-network-hub-and-how-it-works/) | [Universal Serial Bus](https://www.geeksforgeeks.org/universal-serial-bus-usb/) (USB) | [Server Message Block](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) (SMB)
 
 ### Flow of Data
 

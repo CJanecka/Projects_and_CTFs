@@ -344,7 +344,7 @@ The data link layer is broken into [two distinct sublayers](https://www.tutorial
 
 *Data Link layer protocol and device use include:*
 
-[Point-to-Point Protocol](https://www.tutorialspoint.com/point-to-point-protocol-ppp) (PPP) | []() () | []() () | []() () | []() () |
+[Point-to-Point Protocol](https://www.tutorialspoint.com/point-to-point-protocol-ppp) (PPP) | [wireless LAN](https://standards.ieee.org/beyond-standards/the-evolution-of-wi-fi-technology-and-standards/) (IEEE 802.11) | [Ethernet](https://www.geeksforgeeks.org/what-is-ethernet/) (IEEE 802.3) | [Fiber Distributed Data Interface](https://www.tutorialspoint.com/fiber-distributed-data-interface-fddi) (FDDI) | [Address Resolution Protocol](https://www.fortinet.com/resources/cyberglossary/what-is-arp#:~:text=Address%20Resolution%20Protocol%20(ARP)%20is,%2Darea%20network%20(LAN).) (ARP) | [High-level Data Link Control](https://www.tutorialspoint.com/high-level-data-link-control-hdlc) (HDLC)
 
 ### Layer 1 *- Physical*
 

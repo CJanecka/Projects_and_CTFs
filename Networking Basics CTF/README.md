@@ -328,21 +328,23 @@ The network layer facilitates data transfer between different networks. However,
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c91a2acb-7cc5-4488-bfcc-0894835d0f2a)                                                                                                              
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
-The data link layer facilitates data transfer between neighboring network nodes within a wide area network (WAN) or on the same local area network (LAN) segment. It receives packets from the network layer and divides them into smaller units called frames. These data-link frames remain within the boundaries of a local network, as higher-layer functions handle inter-network routing and global addressing. With a focus on local delivery, addressing, and media arbitration, the data link layer manages flow control and error handling in intra-network communication.
+The data link layer facilitates data transfer between neighboring network nodes within a [wide area network](https://www.fortinet.com/resources/cyberglossary/wan) (WAN) or on the same [local area network](https://www.cloudflare.com/learning/network-layer/what-is-a-lan/) (LAN) segment. It receives packets from the network layer and divides them into smaller units called [frames](https://www.tutorialspoint.com/the-data-link-layer-frame-and-frame-fields). These data-link frames remain within the boundaries of a local network, as higher-layer functions handle inter-network routing and global addressing. With a focus on delivery, addressing, and media arbitration, the data link layer manages flow control and error handling in [intra-network](https://www.geeksforgeeks.org/difference-between-internet-and-intranet/) communication.
+
+The data link layer is broken into [two distinct sublayers](https://www.tutorialspoint.com/what-are-logical-link-control-llc-and-medium-access-control-mac) - the media access control (MAC) layer and the logical link control (LLC) layer. The MAC layer governs how devices within a network obtain access to the media and authorization to transmit data. The LLC layer is tasked with identifying and encapsulating network layer protocols, while also managing error checking and frame synchronization.
 
 #### Functions
 
-  + *Framing* —
-  + *Physical Addressing* —
-  + *Error Control* —
-  + *Flow Control* —
-  + *Access Control* — 
+  + *Framing* — divides the stream of data received, from the network layer, into manageable units that can be individually transmitted and acknowledged. 
+  + *Physical Addressing* — adds source and destination addresses to the data frames, allowing devices to identify the intended recipients and route data packets to the correct destination.
+  + *Error Control* — involves the detection and retransmission of damaged or lost frames; by incorporating, error detection codes, such as [cyclic redundancy checks](https://csrc.nist.gov/glossary/term/cyclic_redundancy_check) (CRC), within the frame trailer.
+  + *Flow Control* — mechanisms regulate the flow of data between devices to prevent data loss or congestion; by coordinating the amount of data, that can be sent, before receiving an acknowledgment.
+  + *Access Control* — manages access to the physical network medium, ensuring that multiple devices can share the same channel without interfering with each other's transmissions. 
 
 #### Protocol or Device Use
 
-*Data Link layer protocols include:*
+*Data Link layer protocol and device use include:*
 
-[]() () | []() () | []() () | []() () | []() () | []() () | []() () |
+[Point-to-Point Protocol](https://www.tutorialspoint.com/point-to-point-protocol-ppp) (PPP) | []() () | []() () | []() () | []() () |
 
 ### Layer 1 *- Physical*
 

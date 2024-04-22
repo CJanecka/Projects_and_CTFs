@@ -351,7 +351,14 @@ The data link layer is broken into [two distinct sublayers](https://www.tutorial
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7433bec7-f0b0-4876-9d85-a1e275755e14)                                                                                                               
 *Image sourced from [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).*
 
+The physical layer is a representation of the electrical and physical characteristics of the system. Such as, pin layouts for connectors, operational voltages of electrical cables, specifications for optical fiber cables, and frequencies for wireless devices. The physical layer sends data bits from one device to another, and is responsible for the communication of the unstructured raw data streams over a physical medium. <to review later>
+
 #### Functions
+
+  + *Bit Synchronization* —
+  + *Bit Rate Control* —
+  + *Physical Topology* —
+  + ** — 
 
 #### Protocol or Device Use
 

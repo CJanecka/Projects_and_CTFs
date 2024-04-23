@@ -180,7 +180,10 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
 **Question 17** ***— What is the status code of packet number 36?***
 
-  + Answer — 200
+  + Answer — The status code of packet number 36 is **200**, which indicates a successful response from the server.
+    - By examining the Hypertext Transfer Protocol of packet 36, we were able to determine its response status.
+
+![status code of packet 36](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/89bfd580-b7ab-4ad2-983e-f0c59b4253f4)
 
 **Question 18** ***— What is the source port of original HTTP request?***
 

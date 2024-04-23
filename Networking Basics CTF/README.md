@@ -185,13 +185,19 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
 ![status code of packet 36](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/89bfd580-b7ab-4ad2-983e-f0c59b4253f4)
 
-**Question 18** ***— What is the source port of original HTTP request?***
+**Question 18** ***— What is the source port of the original HTTP request?***
 
-  + Answer — 50568
+  + Answer — The source port of the original HTTP request is **50568**.
+    - This falls within the dynamic or ephemeral port range (49152–65535); which typically means it was assigned by the operating system, to facilitate outgoing network communication.
 
-**Question 19** ***— What is the primary NS server of the website being requested?***
+![original HTTP request source port](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b5a1f31d-decb-4fb4-906d-7e7c0324c573)
 
-  + Answer — ns01.foxinc.com
+**Question 19** ***— What is the primary Name Server (NS) of the website being requested?***
+
+  + Answer — The primary Name Server (NS) of the website being requested is '**ns01.foxinc.com**'.
+    - The DNS response, for packet 20, provides us with the authoritative namerservers.
+
+![primary Name Server](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cc77ac46-92db-453c-a041-6ca40ab26a44)
 
 **Question 20** ***— What is the TTL of the A record of the original website requested?***
 

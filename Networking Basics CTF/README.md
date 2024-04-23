@@ -143,11 +143,17 @@ This section explores various network ports and their roles in facilitating a ra
 
 **Question 12** ***— How many total packets are in the pcap file?***
 
-  + Answer — 50
+  + Answer — There are **50** total packets in the pcap file.
+    - The Wireshark application shows the amount of packets, within the file, on the bottom bar of the application window.
+
+![Inspector Packet - total packets](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a579a0f0-a4db-4fcf-8de4-0d6d13eeee02)
 
 **Question 13** ***— How many total ARP packets are in the pcap file?***
 
-  + Answer — 19
+  + Answer — There are **19** total ARP packets in the pcap file.
+    - We used Wireshark to filter the file contents and display only the ARP packets. The bottom of the application window shows the total.
+
+![Inspector Packet - ARP packets](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d8906128-05bd-4d07-b00a-8118040f5593)
 
 **Question 14** ***— What domain did the user first try to access?***
 

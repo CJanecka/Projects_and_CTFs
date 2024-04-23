@@ -159,7 +159,10 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
 **Question 14** ***— What domain did the user first try to access?***
 
-  + Answer — thesimpsons.com
+  + Answer — The user first attempted to access '**thesimpsons.com**'.
+    - By filtering for domain name system (DNS) packets, we identied the earliest DNS query. This query represents the first attempt by the user to access a domain.
+
+![Inspector Packet - first domain](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fe26eb90-11b5-413d-a9f9-6b61d47aa834)
 
 **Question 15** ***— What HTTP response code did the user get?***
 

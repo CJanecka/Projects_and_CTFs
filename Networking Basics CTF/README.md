@@ -201,9 +201,10 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
 **Question 20** ***— What is the TTL of the A record of the original website requested?***
 
-  + Answer — 600
+  + Answer — The time-to-live (TTL) value of the A record of the original website is **600** seconds or 10 minutes.
+    - By inspecting packet 19, the response reveals how long the DNS information can be cached by DNS resolvers before it expires.
 
-![TTL of the A record](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0d68ad64-5e70-481f-ad5f-749322de69a6)
+![TTL of the A record](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/465140d7-1593-4aa9-9dff-9f05042a484e)
 
 **Question 21** ***— In the one SYN/ACK packet, what is the time between this and the previous SYN packet in seconds?***
 

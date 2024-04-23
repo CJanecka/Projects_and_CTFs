@@ -197,11 +197,13 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
   + Answer — The primary Name Server (NS) of the website being requested is '**ns01.foxinc.com**'.
     - The DNS response, for packet 20, provides us with the authoritative namerservers.
 
-![primary Name Server](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cc77ac46-92db-453c-a041-6ca40ab26a44)
+![primary Name Server](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/bc70c283-4d00-4a38-b40d-89ff8585f4f2)
 
 **Question 20** ***— What is the TTL of the A record of the original website requested?***
 
   + Answer — 600
+
+![TTL of the A record](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0d68ad64-5e70-481f-ad5f-749322de69a6)
 
 **Question 21** ***— In the one SYN/ACK packet, what is the time between this and the previous SYN packet in seconds?***
 

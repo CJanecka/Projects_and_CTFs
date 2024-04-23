@@ -152,7 +152,7 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
 **Question 13** ***— How many total ARP packets are in the pcap file?***
 
-  + Answer — There are **19** total ARP packets in the pcap file.
+  + Answer — There are **19** address resolution protocol (ARP) packets in the pcap file.
     - We used Wireshark to filter the file contents and display only the ARP packets. The bottom of the application window shows the total.
 
 ![Inspector Packet - ARP packets](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d8906128-05bd-4d07-b00a-8118040f5593)
@@ -160,17 +160,23 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 14** ***— What domain did the user first try to access?***
 
   + Answer — The user first attempted to access '**thesimpsons.com**'.
-    - By filtering for domain name system (DNS) packets, we identied the earliest DNS query. This query represents the first attempt by the user to access a domain.
+    - By filtering for domain name system (DNS) packets; we identied the earliest DNS query, which represents the first attempt by the user to access a domain.
 
 ![Inspector Packet - first domain](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fe26eb90-11b5-413d-a9f9-6b61d47aa834)
 
-**Question 15** ***— What HTTP response code did the user get?***
+**Question 15** ***— What initial HTTP response code did the user get?***
 
-  + Answer — 301
+  + Answer — The user received an HTTP response code of **301**, which indicates that the resource has been permanently moved to a new location.
+    - By filtering for HTTP responses, we identified the initial response given to the user.
+
+![Inspector Packet - http response](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/deee5aeb-6985-4287-a9da-89212a3acc2f)
 
 **Question 16** ***— What primary domain was the website directed to?***
 
-  + Answer — fox.com
+  + Answer — The website was directed to the primary domain '**fox.com**'.
+    - By inspecting the file contents of the HTTP packet, from Question 15, we were able to identify the primary domain that 'thesimpsons.com' is being directed to.
+
+![Inspector Packet - http response - site redirection - close view](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/29c9d33d-c694-4cd4-8301-bfb6e558401d)
 
 **Question 17** ***— What is the status code of packet number 36?***
 

@@ -139,6 +139,8 @@ This section explores various network ports and their roles in facilitating a ra
 
 <base points to change>
 
+My team had to analyze the [Inspector Packet pcap file](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources) using Wireshark in order to complete this section of the CTF (Capture The Flag).
+
 ![CTF2 - Packet Insp](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e964bdcc-9f9f-4b7e-aa99-4f3d41cca863)
 
 **Question 12** ***— How many total packets are in the pcap file?***

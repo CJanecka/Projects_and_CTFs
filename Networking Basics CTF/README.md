@@ -160,7 +160,7 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 14** ***— What domain did the user first try to access?***
 
   + Answer — The user first attempted to access '**thesimpsons.com**'.
-    - By filtering for domain name system (DNS) packets; we identied the earliest DNS query, which represents the first attempt by the user to access a domain.
+    - By filtering for domain name system (DNS) packets; we identified the earliest DNS query, which represents the first attempt by the user to access the domain.
 
 ![Inspector Packet - first domain](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fe26eb90-11b5-413d-a9f9-6b61d47aa834)
 
@@ -188,7 +188,7 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 18** ***— What is the source port of the original HTTP request?***
 
   + Answer — The source port of the original HTTP request is **50568**.
-    - This falls within the dynamic or ephemeral port range (49152–65535); which typically means it was assigned by the operating system, to facilitate outgoing network communication.
+    - We found this in packet 23. The source port falls within the dynamic or ephemeral port range (49152–65535); which typically means it was assigned by the operating system, to facilitate outgoing network communication.
 
 ![original HTTP request source port](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b5a1f31d-decb-4fb4-906d-7e7c0324c573)
 
@@ -229,13 +229,17 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
   + Answer — Homer wants to meet Marge at **Moes**.
     - The TCP data segment in packet 46 contains Homer's message to Marge, specifying where he would like to meet her later.
-      + The Message — *"Hi this is Homer. Can you have Marge meet me at Moes later?"*
+      + Homer's message — *"Hi this is Homer. Can you have Marge meet me at Moes later?"*
 
-![packet 16 - meet at moes - edited](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d609a5c5-8a4c-418b-92e7-71929d970948)
+![packet 46 - meet at moes - edited](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dfb63311-5dc0-4813-b752-acd9635d7cc3)
 
-**Question 24** ***— What is the vendor name of Homer’s NIC?***
+**Question 24** ***— What is the vendor name of Homer’s network interface card (NIC)?***
 
-  + Answer — intel
+  + Answer — The vendor name of Homer’s NIC is **Intel**.
+    - A network interface card is a piece of hardware inside a computer or device that lets it connect to a network.
+    - We identified this by examining the source address, in the Ethernet II section, of packet 46.
+
+![Packet 46 - NIC source](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d3840724-78bf-4d03-923e-2e88b045ee5a)
 
 ***Inspector Packet*** *— Successfully Completed*                                                                                    
 ![CTF2 - Packet Insp - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ea05fe9-4241-4fc3-82fc-82ba46acc39c)

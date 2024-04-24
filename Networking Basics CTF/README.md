@@ -254,13 +254,15 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
 **Question 25** ***— Binary signals have how many states?***
 
-  + Answer — <cont here>
+  + Answer — Binary signals have **two** states (0 and 1).
+    - "0" typically denotes a low voltage or absence of a signal, while "1" represents a high voltage or presence of a signal.
+    - Binary signals convey information in digital form, whether it's transmitting text, images, audio, or video. Through a series of binary digits (bits), complex data can be encoded and transmitted, enabling information exchange across a multitude of platforms.
 
 **Question 26** ***— Convert the following to ASCII:***
 
 ![Question 26 - Binary to ASCII](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5f673e52-3cb2-48f2-b28f-ed8952f818d0)
 
-  + Answer — <cont here>
+  + Answer — The ASCII string, for this binary sequence, is "**secret**".
 
 **Question 27** ***— What is the Hex of ESC?***
 

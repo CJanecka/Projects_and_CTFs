@@ -202,7 +202,7 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 20** ***— What is the TTL of the A record of the original website requested?***
 
   + Answer — The time-to-live (TTL) value of the A record of the original website is **600** seconds or 10 minutes.
-    - By inspecting packet 19, the response reveals how long the DNS information can be cached by DNS resolvers before it expires.
+    - By inspecting packet 19; the response reveals how long the DNS information can be cached, by DNS resolvers, before it expires.
 
 ![TTL of the A record](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/465140d7-1593-4aa9-9dff-9f05042a484e)
 
@@ -221,13 +221,17 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 22** ***— What is Homer Simpson’s phone number?***
 
   + Answer — Homer's phone number is **856.238.2349**.
-    - By filtering the packet bytes for the term 'phone', Wireshark directed us to a TCP data segment located in packet 46. 
+    - By filtering the packet bytes for the term 'phone', Wireshark led us to a TCP data segment within packet 46. This segment holds a string containing various parameters; including Homer's name, email, phone number, and message content.
 
 ![homes phone number edited](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4b5cd9da-0341-4366-9782-f774ae9681f5)
 
 **Question 23** ***— Where does Homer want Marge to meet him?***
 
-  + Answer — moes
+  + Answer — Homer wants to meet Marge at **Moes**.
+    - The TCP data segment in packet 46 contains Homer's message to Marge, specifying where he would like to meet her later.
+      + The Message — *"Hi this is Homer. Can you have Marge meet me at Moes later?"*
+
+![packet 16 - meet at moes - edited](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d609a5c5-8a4c-418b-92e7-71929d970948)
 
 **Question 24** ***— What is the vendor name of Homer’s NIC?***
 

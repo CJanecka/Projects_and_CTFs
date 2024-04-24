@@ -209,8 +209,8 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 21** ***— In the one SYN/ACK packet, what is the time between this and the previous SYN packet in seconds?***
 
   + Answer — The time between the SYN/ACK packet (Packet 26) and the previous SYN packet (Packet 25) is **0.026018** seconds.
-    - Packet 26 is a SYN/ACK packet, with a timestamp of 0.026018000 seconds.
-    - Packet 25 is a SYN packet, with a timestamp of 0.000000000 seconds.
+    - Packet 26 is the SYN/ACK packet, with a timestamp of 0.026018000 seconds.
+    - Packet 25 is the SYN packet, with a timestamp of 0.000000000 seconds.
       
 *Packet 26 (SYN/ACK)*                                                                                                                                                                                                       
 ![Packet 26 timestamp - Copy](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e6b4b8a9-d11d-4c70-97e9-6279bc86be11)
@@ -220,7 +220,10 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 
 **Question 22** ***— What is Homer Simpson’s phone number?***
 
-  + Answer — 856.238.2349
+  + Answer — Homer's phone number is **856.238.2349**.
+    - By filtering the packet bytes for the term 'phone', Wireshark directed us to a TCP data segment located in packet 46. 
+
+![homes phone number edited](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4b5cd9da-0341-4366-9782-f774ae9681f5)
 
 **Question 23** ***— Where does Homer want Marge to meet him?***
 

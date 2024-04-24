@@ -252,7 +252,51 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
 ![CTF3 - Waldo Address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99dac332-e279-4fd1-91e0-f536adedf21f)
 
-<cont here>
+**Question 25** ***— Binary signals have how many states?***
+
+  + Answer — <cont here>
+
+**Question 26** ***— Convert the following to ASCII:***
+
+![Question 26 - Binary to ASCII](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5f673e52-3cb2-48f2-b28f-ed8952f818d0)
+
+  + Answer — <cont here>
+
+**Question 27** ***— What is the Hex of ESC?***
+
+  + Answer — <cont here>
+
+**Question 28** ***— Convert from Hex to ASCII: "68 69"***
+
+  + Answer — <cont here>
+
+**Question 29** ***— What is the IP address of:***
+
+![Question 29 - What is IP address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1181a9bf-51d3-4dac-9a28-ef04e7b52eca)
+
+  + Answer — <cont here>
+
+**Question 30** ***— What is the IP address of:***
+
+![Question 30 - What is IP address 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7a68f25e-b2ba-411b-a9eb-ab304b8c8586)
+
+  + Answer — <cont here>
+
+**Question 31** ***— What is the 3 Digit ASN number of the above IP?***
+
+  + Answer — <cont here>
+
+**Question 32** ***— Total host IPs in: "192.243.3.0/18"***
+
+  + Answer — <cont here>
+
+**Question 33** ***— "00:0a:95:9d:68:16" is an example of a ___ address.***
+
+  + Answer — <cont here>
+
+**Question 34** ***— Vendor name of that ___ address?*** 
+
+  + Answer — <cont here>
 
 ***Where Waldo's Address?*** *— Successfully Completed*                                                                                
 ![CTF3 - Waldo Address - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8e803f8f-52c4-46dc-a046-675b47bfef35)

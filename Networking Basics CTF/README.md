@@ -69,9 +69,11 @@
 
 ### Sponge Bob Square Ports
 
-This section explores various network ports and their roles in facilitating a range of internet services. *Including -* online gaming, web browsing, remote access, email delivery, and more.
+To successfully finish this section, my team answered a series of questions related to different network ports and their corresponding protocols. For each query, I contributed additional insights into these ports and their role(s) in facilitating various internet services.
 
 ![CTF1 - S Bob](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3c037525-0326-4021-ab7d-9824b75e4ec0)
+
+  + Shown successfully completed at the end of this section.
 
 **Question 01** ***— What is the port of HTTPS?***
 
@@ -137,11 +139,11 @@ This section explores various network ports and their roles in facilitating a ra
 
 ### Inspector Packet
 
-<base points to change>
-
-My team had to analyze the [Inspector Packet pcap file](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources) using Wireshark in order to complete this section of the CTF (Capture The Flag).
+To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources). Answering questions about various packet details; such as — counts, domains accessed, HTTP response codes, and more. By filtering and inspecting the packets, we uncovered the necessary information to respond accurately. 
 
 ![CTF2 - Packet Insp](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e964bdcc-9f9f-4b7e-aa99-4f3d41cca863)
+
+  + Shown successfully completed at the end of this section.
 
 **Question 12** ***— How many total packets are in the pcap file?***
 
@@ -174,7 +176,7 @@ My team had to analyze the [Inspector Packet pcap file](https://github.com/CJane
 **Question 16** ***— What primary domain was the website directed to?***
 
   + Answer — The website was directed to the primary domain '**fox.com**'.
-    - By inspecting the file contents of the HTTP packet, from Question 15, we were able to identify the primary domain that 'thesimpsons.com' is being directed to.
+    - By inspecting the contents of the HTTP packet, from Question 15, we were able to identify the primary domain that 'thesimpsons.com' is being directed to.
 
 ![Inspector Packet - http response - site redirection - close view](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/29c9d33d-c694-4cd4-8301-bfb6e558401d)
 

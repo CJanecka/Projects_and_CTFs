@@ -300,13 +300,27 @@ By combining the ASCII characters obtained, from mapping the decimal values, we 
 
 **Question 28** ***— Convert from Hex to ASCII: "68 69"***
 
-  + Answer — <cont here>
+  + Answer — The ASCII string, for this hexadecimal sequence, is "**hi**".
+    - This can be converted manually or by using an online [hex to ASCII converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html).
+
+***Manual Conversion***
+
+By interpreting each pair of hexadecimal digits as the numerical representation of an ASCII character. We can separate the hex sequence and convert each pair to find its decimal equivalent. The given hexadecimal sequence "68 69" consists of two pairs of hexadecimal digits — "68" and "69". 
+
+  + Convert hexadecimal "68" to decimal:
+    - The leftmost digit "6" is equivalent to 6 in decimal.
+    - The rightmost digit "8" is equivalent to 8 in decimal.
+
+To convert to decimal, multiply the leftmost digit by 16 raised to the power of its position, and the rightmost digit by 16 raised to the power of its position, then add them together:
+
+  + *(68)* — (6 x 16^1) + (8 x 16^0) → (6 x 16) + (8 x 1) = ***104***
+  + *(69)* — 
 
 **Question 29** ***— What is the IP address of:***
 
 ![Question 29 - What is IP address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1181a9bf-51d3-4dac-9a28-ef04e7b52eca)
 
-  + Answer — <cont here>
+  + Answer — Results in the ASCII string "hi".
 
 **Question 30** ***— What is the IP address of:***
 

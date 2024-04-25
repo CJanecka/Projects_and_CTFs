@@ -263,6 +263,35 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 ![Question 26 - Binary to ASCII](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5f673e52-3cb2-48f2-b28f-ed8952f818d0)
 
   + Answer — The ASCII string, for this binary sequence, is "**secret**".
+    - This can be converted manually or by using an online [binary to text converter](https://www.rapidtables.com/convert/number/binary-to-ascii.html).
+
+***Manual Conversion***
+
+The provided sequence is already divided into six equal-sized groups: 
+
+*(#1)* 01110011 — *(#2)* 01100101 — *(#3)* 01100011 — *(#4)* 01110010 — *(#5)* 01100101 — *(#6)* 01110100
+
+Each of these groups needs to be converted to decimal individually. This is done by assigning each bit in the group a weight, corresponding to its position, starting from the rightmost bit with a weight of 1, doubling for each subsequent bit to the left. Then, the decimal equivalent is calculated by summing up the products of the binary digits and their corresponding weights. Binary is a base-2 numbering system, since it uses only two digits, this is our base multiplier (2).
+
+  + *(#1)* 01110011 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (1 x 2^4) + (0 x 2^3) + (0 x 2^2) + (1 x 2^1) + (1 x 2^0) = ***115***
+  + *(#2)* 01100101 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (0 x 2^4) + (0 x 2^3) + (1 x 2^2) + (0 x 2^1) + (1 x 2^0) = ***101***
+  + *(#3)* 01100011 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (0 x 2^4) + (0 x 2^3) + (0 x 2^2) + (1 x 2^1) + (1 x 2^0) = ***99***
+  + *(#4)* 01110010 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (1 x 2^4) + (0 x 2^3) + (0 x 2^2) + (1 x 2^1) + (0 x 2^0) = ***114***
+  + *(#5)* 01100101 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (0 x 2^4) + (0 x 2^3) + (1 x 2^2) + (0 x 2^1) + (1 x 2^0) = ***101***
+  + *(#6)* 01110100 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (1 x 2^4) + (0 x 2^3) + (1 x 2^2) + (0 x 2^1) + (0 x 2^0) = ***116***
+
+Each decimal value obtained in the previous step corresponds to a specific character in the ASCII character set. The [ASCII table](https://www.rapidtables.com/code/text/ascii-table.html) maps decimal values to characters, allowing us to find the corresponding character for each decimal value.
+
+  + *(#1)* — Decimal value 115 corresponds to the ASCII character '**s**'.
+  + *(#2)* — Decimal value 101 corresponds to the ASCII character '**e**'.
+  + *(#3)* — Decimal value 99 corresponds to the ASCII character '**c**'.
+  + *(#4)* — Decimal value 114 corresponds to the ASCII character '**r**'.
+  + *(#5)* — Decimal value 101 corresponds to the ASCII character '**e**'.
+  + *(#6)* — Decimal value 116 corresponds to the ASCII character '**t**'.
+
+By combining the ASCII characters obtained, from mapping the decimal values, we reconstruct the original ASCII string.
+
+  + Completed ASCII string = ***secret***
 
 **Question 27** ***— What is the Hex of ESC?***
 

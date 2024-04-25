@@ -289,7 +289,7 @@ Each decimal value obtained corresponds to a specific character in the ASCII cha
   + *(#5)* — Decimal value 101 corresponds to the ASCII character '**e**'.
   + *(#6)* — Decimal value 116 corresponds to the ASCII character '**t**'.
 
-By combining the ASCII characters obtained, from mapping the decimal values, we reconstruct the original ASCII string.
+By combining the ASCII characters obtained, from mapping the decimal values, we construct the ASCII string:
 
   + Completed ASCII string = ***secret***
 
@@ -307,20 +307,25 @@ By combining the ASCII characters obtained, from mapping the decimal values, we 
 
 By interpreting each pair of hexadecimal digits as the numerical representation of an ASCII character. We can separate the hex sequence and convert each pair to find its decimal equivalent. The given hexadecimal sequence "68 69" consists of two pairs of hexadecimal digits — "68" and "69". 
 
-  + Convert hexadecimal "68" to decimal:
-    - The leftmost digit "6" is equivalent to 6 in decimal.
-    - The rightmost digit "8" is equivalent to 8 in decimal.
-
 To convert to decimal, multiply the leftmost digit by 16 raised to the power of its position, and the rightmost digit by 16 raised to the power of its position, then add them together:
 
   + *(68)* — (6 x 16^1) + (8 x 16^0) → (6 x 16) + (8 x 1) = ***104***
-  + *(69)* — 
+  + *(69)* — (6 x 16^1) + (9 x 16^0) → (6 x 16) + (9 x 1) = ***105***
+
+We referred to the [ASCII table](https://www.rapidtables.com/code/text/ascii-table.html) to find the corresponding characters for each decimal value:
+
+  + Decimal value 104 corresponds to the ASCII character '**h**'.
+  + Decimal value 105 corresponds to the ASCII character '**i**'.
+
+By combining the ASCII characters obtained from the decimal values, we can construct the ASCII string:
+
+  + Completed ASCII string = ***hi***
 
 **Question 29** ***— What is the IP address of:***
 
 ![Question 29 - What is IP address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1181a9bf-51d3-4dac-9a28-ef04e7b52eca)
 
-  + Answer — Results in the ASCII string "hi".
+  + Answer — <cont here>
 
 **Question 30** ***— What is the IP address of:***
 

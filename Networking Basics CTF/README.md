@@ -66,7 +66,7 @@
 <base points to change>
 
 <cont here>
-
+  
 ### Sponge Bob Square Ports
 
 To successfully finish this section, my team answered a series of questions related to different network ports and their corresponding protocols. For each query, I contributed additional insights into these ports and their role(s) in facilitating various internet services.
@@ -295,7 +295,8 @@ By combining the ASCII characters obtained, from mapping the decimal values, we 
 
 **Question 27** ***— What is the Hex of ESC?***
 
-  + Answer — <cont here>
+  + Answer —  The hex representation of the ESC character is **1B**.
+    - In most standard encoding schemes, including ASCII and Unicode, the ESC character is represented by the hexadecimal value *1B*.
 
 **Question 28** ***— Convert from Hex to ASCII: "68 69"***
 

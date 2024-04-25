@@ -325,7 +325,19 @@ By combining the ASCII characters obtained from the decimal values, we can const
 
 ![Question 29 - What is IP address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1181a9bf-51d3-4dac-9a28-ef04e7b52eca)
 
-  + Answer — <cont here>
+  + Answer — The IP address for the provided binary string is **192.42.56.32**.
+    - This is found by converting the four octects to decimal. We can use the same manual process from Question 26, or a [binary to decimal conveter](https://www.rapidtables.com/convert/number/binary-to-decimal.html).
+
+Using an online converter, we translated each octet to their decimal equivalents.
+
+  + 11000000 = ***192***
+  + 00101010 = ***42***
+  + 00111000 = ***56***
+  + 00100000 = ***32***
+
+The decimal values obtained represent the four octets of the IP address:
+
+  + 192.42.56.32
 
 **Question 30** ***— What is the IP address of:***
 

@@ -312,7 +312,7 @@ To convert to decimal, multiply the leftmost digit by 16 raised to the power of 
   + *(68)* — (6 x 16^1) + (8 x 16^0) → (6 x 16) + (8 x 1) = ***104***
   + *(69)* — (6 x 16^1) + (9 x 16^0) → (6 x 16) + (9 x 1) = ***105***
 
-We referred to the [ASCII table](https://www.rapidtables.com/code/text/ascii-table.html) to find the corresponding characters for each decimal value:
+Refer to the [ASCII table](https://www.rapidtables.com/code/text/ascii-table.html) to find the corresponding characters for each decimal value:
 
   + Decimal value 104 corresponds to the ASCII character '**h**'.
   + Decimal value 105 corresponds to the ASCII character '**i**'.

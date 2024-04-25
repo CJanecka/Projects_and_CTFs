@@ -271,7 +271,7 @@ The provided sequence is already divided into six equal-sized groups:
 
 *(#1)* 01110011 — *(#2)* 01100101 — *(#3)* 01100011 — *(#4)* 01110010 — *(#5)* 01100101 — *(#6)* 01110100
 
-Each of these groups needs to be converted to decimal individually. This is done by assigning each bit in the group a weight, corresponding to its position, starting from the rightmost bit with a weight of 1, doubling for each subsequent bit to the left. Then, the decimal equivalent is calculated by summing up the products of the binary digits and their corresponding weights. Binary is a base-2 numbering system, since it uses only two digits, this is our base multiplier (2).
+Each of these groups needs to be converted to decimal individually. This is done by assigning each bit in the group a weight, corresponding to its position, starting from the rightmost bit with a weight of 1, doubling for each subsequent bit to the left. Then, the decimal equivalent is calculated by summing up the products of the binary digits and their corresponding weights.
 
   + *(#1)* 01110011 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (1 x 2^4) + (0 x 2^3) + (0 x 2^2) + (1 x 2^1) + (1 x 2^0) = ***115***
   + *(#2)* 01100101 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (0 x 2^4) + (0 x 2^3) + (1 x 2^2) + (0 x 2^1) + (1 x 2^0) = ***101***
@@ -280,7 +280,7 @@ Each of these groups needs to be converted to decimal individually. This is done
   + *(#5)* 01100101 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (0 x 2^4) + (0 x 2^3) + (1 x 2^2) + (0 x 2^1) + (1 x 2^0) = ***101***
   + *(#6)* 01110100 — (0 x 2^7) + (1 x 2^6) + (1 x 2^5) + (1 x 2^4) + (0 x 2^3) + (1 x 2^2) + (0 x 2^1) + (0 x 2^0) = ***116***
 
-Each decimal value obtained in the previous step corresponds to a specific character in the ASCII character set. The [ASCII table](https://www.rapidtables.com/code/text/ascii-table.html) maps decimal values to characters, allowing us to find the corresponding character for each decimal value.
+Each decimal value obtained corresponds to a specific character in the ASCII character set. The [ASCII table](https://www.rapidtables.com/code/text/ascii-table.html) maps decimal values to characters, allowing us to find the corresponding character for each decimal value.
 
   + *(#1)* — Decimal value 115 corresponds to the ASCII character '**s**'.
   + *(#2)* — Decimal value 101 corresponds to the ASCII character '**e**'.

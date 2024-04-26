@@ -343,7 +343,7 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![Question 30 - What is IP address 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7a68f25e-b2ba-411b-a9eb-ab304b8c8586)
 
-  + Answer — The IP address for the provided binary string is **38.42.56.32**. *(possibly incorrect)*
+  + Answer — The IP address for the provided binary string is **38.42.56.32**.
     - I am unsure how to replicate this answer from the provided string, it was completed by one of my team members, who claimed to have recieved it from a friend. If you are able to get this answer, please let me know.
 
 **Question 31** ***— What is the 3 Digit ASN number of the above IP?***
@@ -361,11 +361,16 @@ The decimal values obtained represent the four octets of the IP address:
 
 **Question 33** ***— "00:0a:95:9d:68:16" is an example of a ___ address.***
 
-  + Answer — <cont here>
+  + Answer — This string is an example of a **MAC** (Media Access Control) address.
+    - [MAC addresses](https://www.geeksforgeeks.org/mac-address-in-computer-network/) are expressed in hexadecimal notation, consisting of six groups of two hexadecimal digits separated by colons, dashes, or periods. Each group represents one byte (8 bits) of the MAC address, providing a total of 48 bits.
+    - A MAC address is a unique identifier assigned to network interfaces for communications on a network segment. It is assigned by the manufacturer of the network interface card (NIC) or other networking hardware.
 
 **Question 34** ***— Vendor name of that ___ address?*** 
 
-  + Answer — <cont here>
+  + Answer — The vendor for the MAC address, in Question 33, is **Apple**.
+    - Access [DNS Checker](https://dnschecker.org/mac-lookup.php) to lookup the information associated with the MAC address.
+
+![Question 34 - mac address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1a4dcfb7-d90e-48da-99b9-9f2582ef4a1f)
 
 ***Where Waldo's Address?*** *— Successfully Completed*                                                                                
 ![CTF3 - Waldo Address - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8e803f8f-52c4-46dc-a046-675b47bfef35)

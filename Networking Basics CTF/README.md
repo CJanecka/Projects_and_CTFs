@@ -67,7 +67,9 @@
 <base points to change>
 
 <cont here>
-  
+
+---
+
 ### Sponge Bob Square Ports
 
 To successfully finish this section, my team answered a series of questions related to different network ports and their corresponding protocols. For each query, I contributed additional insights into these ports and their role(s) in facilitating various internet services.
@@ -137,6 +139,8 @@ To successfully finish this section, my team answered a series of questions rela
 
 ***Sponge Bob Square Ports*** *— Successfully Completed*                                                                              
 ![CTF1 - S Bob - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d44117d-c518-4f51-a133-e56f126f186f)
+
+---
 
 ### Inspector Packet
 
@@ -245,7 +249,9 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 ![Packet 46 - NIC source](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d3840724-78bf-4d03-923e-2e88b045ee5a)
 
 ***Inspector Packet*** *— Successfully Completed*                                                                                    
-![CTF2 - Packet Insp - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ea05fe9-4241-4fc3-82fc-82ba46acc39c)
+![CTF2 - Packet Insp - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0ea05fe9-4241-4fc3-82fc-82ba46acc39c)                                                                    
+
+---
 
 ### Where Waldo's Address?
 
@@ -376,6 +382,8 @@ The decimal values obtained represent the four octets of the IP address:
 ***Where Waldo's Address?*** *— Successfully Completed*                                                                                
 ![CTF3 - Waldo Address - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/8e803f8f-52c4-46dc-a046-675b47bfef35)
 
+---
+
 ### Dragons Layers
 
 <base points to change>
@@ -386,6 +394,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 ***Dragons Layers*** *— Successfully Completed*                                                                                        
 ![CTF4 - Dragon Layers - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5acdb7db-f561-4f2d-9606-196612a4e124)
+
+---
 
 ### The Ping Panther
 
@@ -398,6 +408,8 @@ The decimal values obtained represent the four octets of the IP address:
 ***The Ping Panther*** *— Successfully Completed*                                                                                      
 ![CTF5 - Ping Panther - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/504e4128-385a-40f3-b60a-2454ceac00f8)
 
+---
+
 ### The Grinch Stole my wifi Password
 
 <base points to change>
@@ -409,6 +421,8 @@ The decimal values obtained represent the four octets of the IP address:
 ***The Grinch Stole my wifi Password*** *— Successfully Completed*                                                                
 ![CTF6 - Grinch - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9d170575-7cfe-4b05-a944-ba1becd50c04)
 
+---
+
 ### Ronald MACdonald
 
 <base points to change>
@@ -419,6 +433,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 ***Ronald MACdonald*** *— Successfully Completed*                                                                                  
 ![CTF7 - MACdonald - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e233f907-9a14-4865-85d5-74a2e0a69baf)
+
+---
 
 ### SUPER Mario Hackers! *- Bonus*
 
@@ -440,6 +456,8 @@ The Open Systems Interconnection (OSI) model is a reference framework that allow
 
 While today's Internet utilizes the [TCP/IP Model](https://www.geeksforgeeks.org/tcp-ip-model/), the OSI Model can be valuable for troubleshooting network issues. Whether a single user cannot connect their laptop to the Internet, or a website is down for thousands of users, the OSI model helps break down the problem and isolate its source. By pinpointing the specific layer where the issue arises, unnecessary work can be minimized.
 
+---
+
 ### Layer 7 *- Application*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b4dcc207-b5ad-4bd9-b7e6-f7abca2829b1)                                                                                                              
@@ -459,6 +477,8 @@ Also known as the "End User layer", and the only layer that directly interacts w
 *Application layer protocols include:*
 
 [TELetype NETwork](https://www.geeksforgeeks.org/introduction-to-telnet/) (TELNET) | [File Transfer Protocol](https://www.geeksforgeeks.org/file-transfer-protocol-ftp-in-application-layer/) (FTP) | [Network File System](https://www.geeksforgeeks.org/network-file-system-nfs/) (NFS) | [Simple Mail Transfer Protocol](https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/) (SMTP) | [Simple Network Management Protocol](https://www.geeksforgeeks.org/simple-network-management-protocol-snmp/) (SNMP) | [Domain Name System](https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/) (DNS) | [Dynamic Host Configuration Protocol](https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/) (DHCP) | [Hypertext Transfer Protocol / Secured](https://www.geeksforgeeks.org/http-full-form/) (HTTP/HTTPS) | [Internet Relay Chat](https://www.geeksforgeeks.org/internet-relay-chat-irc/) (IRC) | [Post Office Protocol](https://www.geeksforgeeks.org/pop-full-form/) (POP) | [Multipurpose Internet Mail Extension](https://www.geeksforgeeks.org/multipurpose-internet-mail-extension-mime-protocol/) (MIME) | [Secure Shell](https://www.cloudflare.com/learning/access-management/what-is-ssh/#:~:text=(SSH's%20exact%20OSI%20layer%20is,7%2Fapplication%20layer%20protocol.)) (SSH)
+
+---
 
 ### Layer 6 *- Presentation*
 
@@ -482,6 +502,8 @@ When communication is encrypted; this layer adds encryption at the sender's end,
 
 [Joint Photographic Experts Group](https://www.adobe.com/creativecloud/file-types/image/raster/jpeg-file.html) (JPEG) | [Moving Picture Experts Group](https://www.pcmag.com/encyclopedia/term/mpeg) (MPEG) | [Graphics Interchange Format](https://www.adobe.com/creativecloud/file-types/image/raster/gif-file.html) (GIF) | [Hyper Text Markup Language](https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/) (HTML) | [Document file](https://www.pcmag.com/encyclopedia/term/doc-file) (DOC) | [MPEG Audio Layer 3](https://computer.howstuffworks.com/mp3.htm) (MP3) | [Audio Video Interleave](https://cloudinary.com/guides/video-formats/avi-format-should-you-still-use-avi) (AVI) | [Musical Instrument Digital Interface](https://blog.landr.com/what-is-midi/) (MIDI) | [Transport Driver Interface](https://www.komodia.com/tdi) (TDI) | [Transport Layer Security](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/#:~:text=Transport%20Layer%20Security%2C%20or%20TLS,web%20browsers%20loading%20a%20website.) (TLS) | [Extended Detection and Response](https://www.trendmicro.com/en_in/what-is/xdr.html) (XDR)
 
+---
+
 ### Layer 5 *- Session*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f5d54303-8e2b-40be-a5b4-e36cda743589)                                                                                                              
@@ -503,6 +525,8 @@ The session layer is responsible for establishing, managing, and terminating ses
 
 [AppleTalk Data Stream Protocol](https://developer.apple.com/library/archive/documentation/mac/pdf/Networking/ADSP.pdf) (ADSP) | [AppleTalk Session Protocol](https://developer.apple.com/library/archive/documentation/mac/pdf/Networking/ASP.pdf) (ASP) | [Network Basic Input Output System](https://www.professormesser.com/security-plus/sy0-401/netbios/) (NetBIOS) | [Point-to-Point Tunneling Protocol](https://www.geeksforgeeks.org/pptp-full-form/) (PPTP) | [Real-time Transport Control Protocol](https://www.crazyegg.com/blog/rtp-protocol/) (RTCP) | [Password Authentication Protocol](https://www.geeksforgeeks.org/password-authentication-protocol-pap/) (PAP) | [Internet Storage Name Service](https://docs.netapp.com/us-en/ontap/san-admin/isns-concept.html#what-an-isns-server-does) (iSNS) | [Layer 2 Forwarding Protocol](https://www.geeksforgeeks.org/l2f-fullform/) (L2F) | [Layer 2 Tunnel Protocol](https://www.cisco.com/c/en/us/td/docs/net_mgmt/prime/network/3-8/reference/guide/l2tp.pdf) (L2TP) | [Zone Information Protocol](https://developer.apple.com/library/archive/documentation/mac/pdf/Networking/ZIP.pdf) (ZIP) | [Sockets Direct Protocol](https://network.nvidia.com/pdf/whitepapers/SDPCluster2006.pdf) (SDP) | [Session Control Protocol](https://www.w3.org/Protocols/HTTP-NG/http-ng-scp.html#:~:text=SCP%20is%20a%20simple%20protocol,and%20is%20modelled%20after%20TCP.) (SCP) | [Short Message Peer-to-Peer](https://smpp.org/) (SMPP)
 
+---
+
 ### Layer 4 *- Transport*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/a69c39c8-3c48-4b6a-a241-f1c8acc8e325)                                                                                                               
@@ -523,6 +547,8 @@ The transport layer serves as a bridge between the upper layers *(Application, P
 
 [Transmission Control Protocol](https://www.fortinet.com/resources/cyberglossary/tcp-ip) (TCP) | [User Datagram Protocol](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/#:~:text=What%20is%20the%20User%20Datagram%20Protocol%20(UDP%2FIP)%3F,connection%20before%20data%20is%20transferred.) (UDP) | [AppleTalk Transaction Protocol]() (ATP) | [Stream Control Transmission Protocol](https://www.ibm.com/docs/en/aix/7.1?topic=protocol-stream-control-transmission) (SCTP) | [Secure Sockets Layer](https://www.ibm.com/docs/en/ibm-http-server/9.0.5?topic=communications-secure-sockets-layer-ssl-protocol) (SSL) | [Transport Layer Security](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/#:~:text=Transport%20Layer%20Security%2C%20or%20TLS,web%20browsers%20loading%20a%20website.) (TLS)
 
+---
+
 ### Layer 3 *- Network*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/ac1ac274-3aba-45a9-9487-8e6b407d1f6a)                                                                                                              
@@ -541,6 +567,8 @@ The network layer facilitates data transfer between different networks. However,
 *Network layer protocols include:*
 
 [Internet Control Message Protocol](https://www.cloudflare.com/learning/ddos/glossary/internet-control-message-protocol-icmp/) (ICMP) | [Internet Group Management Protocol](https://www.geeksforgeeks.org/what-is-igmpinternet-group-management-protocol/) (IGMP) | [Internet Protocol Security](https://www.geeksforgeeks.org/ip-security-ipsec/) (IPsec) | [Distance Vector Multicast Routing Protocol](https://www.ietf.org/proceedings/43/I-D/draft-ietf-idmr-dvmrp-v3-07.txt) (DVMRP) | [Internetwork Packet Exchange](https://www.geeksforgeeks.org/what-is-ipxinternetwork-packet-exchange/) (IPX) | [Routing Information Protocol](https://www.geeksforgeeks.org/routing-information-protocol-rip/) (RIP)
+
+---
 
 ### Layer 2 *- Data Link*
 
@@ -565,6 +593,8 @@ The data link layer is broken into [two distinct sublayers](https://www.tutorial
 
 [Point-to-Point Protocol](https://www.tutorialspoint.com/point-to-point-protocol-ppp) (PPP) | [wireless LAN](https://standards.ieee.org/beyond-standards/the-evolution-of-wi-fi-technology-and-standards/) (IEEE 802.11) | [Ethernet](https://www.geeksforgeeks.org/what-is-ethernet/) (IEEE 802.3) | [Fiber Distributed Data Interface](https://www.tutorialspoint.com/fiber-distributed-data-interface-fddi) (FDDI) | [Address Resolution Protocol](https://www.fortinet.com/resources/cyberglossary/what-is-arp#:~:text=Address%20Resolution%20Protocol%20(ARP)%20is,%2Darea%20network%20(LAN).) (ARP) | [High-level Data Link Control](https://www.tutorialspoint.com/high-level-data-link-control-hdlc) (HDLC)
 
+---
+
 ### Layer 1 *- Physical*
 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7433bec7-f0b0-4876-9d85-a1e275755e14)                                                                                                               
@@ -583,6 +613,8 @@ The physical layer is responsible for the actual physical connection between the
 *Physical layer protocol and device use include:*
 
 [Bluetooth Low Energy](https://developerhelp.microchip.com/xwiki/bin/view/applications/ble/introduction/bluetooth-architecture/bluetooth-controller-layer/physical/#:~:text=The%20Bluetooth%C2%AE%20Low%20Energy,services%20to%20the%20link%20layer.) (BLE) | [Digital Subscriber Line](https://www.geeksforgeeks.org/digital-subscriber-line-dsl/) (DSL) | [Repeaters](https://www.tutorialspoint.com/what-are-repeaters-in-computer-network) | [Network Hubs](https://www.geeksforgeeks.org/what-is-network-hub-and-how-it-works/) | [Universal Serial Bus](https://www.geeksforgeeks.org/universal-serial-bus-usb/) (USB) | [Server Message Block](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) (SMB)
+
+---
 
 ### Flow of Data
 

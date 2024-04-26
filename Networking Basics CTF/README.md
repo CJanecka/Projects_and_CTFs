@@ -392,7 +392,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 **Question 35** ***— What is the layer where encryption occurs?***
 
-  + Answer — presentation
+  + Answer — The **presentation** layer (layer 6) is where encryption occurs.
+    - See [Layer 6 - Presentation](#Layer-6---Presentation), in the Appendix below, for more information.
 
 **Question 36** ***— What is the layer where cables exist?***
 

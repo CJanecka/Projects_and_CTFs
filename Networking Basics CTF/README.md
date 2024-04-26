@@ -343,10 +343,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![Question 30 - What is IP address 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7a68f25e-b2ba-411b-a9eb-ab304b8c8586)
 
-  + Answer — The IP address for the provided binary string is **38.42.56.32**.
-    - <cont here>
-
-
+  + Answer — The IP address for the provided binary string is **38.42.56.32**. *(possibly incorrect)*
+    - I am unsure how to replicate this answer from the provided string, it was completed by one of my team members. If you are able to get this answer, please let me know.
 
 **Question 31** ***— What is the 3 Digit ASN number of the above IP?***
 

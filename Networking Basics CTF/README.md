@@ -326,9 +326,9 @@ By combining the ASCII characters obtained from the decimal values, we can const
 ![Question 29 - What is IP address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1181a9bf-51d3-4dac-9a28-ef04e7b52eca)
 
   + Answer — The IP address for the provided binary string is **192.42.56.32**.
-    - This is found by converting the four octects to decimal. We can use the same manual process from Question 26, or a [binary to decimal conveter](https://www.rapidtables.com/convert/number/binary-to-decimal.html).
+    - This was found by converting the four [octets](https://www.lenovo.com/us/en/glossary/octet/) to decimal. We can use the same manual process from Question 26, or a [binary to decimal conveter](https://www.rapidtables.com/convert/number/binary-to-decimal.html).
 
-Using an online converter, we translated each octet to their decimal equivalents.
+Using an online converter, we translated each octet to their decimal equivalents:
 
   + 11000000 = ***192***
   + 00101010 = ***42***
@@ -343,7 +343,10 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![Question 30 - What is IP address 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7a68f25e-b2ba-411b-a9eb-ab304b8c8586)
 
-  + Answer — <cont here>
+  + Answer — The IP address for the provided binary string is **38.42.56.32**.
+    - <cont here>
+
+
 
 **Question 31** ***— What is the 3 Digit ASN number of the above IP?***
 

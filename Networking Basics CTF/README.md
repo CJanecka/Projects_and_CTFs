@@ -394,33 +394,33 @@ The decimal values obtained represent the four octets of the IP address:
 
   + Answer — presentation
 
-**Question 36** ***—
+**Question 36** ***— What is the layer where cables exist?***
 
-  + Answer — <cont here>
+  + Answer — physical
 
-**Question 37** ***—
+**Question 37** ***— What is the layer where NetBIOS exists?***
 
-  + Answer — <cont here>
+  + Answer — session
 
-**Question 38** ***—
+**Question 38** ***— What is the protocol data unit of the Network layer?***
 
-  + Answer — <cont here>
+  + Answer — packet
 
-**Question 39** ***—
+**Question 39** ***— What is the protocol data unit of the Data-Link layer?***
 
-  + Answer — <cont here>
+  + Answer — frame
 
-**Question 40** ***—
+**Question 40** ***— What layer number offers the service of flow control?***
 
-  + Answer — <cont here>
+  + Answer — four (4)
 
-**Question 41** ***—
+**Question 41** ***— What layer number offers the function of host addressing?***
 
-  + Answer — <cont here>
+  + Answer — three (3)
 
-**Question 42** ***—
+**Question 42** ***— Please do not throw ______ pizza away.***
 
-  + Answer — <cont here>
+  + Answer — sausage
 
 ***Dragons Layers*** *— Successfully Completed*                                                                                        
 ![CTF4 - Dragon Layers - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5acdb7db-f561-4f2d-9606-196612a4e124)

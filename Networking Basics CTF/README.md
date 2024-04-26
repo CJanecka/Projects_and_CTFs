@@ -375,7 +375,7 @@ The decimal values obtained represent the four octets of the IP address:
 **Question 34** ***— Vendor name of that ___ address?*** 
 
   + Answer — The vendor for the MAC address, in Question 33, is **Apple**.
-    - Access [DNS Checker](https://dnschecker.org/mac-lookup.php) to lookup the information associated with the MAC address.
+    - Accessed [DNS Checker](https://dnschecker.org/mac-lookup.php) to lookup the information associated with the MAC address.
 
 ![Question 34 - mac address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/1a4dcfb7-d90e-48da-99b9-9f2582ef4a1f)
 
@@ -390,7 +390,37 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![CTF4 - Dragon Layers](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fe958147-0686-4ccf-871f-5acae55b1c94)
 
-<cont here>
+**Question 35** ***— What is the layer where encryption occurs?***
+
+  + Answer — presentation
+
+**Question 36** ***—
+
+  + Answer — <cont here>
+
+**Question 37** ***—
+
+  + Answer — <cont here>
+
+**Question 38** ***—
+
+  + Answer — <cont here>
+
+**Question 39** ***—
+
+  + Answer — <cont here>
+
+**Question 40** ***—
+
+  + Answer — <cont here>
+
+**Question 41** ***—
+
+  + Answer — <cont here>
+
+**Question 42** ***—
+
+  + Answer — <cont here>
 
 ***Dragons Layers*** *— Successfully Completed*                                                                                        
 ![CTF4 - Dragon Layers - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5acdb7db-f561-4f2d-9606-196612a4e124)

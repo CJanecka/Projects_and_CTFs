@@ -344,11 +344,14 @@ The decimal values obtained represent the four octets of the IP address:
 ![Question 30 - What is IP address 2](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/7a68f25e-b2ba-411b-a9eb-ab304b8c8586)
 
   + Answer — The IP address for the provided binary string is **38.42.56.32**. *(possibly incorrect)*
-    - I am unsure how to replicate this answer from the provided string, it was completed by one of my team members. If you are able to get this answer, please let me know.
+    - I am unsure how to replicate this answer from the provided string, it was completed by one of my team members, who claimed to have recieved it from a friend. If you are able to get this answer, please let me know.
 
 **Question 31** ***— What is the 3 Digit ASN number of the above IP?***
 
-  + Answer — <cont here>
+  + Answer — The ASN number is **174**.
+    - I am unsure how this was found with the IP address in Question 30. This was provided by the same team-mate, and without additional context or information about the specific ASN allocation policies or database lookup procedures, it's challenging to determine the ASN solely from the provided IP address. If you are able to get this answer, please let me know.
+
+"ASN" stands for Autonomous System Number, which is a unique identifier assigned to autonomous systems, such as Internet Service Providers (ISPs), that exchange routing information on the Internet. Each ASN is assigned by a regional internet registry (RIR) and is typically represented by a number.
 
 **Question 32** ***— Total host IPs in: "192.243.3.0/18"***
 

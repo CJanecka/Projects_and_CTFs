@@ -351,11 +351,13 @@ The decimal values obtained represent the four octets of the IP address:
   + Answer — The ASN number is **174**.
     - I am unsure how this was found with the IP address in Question 30. This was provided by the same team-mate, and without additional context or information about the specific ASN allocation policies or database lookup procedures, it's challenging to determine the ASN solely from the provided IP address. If you are able to get this answer, please let me know.
 
-"ASN" stands for Autonomous System Number, which is a unique identifier assigned to autonomous systems, such as Internet Service Providers (ISPs), that exchange routing information on the Internet. Each ASN is assigned by a regional internet registry (RIR) and is typically represented by a number.
+"ASN" stands for [Autonomous System Number](https://www.cloudflare.com/learning/network-layer/what-is-an-autonomous-system/), which is a unique identifier assigned to autonomous systems, such as [Internet Service Providers](https://en.wikipedia.org/wiki/Internet_service_provider) (ISPs), that exchange routing information on the Internet. Each ASN is assigned by a regional internet registry (RIR) and is typically represented by a number.
 
 **Question 32** ***— Total host IPs in: "192.243.3.0/18"***
 
-  + Answer — <cont here>
+  + Answer — The total number of host IPs in the subnet is **16,384**.
+    - The IP "192.243.3.0" is the network address, and "/18" indicates that the first 18 bits of the address are allocated for the network portion; leaving, 32 - 18 =, 14 bits for the host portion. To find the total number of host IPs in this subnet; calculate (2^14), which represents the total number of possible combinations for the 14 host bits.
+    - The first and last addresses, in the subnet, are reserved for the network and broadcast addresses. Therefore, there are *16,382* IP addresses that are usable within this subnet.
 
 **Question 33** ***— "00:0a:95:9d:68:16" is an example of a ___ address.***
 

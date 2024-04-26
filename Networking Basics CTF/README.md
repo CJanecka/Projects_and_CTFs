@@ -42,6 +42,7 @@
 
   + [Networking CTF (Unanswered Form).xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx)
   + [Wireshark](https://www.wireshark.org/about.html)
+  + [DNS Checker](https://dnschecker.org/mac-lookup.php)
   + [The OSI Model](#Appendix---OSI-Model)
   + Open-source intelligence
   + <cont here>
@@ -248,7 +249,7 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
 ### Where Waldo's Address?
 
-<base points to change>
+This section comprises a series of questions related to binary signals, ASCII conversion, hexadecimal representation, IP addresses, Autonomous System Numbers (ASN), subnet calculations, and MAC addresses. In response to each question, I provided insights into these topics to improve understanding.
 
 ![CTF3 - Waldo Address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99dac332-e279-4fd1-91e0-f536adedf21f)
 

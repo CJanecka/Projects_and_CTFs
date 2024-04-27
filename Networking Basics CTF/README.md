@@ -407,11 +407,13 @@ The decimal values obtained represent the four octets of the IP address:
 
 **Question 38** ***— What is the protocol data unit of the Network layer?***
 
-  + Answer — packet
+  + Answer — The protocol data unit of the Network layer is a **packet**.
+    - See [Layer 3 - Network](#Layer-3---Network), in the Appendix below, for more information.
 
 **Question 39** ***— What is the protocol data unit of the Data-Link layer?***
 
-  + Answer — frame
+  + Answer — The protocol data unit of the Data-Link layer is a **frame**.
+    - See [Layer 2 - Data Link](#Layer-2---Data-Link), in the Appendix below, for more information.
 
 **Question 40** ***— What layer number offers the service of flow control?***
 

@@ -397,11 +397,13 @@ The decimal values obtained represent the four octets of the IP address:
 
 **Question 36** ***— What is the layer where cables exist?***
 
-  + Answer — physical
+  + Answer — The **physical** layer (layer 1) is where cables exist.
+    - See [Layer 1 - Physical](#Layer-1---Physical), in the Appendix below, for more information.
 
 **Question 37** ***— What is the layer where NetBIOS exists?***
 
-  + Answer — session
+  + Answer — NetBIOS exist in the **session** layer (layer 5).
+    - See [Layer 5 - Session](#Layer-5---Session), in the Appendix below, for more information.
 
 **Question 38** ***— What is the protocol data unit of the Network layer?***
 

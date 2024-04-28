@@ -448,7 +448,29 @@ This section involves a series of questions related to the Open Systems Intercon
 
   + Shown successfully completed at the end of this section.
 
-<cont here>
+**Question 43** ***— Ping uses this protocol.***
+
+  + Answer — icmp
+
+**Question 44** ***— Last name of person who wrote the ping?***
+
+  + Answer — muuss
+
+**Question 45** ***— Run a ping request against example.com. The round trip time is displayed in _______.***
+
+  + Answer — milli-seconds
+    
+**Question 46** ***— What is the traceroute command in Windows?***
+
+  + Answer — tracert
+
+**Question 47** ***— Run a traceroute against example.com. What is the maximum number of hops (the default) is?***
+
+  + Answer — 30
+
+**Question 48** ***— This letter is an option for traceroute to display the minimal time interval between probes.***
+
+  + Answer — 10
 
 ***The Ping Panther*** *— Successfully Completed*                                                                                      
 ![CTF5 - Ping Panther - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/504e4128-385a-40f3-b60a-2454ceac00f8)

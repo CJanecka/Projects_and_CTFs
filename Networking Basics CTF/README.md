@@ -417,11 +417,13 @@ The decimal values obtained represent the four octets of the IP address:
 
 **Question 40** ***— What layer number offers the service of flow control?***
 
-  + Answer — four (4)
+  + Answer — Layer number **four**, the Transport layer, offers flow control services.
+    - See [Layer 4 - Transport](#Layer-4---Transport), in the Appendix below, for more information.
 
 **Question 41** ***— What layer number offers the function of host addressing?***
 
-  + Answer — three (3)
+  + Answer — Layer number **three**, the Nework layer, offers host addressing functions.
+    - See [Layer 3 - Network](#Layer-3---Network), in the Appendix below, for more information.
 
 **Question 42** ***— Please do not throw ______ pizza away.***
 

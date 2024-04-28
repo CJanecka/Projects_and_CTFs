@@ -388,7 +388,7 @@ The decimal values obtained represent the four octets of the IP address:
 
 ### Dragons Layers
 
-<base points to change>
+This section involves a series of questions related to the Open Systems Interconnection (OSI) model and its layers.
 
 ![CTF4 - Dragon Layers](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fe958147-0686-4ccf-871f-5acae55b1c94)
 

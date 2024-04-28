@@ -259,6 +259,8 @@ This section comprises a series of questions related to binary signals, ASCII co
 
 ![CTF3 - Waldo Address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/99dac332-e279-4fd1-91e0-f536adedf21f)
 
+  + Shown successfully completed at the end of this section.
+
 **Question 25** ***— Binary signals have how many states?***
 
   + Answer — Binary signals have **two** states (0 and 1).
@@ -390,6 +392,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![CTF4 - Dragon Layers](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/fe958147-0686-4ccf-871f-5acae55b1c94)
 
+  + Shown successfully completed at the end of this section.
+
 **Question 35** ***— What is the layer where encryption occurs?***
 
   + Answer — The **presentation** layer (layer 6) is where encryption occurs.
@@ -422,12 +426,14 @@ The decimal values obtained represent the four octets of the IP address:
 
 **Question 41** ***— What layer number offers the function of host addressing?***
 
-  + Answer — Layer number **three**, the Nework layer, offers host addressing functions.
+  + Answer — Layer number **three**, the Nework layer, offers host addressing as a function.
     - See [Layer 3 - Network](#Layer-3---Network), in the Appendix below, for more information.
 
 **Question 42** ***— Please do not throw ______ pizza away.***
 
-  + Answer — sausage
+  + Answer — The correct word to complete the sentence is "**sausage**".
+    - This is a mnemonic acronym to help memorize the sequence of the OSI model layers.
+    - Each word in this phrase corresponds to the first letter of the seven layers in the OSI model — Physical, Data Link, Network, Transport, Session, Presentation, and Application.
 
 ***Dragons Layers*** *— Successfully Completed*                                                                                        
 ![CTF4 - Dragon Layers - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5acdb7db-f561-4f2d-9606-196612a4e124)
@@ -439,6 +445,8 @@ The decimal values obtained represent the four octets of the IP address:
 <base points to change>
 
 ![CTF5 - Ping Panther](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6ef243a8-8acb-4d16-91ba-64f74e327d64)
+
+  + Shown successfully completed at the end of this section.
 
 <cont here>
 
@@ -453,6 +461,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![CTF6 - Grinch](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f6eeb8a5-cf18-4cb5-aa8c-a94c537398ed)
 
+  + Shown successfully completed at the end of this section.
+
 <cont here>
 
 ***The Grinch Stole my wifi Password*** *— Successfully Completed*                                                                
@@ -466,6 +476,8 @@ The decimal values obtained represent the four octets of the IP address:
 
 ![CTF7 - MACdonald](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d0f2799f-c583-428e-942c-b674721c1b30)
 
+  + Shown successfully completed at the end of this section.
+
 <cont here>
 
 ***Ronald MACdonald*** *— Successfully Completed*                                                                                  
@@ -478,6 +490,8 @@ The decimal values obtained represent the four octets of the IP address:
 <base points to change>
 
 ![CTF8 - Mario](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/247649be-461f-4056-9009-0055a133ba4b)
+
+  + Shown successfully completed at the end of this section.
 
 <cont here>
 

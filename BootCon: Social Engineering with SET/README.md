@@ -62,6 +62,8 @@ The project requirements included:
 
 Social engineering is a manipulative technique employed by individuals, or groups, to exploit human psychology. The goal is to gain unauthorized access to sensitive information, systems, or physical spaces.  This method entails deceiving or influencing people, leading them to disclose confidential information, perform specific actions, or make decisions that are not in their best interest. The overarching objective is to capitalize on human trust, curiosity, fear, or other emotions as a means to circumvent established security measures.
 
+---
+
 ### Key Components
 
 Key elements of social engineering include:
@@ -87,7 +89,9 @@ https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/4cdb4468-1c61-498
   + **Quid Pro Quo:** Hackers present an enticing good or service, seeking the victim's sensitive information in return. Examples of such schemes include fake contest winnings or seemingly benign loyalty rewards, where individuals are enticed with statements like, "As a token of gratitude for your payment, please accept this special gift".
    
   + **Physical Social Engineering:** Involves manipulating people, in person, to gain access to physical spaces, confidential information, or valuable assets. Unlike online interactions, this tactic relies on face-to-face engagement and exploiting tendencies and behaviors. Social engineers may impersonate authority figures, engage in tailgating, or use baiting techniques physically to deceive and gain trust.
-   
+
+---
+
 ### Potential Targets
 
 Social engineering attacks can target individuals, organizations, or even entire systems by manipulating people into divulging sensitive information, performing specific actions, or making decisions that benefit the attacker. 
@@ -99,6 +103,8 @@ Social engineering attacks can target individuals, organizations, or even entire
   + **Organizations:** Targeted for financial gain, including extortion, fraud, or direct theft of funds. Additionally, attackers may seek to obtain confidential data for resale or to cause reputational damage. Directly impacting an organization's financial and operational integrity.
      
   + **Government Entities:** Often targeted with espionage objectives, where attackers aim to gather classified information or disrupt government operations. Some attacks on government entities are politically motivated, intending to influence decision-making or public perception. This has the potential to directly impact national security and governance.
+
+---
      
 ### Potential Motives
 
@@ -175,6 +181,8 @@ The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-enginee
 *Penetration Testing Attack Options.*                                                                                                                  
 ![02_Penetration_Testing_Fast_Track_Attack_options](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/01f3dd3f-14a1-4714-a810-f3190909ea98)
 
+---
+
 ### Pros and Cons of SET
 
   + ***Pros***:
@@ -192,6 +200,8 @@ The [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-enginee
     - **Platform Specific**: Primarily designed for Linux distributions. A less straightforward set-up is needed for macOS configurations.
 
 Balancing the benefits with these considerations is crucial for ethical, and effective, utilization of the Social Engineer Toolkit.
+
+---
 
 ### Initial Setup
 
@@ -222,6 +232,8 @@ After updating the system, proceed to the SET configuration file and enable the 
 
 While there are additional configurations available within the Social Engineer Toolkit, those were not employed in this instance. The alterations made were sufficient for the objectives of this project.
 
+---
+
 ### Website Cloning and Credential Harvesting
 
 Cloning a webpage serves as a deceptive technique, creating a replica of a legitimate website, with the intention of tricking users into interacting with it. The goal is to harvest sensitive information such as usernames and passwords. By going into *Social-Engineering Attacks* from the main menu, and selecting the *Credential Harvester Attack Method*, we are able to clone a range of websites successfully. 
@@ -248,6 +260,8 @@ Differentiating between these is quite straightforward when inspecting the webpa
 ![Github-login_txt_file_contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/c114754a-6137-4ab6-9995-72875e6d526a)
 
 The credential harvester is now prepared for further use; the choice of attack method depends on the desired target. For the purposes of this project, we continued using GitHub as an example.
+
+---
 
 ### Phishing Attacks
 
@@ -326,11 +340,15 @@ These payloads exploit various vulnerabilities in popular software, including Mi
 
 The same fields from the *single email attack* are used after uploading the text file containing the target usernames.
 
+---
+
 ### Video Demonstration
 
 My team and I delivered a video presentation highlighting some of SET's utilities and demonstrating their use in a fake attack. Unfortunately, the recording for this presentation corrupted, preventing me from showcasing it here. Fortunately, I had a backup recording prepared for such situations. While the video is too large to attach directly in this repository, you can access it through the following link: [Demonstration Video on Google Drive](https://drive.google.com/file/d/1g0iRh6GQBwOYlVc2mymTJgBbhXO-6VGl/view?usp=drive_link). In this video, I utilized specific SET utilities - the website cloner and credential harvester. Due to difficulties encountered with SET's email vectors, I opted to use Gmail for sending the link that directs users to the cloned website, to facilitate harvesting the recipients' credentials.
 
 The video linked is edited to minimize time. This content is provided for educational purposes, to illustrate the functioning of specific tools and techniques in a controlled and responsible environment. Here, I present a breakdown of what is being demonstrated:
+
+---
 
 [ Video Timestamp ]
 
@@ -382,6 +400,8 @@ Email Content Analysis:
     - Review the content(s) of the stored log file(s).
       + These are easily accessible and display the credentials harvested for each associated webpage cloned.
 
+---
+
 Log File Analysis:
 
   + **[commit]** → Sign in
@@ -412,6 +432,8 @@ Log File Analysis:
     - The numeric value represents a specific point in time when the form submission occurred. This timestamp is typically generated by the system or client device at the moment the form is submitted.
   + **[timestamp_secret]** → *cryptographic value*
     - This is a cryptographic *secret* that adds a layer of security to the timestamp value. It is designed to prevent tampering and unauthorized modifications to the timestamp.
+
+---
 
 ### QR Code Attacks
 

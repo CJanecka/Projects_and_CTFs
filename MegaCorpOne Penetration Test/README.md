@@ -54,7 +54,7 @@ I have successfully completed a thorough security assessment aligned with the sp
 
 In the Reconnaissance phase, I utilized Google Dorking techniques to gather information, revealing security vulnerabilities and potential exposure of confidential data. Further enumeration of Megacorpone's domain using tools like Shodan.io and Nmap unveiled accessible ports and Common Vulnerabilities and Exposures (CVEs).
 
-Moving to the Implementation/Exploitation phase, I deduced usernames and passwords, which gave me access to the webpage through a script. By exploiting a Python file found on the webpage, administrator-level credentials were acquired, leading to root level access. This escalated privilege provided me with control over files, commands, and system settings. Overly simple passwords were being used, and additional security risks were introduced, including a hidden access point and a novel administrative user.
+Moving to the Implementation/Exploitation phase, I deduced usernames and passwords, which gave me access to the webpage through a script. By exploiting a Python file found on the webpage, administrator-level credentials were acquired, leading to root level access. This escalated privilege provided me with control over files, commands, and system settings. Overly simple passwords were being used, and additional security risks were introduced to the network, including a hidden access point and a novel administrative user.
 
 The report linked above emphasizes the need for Megacorpone to promptly address these vulnerabilities to safeguard its network infrastructure and sensitive data. The "Vulnerability Findings" section provides detailed remediation strategies for a tailored security enhancement strategy. 
 
@@ -65,6 +65,8 @@ I discovered seven vulnerabilities within MegaCorpOne's network. Below is a summ
 ![MCO-vuln list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/37d38253-176e-4b0f-8744-83618cc37b48)
 
 Included here are two of those vulnerabilities deemed critical. For further details; on all vulnerabilities identified and the grading methodology, used to assess the severity of each finding, please refer to the report linked above.
+
+---
 
 ### Weak Passwords on Public Web Application
 
@@ -109,6 +111,8 @@ Using this information, I logged into the employee portal and accessed MegaCorpO
 ![modified script contents](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9a7057c8-4d58-4747-9129-0b80fd8e7448)
 
 The adjusted script ran successfully, granting me access to MegaCorpOne's Domain Controller. Through this connection, unauthorized individuals with malicious intent, are provided with the opportunity to exploit the network further, as shown in my full report.
+
+---
 
 ### Files with Administrative Credentials in Plain Text
 

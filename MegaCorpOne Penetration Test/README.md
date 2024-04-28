@@ -60,7 +60,11 @@ The report linked above emphasizes the need for Megacorpone to promptly address 
 
 ## Vulnerability Findings
 
-I found seven vulnerabilities throughout MegaCorpOne's network. Included here are two of those vulnerabilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
+I discovered seven vulnerabilities within MegaCorpOne's network. Below is a summary of these: 
+
+![MCO-vuln list](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/37d38253-176e-4b0f-8744-83618cc37b48)
+
+Included here are two of those vulnerabilities deemed critical. For further details; on all vulnerabilities identified and the grading methodology, used to assess the severity of each finding, please refer to the report linked above.
 
 ### Weak Passwords on Public Web Application
 
@@ -122,4 +126,8 @@ With the credentials working, I've effectively accessed the Linux machine as an 
 
 ## Mitigations
 
-My full report, accessible through the provided link above, includes a range of suggested strategies corresponding to each identified vulnerability and its respective host. The range of mitigations recommended is to facilitate a customized approach in addressing these vulnerabilities.
+My full report, accessible through the provided link above, includes a range of suggested strategies corresponding to each identified vulnerability and its respective host. These recommended mitigations aim to enable a customized approach in addressing the vulnerabilities.
+
+The following shows how this is displayed in the attached report:
+
+![MCO-vuln](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d17c8218-c02c-4ef5-80bc-f93b90396d01)

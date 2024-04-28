@@ -134,7 +134,7 @@ A report which provides a comparison of the successful and failed Windows events
 
   + This shows us if there was a suspicious level of failed activities on the system.
 
-The ratio between success (9712) and failure (296) counts idicates a predominantly successful operational environment. This shows that the majority of Windows activities are completing successfully. The 296 failures represent a relatively small proportion, and may indicate potential issues, especially if the failure counts deviate significantly from historical norms. In the case of this project, this data was treated as *normal* since it was from the, provided, Windows log of normal activty.
+The ratio between success (9712) and failure (296) counts indicates a predominantly successful operational environment. This shows that the majority of Windows activities are completing successfully. The 296 failures represent a relatively small proportion, and may indicate potential issues, especially if the failure counts deviate significantly from historical norms. In the case of this project, this data was treated as *normal* since it was from the, provided, Windows log of normal activty.
 
 ### User Account Locked Out
 

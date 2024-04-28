@@ -63,6 +63,8 @@ The *Vulnerability Findings* section of the report, provides a breakdown, detail
 
 I found twelve vulnerabilities on the Web Application. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
 
+---
+
 ### Cross Site Scripting *– Reflected & Stored*
 
 On Rekall Corporation's *Home page*, I submitted the following script within the input field designated as "Begin by entering your name below!". 
@@ -97,6 +99,8 @@ This script is designed to display a pop-up alert with the message "Hope this wo
 
 The ability to inject these scripts poses a significant security risk, as it could potentially enable an attacker to redirect users to fraudulent web pages, install keyloggers, or capture user cookies. This, in turn, would allow malicious actors to pilfer customer data and exploit it for unauthorized access to the system, potentially leading to further damaging attacks.
 
+---
+
 ### Insecure Direct Object Reference
 
 In an IDOR vulnerability, an attacker can access or manipulate objects (such as files, directories, database records, or URLs) directly by changing parameters in the URL, without proper authentication or authorization.
@@ -127,6 +131,8 @@ From here I adjusted the web URL to "*192.168.14.35/Login.php.old2*". This gave 
 
 I found six vulnerabilities on the Linux host systems. Included here are two of those vulnerablilities deemed critical. See the report, linked above, for additional information on the vulnerabilities found.
 
+---
+
 ### Apache Tomcat Remote Code Execution
 
 I utilized MSFconsole to identify vulnerabilities linked to Tomcat and JSP components. The following command was used to generate possible exploits:
@@ -151,6 +157,8 @@ From here I gained access to the command line and utilized the following *find* 
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/3f287c97-4850-4f0b-bc56-0fd772887c8a)
 
 This poses a grave risk as it grants unauthorized access to the target system through the exploitation of a known Apache Tomcat vulnerability (CVE-2017-12617). An attacker could potentially execute malicious code remotely, compromising the integrity, confidentiality, and availability of the affected system. This could result in unauthorized data access, data manipulation, and even full system compromise, leading to severe consequences for the organization.
+
+---
 
 ### Apache Struts Remote Code Execution
 
@@ -179,6 +187,8 @@ RCE exploits of this nature have the potential to grant malicious actors the cap
 ## Windows Host Vulnerabilities
 
 I found six vulnerabilities on the Windows Host(s). Included here are two of those vulnerablilities deemed critical/high. See the report, linked above, for additional information on the vulnerabilities found.
+
+---
 
 ### SLMail Service *- POP3*
 
@@ -209,6 +219,8 @@ This gave me unauthorized access to the target system, and allowed me to view an
 ![image](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/736ff41b-f619-448f-b371-f87330eb1091)
 
 As shown with the proceeding vunlnerability; this can be taken futher, depending on the intent of the actor, and runs the potential risk of unauthorized access, data theft, malware deployment, system manipulation, privilege escalation, and propagation.
+
+---
 
 ### Exposed User/System Hashes *- Kiwi*
 

@@ -461,7 +461,7 @@ This section involves a series of questions related to the Open Systems Intercon
 **Question 45** ***— Run a ping request against example.com. The round trip time is displayed in _______.***
 
   + Answer — The round trip time is displayed in **milli-seconds**.
-    - The round trip time (RTT) displayed in the Ping results represents the time it takes for packets to travel between the source and destination, measured in milliseconds (ms). 
+    - The round trip time (RTT) displayed in the ping results represents the time it takes for packets to travel between the source and destination, measured in milliseconds (ms). 
 
 ![ping example](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/34bd0a76-ebc6-4fab-8bd5-dc511eb43cac)
 
@@ -470,15 +470,16 @@ This section involves a series of questions related to the Open Systems Intercon
   + Answer — The traceroute command in Windows is '**tracert**'.
     - [Traceroute](https://www.geeksforgeeks.org/how-to-use-the-tracert-traceroute-command-in-windows/) is a network diagnostic tool used to trace the route that packets take from the source computer to a specified destination.
 
-![traceroute example](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/17b4054d-7308-4191-9f3a-322dd0f44e4b)
-
 **Question 47** ***— Run a traceroute against example.com. What is the maximum number of hops (the default) is?***
 
-  + Answer — 30
+  + Answer — The traceroute against example.com has a maximum of **30** hops.
+    - Hops are the intermediate network devices that packets traverse as they travel from a source to a destination. Traceroute and similar tools leverage hops to visualize the path taken by packets.
+
+![traceroute example](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/17b4054d-7308-4191-9f3a-322dd0f44e4b)
 
 **Question 48** ***— This letter is an option for traceroute to display the minimal time interval between probes.***
 
-  + Answer — 10
+  + Answer — z
 
 ***The Ping Panther*** *— Successfully Completed*                                                                                      
 ![CTF5 - Ping Panther - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/504e4128-385a-40f3-b60a-2454ceac00f8)

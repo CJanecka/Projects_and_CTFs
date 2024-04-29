@@ -144,7 +144,7 @@ To successfully finish this section, my team answered a series of questions rela
 
 ### Inspector Packet
 
-To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources). Answering questions about various packet details; such as — counts, domains accessed, HTTP response codes, and more. By filtering and inspecting the packets, we uncovered the necessary information to respond accurately. 
+To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/Inspector_Packet_CTF1.pcapng). Answering questions about various packet details; such as — counts, domains accessed, HTTP response codes, and more. By filtering and inspecting the packets, we uncovered the necessary information to respond accurately. 
 
 ![CTF2 - Packet Insp](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e964bdcc-9f9f-4b7e-aa99-4f3d41cca863)
 
@@ -489,7 +489,7 @@ This section involves a series of questions related to the Open Systems Intercon
 
 ### The Grinch Stole my wifi Password
 
-<base points to change>
+To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng)
 
 ![CTF6 - Grinch](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f6eeb8a5-cf18-4cb5-aa8c-a94c537398ed)
 

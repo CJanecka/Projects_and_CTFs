@@ -41,7 +41,7 @@
 ## Equipment and Tools
 
   + [Networking CTF (Unanswered Form).xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx)
-  + [Packet Capture (PCAP) Files](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources)
+  + [Packet Capture (PCAP) files](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources)
   + [Wireshark](https://www.wireshark.org/about.html)
   + [DNS Checker](https://dnschecker.org/mac-lookup.php)
   + [The OSI Model](#Appendix---OSI-Model)
@@ -490,13 +490,43 @@ This section revolves around network utilities and protocols. Specifically, focu
 
 ### The Grinch Stole my wifi Password
 
-To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng).
+To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng). Answering questions about various packet details; such as — <cont here>
 
 ![CTF6 - Grinch](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f6eeb8a5-cf18-4cb5-aa8c-a94c537398ed)
 
   + Shown successfully completed at the end of this section.
 
-<cont here>
+**Question 49** ***— The WPA Key for the following:***
+
+  + Answer — induction
+
+**Question 50** ***— Decrypt the wireless PCAP with the WPA key. How many HTTP packets?***
+
+  + Answer — 18
+
+**Question 51** ***— IP address of Karens-imac.local?***
+
+  + Answer — 192.168.0.50
+
+**Question 52** ***— IP address of "rr.pmtpa.wikimedia.org"?*** 
+
+  + Answer — 66.230.200.100
+
+**Question 53** ***— What is the SSID of the wireless router?***
+
+  + Answer — coherer
+
+**Question 54** ***— DNS provides this TTL for the CNAME of "en.wikimedia.org"?***
+
+  + Answer — 811
+
+**Question 55** ***— Total count of SUCCESSFUL ICMP, “DESTINATION REACHABLE” packets?***
+
+  + Answer — 0
+
+**Question 56** ***— Television show the user was viewing the transcripts for?***
+
+  + Answer — snl
 
 ***The Grinch Stole my wifi Password*** *— Successfully Completed*                                                                
 ![CTF6 - Grinch - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9d170575-7cfe-4b05-a944-ba1becd50c04)

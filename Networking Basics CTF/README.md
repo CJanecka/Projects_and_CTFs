@@ -496,9 +496,13 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
   + Shown successfully completed at the end of this section.
 
-**Question 49** ***— The WPA Key for the following:***
+**Question 49** ***— What is the WPA Key for the following:***
 
-  + Answer — induction
+![WPA Key](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dcfeaace-aeb7-4d65-b3c6-bdbe09979a3a)
+
+  + Answer — The WPA key, decoded from binary string, is **induction**.
+    - This can be converted manually or by using an online [binary to text converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html).
+      + To convert the string manually, the same process from Question 26 can be followed.
 
 **Question 50** ***— Decrypt the wireless PCAP with the WPA key. How many HTTP packets?***
 

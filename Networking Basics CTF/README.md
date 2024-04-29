@@ -468,7 +468,7 @@ This section involves a series of questions related to the Open Systems Intercon
 **Question 46** ***— What is the traceroute command in Windows?***
 
   + Answer — The traceroute command in Windows is '**tracert**'.
-    - [Traceroute](https://www.geeksforgeeks.org/how-to-use-the-tracert-traceroute-command-in-windows/) is a network diagnostic tool used to trace the route that packets take from the source computer to a specified destination.
+    - [Traceroute](https://www.cloudns.net/blog/traceroute-command-tracert/) is a network diagnostic tool used to trace the route that packets take from the source computer to a specified destination.
 
 **Question 47** ***— Run a traceroute against example.com. What is the maximum number of hops (the default) is?***
 
@@ -480,7 +480,7 @@ This section involves a series of questions related to the Open Systems Intercon
 **Question 48** ***— This letter is an option for traceroute to display the minimal time interval between probes.***
 
   + Answer — The letter "**z**" represents an option for the traceroute command to display the minimal time interval between probes.
-    - This option allows users to set a delay between successive probe packets sent to each hop along the route.
+    - This is a macOS option that allows users to set a pause between successive probe packets sent to each hop along the route.
 
 ***The Ping Panther*** *— Successfully Completed*                                                                                      
 ![CTF5 - Ping Panther - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/504e4128-385a-40f3-b60a-2454ceac00f8)

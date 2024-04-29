@@ -467,7 +467,10 @@ This section involves a series of questions related to the Open Systems Intercon
 
 **Question 46** ***— What is the traceroute command in Windows?***
 
-  + Answer — tracert
+  + Answer — The traceroute command in Windows is '**tracert**'.
+    - [Traceroute](https://www.geeksforgeeks.org/how-to-use-the-tracert-traceroute-command-in-windows/) is a network diagnostic tool used to trace the route that packets take from the source computer to a specified destination.
+
+![traceroute example](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/17b4054d-7308-4191-9f3a-322dd0f44e4b)
 
 **Question 47** ***— Run a traceroute against example.com. What is the maximum number of hops (the default) is?***
 

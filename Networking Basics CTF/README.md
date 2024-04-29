@@ -479,7 +479,8 @@ This section involves a series of questions related to the Open Systems Intercon
 
 **Question 48** ***— This letter is an option for traceroute to display the minimal time interval between probes.***
 
-  + Answer — z
+  + Answer — The letter "**z**" represents an option for the traceroute command to display the minimal time interval between probes.
+    - This option allows users to set a delay between successive probe packets sent to each hop along the route.
 
 ***The Ping Panther*** *— Successfully Completed*                                                                                      
 ![CTF5 - Ping Panther - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/504e4128-385a-40f3-b60a-2454ceac00f8)

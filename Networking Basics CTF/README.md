@@ -460,8 +460,11 @@ This section involves a series of questions related to the Open Systems Intercon
 
 **Question 45** ***— Run a ping request against example.com. The round trip time is displayed in _______.***
 
-  + Answer — milli-seconds
-    
+  + Answer — The round trip time is displayed in **milli-seconds**.
+    - The round trip time (RTT) displayed in the Ping results represents the time it takes for packets to travel between the source and destination, measured in milliseconds (ms). 
+
+![ping example](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/34bd0a76-ebc6-4fab-8bd5-dc511eb43cac)
+
 **Question 46** ***— What is the traceroute command in Windows?***
 
   + Answer — tracert

@@ -442,7 +442,7 @@ This section involves a series of questions related to the Open Systems Intercon
 
 ### The Ping Panther
 
-<base points to change>
+This section revolves around network utilities and protocols. Specifically, focusing on tools such as *ping* and *traceroute*.
 
 ![CTF5 - Ping Panther](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/6ef243a8-8acb-4d16-91ba-64f74e327d64)
 
@@ -489,7 +489,7 @@ This section involves a series of questions related to the Open Systems Intercon
 
 ### The Grinch Stole my wifi Password
 
-To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng)
+To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng).
 
 ![CTF6 - Grinch](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f6eeb8a5-cf18-4cb5-aa8c-a94c537398ed)
 

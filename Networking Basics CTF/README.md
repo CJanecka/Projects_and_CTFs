@@ -490,7 +490,7 @@ This section revolves around network utilities and protocols. Specifically, focu
 
 ### The Grinch Stole my wifi Password
 
-To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng). Answering questions about various packet details; such as — <cont here>
+To complete this section, my team used Wireshark to perform a packet analysis on an [encrypted pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng). Answering questions about various packet details; such as — <cont here>
 
 ![CTF6 - Grinch](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f6eeb8a5-cf18-4cb5-aa8c-a94c537398ed)
 
@@ -500,13 +500,21 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
 ![WPA Key](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dcfeaace-aeb7-4d65-b3c6-bdbe09979a3a)
 
-  + Answer — The WPA key, decoded from binary string, is **induction**.
+  + Answer — The WPA key, decoded from binary string, is '**Induction**'.
     - This can be converted manually or by using an online [binary to text converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html).
       + To convert the string manually, the same process from Question 26 can be followed.
 
 **Question 50** ***— Decrypt the wireless PCAP with the WPA key. How many HTTP packets?***
 
-  + Answer — 18
+  + Answer — Once the PCAP file was decrypted, a total of **18** HTTP packets were found.
+    - I have broken down the steps for this below:
+
+***Decryption Process***
+
+Use Wireshark to open the PCAP file for this section, 'The_Grinch_CTF2.pcapng'. Once open, add the wireless decryption protocol by selecting 'Edit' and then 'Preferences' from Wireshark's menu bar
+
+![selecting wireless protocol in Wireshark](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/28aabef6-df52-4189-ae68-891ee3fb70d1)
+
 
 **Question 51** ***— IP address of Karens-imac.local?***
 

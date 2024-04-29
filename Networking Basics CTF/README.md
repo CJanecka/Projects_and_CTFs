@@ -450,11 +450,13 @@ This section involves a series of questions related to the Open Systems Intercon
 
 **Question 43** ***— Ping uses this protocol.***
 
-  + Answer — icmp
+  + Answer — Ping uses the **ICMP** protocol.
+    -  "Ping" is a network utility used to test the reachability of a host on an Internet Protocol (IP) network and to measure the round-trip time for messages sent from the originating host to a destination computer. This utility works by sending ICMP (Internet Control Message Protocol) Echo Request messages to the target host and waiting for ICMP Echo Reply messages in response. 
 
 **Question 44** ***— Last name of person who wrote the ping?***
 
-  + Answer — muuss
+  + Answer — The last name of the individual credited with creating the Ping utility is **Muuss**.
+    - The original ping utility was written by [Mike Muuss](https://en.wikipedia.org/wiki/Mike_Muuss) in December 1983, while he was working at the Ballistic Research Laboratory (BRL) at the United States Army Aberdeen Proving Ground in Maryland.
 
 **Question 45** ***— Run a ping request against example.com. The round trip time is displayed in _______.***
 

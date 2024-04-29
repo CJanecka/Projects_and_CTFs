@@ -40,7 +40,7 @@
 
 ## Equipment and Tools
 
-  + [Networking CTF (Unanswered Form).xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx)
+  + [Networking CTF.xlsx](https://github.com/CJanecka/Projects_and_CTFs/files/14968538/Networking_CTF.xlsx) *(Unanswered Form)*
   + [Packet Capture (PCAP) files](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources)
   + [Wireshark](https://www.wireshark.org/about.html)
   + [DNS Checker](https://dnschecker.org/mac-lookup.php)

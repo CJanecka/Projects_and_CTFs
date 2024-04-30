@@ -507,7 +507,7 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 **Question 50** ***— Decrypt the wireless PCAP with the WPA key. How many HTTP packets?***
 
   + Answer — Once the PCAP file was decrypted, a total of **18** HTTP packets were found.
-    - I have broken down the steps for this below:
+    - The steps for this are broken down below:
 
 ***Decryption Process***
 
@@ -527,7 +527,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 51** ***— IP address of Karens-imac.local?***
 
-  + Answer — 192.168.0.50
+  + Answer — The IP address of 'Karens-imac.local' is "**192.168.0.50**".
+    - By filtering for mDNS traffic and the local hostname, we located the corresponding IP address within packet 563 of the captured network traffic.
+
+![Q51 - MDNS filter](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/927236ed-2464-4ef6-a585-254521a6ce1e)
 
 **Question 52** ***— IP address of "rr.pmtpa.wikimedia.org"?*** 
 

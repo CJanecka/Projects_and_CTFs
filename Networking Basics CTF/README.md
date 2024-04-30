@@ -511,10 +511,19 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
 ***Decryption Process***
 
-Use Wireshark to open the PCAP file for this section, 'The_Grinch_CTF2.pcapng'. Once open, add the wireless decryption protocol by selecting 'Edit' and then 'Preferences' from Wireshark's menu bar
+Utilize Wireshark to open the PCAP file titled 'The_Grinch_CTF2.pcapng'. Upon opening the file, enable the [wireless decryption protocol](https://wiki.wireshark.org/HowToDecrypt802.11) by navigating to 'Edit' → 'Preferences' in Wireshark's menu bar, then select 'Protocols' from the 'Preferences' pop-out within Wireshark. Finally, choose the wireless protocol 'IEEE 802.11'
 
-![selecting wireless protocol in Wireshark](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/28aabef6-df52-4189-ae68-891ee3fb70d1)
+![selecting wireless protocol in Wireshark](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/952139ed-a834-4d12-9dcf-86889b5727b7)
 
+With the wireless protocol selected, add the decryption key by selecting the 'Edit...' option to create a new entry, using the key found in Question 49. We left all of the other options alone.
+
+![adding wireless protocol](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/b4fbe79c-7ca7-4b9f-9aff-6a365bfc2580)
+
+For 'Key type' choose "wpa-pwd" since it is designed for decrypting traffic when a pre-shared key (PSK) is known. The key, 'Induction', is the pre-shared key to employ. Be sure to capitalize the first letter, as the keys are case-sensitive and will not function properly if lowercase. 
+
+After successfully adding the decryption key, Wireshark will automatically decrypt the captured packets. Filter for HTTP to display the total number of packets.
+
+![HTTP files](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/0e98cf52-5b23-4885-a80f-1c6550ded83e)
 
 **Question 51** ***— IP address of Karens-imac.local?***
 

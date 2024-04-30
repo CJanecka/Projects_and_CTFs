@@ -534,7 +534,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 52** ***— IP address of "rr.pmtpa.wikimedia.org"?*** 
 
-  + Answer — 66.230.200.100
+  + Answer — The IP address of 'rr.pmtpa.wikimedia.org' is "**66.230.200.100**".
+    - By filtering for DNS traffic and the domain name, we located the corresponding IP address within packet 429 of the captured network traffic.
+
+![Q52 - DNS filter - packet 429](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/2d52eb1d-7dc4-4b08-8f20-eafb1ce55824)
 
 **Question 53** ***— What is the SSID of the wireless router?***
 

@@ -490,7 +490,7 @@ This section revolves around network utilities and protocols. Specifically, focu
 
 ### The Grinch Stole my wifi Password
 
-To complete this section, my team used Wireshark to perform a packet analysis on an [encrypted pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng). Answering questions about various packet details; such as — <cont here>
+To complete this section, my team used Wireshark to perform a packet analysis on an [encrypted pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/The_Grinch_CTF2.pcapng). Answering questions about various packet details, from encryption keys to network protocols and traffic patterns.
 
 ![CTF6 - Grinch](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/f6eeb8a5-cf18-4cb5-aa8c-a94c537398ed)
 

@@ -555,7 +555,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 55** ***— Total count of SUCCESSFUL ICMP, “DESTINATION REACHABLE” packets?***
 
-  + Answer — 0
+  + Answer — There were **0** successful ICMP "DESTINATION REACHABLE" packets recorded.
+    - By filtering for ICMP packets specifically containing the "Destination Reachable" message type, we found no successful packets recorded.
+
+![Q55 - icmp filters](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/dfa83264-06a7-4da7-ad21-1e3313db6467)
 
 **Question 56** ***— Television show the user was viewing the transcripts for?***
 

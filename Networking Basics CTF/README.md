@@ -580,7 +580,21 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
   + Shown successfully completed at the end of this section.
 
-<cont here>
+**Question 57** ***— What is the primary protocol in these packets?***
+
+  + Answer — arp
+
+**Question 58** ***— What is likely the true MAC address of 192.168.1.254?***
+
+  + Answer — 00:22:90:35:64:8a
+
+**Question 59** ***— Which is likely the hacker's MAC address of 192.168.1.254?***
+
+  + Answer — 00:50:56:8e:ee:89
+
+**Question 60** ***— What year did this traffic occur in?***
+
+  + Answer — 2015
 
 ***Ronald MACdonald*** *— Successfully Completed*                                                                                  
 ![CTF7 - MACdonald - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e233f907-9a14-4865-85d5-74a2e0a69baf)

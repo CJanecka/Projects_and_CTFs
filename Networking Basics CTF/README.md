@@ -562,7 +562,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 56** ***— Television show the user was viewing the transcripts for?***
 
-  + Answer — snl
+  + Answer — The user was viewing transcripts for **SNL**.
+    - By filtering for HTTP host packets; we found a TCP packet, number 840, which lists the host under the Hypertext Transfer Protcol tab.
+
+![Q56 - tv transcripts](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/42e666c6-7ed9-48ff-9a74-1063e1525e51)
 
 ***The Grinch Stole my wifi Password*** *— Successfully Completed*                                                                
 ![CTF6 - Grinch - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9d170575-7cfe-4b05-a944-ba1becd50c04)

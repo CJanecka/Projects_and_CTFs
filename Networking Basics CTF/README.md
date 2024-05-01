@@ -548,7 +548,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 54** ***— DNS provides this TTL for the CNAME of "en.wikimedia.org"?***
 
-  + Answer — 811
+  + Answer — The TTL for the CNAME record is '**811**'.
+    - By filtering for DNS respons packets, we located the TTL of the targeted CNAME.
+
+![Q54 - TTL for cname](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/76101710-a7b7-438b-a1dd-bc32446a0b75)
 
 **Question 55** ***— Total count of SUCCESSFUL ICMP, “DESTINATION REACHABLE” packets?***
 

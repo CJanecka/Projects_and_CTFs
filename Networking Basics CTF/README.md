@@ -541,7 +541,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 53** ***— What is the SSID of the wireless router?***
 
-  + Answer — coherer
+  + Answer — The SSID of the wireless router is "**Coherer**".
+    - By filtering for beacon frames in the captured network traffic, we located the SSID of the wireless router.
+
+![Q53 - beacon frames](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/cb7b24c5-8bcc-4b2c-a8b6-69c0d57b74cc)
 
 **Question 54** ***— DNS provides this TTL for the CNAME of "en.wikimedia.org"?***
 

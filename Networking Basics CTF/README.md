@@ -596,7 +596,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 59** ***— Which is likely the hacker's MAC address of 192.168.1.254?***
 
-  + Answer — 00:50:56:8e:ee:89
+  + Answer — The hacker's MAC address is '**00:50:56:8e:ee:89**'.
+    - The first packet lists this address under the *Address Resolution Protocol (reply)* tab.
+
+![Q59 - hacker mac addr](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/341ac69c-7aab-4c7c-a79d-df636285ac5b)
 
 **Question 60** ***— What year did this traffic occur in?***
 

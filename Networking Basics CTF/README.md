@@ -621,7 +621,21 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
   + Shown successfully completed at the end of this section.
 
-<cont here>
+**Question 61** ***— For a network with 352 devices, how many connections would you need for a fully connected network?***
+
+  + Answer — 61776
+
+**Question 62** ***— How many usable hosts are in 66.56.54.194/19?***
+
+  + Answer — 8190
+
+**Question 63** ***— What is the complete in-addr.arpa for the above IP (before the in-addr.arpa)?***
+
+  + Answer — 194.54.56.66
+
+**Question 64** ***— For 2001:db8:85a3::8a2e:370:7334 and prefix length 107, what is the total number of hosts?***
+
+  + Answer — 2097152
 
 ***SUPER Mario Hackers!*** *— Bonus Successfully Completed*                                                                      
 ![CTF8 - Mario - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/020c90cd-107f-45da-b427-4043c6cc2007)

@@ -582,7 +582,10 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 **Question 57** ***— What is the primary protocol in these packets?***
 
-  + Answer — arp
+  + Answer — The only protocol displayed in the PCAP file is '**ARP**'.
+    - Wireshark only show eight total packets, all of which use the ARP protocol.
+   
+![Q57 - ARP packets](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/5aebb3de-6475-43ec-bf1f-9b11cf32da3d)
 
 **Question 58** ***— What is likely the true MAC address of 192.168.1.254?***
 

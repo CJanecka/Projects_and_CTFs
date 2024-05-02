@@ -574,7 +574,7 @@ After successfully adding the decryption key, Wireshark will automatically decry
 
 ### Ronald MACdonald
 
-<base points to change>
+To complete this section, my team used Wireshark to perform a packet analysis on the provided [pcap file](https://github.com/CJanecka/Projects_and_CTFs/blob/main/Networking%20Basics%20CTF/Resources/Ronald_MACdonald_CTF3.pcapng). Answering questions that focus on ARP packets, MAC addresses associated with specific IP addresses, and determining the timeframe of the captured traffic.
 
 ![CTF7 - MACdonald](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/d0f2799f-c583-428e-942c-b674721c1b30)
 

@@ -590,20 +590,23 @@ After successfully adding the decryption key, Wireshark will automatically decry
 **Question 58** ***— What is likely the true MAC address of 192.168.1.254?***
 
   + Answer — The true MAC address is '**00:22:90:35:64:8a**'.
-    - The first packet lists this address under the *Ethernet II* tab.
+    - Any of the packets will list this address under the *Ethernet II* tab.
 
 ![Q58 - true MAC address](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/9b285827-79d6-4bb2-b23c-946211322d9a)
 
 **Question 59** ***— Which is likely the hacker's MAC address of 192.168.1.254?***
 
   + Answer — The hacker's MAC address is '**00:50:56:8e:ee:89**'.
-    - The first packet lists this address under the *Address Resolution Protocol (reply)* tab.
+    - Any of the packets will list this address under the *Address Resolution Protocol (reply)* tab.
 
 ![Q59 - hacker mac addr](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/341ac69c-7aab-4c7c-a79d-df636285ac5b)
 
 **Question 60** ***— What year did this traffic occur in?***
 
-  + Answer — 2015
+  + Answer — This traffic occured in '**2015**'.
+    - Inspect the *Frame* tab of any of the packets to find the packet's timestamp.
+
+![Q60 - timestamp](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/477e3e32-8f61-4811-8d18-9b16c4130e88)
 
 ***Ronald MACdonald*** *— Successfully Completed*                                                                                  
 ![CTF7 - MACdonald - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/e233f907-9a14-4865-85d5-74a2e0a69baf)

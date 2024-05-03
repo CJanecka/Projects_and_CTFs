@@ -630,20 +630,24 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 ***Manual Calculation***
 
   + (352 x (352 - 1)) / 2 → (352 x 351) / 2 → 123,553 / 2 → *61,776*
-    - Dividing by 2 ensures we avoid double-counting. Without this each connection would be counted twice, once for each direction.
+    - Dividing by 2 ensures we avoid double-counting. Without this each connection would be counted twice, once for the sending and receiving sides.
 
 **Question 62** ***— How many usable hosts are in 66.56.54.194/19?***
 
   + Answer — There are **8,190** usable hosts in the subnet.
-    - This can be calculated using a simple formula: 2^(number of host bits)
+    - This can be calculated using a simple formula:  2^(number of host bits) - 2
 
 ***Manual Calculation***
 
+"/19" represents the number of bits in the subnet mask. It means that the first 19 bits, of the 32-bit IPv4 address, are used to represent the network, leaving 13 bits for host addresses.
 
+  + (2^13) - 2 → 8,192 - 2 → *8,190*
+    - The subtraction of 2 is necessary because two addresses within the subnet are reserved and cannot be assigned to individual hosts.
 
 **Question 63** ***— What is the complete in-addr.arpa for the above IP (before the in-addr.arpa)?***
 
-  + Answer — 194.54.56.66
+  + Answer — The complete in-addr.arpa domain for the IPv4 address, in Question 62, is '**194.54.56.66.in-addr.arpa**'.
+    - This pertains to a reverse DNS lookup, which entails taking the IP address '66.56.54.194', removing the subnet mask '/19', reversing the octets, and appending '.in-addr.arpa' to it.
 
 **Question 64** ***— For 2001:db8:85a3::8a2e:370:7334 and prefix length 107, what is the total number of hosts?***
 

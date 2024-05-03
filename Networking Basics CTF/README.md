@@ -624,12 +624,12 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 **Question 61** ***— For a network with 352 devices, how many connections would you need for a fully connected network?***
 
   + Answer — I would need **61,776** connections for a network with 352 devices.
-    - This can be calculated using a simple formula: (n x (n - 1))/2
+    - This can be calculated using a simple formula: (n x (n - 1)) / 2
       + Where 'n' represents the number of devices.
 
 ***Manual Calculation***
 
-
+  + (352 x (352 - 1)) / 2 → (352 x 351) / 2 → 123,553 / 2 → *61,776*
 
 **Question 62** ***— How many usable hosts are in 66.56.54.194/19?***
 

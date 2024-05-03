@@ -630,10 +630,16 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 ***Manual Calculation***
 
   + (352 x (352 - 1)) / 2 → (352 x 351) / 2 → 123,553 / 2 → *61,776*
+    - Dividing by 2 ensures we avoid double-counting. Without this each connection would be counted twice, once for each direction.
 
 **Question 62** ***— How many usable hosts are in 66.56.54.194/19?***
 
-  + Answer — 8,190
+  + Answer — There are **8,190** usable hosts in the subnet.
+    - This can be calculated using a simple formula: 2^(number of host bits)
+
+***Manual Calculation***
+
+
 
 **Question 63** ***— What is the complete in-addr.arpa for the above IP (before the in-addr.arpa)?***
 

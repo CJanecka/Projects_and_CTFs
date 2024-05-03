@@ -647,11 +647,24 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 **Question 63** ***— What is the complete in-addr.arpa for the above IP (before the in-addr.arpa)?***
 
   + Answer — The complete in-addr.arpa domain for the IPv4 address, in Question 62, is '**194.54.56.66.in-addr.arpa**'.
-    - This pertains to a reverse DNS lookup, which entails taking the IP address '66.56.54.194', removing the subnet mask '/19', reversing the octets, and appending '.in-addr.arpa' to it.
+    - This pertains to a reverse DNS lookup, which entails taking the IP address '66.56.54.194/19', removing the subnet mask '/19', reversing the octets, and appending '.in-addr.arpa' to it.
 
 **Question 64** ***— For 2001:db8:85a3::8a2e:370:7334 and prefix length 107, what is the total number of hosts?***
 
-  + Answer — 2,097,152
+  + Answer — There are **2,097,152** hosts, for the IPv6 address with a prefix length of 107.
+    - This can be calculated using a simple formula:  2^(number of host bits)
+
+***Manual Calculation***
+
+The prefix length of 107 indicates how many bits are used to represent the network portion of the address. Since IPv6 addresses are 128 bits long and the prefix length is 107, the remaining bits represent the host portion of the address.
+
+Subtract the prefix length from the total number of bits in an IPv6 address to determine the number of host bits.
+
+  + 128 − 107 → 21 bits
+
+With the number of host bits, we can utilize the formula mentioned above.
+
+  + 2^(number of host bits) → 2^21 → 2,097,152
 
 ***SUPER Mario Hackers!*** *— Bonus Successfully Completed*                                                                      
 ![CTF8 - Mario - complete](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/020c90cd-107f-45da-b427-4043c6cc2007)

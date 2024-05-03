@@ -615,7 +615,7 @@ To complete this section, my team used Wireshark to perform a packet analysis on
 
 ### SUPER Mario Hackers! *- Bonus*
 
-<base points to change>
+This section covers questions related to networking concepts; including IP addressing, subnetting, and calculations for network configurations.
 
 ![CTF8 - Mario](https://github.com/CJanecka/Projects_and_CTFs/assets/131223318/247649be-461f-4056-9009-0055a133ba4b)
 

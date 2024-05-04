@@ -46,7 +46,7 @@ The eight sections of this challenge correspond to different networking concepts
 
 <base points to change>
 
-  + There are a total of 64 questions and activites, four of which are bonus.
+  + There are a total of sixty-four questions and activites, four of which are bonus.
     - The answers for these are the flags to collect.
   + Each flag has a different numeric point value, with a max possible score of 600 points.
     - The higher the point value, the more challenging the question/activity.

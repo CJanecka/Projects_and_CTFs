@@ -28,15 +28,9 @@
   
 ## Overview
 
-<base points to change>
+This was a 2.5-hour Capture the Flag (CTF) challenge centered around networking concepts and skills. My team of four finished second; competing against nine other teams, each consisting of four or five members. Participants were provided with an excel spreadsheet containing a range of networking questions, and activities, representing each flag. The spreadsheet is divided into eight sections, and has a total of sixty-four flags, with four designated as bonus. Each flag was assigned a point value, contributing to a maximum possible score of 600 points. 
 
-  + a networking Capture the Flag competition.
-  + Total of 64 questions *(flags)*, 
-  + eight teams of four, two teams of 5 competed.
-  + provided with a spreadsheet of various networking questions and activities, that are separated into different networking categories.
-  + separated into eight different networking categories, one of which is a bonus, three required inspecting packets in Wireshark.
-  + <cont here>
-  + Completed spreadsheet provided separately.
+The eight sections of this challenge correspond to different networking concepts and protocols. Three of these sections required analyzing captured packets in Wireshark. One of the three packet capture (pcap) files was encrypted, and needed to be decrypted before we could access the data. My team and I successfully completed all 64 questions, attaining the max score, in approximately two hours. We finished the CTF in second place, roughly half an hour after the first place team.
 
 ## Equipment and Tools
 
@@ -44,9 +38,9 @@
   + [Packet Capture (PCAP) files](https://github.com/CJanecka/Projects_and_CTFs/tree/main/Networking%20Basics%20CTF/Resources)
   + [Wireshark](https://www.wireshark.org/about.html)
   + [DNS Checker](https://dnschecker.org/mac-lookup.php)
+  + [RapidTables Converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
   + [The OSI Model](#Appendix---OSI-Model)
   + Open-source intelligence
-  + <cont here>
 
 ## Activity Requirements
 

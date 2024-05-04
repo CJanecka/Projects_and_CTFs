@@ -28,7 +28,7 @@
   
 ## Overview
 
-This was a 2.5-hour Capture the Flag (CTF) challenge centered around networking concepts and skills. My team of four finished second; competing against nine other teams, each consisting of four or five members. Participants were provided with an excel spreadsheet containing a range of networking questions, and activities, representing each flag. The spreadsheet is divided into eight sections, and has a total of sixty-four flags, with four designated as bonus. Each flag was assigned a point value, contributing to a maximum possible score of 600 points. 
+This was a 2.5-hour Capture the Flag (CTF) challenge centered around networking concepts and skills. My team of four, competed against nine other teams - each consisting of four or five members. Participants were provided with an excel spreadsheet containing a range of networking questions, and activities, representing each flag. The spreadsheet is divided into eight sections, and has a total of sixty-four flags, with four designated as bonus. Each flag was assigned a point value, contributing to a maximum possible score of 600 points. 
 
 The eight sections of this challenge correspond to different networking concepts and protocols. Three of these sections required analyzing captured packets in Wireshark. One of the three packet capture (pcap) files was encrypted, and needed to be decrypted before we could access the data. My team and I successfully completed all 64 questions, attaining the max score, in approximately two hours. We finished the CTF in second place, roughly half an hour after the first place team.
 

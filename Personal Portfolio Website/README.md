@@ -24,3 +24,16 @@ This repository displays a redacted version of the portfolio I created. I am cur
 <cont here>
 
 ## Equipment and Tools
+
+  + [Visual Studio Code](https://code.visualstudio.com/docs/supporting/faq)
+    - Extensions Enabled:
+      + [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+      + [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+      + [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+      + [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+      + [Sass (.sass only)](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
+  + Programming Languages:
+    - [HyperText Markup Language](https://www.geeksforgeeks.org/what-is-html/) (HTML)
+    - [Cascading Style Sheets](https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/) (CSS)
+    - [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) (JS)
+    - [Sassy Cascading Style Sheets](https://www.geeksforgeeks.org/what-is-the-difference-between-css-and-scss/) (SCSS)
